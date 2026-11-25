@@ -226,7 +226,7 @@ Established to promote national consistency, patient safety, state reciprocity, 
 * ***Safety in Numbers: EMS Data Is Important* (NHTSA):** Uses EMS data to analyze motor vehicle crash injury patterns and improve crash prevention and trauma care.
 
 #### C. The Scientific Method & EMT Responsibility
-* **Steps of the Scientific Method:** Pose a question $\rightarrow$ conduct literature review $\rightarrow$ formulate hypothesis $\rightarrow$ run study $\rightarrow$ collect/analyze data $\rightarrow$ support or reject hypothesis $\rightarrow$ identify study limitations $\rightarrow$ publish peer-reviewed findings.
+* **Steps of the Scientific Method:** Pose a question → conduct literature review → formulate hypothesis → run study → collect/analyze data → support or reject hypothesis → identify study limitations → publish peer-reviewed findings.
 * **Four Uses of Scientific Evidence in EMS:** Ensure safest/most effective patient care; demonstrate EMS value via outcomes; improve responder safety in uncontrolled scenes; and reinforce thorough PCR documentation.
 * **EMT Role:** Participate actively in data collection and approved clinical studies to advance the profession.
 
