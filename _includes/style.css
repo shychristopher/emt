@@ -655,6 +655,132 @@ a {
   color: var(--accent-text);
 }
 
+/* Unofficial Study Notes Disclaimer Dialog */
+.disclaimer-dialog {
+  width: min(92vw, 520px);
+  padding: 24px 26px 22px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-solid);
+  color: var(--text);
+  box-shadow: var(--shadow-lg);
+}
+
+.disclaimer-dialog::backdrop {
+  background: rgba(15, 23, 42, 0.68);
+  backdrop-filter: blur(6px);
+}
+
+.disclaimer-header {
+  margin-bottom: 10px;
+}
+
+.disclaimer-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(245, 158, 11, 0.16);
+  color: #d97706;
+}
+
+[data-theme="dark"] .disclaimer-badge {
+  color: #fbbf24;
+}
+
+.disclaimer-title {
+  margin: 0 0 12px;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.disclaimer-body {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin-bottom: 18px;
+}
+
+.disclaimer-body p {
+  margin: 0 0 10px;
+}
+
+.disclaimer-body p:last-child {
+  margin-bottom: 0;
+}
+
+.disclaimer-body strong {
+  color: var(--text);
+}
+
+.disclaimer-checks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: var(--surface-hover);
+  border: 1px solid var(--border);
+  margin-bottom: 18px;
+}
+
+.disclaimer-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--text);
+  cursor: pointer;
+  line-height: 1.4;
+}
+
+.disclaimer-check input[type="checkbox"] {
+  margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.disclaimer-check-muted {
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.disclaimer-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.disclaimer-btn {
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: none;
+  background: var(--accent);
+  color: #ffffff;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.12s;
+}
+
+.disclaimer-btn:hover:not(:disabled) {
+  opacity: 0.92;
+}
+
+.disclaimer-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
 /* Home Page */
 .home-page {
   max-width: 920px;

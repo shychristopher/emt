@@ -50,6 +50,33 @@
     </main>
   </div>
 
+  <dialog class="disclaimer-dialog" id="disclaimerDialog" aria-labelledby="disclaimerTitle">
+    <div class="disclaimer-header">
+      <span class="disclaimer-badge">Unofficial Study Notes · Disclaimer</span>
+    </div>
+    <h2 class="disclaimer-title" id="disclaimerTitle">Before You Study</h2>
+    <div class="disclaimer-body">
+      <p>These notes, outlines, mind maps, and study guides are <strong>unofficial personal study materials</strong>. They are <strong>not</strong> endorsed, affiliated with, or reviewed by any EMT program, school, instructor, textbook publisher, or the National Registry of Emergency Medical Technicians (NREMT).</p>
+      <p>Content may contain typos, simplifications, omissions, or differences from your local EMS protocols. Always cross-check against your official textbook, course curriculum, and medical direction. Nothing on this site is medical advice.</p>
+      <p>Using these materials to study for any course, practical exam, or National Registry certification is <strong>entirely at your own risk</strong>. The author assumes no responsibility or liability for exam results, grades, inaccuracies, or clinical decisions.</p>
+    </div>
+    <div class="disclaimer-checks">
+      <label class="disclaimer-check">
+        <input type="checkbox" id="disclaimerAckCheck">
+        <span>I understand and agree that I am using these notes at my own risk.</span>
+      </label>
+      <label class="disclaimer-check disclaimer-check-muted">
+        <input type="checkbox" id="disclaimerRememberCheck" checked>
+        <span>Don't show this again on this device</span>
+      </label>
+    </div>
+    <div class="disclaimer-actions">
+      <button type="button" class="disclaimer-btn" id="disclaimerAcceptBtn" disabled>
+        Continue to Notes
+      </button>
+    </div>
+  </dialog>
+
   <script>
 {% include app.js %}
   </script>

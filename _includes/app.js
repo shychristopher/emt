@@ -541,4 +541,50 @@
       // Fail silently if key terms parsing encounters malformed input
     }
   }
+  // Unofficial study notes disclaimer dialog (localStorage when remembered, sessionStorage otherwise)
+  var disclaimerDialog = document.getElementById('disclaimerDialog');
+  var disclaimerAck = document.getElementById('disclaimerAckCheck');
+  var disclaimerRemember = document.getElementById('disclaimerRememberCheck');
+  var disclaimerBtn = document.getElementById('disclaimerAcceptBtn');
+  var DISCLAIMER_KEY = 'emt-disclaimer-ack-v1';
+
+  if (disclaimerDialog && disclaimerAck && disclaimerBtn) {
+    var alreadyAck = false;
+    try {
+      alreadyAck = localStorage.getItem(DISCLAIMER_KEY) === '1' || sessionStorage.getItem(DISCLAIMER_KEY) === '1';
+    } catch (e) {}
+
+    if (!alreadyAck) {
+      if (typeof disclaimerDialog.showModal === 'function') {
+        disclaimerDialog.showModal();
+      } else {
+        disclaimerDialog.setAttribute('open', 'open');
+      }
+
+      // Require acknowledgement rather than dismissing via Escape
+      disclaimerDialog.addEventListener('cancel', function (e) {
+        e.preventDefault();
+      });
+
+      disclaimerAck.addEventListener('change', function () {
+        disclaimerBtn.disabled = !disclaimerAck.checked;
+      });
+
+      disclaimerBtn.addEventListener('click', function () {
+        if (!disclaimerAck.checked) return;
+        try {
+          if (disclaimerRemember && disclaimerRemember.checked) {
+            localStorage.setItem(DISCLAIMER_KEY, '1');
+          } else {
+            sessionStorage.setItem(DISCLAIMER_KEY, '1');
+          }
+        } catch (e) {}
+        if (typeof disclaimerDialog.close === 'function') {
+          disclaimerDialog.close();
+        } else {
+          disclaimerDialog.removeAttribute('open');
+        }
+      });
+    }
+  }
 })();
