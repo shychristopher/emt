@@ -11,6 +11,15 @@ title: Home
     <p>{{ site.description | default: "Select a chapter from the sidebar or below to start studying." }}</p>
   </header>
 
+  <aside class="home-disclaimer" aria-label="Study notes disclaimer">
+    <svg class="home-disclaimer-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/>
+    </svg>
+    <p>
+      <strong>Unofficial Study Notes:</strong> These materials are not endorsed by or affiliated with any school, EMT program, publisher, or the NREMT, and are not medical advice. Always verify against your official textbook, course curriculum, and local protocols—use for coursework or National Registry prep is at your own risk.
+    </p>
+  </aside>
+
   {%- comment -%} Top-level Course Overview & TL;DR Cards {%- endcomment -%}
   {%- assign has_course_sections = false -%}
   {%- for sec in course_sections -%}
