@@ -1,13 +1,26 @@
-{%- assign parts = page.relative_path | split: "/" -%}
-{%- if parts.size >= 4 -%}
-  {%- assign chap_prefix = "_content/" | append: parts[1] | append: "/" | append: parts[2] | append: "/" -%}
-  {%- assign all_docs = site.content | sort: "relative_path" -%}
+{%- assign bar_prefix = include.folder_prefix | default: "" -%}
+{%- if bar_prefix == "" -%}
+  {%- assign parts = page.relative_path | split: "/" -%}
+  {%- if parts.size >= 4 -%}
+    {%- assign bar_prefix = "_content/" | append: parts[1] | append: "/" | append: parts[2] | append: "/" -%}
+  {%- elsif parts.size == 3 -%}
+    {%- assign bar_prefix = "_content/" | append: parts[1] | append: "/" -%}
+  {%- endif -%}
+{%- endif -%}
 
-  <nav class="bottom-bar-wrap" aria-label="Chapter Views">
+{%- if bar_prefix != "" -%}
+  {%- assign all_docs = site.content | sort: "relative_path" -%}
+  {%- assign expected_depth = bar_prefix | split: "/" | size | plus: 1 -%}
+
+  <nav class="bottom-bar-wrap" aria-label="Content Views">
     <div class="bottom-bar">
       {%- for doc in all_docs -%}
-        {%- if doc.relative_path contains chap_prefix -%}
-          {%- assign filename = doc.relative_path | split: "/" | last -%}
+        {%- if doc.relative_path contains bar_prefix -%}
+          {%- assign dparts = doc.relative_path | split: "/" -%}
+          {%- if dparts.size != expected_depth -%}
+            {%- continue -%}
+          {%- endif -%}
+          {%- assign filename = dparts | last -%}
           {%- assign slug = filename | replace: ".md", "" | downcase -%}
           {%- if slug == "study-guide" or slug == "study_guide" or slug == "studyguide" -%}
             {%- continue -%}
@@ -40,7 +53,7 @@
               {%- assign label = "Practice" -%}
               {%- assign icon = "practice" -%}
             {%- else -%}
-              {%- assign label = filename | replace: ".md", "" | replace: "-", " " | replace: "_", " " -%}
+              {%- capture label -%}{% include humanize.html slug=slug %}{%- endcapture -%}
               {%- assign icon = "doc" -%}
           {%- endcase -%}
 

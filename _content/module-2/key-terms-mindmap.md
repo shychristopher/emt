@@ -7,7 +7,7 @@ markmap:
   wrapWidth: 340
 ---
 
-# Module 2: EMS Operations, Legal, Safety & Communication
+# EMS Operations, Legal, Safety & Communication
 
 ## 1. EMS Systems, Levels & Oversight
 

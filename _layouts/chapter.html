@@ -3,12 +3,22 @@ layout: default
 ---
 {%- assign all_docs = site.content | sort: "relative_path" -%}
 {%- assign parts = page.relative_path | split: "/" -%}
-{%- assign mod_dir = parts[1] | default: "" -%}
-{%- assign is_module_page = false -%}
+{%- assign p1 = parts[1] | default: "" -%}
+
+{%- assign is_course_view = false -%}
+{%- assign is_module_single_page = false -%}
 {%- if parts.size == 3 -%}
-  {%- assign is_module_page = true -%}
-  {%- assign filename = parts[2] | default: "" -%}
+  {%- if p1 == "overview" or p1 == "deep-dive" or p1 == "tldr" or p1 == "summary" -%}
+    {%- assign is_course_view = true -%}
+    {%- assign section_dir = p1 -%}
+    {%- assign filename = parts[2] | default: "" -%}
+  {%- else -%}
+    {%- assign is_module_single_page = true -%}
+    {%- assign mod_dir = p1 -%}
+    {%- assign filename = parts[2] | default: "" -%}
+  {%- endif -%}
 {%- else -%}
+  {%- assign mod_dir = p1 -%}
   {%- assign chap_dir = parts[2] | default: "" -%}
   {%- assign filename = parts[3] | default: "" -%}
 {%- endif -%}
@@ -29,71 +39,123 @@ layout: default
   {%- assign is_mindmap_page = true -%}
 {%- endif -%}
 
-{%- comment -%} Resolve display titles from _data/course.yml with humanized folder fallback {%- endcomment -%}
-{%- capture mod_title -%}{% include humanize.html slug=mod_dir %}{%- endcapture -%}
-{%- capture chap_title -%}{% include humanize.html slug=chap_dir %}{%- endcapture -%}
-{%- for mod in site.data.course -%}
-  {%- if mod.folder == mod_dir -%}
-    {%- if mod.title and mod.title != "" -%}
-      {%- assign mod_title = mod.title -%}
-    {%- endif -%}
-    {%- unless is_module_page -%}
-      {%- for chap in mod.chapters -%}
-        {%- if chap.folder == chap_dir -%}
-          {%- if chap.title and chap.title != "" -%}
-            {%- assign chap_title = chap.title -%}
-          {%- endif -%}
-          {%- break -%}
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endunless -%}
-    {%- break -%}
-  {%- endif -%}
-{%- endfor -%}
-
-{%- comment -%} Friendly title for module-level pages {%- endcomment -%}
-{%- if is_module_page -%}
-  {%- case slug -%}
-    {%- when "key-terms", "keyterms", "key-terms-mindmap", "keyterms-mindmap" -%}{%- assign page_heading = "Key Terms" -%}
-    {%- when "study-guide", "studyguide" -%}{%- assign page_heading = "Study Guide" -%}
-    {%- else -%}{%- capture page_heading -%}{% include humanize.html slug=slug %}{%- endcapture -%}
-  {%- endcase -%}
+{%- assign is_study_guide_view = false -%}
+{%- if slug == "study-guide" or slug == "study_guide" or slug == "studyguide" -%}
+  {%- assign is_study_guide_view = true -%}
 {%- endif -%}
 
-{%- comment -%} Find chapter study-guide.md and default chapter page {%- endcomment -%}
-{%- assign chap_study_guide = nil -%}
-{%- assign chap_default_doc = nil -%}
-{%- unless is_module_page -%}
-  {%- assign chap_prefix = "_content/" | append: mod_dir | append: "/" | append: chap_dir | append: "/" -%}
+{%- comment -%} Resolve breadcrumb + heading titles {%- endcomment -%}
+{%- if is_course_view -%}
+  {%- assign crumb_parent = "Course" -%}
+  {%- case section_dir -%}
+    {%- when "overview", "deep-dive" -%}
+      {%- assign crumb_child = "Full Overview" -%}
+      {%- assign page_heading = "Full Course Overview" -%}
+    {%- when "tldr", "summary" -%}
+      {%- assign crumb_child = "TL;DR" -%}
+      {%- assign page_heading = "Course TL;DR" -%}
+    {%- else -%}
+      {%- capture crumb_child -%}{% include humanize.html slug=section_dir %}{%- endcapture -%}
+      {%- assign page_heading = crumb_child -%}
+  {%- endcase -%}
+{%- else -%}
+  {%- capture mod_title -%}{% include humanize.html slug=mod_dir %}{%- endcapture -%}
+  {%- capture chap_title -%}{% include humanize.html slug=chap_dir %}{%- endcapture -%}
+  {%- for mod in site.data.course -%}
+    {%- if mod.folder == mod_dir -%}
+      {%- if mod.title and mod.title != "" -%}
+        {%- assign mod_title = mod.title -%}
+      {%- endif -%}
+      {%- unless is_module_single_page -%}
+        {%- for chap in mod.chapters -%}
+          {%- if chap.folder == chap_dir -%}
+            {%- if chap.title and chap.title != "" -%}
+              {%- assign chap_title = chap.title -%}
+            {%- endif -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endunless -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- assign crumb_parent = mod_title -%}
+  {%- if is_module_single_page -%}
+    {%- case slug -%}
+      {%- when "key-terms", "keyterms", "key-terms-mindmap", "keyterms-mindmap" -%}{%- assign page_heading = "Key Terms" -%}
+      {%- when "study-guide", "studyguide" -%}{%- assign page_heading = "Study Guide" -%}
+      {%- else -%}{%- capture page_heading -%}{% include humanize.html slug=slug %}{%- endcapture -%}
+    {%- endcase -%}
+    {%- assign crumb_child = page_heading -%}
+  {%- else -%}
+    {%- case chap_dir -%}
+      {%- when "overview", "deep-dive" -%}{%- assign chap_title = "Full Overview" -%}
+      {%- when "tldr", "summary" -%}{%- assign chap_title = "TL;DR" -%}
+    {%- endcase -%}
+    {%- assign crumb_child = chap_title -%}
+    {%- assign page_heading = chap_title -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- comment -%} Find sibling study-guide.md and default view for multi-view folders (Course Overview/TL;DR, Module Overview/TL;DR, Chapters) {%- endcomment -%}
+{%- assign sibling_study_guide = nil -%}
+{%- assign sibling_default_doc = nil -%}
+{%- assign has_multi_view = false -%}
+{%- if is_course_view -%}
+  {%- assign has_multi_view = true -%}
+  {%- assign folder_prefix = "_content/" | append: section_dir | append: "/" -%}
+{%- elsif is_module_single_page == false -%}
+  {%- assign has_multi_view = true -%}
+  {%- assign folder_prefix = "_content/" | append: mod_dir | append: "/" | append: chap_dir | append: "/" -%}
+{%- endif -%}
+
+{%- if has_multi_view -%}
   {%- for sibling in all_docs -%}
-    {%- if sibling.relative_path contains chap_prefix -%}
-      {%- assign sib_slug = sibling.relative_path | split: "/" | last | replace: ".md", "" | downcase -%}
+    {%- if sibling.relative_path contains folder_prefix -%}
+      {%- assign sib_parts = sibling.relative_path | split: "/" -%}
+      {%- assign sib_slug = sib_parts | last | replace: ".md", "" | downcase -%}
       {%- if sib_slug == "study-guide" or sib_slug == "study_guide" or sib_slug == "studyguide" -%}
-        {%- assign chap_study_guide = sibling -%}
+        {%- assign sibling_study_guide = sibling -%}
       {%- elsif sib_slug == "outline" -%}
-        {%- assign chap_default_doc = sibling -%}
-      {%- elsif chap_default_doc == nil -%}
-        {%- assign chap_default_doc = sibling -%}
+        {%- assign sibling_default_doc = sibling -%}
+      {%- elsif sibling_default_doc == nil -%}
+        {%- assign sibling_default_doc = sibling -%}
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
-{%- endunless -%}
+{%- endif -%}
 
-{%- comment -%} Find module-level key-terms.md and optional key-terms-mindmap.md {%- endcomment -%}
+{%- comment -%} Find Key Terms docs for auto-linking (module's key-terms.md, or ALL modules' key-terms.md on course-wide views) {%- endcomment -%}
 {%- assign key_terms_doc = nil -%}
 {%- assign key_terms_mindmap_doc = nil -%}
-{%- assign mod_prefix = "_content/" | append: mod_dir | append: "/" -%}
-{%- for mdoc in all_docs -%}
-  {%- assign mparts = mdoc.relative_path | split: "/" -%}
-  {%- if mparts.size == 3 and mparts[1] == mod_dir -%}
-    {%- assign mslug = mparts[2] | replace: ".md", "" | downcase -%}
-    {%- if mslug == "key-terms" or mslug == "keyterms" -%}
-      {%- assign key_terms_doc = mdoc -%}
-    {%- elsif mslug == "key-terms-mindmap" or mslug == "keyterms-mindmap" -%}
-      {%- assign key_terms_mindmap_doc = mdoc -%}
+{%- assign combined_key_terms_html = "" -%}
+{%- if is_course_view -%}
+  {%- for mdoc in all_docs -%}
+    {%- assign mparts = mdoc.relative_path | split: "/" -%}
+    {%- if mparts.size == 3 -%}
+      {%- assign mslug = mparts[2] | replace: ".md", "" | downcase -%}
+      {%- if mslug == "key-terms" or mslug == "keyterms" -%}
+        {%- if key_terms_doc == nil -%}{%- assign key_terms_doc = mdoc -%}{%- endif -%}
+        {%- assign rendered_kt = mdoc.content | markdownify -%}
+        {%- assign combined_key_terms_html = combined_key_terms_html | append: rendered_kt -%}
+      {%- endif -%}
     {%- endif -%}
-  {%- endif -%}
-{%- endfor -%}
+  {%- endfor -%}
+{%- else -%}
+  {%- for mdoc in all_docs -%}
+    {%- assign mparts = mdoc.relative_path | split: "/" -%}
+    {%- if mparts.size == 3 and mparts[1] == mod_dir -%}
+      {%- assign mslug = mparts[2] | replace: ".md", "" | downcase -%}
+      {%- if mslug == "key-terms" or mslug == "keyterms" -%}
+        {%- assign key_terms_doc = mdoc -%}
+        {%- assign combined_key_terms_html = mdoc.content | markdownify -%}
+      {%- elsif mslug == "key-terms-mindmap" or mslug == "keyterms-mindmap" -%}
+        {%- assign key_terms_mindmap_doc = mdoc -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
 
 {%- assign dual_inline_mindmap = false -%}
 {%- if is_key_terms_list and key_terms_mindmap_doc == nil -%}
@@ -103,27 +165,17 @@ layout: default
 <article class="chapter-article{% if is_mindmap_page %} is-mindmap-page{% endif %}" id="chapterArticle">
   <header class="chapter-header">
     <div class="chapter-breadcrumb">
-      <span class="crumb-module">{{ mod_title }}</span>
+      <span class="crumb-module">{{ crumb_parent }}</span>
       <span class="crumb-sep" aria-hidden="true">/</span>
       <span class="crumb-chapter">
-        {%- if is_module_page -%}
-          {{ page_heading }}
-          {%- if is_key_terms_mindmap %} · Mind Map{% endif -%}
-        {%- else -%}
-          {{ chap_title }}
-          {%- if slug == "study-guide" or slug == "study_guide" or slug == "studyguide" %} · Study Guide{% endif -%}
-        {%- endif -%}
+        {{- crumb_child -}}
+        {%- if is_key_terms_mindmap %} · Mind Map{% endif -%}
+        {%- if has_multi_view and is_study_guide_view %} · Study Guide{% endif -%}
       </span>
     </div>
 
     <div class="chapter-title-row">
-      <h1 class="chapter-title">
-        {%- if is_module_page -%}
-          {{ page_heading }}
-        {%- else -%}
-          {{ chap_title }}
-        {%- endif -%}
-      </h1>
+      <h1 class="chapter-title">{{ page_heading }}</h1>
 
       <div class="chapter-header-actions">
         {%- if is_mindmap_page -%}
@@ -137,20 +189,20 @@ layout: default
           </button>
         {%- endif -%}
 
-        {%- unless is_module_page -%}
-          {%- if slug == "study-guide" or slug == "study_guide" or slug == "studyguide" -%}
-            {%- if chap_default_doc -%}
-              <a href="{{ chap_default_doc.url | relative_url }}" class="pill-toggle pill-toggle-accent">
-                &larr; Back to Chapter
+        {%- if has_multi_view -%}
+          {%- if is_study_guide_view -%}
+            {%- if sibling_default_doc -%}
+              <a href="{{ sibling_default_doc.url | relative_url }}" class="pill-toggle pill-toggle-accent">
+                &larr; Back
               </a>
             {%- endif -%}
-          {%- elsif chap_study_guide -%}
-            <a href="{{ chap_study_guide.url | relative_url }}" class="pill-toggle pill-toggle-accent">
+          {%- elsif sibling_study_guide -%}
+            <a href="{{ sibling_study_guide.url | relative_url }}" class="pill-toggle pill-toggle-accent">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
               <span>Study Guide</span>
             </a>
           {%- endif -%}
-        {%- endunless -%}
+        {%- endif -%}
       </div>
     </div>
   </header>
@@ -189,11 +241,11 @@ layout: default
   {% endif %}
 </article>
 
-{%- if key_terms_doc and is_key_terms_list == false and is_key_terms_mindmap == false -%}
+{%- if combined_key_terms_html != "" and is_key_terms_list == false and is_key_terms_mindmap == false -%}
 <script type="application/json" id="moduleKeyTermsData">
 {
   "url": {{ key_terms_doc.url | relative_url | jsonify }},
-  "html": {{ key_terms_doc.content | markdownify | jsonify | replace: "</", "<\/" }}
+  "html": {{ combined_key_terms_html | jsonify | replace: "</", "<\/" }}
 }
 </script>
 <dialog class="term-dialog" id="termDialog" aria-labelledby="termDialogTitle">
@@ -207,15 +259,17 @@ layout: default
   </div>
   <h2 class="term-dialog-title" id="termDialogTitle"></h2>
   <p class="term-dialog-body" id="termDialogBody"></p>
+  {%- unless is_course_view -%}
   <div class="term-dialog-footer">
     <a href="{{ key_terms_doc.url | relative_url }}" class="term-dialog-link" id="termDialogAllLink">
       View all Module Key Terms &rarr;
     </a>
   </div>
+  {%- endunless -%}
 </dialog>
 {%- endif -%}
 
-{%- if is_module_page -%}
+{%- if is_module_single_page -%}
   {%- assign show_kt_bar = false -%}
   {%- if is_key_terms_list or is_key_terms_mindmap -%}
     {%- if key_terms_doc and key_terms_mindmap_doc -%}
@@ -241,5 +295,5 @@ layout: default
   </nav>
   {%- endif -%}
 {%- else -%}
-  {% include bottom_bar.html %}
+  {% include bottom_bar.html folder_prefix=folder_prefix %}
 {%- endif -%}

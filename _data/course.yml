@@ -3,6 +3,14 @@
 # Files inside each folder (key-terms.md, key-terms-mindmap.md, study-guide.md, outline.md, mindmap.md, pq4rs.md, etc.)
 # are discovered automatically.
 
+- folder: module-1
+  title: "[Mod. 1] Anatomy, Physiology, and Pathophysiology"
+  chapters:
+    - folder: chapter-7
+      title: "[Ch. 7] Anatomy and Physiology"
+    - folder: chapter-8
+      title: "[Ch. 8] Pathophysiology"
+
 - folder: module-2
   title: "[Mod 2] Introduction"
   chapters:
