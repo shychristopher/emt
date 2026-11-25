@@ -1,231 +1,231 @@
 ---
 ---
 
-- **Abdominal Quadrants**: The four parts of the abdomen as divided by imaginary horizontal and vertical lines through the umbilicus.[span_0](start_span)[span_0](end_span)
-- **Abduction**: Movement away from the midline.[span_1](start_span)[span_1](end_span)
-- **Acetabulum**: The rounded cavity or socket on the external surface of the pelvis that receives the head of the femur.[span_2](start_span)[span_2](end_span)
-- **Acromion**: The lateral triangular projection of the scapula that forms the point of the shoulder.[span_3](start_span)[span_3](end_span)
-- **Adduction**: Movement towards the midline.[span_4](start_span)[span_4](end_span)
-- **Aerobic Metabolism**: Chemical and physical changes that take place within the cells in the presence of oxygen.[span_5](start_span)[span_5](end_span)[span_6](start_span)[span_6](end_span)
-- **Afterload**: The force of contraction that the left ventricle must generate to overcome the resistance in the aorta to eject the blood.[span_7](start_span)[span_7](end_span)
-- **Agonal Respirations**: Gasping-type respirations that have no pattern and occur infrequently; a sign of impending cardiac or respiratory arrest. Also called agonal breathing.[span_8](start_span)[span_8](end_span)
-- **Airway**: The path by which air reaches the lungs. The portion of the respiratory system that extends from the nose and mouth to the larynx. The portion of the respiratory system that extends from the trachea to the alveoli of the lungs.[span_9](start_span)[span_9](end_span)
-- **Airway Resistance**: The restriction of airflow that is related to the diameter of the airways.[span_10](start_span)[span_10](end_span)
-- **Alveolar Ventilation**: The amount of inspired air that reaches the alveoli of the lungs.[span_11](start_span)[span_11](end_span)
-- **Alveoli**: The air sacs of the lunch. Pleural of alveolus.[span_12](start_span)[span_12](end_span)[span_13](start_span)[span_13](end_span)
-- **Anaerobic Metabolism**: Chemical and physical changes that take place within the cells without the presence of oxygen.[span_14](start_span)[span_14](end_span)[span_15](start_span)[span_15](end_span)
-- **Anatomical Planes**: Imaginary divisions of the body.[span_16](start_span)[span_16](end_span)
-- **Anatomical Position**: A position in which the patient is standing erect, facing forward, with arms down at the sides and palms forward.[span_17](start_span)[span_17](end_span)
-- **Anatomy**: The study of the structure of the body and the relationship of its parts to each other.[span_18](start_span)[span_18](end_span)
-- **Anterior**: Toward the front. Opposite of posterior.[span_19](start_span)[span_19](end_span)
-- **Anterior Plane**: The front, or abdominal side of the body.[span_20](start_span)[span_20](end_span)
-- **Aorta**: The major artery from the heart.[span_21](start_span)[span_21](end_span)
-- **Aortic Valve**: The valve located between the left ventricle and the aorta that prevents blood from backflowing into the ventricle.[span_22](start_span)[span_22](end_span)
-- **Arteriole**: The smallest branch of an artery, which at its distal end leads into a capillary.[span_23](start_span)[span_23](end_span)
-- **Artery**: Blood vessel that carries blood away from the heart.[span_24](start_span)[span_24](end_span)
-- **Aspiration**: Breathing a foreign substance into the lungs.[span_25](start_span)[span_25](end_span)
-- **Atria**: The two upper chambers of the heart. Plural of atrium.[span_26](start_span)[span_26](end_span)
-- **Automaticity**: The capability of cells within the cardiac conduction system to generate a cardiac impulse on their own.[span_27](start_span)[span_27](end_span)
-- **Ball-and-Socket Joint**: A joint that permits the widest range of motion, including flexion, extension, abduction, adduction, and rotation, for example the shoulder or hip joint.[span_28](start_span)[span_28](end_span)
-- **Baroreceptors**: Stretch sensitive receptors located in the aortic arch and carotid bodies that constantly measure the blood pressure.[span_29](start_span)[span_29](end_span)
-- **Bicuspid Valve (Mitral Valve)**: The valve located between the left atrium and the left ventricle.[span_30](start_span)[span_30](end_span)
-- **Bilateral**: On both sides.[span_31](start_span)[span_31](end_span)
-- **Blood Pressure**: The force exerted by the blood on the interior walls of the blood vessels.[span_32](start_span)[span_32](end_span)
-- **Boyle’s Law**: The concept that at a constant temperature the volume of a gas is inversely proportionate to the pressure.[span_33](start_span)[span_33](end_span)
-- **Brachial Arteries**: The major artery of the upper arm.[span_34](start_span)[span_34](end_span)
-- **Brainstem**: The funnel-shaped inferior part of the brain that controls most automatic functions of the body. It is made up of the pons, the midbrain, and the medulla, which is the brain's connection to the spinal cord.[span_35](start_span)[span_35](end_span)
-- **Bronchi**: The two main branches leading from the trachea to the lungs, providing the passageway for air movement. Plural of bronchus.[span_36](start_span)[span_36](end_span)[span_37](start_span)[span_37](end_span)
-- **Bronchioles**: Small branches of the bronchi.[span_38](start_span)[span_38](end_span)[span_39](start_span)[span_39](end_span)
-- **Calcaneus**: The heel bone.[span_40](start_span)[span_40](end_span)
-- **Capillary**: Tiny blood vessel that connects an arteriole to a venule.[span_41](start_span)[span_41](end_span)
-- **Cardiac Muscle**: A type of involuntary muscle found only in the walls of the heart. Cardiac muscle has the property of automaticity, the capability to generate an impulse on its own, separately from the central nervous system.[span_42](start_span)[span_42](end_span)
-- **Cardiac Output**: The volume of blood ejected from the left ventricle in one minute.[span_43](start_span)[span_43](end_span)
-- **Carina**: The point at which the trachea splits into the right and left mainstem bronchi.[span_44](start_span)[span_44](end_span)
-- **Carotid Arteries**: One of two major arteries of the neck, which supply the brain and head with blood.[span_45](start_span)[span_45](end_span)
-- **Carpals**: The eight bones that form the wrist.[span_46](start_span)[span_46](end_span)
-- **Central Chemoreceptors**: Receptors located in the medulla that are most sensitive to changes in carbon dioxide and the pH.[span_47](start_span)[span_47](end_span)
-- **Central Nervous System**: The brain and the spinal cord (CNS).[span_48](start_span)[span_48](end_span)
-- **Cerebellum**: The section of the brain located beneath the cerebrum that coordinates balance, body movements, and muscle coordination.[span_49](start_span)[span_49](end_span)
-- **Cerebrum**: Largest part of the brain, responsible for most conscious and sensory functions, the emotions, and the personality.[span_50](start_span)[span_50](end_span)
-- **Cervical Spine**: The first seven vertebrae, or the neck.[span_51](start_span)[span_51](end_span)
-- **Chemoreceptors**: Receptors that constantly monitor the arterial content of oxygen, carbon dioxide, and the blood pH and stimulate a change in the respiratory rate and depth.[span_52](start_span)[span_52](end_span)
-- **Circulatory System**: System composed of the heart and blood vessels that brings oxygen and nutrients to and takes wastes away from body cells. Also called the cardiovascular system.[span_53](start_span)[span_53](end_span)
-- **Circumduction**: Conical movement, or movement through 360 degrees.[span_54](start_span)[span_54](end_span)
-- **Clavicle**: The collarbone, attached to the superior portion of the sternum.[span_55](start_span)[span_55](end_span)
-- **Coccyx**: The four fused vertebrae that form the most distal end of the spine; the tailbone.[span_56](start_span)[span_56](end_span)
-- **Combining Form**: Word part that carries the word’s essential meaning.[span_57](start_span)[span_57](end_span)
-- **Compliance**: The measure of the capability of the chest wall and lungs to stretch, distend, and expand.[span_58](start_span)[span_58](end_span)
-- **Conchae**: The scroll-like bones in the nasal cavity that help warm, moisten, and filter inhaled air.[span_59](start_span)[span_59](end_span)
-- **Condyloid Joint**: A joint that permits limited motion in two directions, for example such a joint in the wrist enables the hand to move up and down and side to side but not to rotate completely.[span_60](start_span)[span_60](end_span)
-- **Coronal Plane (Frontal Plane)**: A plane that divides the body into anterior and posterior halves.[span_61](start_span)[span_61](end_span)
-- **Coronary Arteries**: Blood vessels that supply the heart with blood.[span_62](start_span)[span_62](end_span)
-- **Cranium**: The bones that form the top, back, and sides of the skull plus the forehead.[span_63](start_span)[span_63](end_span)
-- **Cricoid Cartilage**: The most inferior portion of the larynx and only full cartilaginous ring of the upper airway. It is felt immediately below the thyroid cartilage.[span_64](start_span)[span_64](end_span)
-- **Dead Air Space (VD)**: Anatomical areas in the respiratory tract (outside of the alveoli) which air collects during inhalation but no gas exchange occurs.[span_65](start_span)[span_65](end_span)
-- **Deoxyhemoglobin**: Hemoglobin that does not have any oxygen molecules attached to it.[span_66](start_span)[span_66](end_span)
-- **Dermis**: The second layer of the skin.[span_67](start_span)[span_67](end_span)
-- **Diaphragm**: The major muscle of respiration that separates the chest cavity from the abdominal cavity.[span_68](start_span)[span_68](end_span)
-- **Diastolic Blood Pressure**: The pressure exerted against the walls of the arteries when the left ventricle is at rest.[span_69](start_span)[span_69](end_span)
-- **Digestion**: The mechanical and chemical breakdown of food into smaller components that can be absorbed and used by the body.[span_70](start_span)[span_70](end_span)
-- **Digestive System**: The structures and organs that ingest and carry food so that absorption and waste elimination can occur.[span_71](start_span)[span_71](end_span)
-- **Distal**: Distant, or farm from the point of reference. Opposite of proximal.[span_72](start_span)[span_72](end_span)
-- **Dorsal**: Toward the back or spine. Opposite of ventral.[span_73](start_span)[span_73](end_span)
-- **Dorsal Respiratory Group (DRG)**: Respiratory rhythm center located in the brainstem that controls the rate and depth of normal quiet respiration.[span_74](start_span)[span_74](end_span)
-- **Dorsalis Pedis Arteries**: An artery of the foot, which can be felt on the top surface of the foot.[span_75](start_span)[span_75](end_span)
-- **Edema**: Swelling caused by fluid accumulating in the tissues.[span_76](start_span)[span_76](end_span)
-- **Endocrine System**: A system of ductless glands that produce hormones that regulate body functions.[span_77](start_span)[span_77](end_span)
-- **Epidermis**: The outermost layer of the skin.[span_78](start_span)[span_78](end_span)
-- **Epiglottis**: A small, leaf-shaped flap of cartilaginous tissue, located immediately posterior to the root of the tongue, that covers the opening of the larynx to keep food and liquid from entering the trachea and lungs.[span_79](start_span)[span_79](end_span)[span_80](start_span)[span_80](end_span)
-- **Esophagus**: Passageway at the lower end of the pharynx that leads to the stomach.[span_81](start_span)[span_81](end_span)
-- **Extension**: Straightening away from the body or increasing the angle between the bones or parts of the body.[span_82](start_span)[span_82](end_span)
-- **Extremities**: The limbs of the body. The lower extremities include the hips, thighs, legs, ankles, and feet. The upper extremities include the shoulders, arms, forearms, wrists, and hands.[span_83](start_span)[span_83](end_span)
-- **Face**: The area of the skull between the brow and the chin.[span_84](start_span)[span_84](end_span)
-- **Femoral Arteries**: The major artery of the thigh that supplies the groin and leg with blood.[span_85](start_span)[span_85](end_span)
-- **Femur**: The thighbone.[span_86](start_span)[span_86](end_span)
-- **Fibula**: The lateral, smaller long bone of the lower leg.[span_87](start_span)[span_87](end_span)
-- **Flexion**: Bending toward the body or decreasing the angle between the bones or parts of the body.[span_88](start_span)[span_88](end_span)
-- **Fowler’s Position**: A position in which the patient is laying on their back with the upper body elevated at a 45º to 60º angle.[span_89](start_span)[span_89](end_span)
-- **Frank-Starling Law Of The Heart**: The concept that the stretch of the muscle fiber in the left ventricle at the end of the diastole determines the force necessary to eject the blood contained within it.[span_90](start_span)[span_90](end_span)
-- **Frequency of Ventilation (f)**: Number of ventilations in one minute.[span_91](start_span)[span_91](end_span)
-- **Gliding Joint**: A joint where one bone slides across another, such as those connecting the small bones in the hands and feet.[span_92](start_span)[span_92](end_span)
-- **Glottis (Glottic Opening)**: The space between the true vocal cords.[span_93](start_span)[span_93](end_span)
-- **Glycolysis**: The breakdown of glucose into pyruvic acid in the cells.[span_94](start_span)[span_94](end_span)
-- **Heart**: The muscular organ that contracts to force blood into circulation through the body.[span_95](start_span)[span_95](end_span)
-- **Hinged Joint**: A joint that permits flexion and extension, such as the elbow, knee, or finger.[span_96](start_span)[span_96](end_span)
-- **Humerus**: The largest bone in the upper extremity, located in the proximal portion of the upper arm.[span_97](start_span)[span_97](end_span)
-- **Hydrostatic Pressure**: The blood pressure or force exerted against the inside of vessel walls; the “push” effect that forces fluid out of a capillary.[span_98](start_span)[span_98](end_span)[span_99](start_span)[span_99](end_span)
-- **Hypoperfusion**: The inadequate perfusion of cells, tissue, and organs with oxygen and other nutrients, resulting in cell, tissue, and organ dysfunction.[span_100](start_span)[span_100](end_span)
-- **Iliac Crest**: The upper margin of the bones of the pelvis.[span_101](start_span)[span_101](end_span)
-- **Inferior**: Beneath, lower, toward the feet. Opposite of superior.[span_102](start_span)[span_102](end_span)
-- **Inferior Plane**: Everything below the transverse line (below the waist). Opposite of the superior plane.[span_103](start_span)[span_103](end_span)
-- **Integumentary System**: The skin.[span_104](start_span)[span_104](end_span)
-- **Intercostal Muscles**: The muscles between the ribs.[span_105](start_span)[span_105](end_span)
-- **Irritant Receptors**: Receptors in the airways that are sensitive to irritating gases, aerosol, and particles and result in cough, bronchoconstriction, and increased ventilatory rate when stimulated.[span_106](start_span)[span_106](end_span)
-- **Ischium**: The posterior and inferior portion of the pelvis.[span_107](start_span)[span_107](end_span)
-- **J-receptors**: Receptors that are found in the capillaries surrounding the alveoli and are sensitive to increases in the pressure in the capillary and cause rapid, shallow ventilation when stimulated.[span_108](start_span)[span_108](end_span)
-- **Joint**: A place where one bone meets another.[span_109](start_span)[span_109](end_span)
-- **Laryngeal Spasm**: A contraction of the vocal cords that causes them to close and prevents air from passing through into the trachea. Also called a laryngospasm.[span_110](start_span)[span_110](end_span)
-- **Laryngopharynx (Hypopharynx)**: Upper airway section that extends from the hyoid bone at the base of the tongue to the openings of the esophagus and larynx.[span_111](start_span)[span_111](end_span)
-- **Larynx**: Structure that houses the vocal cords and is located inferior to the pharynx and superior to the trachea.[span_112](start_span)[span_112](end_span)[span_113](start_span)[span_113](end_span)
-- **Lateral**: Refers to the left or right of the midline, or away from the midline, or to the side of the body.[span_114](start_span)[span_114](end_span)
-- **Lateral Malleolus**: The prominent bony projection on the lateral side of the ankle, formed by the distal end of the fibula.[span_115](start_span)[span_115](end_span)
-- **Lateral Recumbent Position (Recovery Position)**: A position in which the patient is lying on the left or right side.[span_116](start_span)[span_116](end_span)
-- **Left**: Refers to the patient’s left; provider’s right side when standing directly in-front of the patient.[span_117](start_span)[span_117](end_span)
-- **Ligaments**: Bands of fibrous tissue that connect bones to a joint and support organs.[span_118](start_span)[span_118](end_span)
-- **Lumbar Spine**: The five vertebrae located between the sacral and the thoracic spine that forms the lower back.[span_119](start_span)[span_119](end_span)
-- **Lungs**: The principal organs of respiration.[span_120](start_span)[span_120](end_span)
-- **Mandible**: The lower movable portion of the jaw.[span_121](start_span)[span_121](end_span)
-- **Manubrium**: The broad superior portion of the sternum with which the clavicle and first ribs articulate.[span_122](start_span)[span_122](end_span)
-- **Maxilla**: The fixed upper portion of the jaw.[span_123](start_span)[span_123](end_span)
-- **Medial**: Toward the midline or center of the body.[span_124](start_span)[span_124](end_span)
-- **Medial Malleolus**: The prominent bony projection on the medial side of the ankle, formed by the distal end of the tibia.[span_125](start_span)[span_125](end_span)
-- **Metacarpals**: The bones of the hands.[span_126](start_span)[span_126](end_span)
-- **Metatarsals**: The bones that form the arch of the foot.[span_127](start_span)[span_127](end_span)
-- **Microcirculation**: The flow of blood through the arterioles, capillaries, and venules that is the site of exchange of gasses, nutrients, and waste products with the cells.[span_128](start_span)[span_128](end_span)
-- **Midaxillary**: Refers to the center of the armpit.[span_129](start_span)[span_129](end_span)
-- **Midaxillary Line**: An imaginary line that divides the body into anterior and posterior planes; the imaginary line from the middle of the armpit to the ankle.[span_130](start_span)[span_130](end_span)
-- **Midclavicular**: Refers to the center of the collarbone (clavicle).[span_131](start_span)[span_131](end_span)
-- **Midline**: An imaginary line drawn vertically through the middle of the patients, dividing it into right and left planes.[span_132](start_span)[span_132](end_span)
-- **Midsagittal Plane**: A vertical plane that divides the body into equal right and left halves.[span_133](start_span)[span_133](end_span)
-- **Minute Ventilation (Minute Volume)**: The amount of air moved in and out of the lungs in one minute.[span_134](start_span)[span_134](end_span)
-- **Musculoskeletal System**: The system of bones and muscle plus connective tissue that provides support and protection of the body and permits motion.[span_135](start_span)[span_135](end_span)
-- **Nasal Bones**: The bones that form the bed of the nose.[span_136](start_span)[span_136](end_span)
-- **Nasopharynx**: The portion of the pharynx that extends from the posterior nasal cavity to the soft palate.[span_137](start_span)[span_137](end_span)[span_138](start_span)[span_138](end_span)
-- **Nervous System**: The body system including the brain, spinal cord, and nerves that controls the voluntary and involuntary activity of the human body.[span_139](start_span)[span_139](end_span)
-- **Olecranon**: The part of the ulna that forms the bony prominence of the elbow.[span_140](start_span)[span_140](end_span)
-- **Orbits**: The bony structures that surround the eyes; the eye sockets.[span_141](start_span)[span_141](end_span)
-- **Oropharynx**: The central portion of the pharynx lying between the soft palate and the epiglottis with the mouth as the opening.[span_142](start_span)[span_142](end_span)[span_143](start_span)[span_143](end_span)
-- **Oxygenation**: The form of respiration in which oxygen molecules move across a membrane from an area of high oxygen concentration to an area of low oxygen concentration, as when oxygen moves out of a blood vessel into a cell; the process by which the blood and cells become saturated with oxygen.[span_144](start_span)[span_144](end_span)
-- **Oxyhemoglobin**: Hemoglobin that has at least one oxygen molecule attached to it.[span_145](start_span)[span_145](end_span)
-- **Palmar**: Relates to the palm of the hand.[span_146](start_span)[span_146](end_span)
-- **Parietal Pleura**: The outermost pleural layer that adheres to the chest wall.[span_147](start_span)[span_147](end_span)
-- **Patella**: The kneecap.[span_148](start_span)[span_148](end_span)
-- **Patent Airway**: An airway that is open and clear of any obstructions.[span_149](start_span)[span_149](end_span)
-- **Pelvis**: The bones that form the floor of the abdominal cavity: the sacrum and coccyx of the spine, the iliac crests, the pubis, and the ischium.[span_150](start_span)[span_150](end_span)
-- **Perfusion**: The delivery of oxygen and other nutrients to the cells of all organ systems and the elimination of waste products from the cells, which result from the constant adequate circulation of blood through the capillaries.[span_151](start_span)[span_151](end_span)[span_152](start_span)[span_152](end_span)
-- **Peripheral Chemoreceptors**: Receptors located in the aortic arch and the carotid bodies that are somewhat sensitive to blood pressure and pH, but are most sensitive to the level of oxygen in the arterial blood.[span_153](start_span)[span_153](end_span)
-- **Peripheral Nervous System**: The portion of the nervous system located outside the brain and spinal cord (PNS).[span_154](start_span)[span_154](end_span)
-- **Phalanges**: Bones of the fingers, thumbs, and toes. Plural of phalanx.[span_155](start_span)[span_155](end_span)
-- **Pharynx**: The throat, or passageway for air from the nasal and oral cavities to the larynx and passageway for food from the mouth to the esophagus; areas that comprise the pharynx are the nasopharynx, oropharynx, and laryngopharynx.[span_156](start_span)[span_156](end_span)
-- **Physiology**: The study of the function of the living body and its parts.[span_157](start_span)[span_157](end_span)
-- **Pivot Joint**: A joint that permits a turning motion, including joints between the head and next at the first and second cervical vertebrae and those in the wrist.[span_158](start_span)[span_158](end_span)
-- **Plantar**: Refers to the sole of the foot.[span_159](start_span)[span_159](end_span)
-- **Plasma**: The liquid part of the blood.[span_160](start_span)[span_160](end_span)
-- **Plasma Oncotic Pressure**: The force created by the presence of large molecules that tends to keep fluid inside a capillary by exerting a “pull” effect. Also called colloid oncotic pressure or oncotic pressure.[span_161](start_span)[span_161](end_span)
-- **Platelets**: Components of blood that are essential to the formation of blood cells.[span_162](start_span)[span_162](end_span)
-- **Pleural Cavity**: The potential space between the parietal and visceral layers of the pleura surrounding the lungs, containing lubricating fluid.[span_163](start_span)[span_163](end_span)
-- **Pontine Respiratory Center**: Located in the pons of the brainstem, sends inhibitory impulses to the inspiratory neurons to halt inspiration and permit exhalation. Also known as the pneumotaxic center.[span_164](start_span)[span_164](end_span)
-- **Posterior**: Toward the back. Opposite of anterior.[span_165](start_span)[span_165](end_span)
-- **Posterior Plane**: The back or dorsal side of the body.[span_166](start_span)[span_166](end_span)
-- **Posterior Tibial Arteries**: A major artery that travels from the calf to the foot and that can be felt on the medical surface of the ankle bone.[span_167](start_span)[span_167](end_span)
-- **Prefix**: A word part added to the beginning of a word to modify its meaning or to give additional or specific meaning to a word.[span_168](start_span)[span_168](end_span)
-- **Preload**: The pressure generated in the left ventricle at the end of diastole (resting phase of the cardiac cycle).[span_169](start_span)[span_169](end_span)
-- **Pronation**: Turning the forearm so the palm of the hand is turned toward the back.[span_170](start_span)[span_170](end_span)
-- **Prone**: Laying face down.[span_171](start_span)[span_171](end_span)
-- **Proximal**: Near the point of reference. Opposite of distal.[span_172](start_span)[span_172](end_span)
-- **Pubis**: Bone of the groin.[span_173](start_span)[span_173](end_span)
-- **Pulmonary Arteries**: Artery that carries deoxygenated blood from the right ventricle of the heart to the lungs.[span_174](start_span)[span_174](end_span)
-- **Pulmonary Valve**: The valve located between the right ventricle and the pulmonary artery that prevents backflow into the ventricle.[span_175](start_span)[span_175](end_span)
-- **Pulmonary Veins**: Vein that carries oxygenated blood from the lungs to the left atrium of the heart.[span_176](start_span)[span_176](end_span)
-- **Pulse**: The wave of blood propelled through the arteries because of the contraction of the left ventricle.[span_177](start_span)[span_177](end_span)
-- **Radial Arteries**: A major artery of the arm, distal to the elbow joint.[span_178](start_span)[span_178](end_span)
-- **Radius**: The lateral bone of the forearm.[span_179](start_span)[span_179](end_span)
-- **Red Blood Cells**: Part of the blood that gives it its color, carries oxygen to body cells, and carries carbon dioxide away from body cells.[span_180](start_span)[span_180](end_span)
-- **Reproductive System**: The male and female organs that function to accomplish human reproduction, the creation of offspring.[span_181](start_span)[span_181](end_span)
-- **Respiration**: The exchange of gases between an organism and its environment; the exchange of oxygen and carbon dioxide that takes place during inhalation and exhalation.[span_182](start_span)[span_182](end_span)
-- **Respiratory Control Centers**: Centers in the brainstem that regulate respiration, including the dorsal respiratory group (DRG) and the ventral respiratory group (VRG).[span_183](start_span)[span_183](end_span)
-- **Respiratory Membrane**: Thin network of capillaries that surrounds an alveolus; the respiratory membranes enable diffusions of oxygen from alveoli to capillaries and the diffusions of carbon dioxide from capillaries to alveoli.[span_184](start_span)[span_184](end_span)
-- **Respiratory System**: The organs involved in the exchange of gases between an organism and the atmosphere.[span_185](start_span)[span_185](end_span)
-- **Right**: Refers to the patient’s right; provider’s left side when standing directly in-front of the patient.[span_186](start_span)[span_186](end_span)
-- **Sacral Spine**: Five vertebrae that are fused together to form the rigid part of the posterior side of the pelvis. Also called the sacrum.[span_187](start_span)[span_187](end_span)
-- **Saddle Joint**: A joint shaped to permit combinations of limited movements along perpendicular planes. For example, the ankle allows the foot to turn inward slightly as it moves up and down.[span_188](start_span)[span_188](end_span)
-- **Sagittal Plane**: A vertical plane that divides the body into right and left segments. Also called the medial plane.[span_189](start_span)[span_189](end_span)
-- **Scapula**: The shoulder blade.[span_190](start_span)[span_190](end_span)
-- **Semi-Fowler’s Position**: A position in which the patient is lying on their back with their upper body elevated at less than 45º.[span_191](start_span)[span_191](end_span)
-- **Shock Position**: Elevation of the legs of a supine patient approximately 12 inches; an alternative to the Trendelenburg position; sometimes useful for treating a simple faint but no longer recommended in the treatment of shock.[span_192](start_span)[span_192](end_span)
-- **Skeletal Muscle (Voluntary Muscle)**: Any muscle that can be consciously controlled by the individual.[span_193](start_span)[span_193](end_span)
-- **Skull**: The bony structure at the top of the spinal column that houses and protects the brain. The skull has two parts: the cranium and the face.[span_194](start_span)[span_194](end_span)
-- **Smooth Muscle (Involuntary Muscle)**: Muscle that carries out the automatic muscular functions of the body.[span_195](start_span)[span_195](end_span)
-- **Spinal Column (Vertebral Column)**: The column of 33 vertebrae that enclose and protect the spinal cord.[span_196](start_span)[span_196](end_span)
-- **Sternum**: The breastbone.[span_197](start_span)[span_197](end_span)
-- **Stretch Receptors**: Receptors found in the smooth muscle of the airways that monitor the size and volume of the lungs. These receptors stimulate a decrease in the rate and volume of ventilation when stretched by high tidal volumes to protect against lung overinflation.[span_198](start_span)[span_198](end_span)
-- **Stroke Volume**: The volume of blood ejected by the left ventricle with each contraction.[span_199](start_span)[span_199](end_span)
-- **Subcutaneous Layer**: A layer of fatty tissue just below the dermis.[span_200](start_span)[span_200](end_span)
-- **Suffix**: A word part added to the end of a word to modify its meaning or to give additional or specific meaning to a word.[span_201](start_span)[span_201](end_span)
-- **Superior**: Above; toward the head. Opposite of inferior.[span_202](start_span)[span_202](end_span)
-- **Superior Plane**: Everything above the transverse line (above the waist). Opposite of inferior plane.[span_203](start_span)[span_203](end_span)
-- **Supination**: Turning the forearm so that the palm of the hand is turned towards the front.[span_204](start_span)[span_204](end_span)
-- **Supine**: Lying face up.[span_205](start_span)[span_205](end_span)
-- **Surfactant**: A substance responsible for maintaining surface tension in the alveoli.[span_206](start_span)[span_206](end_span)
-- **Systemic Vascular Resistance (SVR)**: The resistance of blood flow through a vessel based on the diameter of the vessel.[span_207](start_span)[span_207](end_span)
-- **Systolic Blood Pressure**: The pressure exerted against the walls of the arteries when the left ventricle contracts.[span_208](start_span)[span_208](end_span)
-- **Tendons**: Bands of fibrous tissue that connect muscles to bones.[span_209](start_span)[span_209](end_span)
-- **Thoracic Spine**: The 12 vertebrae directly below the cervical vertebrae that comprise the upper back.[span_210](start_span)[span_210](end_span)
-- **Thorax**: The chest, or that part of the body between the base of the neck and the diaphragm.[span_211](start_span)[span_211](end_span)
-- **Thyroid Cartilage**: The bulky cartilage that forms the anterior portion of the larynx. Also called the Adam’s apple.[span_212](start_span)[span_212](end_span)
-- **Tibia**: The medial, larger bone of the lower leg; the shinbone.[span_213](start_span)[span_213](end_span)
-- **Tidal Volume (VT)**: The amount of air moved in and out of the lungs in one respiration.[span_214](start_span)[span_214](end_span)
-- **Trachea**: The tubelike structure that leads from the larynx to the lungs.[span_215](start_span)[span_215](end_span)[span_216](start_span)[span_216](end_span)
-- **Trachealis Muscle**: The smooth muscle bridging the open posterior ends of the C-shaped cartilaginous rings of the trachea.[span_217](start_span)[span_217](end_span)
-- **Transverse Line**: An imaginary line drawn horizontally through the waist.[span_218](start_span)[span_218](end_span)
-- **Transverse Plane (Horizontal Plane)**: A plane that divides the body into superior and inferior segments.[span_219](start_span)[span_219](end_span)
-- **Trendelenburg Position**: Lying on the back with the lower part of the body elevated higher than the head on an inclined plane.[span_220](start_span)[span_220](end_span)
-- **Tricuspid Valve**: The valve located between the right atrium and the right ventricle that prevents the backflow of blood.[span_221](start_span)[span_221](end_span)
-- **True Vocal Cords**: The inferior pair of mucosal folds within the larynx that vibrate to produce speech sounds.[span_222](start_span)[span_222](end_span)
-- **Ulna**: The medial bone of the forearm.[span_223](start_span)[span_223](end_span)
-- **Urinary System (Renal System)**: The organs and structure responsible for filtering and excreting wastes from the blood.[span_224](start_span)[span_224](end_span)
-- **Valve**: Structures within the heart and circulatory system that keep blood flowing in one direction and prevent backflow.[span_225](start_span)[span_225](end_span)
-- **Vein**: Vessel that carries blood toward the heart.[span_226](start_span)[span_226](end_span)
-- **Venae Cavae**: The principal veins that carry deoxygenated blood to the heart. Plural of vena cava. The superior vena cava carries blood from the upper body; the inferior vena cava carries blood from the lower body.[span_227](start_span)[span_227](end_span)
-- **Ventilation**: The mechanical process by which air is moved in and out of the lungs, primarily caused by changes in pressure inside the chest.[span_228](start_span)[span_228](end_span)[span_229](start_span)[span_229](end_span)
-- **Ventilation/Perfusion (V/Q) Ratio**: The dynamic relationship between the amount of ventilation the alveoli receive and the amount of perfusion through the capillary surrounding the alveoli.[span_230](start_span)[span_230](end_span)
-- **Ventral**: Toward the front, or toward the anterior portion of the body. Opposite of dorsal.[span_231](start_span)[span_231](end_span)
-- **Ventral Respiratory Group (VRG)**: Respiratory rhythm center located in the brainstem that has both inspiratory and expiratory neurons. It becomes active and stimulates accessory muscles when an increase in ventilatory effort is necessary.[span_232](start_span)[span_232](end_span)
-- **Ventricles**: The two lower chambers of the heart.[span_233](start_span)[span_233](end_span)
-- **Venule**: The smallest branch of a vein.[span_234](start_span)[span_234](end_span)
-- **Vertebrae**: The 33 bony segments of the spinal column. Plural of vertebra.[span_235](start_span)[span_235](end_span)
-- **Visceral Pleura**: Innermost layer of the pleura that covers the lung.[span_236](start_span)[span_236](end_span)
-- **Vocal Cords**: Ligaments within the larynx that produce the sounds that permit speech. The superior of these ligaments is called false vocal cords or vestibular folds; the inferior of these ligaments are called the true vocal cords or vocal folds.[span_237](start_span)[span_237](end_span)
-- **White Blood Cells**: The part of the blood that helps the body’s immune system defend against infection.[span_238](start_span)[span_238](end_span)
-- **Xiphoid Process**: Inferior portion of the sternum.[span_239](start_span)[span_239](end_span)
-- **Zygomatic Bones**: The cheekbones.[span_240](start_span)[span_240](end_span)
+- **Abdominal Quadrants**: The four parts of the abdomen as divided by imaginary horizontal and vertical lines through the umbilicus.
+- **Abduction**: Movement away from the midline.
+- **Acetabulum**: The rounded cavity or socket on the external surface of the pelvis that receives the head of the femur.
+- **Acromion**: The lateral triangular projection of the scapula that forms the point of the shoulder.
+- **Adduction**: Movement towards the midline.
+- **Aerobic Metabolism**: Chemical and physical changes that take place within the cells in the presence of oxygen.
+- **Afterload**: The force of contraction that the left ventricle must generate to overcome the resistance in the aorta to eject the blood.
+- **Agonal Respirations**: Gasping-type respirations that have no pattern and occur infrequently; a sign of impending cardiac or respiratory arrest. Also called agonal breathing.
+- **Airway**: The path by which air reaches the lungs. The portion of the respiratory system that extends from the nose and mouth to the larynx. The portion of the respiratory system that extends from the trachea to the alveoli of the lungs.
+- **Airway Resistance**: The restriction of airflow that is related to the diameter of the airways.
+- **Alveolar Ventilation**: The amount of inspired air that reaches the alveoli of the lungs.
+- **Alveoli**: The air sacs of the lunch. Pleural of alveolus.
+- **Anaerobic Metabolism**: Chemical and physical changes that take place within the cells without the presence of oxygen.
+- **Anatomical Planes**: Imaginary divisions of the body.
+- **Anatomical Position**: A position in which the patient is standing erect, facing forward, with arms down at the sides and palms forward.
+- **Anatomy**: The study of the structure of the body and the relationship of its parts to each other.
+- **Anterior**: Toward the front. Opposite of posterior.
+- **Anterior Plane**: The front, or abdominal side of the body.
+- **Aorta**: The major artery from the heart.
+- **Aortic Valve**: The valve located between the left ventricle and the aorta that prevents blood from backflowing into the ventricle.
+- **Arteriole**: The smallest branch of an artery, which at its distal end leads into a capillary.
+- **Artery**: Blood vessel that carries blood away from the heart.
+- **Aspiration**: Breathing a foreign substance into the lungs.
+- **Atria**: The two upper chambers of the heart. Plural of atrium.
+- **Automaticity**: The capability of cells within the cardiac conduction system to generate a cardiac impulse on their own.
+- **Ball-and-Socket Joint**: A joint that permits the widest range of motion, including flexion, extension, abduction, adduction, and rotation, for example the shoulder or hip joint.
+- **Baroreceptors**: Stretch sensitive receptors located in the aortic arch and carotid bodies that constantly measure the blood pressure.
+- **Bicuspid Valve (Mitral Valve)**: The valve located between the left atrium and the left ventricle.
+- **Bilateral**: On both sides.
+- **Blood Pressure**: The force exerted by the blood on the interior walls of the blood vessels.
+- **Boyle’s Law**: The concept that at a constant temperature the volume of a gas is inversely proportionate to the pressure.
+- **Brachial Arteries**: The major artery of the upper arm.
+- **Brainstem**: The funnel-shaped inferior part of the brain that controls most automatic functions of the body. It is made up of the pons, the midbrain, and the medulla, which is the brain's connection to the spinal cord.
+- **Bronchi**: The two main branches leading from the trachea to the lungs, providing the passageway for air movement. Plural of bronchus.
+- **Bronchioles**: Small branches of the bronchi.
+- **Calcaneus**: The heel bone.
+- **Capillary**: Tiny blood vessel that connects an arteriole to a venule.
+- **Cardiac Muscle**: A type of involuntary muscle found only in the walls of the heart. Cardiac muscle has the property of automaticity, the capability to generate an impulse on its own, separately from the central nervous system.
+- **Cardiac Output**: The volume of blood ejected from the left ventricle in one minute.
+- **Carina**: The point at which the trachea splits into the right and left mainstem bronchi.
+- **Carotid Arteries**: One of two major arteries of the neck, which supply the brain and head with blood.
+- **Carpals**: The eight bones that form the wrist.
+- **Central Chemoreceptors**: Receptors located in the medulla that are most sensitive to changes in carbon dioxide and the pH.
+- **Central Nervous System**: The brain and the spinal cord (CNS).
+- **Cerebellum**: The section of the brain located beneath the cerebrum that coordinates balance, body movements, and muscle coordination.
+- **Cerebrum**: Largest part of the brain, responsible for most conscious and sensory functions, the emotions, and the personality.
+- **Cervical Spine**: The first seven vertebrae, or the neck.
+- **Chemoreceptors**: Receptors that constantly monitor the arterial content of oxygen, carbon dioxide, and the blood pH and stimulate a change in the respiratory rate and depth.
+- **Circulatory System**: System composed of the heart and blood vessels that brings oxygen and nutrients to and takes wastes away from body cells. Also called the cardiovascular system.
+- **Circumduction**: Conical movement, or movement through 360 degrees.
+- **Clavicle**: The collarbone, attached to the superior portion of the sternum.
+- **Coccyx**: The four fused vertebrae that form the most distal end of the spine; the tailbone.
+- **Combining Form**: Word part that carries the word’s essential meaning.
+- **Compliance**: The measure of the capability of the chest wall and lungs to stretch, distend, and expand.
+- **Conchae**: The scroll-like bones in the nasal cavity that help warm, moisten, and filter inhaled air.
+- **Condyloid Joint**: A joint that permits limited motion in two directions, for example such a joint in the wrist enables the hand to move up and down and side to side but not to rotate completely.
+- **Coronal Plane (Frontal Plane)**: A plane that divides the body into anterior and posterior halves.
+- **Coronary Arteries**: Blood vessels that supply the heart with blood.
+- **Cranium**: The bones that form the top, back, and sides of the skull plus the forehead.
+- **Cricoid Cartilage**: The most inferior portion of the larynx and only full cartilaginous ring of the upper airway. It is felt immediately below the thyroid cartilage.
+- **Dead Air Space (VD)**: Anatomical areas in the respiratory tract (outside of the alveoli) which air collects during inhalation but no gas exchange occurs.
+- **Deoxyhemoglobin**: Hemoglobin that does not have any oxygen molecules attached to it.
+- **Dermis**: The second layer of the skin.
+- **Diaphragm**: The major muscle of respiration that separates the chest cavity from the abdominal cavity.
+- **Diastolic Blood Pressure**: The pressure exerted against the walls of the arteries when the left ventricle is at rest.
+- **Digestion**: The mechanical and chemical breakdown of food into smaller components that can be absorbed and used by the body.
+- **Digestive System**: The structures and organs that ingest and carry food so that absorption and waste elimination can occur.
+- **Distal**: Distant, or farm from the point of reference. Opposite of proximal.
+- **Dorsal**: Toward the back or spine. Opposite of ventral.
+- **Dorsal Respiratory Group (DRG)**: Respiratory rhythm center located in the brainstem that controls the rate and depth of normal quiet respiration.
+- **Dorsalis Pedis Arteries**: An artery of the foot, which can be felt on the top surface of the foot.
+- **Edema**: Swelling caused by fluid accumulating in the tissues.
+- **Endocrine System**: A system of ductless glands that produce hormones that regulate body functions.
+- **Epidermis**: The outermost layer of the skin.
+- **Epiglottis**: A small, leaf-shaped flap of cartilaginous tissue, located immediately posterior to the root of the tongue, that covers the opening of the larynx to keep food and liquid from entering the trachea and lungs.
+- **Esophagus**: Passageway at the lower end of the pharynx that leads to the stomach.
+- **Extension**: Straightening away from the body or increasing the angle between the bones or parts of the body.
+- **Extremities**: The limbs of the body. The lower extremities include the hips, thighs, legs, ankles, and feet. The upper extremities include the shoulders, arms, forearms, wrists, and hands.
+- **Face**: The area of the skull between the brow and the chin.
+- **Femoral Arteries**: The major artery of the thigh that supplies the groin and leg with blood.
+- **Femur**: The thighbone.
+- **Fibula**: The lateral, smaller long bone of the lower leg.
+- **Flexion**: Bending toward the body or decreasing the angle between the bones or parts of the body.
+- **Fowler’s Position**: A position in which the patient is laying on their back with the upper body elevated at a 45º to 60º angle.
+- **Frank-Starling Law Of The Heart**: The concept that the stretch of the muscle fiber in the left ventricle at the end of the diastole determines the force necessary to eject the blood contained within it.
+- **Frequency of Ventilation (f)**: Number of ventilations in one minute.
+- **Gliding Joint**: A joint where one bone slides across another, such as those connecting the small bones in the hands and feet.
+- **Glottis (Glottic Opening)**: The space between the true vocal cords.
+- **Glycolysis**: The breakdown of glucose into pyruvic acid in the cells.
+- **Heart**: The muscular organ that contracts to force blood into circulation through the body.
+- **Hinged Joint**: A joint that permits flexion and extension, such as the elbow, knee, or finger.
+- **Humerus**: The largest bone in the upper extremity, located in the proximal portion of the upper arm.
+- **Hydrostatic Pressure**: The blood pressure or force exerted against the inside of vessel walls; the “push” effect that forces fluid out of a capillary.
+- **Hypoperfusion**: The inadequate perfusion of cells, tissue, and organs with oxygen and other nutrients, resulting in cell, tissue, and organ dysfunction.
+- **Iliac Crest**: The upper margin of the bones of the pelvis.
+- **Inferior**: Beneath, lower, toward the feet. Opposite of superior.
+- **Inferior Plane**: Everything below the transverse line (below the waist). Opposite of the superior plane.
+- **Integumentary System**: The skin.
+- **Intercostal Muscles**: The muscles between the ribs.
+- **Irritant Receptors**: Receptors in the airways that are sensitive to irritating gases, aerosol, and particles and result in cough, bronchoconstriction, and increased ventilatory rate when stimulated.
+- **Ischium**: The posterior and inferior portion of the pelvis.
+- **J-receptors**: Receptors that are found in the capillaries surrounding the alveoli and are sensitive to increases in the pressure in the capillary and cause rapid, shallow ventilation when stimulated.
+- **Joint**: A place where one bone meets another.
+- **Laryngeal Spasm**: A contraction of the vocal cords that causes them to close and prevents air from passing through into the trachea. Also called a laryngospasm.
+- **Laryngopharynx (Hypopharynx)**: Upper airway section that extends from the hyoid bone at the base of the tongue to the openings of the esophagus and larynx.
+- **Larynx**: Structure that houses the vocal cords and is located inferior to the pharynx and superior to the trachea.
+- **Lateral**: Refers to the left or right of the midline, or away from the midline, or to the side of the body.
+- **Lateral Malleolus**: The prominent bony projection on the lateral side of the ankle, formed by the distal end of the fibula.
+- **Lateral Recumbent Position (Recovery Position)**: A position in which the patient is lying on the left or right side.
+- **Left**: Refers to the patient’s left; provider’s right side when standing directly in-front of the patient.
+- **Ligaments**: Bands of fibrous tissue that connect bones to a joint and support organs.
+- **Lumbar Spine**: The five vertebrae located between the sacral and the thoracic spine that forms the lower back.
+- **Lungs**: The principal organs of respiration.
+- **Mandible**: The lower movable portion of the jaw.
+- **Manubrium**: The broad superior portion of the sternum with which the clavicle and first ribs articulate.
+- **Maxilla**: The fixed upper portion of the jaw.
+- **Medial**: Toward the midline or center of the body.
+- **Medial Malleolus**: The prominent bony projection on the medial side of the ankle, formed by the distal end of the tibia.
+- **Metacarpals**: The bones of the hands.
+- **Metatarsals**: The bones that form the arch of the foot.
+- **Microcirculation**: The flow of blood through the arterioles, capillaries, and venules that is the site of exchange of gasses, nutrients, and waste products with the cells.
+- **Midaxillary**: Refers to the center of the armpit.
+- **Midaxillary Line**: An imaginary line that divides the body into anterior and posterior planes; the imaginary line from the middle of the armpit to the ankle.
+- **Midclavicular**: Refers to the center of the collarbone (clavicle).
+- **Midline**: An imaginary line drawn vertically through the middle of the patients, dividing it into right and left planes.
+- **Midsagittal Plane**: A vertical plane that divides the body into equal right and left halves.
+- **Minute Ventilation (Minute Volume)**: The amount of air moved in and out of the lungs in one minute.
+- **Musculoskeletal System**: The system of bones and muscle plus connective tissue that provides support and protection of the body and permits motion.
+- **Nasal Bones**: The bones that form the bed of the nose.
+- **Nasopharynx**: The portion of the pharynx that extends from the posterior nasal cavity to the soft palate.
+- **Nervous System**: The body system including the brain, spinal cord, and nerves that controls the voluntary and involuntary activity of the human body.
+- **Olecranon**: The part of the ulna that forms the bony prominence of the elbow.
+- **Orbits**: The bony structures that surround the eyes; the eye sockets.
+- **Oropharynx**: The central portion of the pharynx lying between the soft palate and the epiglottis with the mouth as the opening.
+- **Oxygenation**: The form of respiration in which oxygen molecules move across a membrane from an area of high oxygen concentration to an area of low oxygen concentration, as when oxygen moves out of a blood vessel into a cell; the process by which the blood and cells become saturated with oxygen.
+- **Oxyhemoglobin**: Hemoglobin that has at least one oxygen molecule attached to it.
+- **Palmar**: Relates to the palm of the hand.
+- **Parietal Pleura**: The outermost pleural layer that adheres to the chest wall.
+- **Patella**: The kneecap.
+- **Patent Airway**: An airway that is open and clear of any obstructions.
+- **Pelvis**: The bones that form the floor of the abdominal cavity: the sacrum and coccyx of the spine, the iliac crests, the pubis, and the ischium.
+- **Perfusion**: The delivery of oxygen and other nutrients to the cells of all organ systems and the elimination of waste products from the cells, which result from the constant adequate circulation of blood through the capillaries.
+- **Peripheral Chemoreceptors**: Receptors located in the aortic arch and the carotid bodies that are somewhat sensitive to blood pressure and pH, but are most sensitive to the level of oxygen in the arterial blood.
+- **Peripheral Nervous System**: The portion of the nervous system located outside the brain and spinal cord (PNS).
+- **Phalanges**: Bones of the fingers, thumbs, and toes. Plural of phalanx.
+- **Pharynx**: The throat, or passageway for air from the nasal and oral cavities to the larynx and passageway for food from the mouth to the esophagus; areas that comprise the pharynx are the nasopharynx, oropharynx, and laryngopharynx.
+- **Physiology**: The study of the function of the living body and its parts.
+- **Pivot Joint**: A joint that permits a turning motion, including joints between the head and next at the first and second cervical vertebrae and those in the wrist.
+- **Plantar**: Refers to the sole of the foot.
+- **Plasma**: The liquid part of the blood.
+- **Plasma Oncotic Pressure**: The force created by the presence of large molecules that tends to keep fluid inside a capillary by exerting a “pull” effect. Also called colloid oncotic pressure or oncotic pressure.
+- **Platelets**: Components of blood that are essential to the formation of blood cells.
+- **Pleural Cavity**: The potential space between the parietal and visceral layers of the pleura surrounding the lungs, containing lubricating fluid.
+- **Pontine Respiratory Center**: Located in the pons of the brainstem, sends inhibitory impulses to the inspiratory neurons to halt inspiration and permit exhalation. Also known as the pneumotaxic center.
+- **Posterior**: Toward the back. Opposite of anterior.
+- **Posterior Plane**: The back or dorsal side of the body.
+- **Posterior Tibial Arteries**: A major artery that travels from the calf to the foot and that can be felt on the medical surface of the ankle bone.
+- **Prefix**: A word part added to the beginning of a word to modify its meaning or to give additional or specific meaning to a word.
+- **Preload**: The pressure generated in the left ventricle at the end of diastole (resting phase of the cardiac cycle).
+- **Pronation**: Turning the forearm so the palm of the hand is turned toward the back.
+- **Prone**: Laying face down.
+- **Proximal**: Near the point of reference. Opposite of distal.
+- **Pubis**: Bone of the groin.
+- **Pulmonary Arteries**: Artery that carries deoxygenated blood from the right ventricle of the heart to the lungs.
+- **Pulmonary Valve**: The valve located between the right ventricle and the pulmonary artery that prevents backflow into the ventricle.
+- **Pulmonary Veins**: Vein that carries oxygenated blood from the lungs to the left atrium of the heart.
+- **Pulse**: The wave of blood propelled through the arteries because of the contraction of the left ventricle.
+- **Radial Arteries**: A major artery of the arm, distal to the elbow joint.
+- **Radius**: The lateral bone of the forearm.
+- **Red Blood Cells**: Part of the blood that gives it its color, carries oxygen to body cells, and carries carbon dioxide away from body cells.
+- **Reproductive System**: The male and female organs that function to accomplish human reproduction, the creation of offspring.
+- **Respiration**: The exchange of gases between an organism and its environment; the exchange of oxygen and carbon dioxide that takes place during inhalation and exhalation.
+- **Respiratory Control Centers**: Centers in the brainstem that regulate respiration, including the dorsal respiratory group (DRG) and the ventral respiratory group (VRG).
+- **Respiratory Membrane**: Thin network of capillaries that surrounds an alveolus; the respiratory membranes enable diffusions of oxygen from alveoli to capillaries and the diffusions of carbon dioxide from capillaries to alveoli.
+- **Respiratory System**: The organs involved in the exchange of gases between an organism and the atmosphere.
+- **Right**: Refers to the patient’s right; provider’s left side when standing directly in-front of the patient.
+- **Sacral Spine**: Five vertebrae that are fused together to form the rigid part of the posterior side of the pelvis. Also called the sacrum.
+- **Saddle Joint**: A joint shaped to permit combinations of limited movements along perpendicular planes. For example, the ankle allows the foot to turn inward slightly as it moves up and down.
+- **Sagittal Plane**: A vertical plane that divides the body into right and left segments. Also called the medial plane.
+- **Scapula**: The shoulder blade.
+- **Semi-Fowler’s Position**: A position in which the patient is lying on their back with their upper body elevated at less than 45º.
+- **Shock Position**: Elevation of the legs of a supine patient approximately 12 inches; an alternative to the Trendelenburg position; sometimes useful for treating a simple faint but no longer recommended in the treatment of shock.
+- **Skeletal Muscle (Voluntary Muscle)**: Any muscle that can be consciously controlled by the individual.
+- **Skull**: The bony structure at the top of the spinal column that houses and protects the brain. The skull has two parts: the cranium and the face.
+- **Smooth Muscle (Involuntary Muscle)**: Muscle that carries out the automatic muscular functions of the body.
+- **Spinal Column (Vertebral Column)**: The column of 33 vertebrae that enclose and protect the spinal cord.
+- **Sternum**: The breastbone.
+- **Stretch Receptors**: Receptors found in the smooth muscle of the airways that monitor the size and volume of the lungs. These receptors stimulate a decrease in the rate and volume of ventilation when stretched by high tidal volumes to protect against lung overinflation.
+- **Stroke Volume**: The volume of blood ejected by the left ventricle with each contraction.
+- **Subcutaneous Layer**: A layer of fatty tissue just below the dermis.
+- **Suffix**: A word part added to the end of a word to modify its meaning or to give additional or specific meaning to a word.
+- **Superior**: Above; toward the head. Opposite of inferior.
+- **Superior Plane**: Everything above the transverse line (above the waist). Opposite of inferior plane.
+- **Supination**: Turning the forearm so that the palm of the hand is turned towards the front.
+- **Supine**: Lying face up.
+- **Surfactant**: A substance responsible for maintaining surface tension in the alveoli.
+- **Systemic Vascular Resistance (SVR)**: The resistance of blood flow through a vessel based on the diameter of the vessel.
+- **Systolic Blood Pressure**: The pressure exerted against the walls of the arteries when the left ventricle contracts.
+- **Tendons**: Bands of fibrous tissue that connect muscles to bones.
+- **Thoracic Spine**: The 12 vertebrae directly below the cervical vertebrae that comprise the upper back.
+- **Thorax**: The chest, or that part of the body between the base of the neck and the diaphragm.
+- **Thyroid Cartilage**: The bulky cartilage that forms the anterior portion of the larynx. Also called the Adam’s apple.
+- **Tibia**: The medial, larger bone of the lower leg; the shinbone.
+- **Tidal Volume (VT)**: The amount of air moved in and out of the lungs in one respiration.
+- **Trachea**: The tubelike structure that leads from the larynx to the lungs.
+- **Trachealis Muscle**: The smooth muscle bridging the open posterior ends of the C-shaped cartilaginous rings of the trachea.
+- **Transverse Line**: An imaginary line drawn horizontally through the waist.
+- **Transverse Plane (Horizontal Plane)**: A plane that divides the body into superior and inferior segments.
+- **Trendelenburg Position**: Lying on the back with the lower part of the body elevated higher than the head on an inclined plane.
+- **Tricuspid Valve**: The valve located between the right atrium and the right ventricle that prevents the backflow of blood.
+- **True Vocal Cords**: The inferior pair of mucosal folds within the larynx that vibrate to produce speech sounds.
+- **Ulna**: The medial bone of the forearm.
+- **Urinary System (Renal System)**: The organs and structure responsible for filtering and excreting wastes from the blood.
+- **Valve**: Structures within the heart and circulatory system that keep blood flowing in one direction and prevent backflow.
+- **Vein**: Vessel that carries blood toward the heart.
+- **Venae Cavae**: The principal veins that carry deoxygenated blood to the heart. Plural of vena cava. The superior vena cava carries blood from the upper body; the inferior vena cava carries blood from the lower body.
+- **Ventilation**: The mechanical process by which air is moved in and out of the lungs, primarily caused by changes in pressure inside the chest.
+- **Ventilation/Perfusion (V/Q) Ratio**: The dynamic relationship between the amount of ventilation the alveoli receive and the amount of perfusion through the capillary surrounding the alveoli.
+- **Ventral**: Toward the front, or toward the anterior portion of the body. Opposite of dorsal.
+- **Ventral Respiratory Group (VRG)**: Respiratory rhythm center located in the brainstem that has both inspiratory and expiratory neurons. It becomes active and stimulates accessory muscles when an increase in ventilatory effort is necessary.
+- **Ventricles**: The two lower chambers of the heart.
+- **Venule**: The smallest branch of a vein.
+- **Vertebrae**: The 33 bony segments of the spinal column. Plural of vertebra.
+- **Visceral Pleura**: Innermost layer of the pleura that covers the lung.
+- **Vocal Cords**: Ligaments within the larynx that produce the sounds that permit speech. The superior of these ligaments is called false vocal cords or vestibular folds; the inferior of these ligaments are called the true vocal cords or vocal folds.
+- **White Blood Cells**: The part of the blood that helps the body’s immune system defend against infection.
+- **Xiphoid Process**: Inferior portion of the sternum.
+- **Zygomatic Bones**: The cheekbones.
