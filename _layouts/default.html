@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title | default: "EMT Course Notes" }}</title>
+  <script>
+    (function() {
+      var saved = localStorage.getItem('emt-theme');
+      if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+      // Auto-cleanup any leftover Service Workers from other localhost apps
+      if ('serviceWorker' in navigator && (location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
+        navigator.serviceWorker.getRegistrations().then(function(regs) {
+          if (regs.length > 0) {
+            Promise.all(regs.map(function(r) { return r.unregister(); })).then(function() {
+              if (window.caches) {
+                caches.keys().then(function(keys) {
+                  return Promise.all(keys.map(function(k) { return caches.delete(k); }));
+                }).then(function() { location.reload(); });
+              } else {
+                location.reload();
+              }
+            });
+          }
+        });
+      }
+    })();
+  </script>
+  <style>
+{% include style.css %}
+  </style>
+</head>
+<body>
+  <header class="mobile-header">
+    <button class="icon-btn mobile-menu-btn" id="drawerOpen" type="button" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/>
+      </svg>
+    </button>
+    <a href="{{ '/' | relative_url }}" class="mobile-brand">{{ site.title | default: "EMT Course" }}</a>
+  </header>
+
+  <div class="app-shell">
+    {% include sidebar.html %}
+
+    <main class="main-content" id="mainContent">
+      {{ content }}
+    </main>
+  </div>
+
+  <script>
+{% include app.js %}
+  </script>
+</body>
+</html>

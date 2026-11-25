@@ -1,0 +1,257 @@
+{%- assign all_docs = site.content | sort: "relative_path" -%}
+{%- assign current_parts = page.relative_path | default: "" | split: "/" -%}
+{%- assign current_module = current_parts[1] | default: "" -%}
+{%- assign current_chapter = current_parts[2] | default: "" -%}
+{%- assign current_chapter_key = current_module | append: "/" | append: current_chapter -%}
+{%- assign current_file_slug = current_parts | last | default: "" | replace: ".md", "" | downcase -%}
+
+<div class="drawer-backdrop" id="drawerBackdrop" aria-hidden="true"></div>
+
+<aside class="sidebar" id="sidebar" aria-label="Course Navigation">
+  <div class="sidebar-header">
+    <a href="{{ '/' | relative_url }}" class="brand">
+      <span class="brand-icon" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07"/>
+        </svg>
+      </span>
+      <span class="brand-title">{{ site.title | default: "EMT Course" }}</span>
+    </a>
+    <div class="sidebar-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle theme">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+        </svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
+        </svg>
+      </button>
+      <button class="icon-btn mobile-close-btn" id="drawerClose" type="button" aria-label="Close navigation">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6 6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <nav class="sidebar-nav">
+    {%- assign rendered_modules = "" -%}
+
+    {%- comment -%} Pass 1: Modules configured in _data/course.yml {%- endcomment -%}
+    {%- for mod in site.data.course -%}
+      {%- assign mod_dir = mod.folder -%}
+      {%- assign mod_token = "|" | append: mod_dir | append: "|" -%}
+      {%- assign rendered_modules = rendered_modules | append: mod_token -%}
+      <div class="nav-group">
+        <div class="nav-group-header">{% if mod.title and mod.title != "" %}{{ mod.title }}{% else %}{% include humanize.html slug=mod_dir %}{% endif %}</div>
+        <ul class="nav-list">
+          {%- assign mod_has_key_terms = false -%}
+          {%- for mdoc in all_docs -%}
+            {%- assign mparts = mdoc.relative_path | split: "/" -%}
+            {%- if mparts.size == 3 and mparts[1] == mod_dir -%}
+              {%- assign mslug = mparts[2] | replace: ".md", "" | downcase -%}
+              {%- if mslug == "key-terms" or mslug == "keyterms" -%}
+                {%- assign mod_has_key_terms = true -%}
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+
+          {%- assign mod_resource_count = 0 -%}
+          {%- for mdoc in all_docs -%}
+            {%- assign mparts = mdoc.relative_path | split: "/" -%}
+            {%- if mparts.size == 3 and mparts[1] == mod_dir -%}
+              {%- assign mfile = mparts[2] -%}
+              {%- assign mslug = mfile | replace: ".md", "" | downcase -%}
+              {%- assign is_kt_mm = false -%}
+              {%- if mslug == "key-terms-mindmap" or mslug == "keyterms-mindmap" -%}
+                {%- assign is_kt_mm = true -%}
+              {%- endif -%}
+              {%- if is_kt_mm and mod_has_key_terms -%}
+                {%- continue -%}
+              {%- endif -%}
+              {%- assign mod_resource_count = mod_resource_count | plus: 1 -%}
+              {%- case mslug -%}
+                {%- when "key-terms", "keyterms", "key-terms-mindmap", "keyterms-mindmap" -%}{%- assign mlabel = "Key Terms" -%}
+                {%- when "study-guide", "studyguide" -%}{%- assign mlabel = "Study Guide" -%}
+                {%- else -%}{%- capture mlabel -%}{% include humanize.html slug=mslug %}{%- endcapture -%}
+              {%- endcase -%}
+              {%- assign res_active = false -%}
+              {%- if mdoc.url == page.url -%}
+                {%- assign res_active = true -%}
+              {%- elsif current_parts.size == 3 and current_module == mod_dir -%}
+                {%- if mslug == "key-terms" or mslug == "keyterms" -%}
+                  {%- if current_file_slug == "key-terms-mindmap" or current_file_slug == "keyterms-mindmap" -%}
+                    {%- assign res_active = true -%}
+                  {%- endif -%}
+                {%- endif -%}
+              {%- endif -%}
+              <li>
+                <a href="{{ mdoc.url | relative_url }}" class="nav-link nav-link-resource{% if res_active %} is-active{% endif %}">
+                  <span class="nav-resource-dot" aria-hidden="true"></span>
+                  <span>{{ mlabel }}</span>
+                </a>
+              </li>
+            {%- endif -%}
+          {%- endfor -%}
+
+          {%- if mod_resource_count > 0 -%}
+            <li class="nav-divider" aria-hidden="true"></li>
+          {%- endif -%}
+
+          {%- assign rendered_chapters = "" -%}
+          {%- for chap in mod.chapters -%}
+            {%- assign chap_dir = chap.folder -%}
+            {%- assign chap_token = "|" | append: chap_dir | append: "|" -%}
+            {%- assign rendered_chapters = rendered_chapters | append: chap_token -%}
+            {%- assign chap_key = mod_dir | append: "/" | append: chap_dir -%}
+            {%- assign chap_prefix = "_content/" | append: chap_key | append: "/" -%}
+
+            {%- assign target_doc = nil -%}
+            {%- for sibling in all_docs -%}
+              {%- if sibling.relative_path contains chap_prefix -%}
+                {%- assign sib_name = sibling.relative_path | split: "/" | last | downcase -%}
+                {%- if sib_name == "outline.md" -%}
+                  {%- assign target_doc = sibling -%}
+                  {%- break -%}
+                {%- elsif target_doc == nil -%}
+                  {%- assign target_doc = sibling -%}
+                {%- endif -%}
+              {%- endif -%}
+            {%- endfor -%}
+
+            {%- if target_doc -%}
+              {%- assign is_active = false -%}
+              {%- if chap_key == current_chapter_key and current_parts.size >= 4 -%}
+                {%- assign is_active = true -%}
+              {%- endif -%}
+              <li>
+                <a href="{{ target_doc.url | relative_url }}" class="nav-link{% if is_active %} is-active{% endif %}">
+                  {% if chap.title and chap.title != "" %}{{ chap.title }}{% else %}{% include humanize.html slug=chap_dir %}{% endif %}
+                </a>
+              </li>
+            {%- endif -%}
+          {%- endfor -%}
+
+          {%- comment -%} Auto-append any chapters in this module not yet listed in _data/course.yml {%- endcomment -%}
+          {%- for cdoc in all_docs -%}
+            {%- assign cparts = cdoc.relative_path | split: "/" -%}
+            {%- if cparts.size >= 4 and cparts[1] == mod_dir -%}
+              {%- assign chap_dir = cparts[2] -%}
+              {%- assign chap_token = "|" | append: chap_dir | append: "|" -%}
+              {%- unless rendered_chapters contains chap_token -%}
+                {%- assign rendered_chapters = rendered_chapters | append: chap_token -%}
+                {%- assign chap_key = mod_dir | append: "/" | append: chap_dir -%}
+                {%- assign chap_prefix = "_content/" | append: chap_key | append: "/" -%}
+                {%- assign target_doc = cdoc -%}
+                {%- for sibling in all_docs -%}
+                  {%- if sibling.relative_path contains chap_prefix -%}
+                    {%- assign sib_name = sibling.relative_path | split: "/" | last | downcase -%}
+                    {%- if sib_name == "outline.md" -%}
+                      {%- assign target_doc = sibling -%}
+                      {%- break -%}
+                    {%- endif -%}
+                  {%- endif -%}
+                {%- endfor -%}
+                {%- assign is_active = false -%}
+                {%- if chap_key == current_chapter_key and current_parts.size >= 4 -%}
+                  {%- assign is_active = true -%}
+                {%- endif -%}
+                <li>
+                  <a href="{{ target_doc.url | relative_url }}" class="nav-link{% if is_active %} is-active{% endif %}">
+                    {% include humanize.html slug=chap_dir %}
+                  </a>
+                </li>
+              {%- endunless -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </div>
+    {%- endfor -%}
+
+    {%- comment -%} Pass 2: Auto-append any modules in _content/ not yet listed in _data/course.yml {%- endcomment -%}
+    {%- for doc in all_docs -%}
+      {%- assign parts = doc.relative_path | split: "/" -%}
+      {%- if parts.size >= 3 -%}
+        {%- assign mod_dir = parts[1] -%}
+        {%- assign mod_token = "|" | append: mod_dir | append: "|" -%}
+        {%- unless rendered_modules contains mod_token -%}
+          {%- assign rendered_modules = rendered_modules | append: mod_token -%}
+          <div class="nav-group">
+            <div class="nav-group-header">{% include humanize.html slug=mod_dir %}</div>
+            <ul class="nav-list">
+              {%- assign mod_has_key_terms = false -%}
+              {%- for mdoc in all_docs -%}
+                {%- assign mparts = mdoc.relative_path | split: "/" -%}
+                {%- if mparts.size == 3 and mparts[1] == mod_dir -%}
+                  {%- assign mslug = mparts[2] | replace: ".md", "" | downcase -%}
+                  {%- if mslug == "key-terms" or mslug == "keyterms" -%}
+                    {%- assign mod_has_key_terms = true -%}
+                  {%- endif -%}
+                {%- endif -%}
+              {%- endfor -%}
+
+              {%- for mdoc in all_docs -%}
+                {%- assign mparts = mdoc.relative_path | split: "/" -%}
+                {%- if mparts.size == 3 and mparts[1] == mod_dir -%}
+                  {%- assign mfile = mparts[2] -%}
+                  {%- assign mslug = mfile | replace: ".md", "" | downcase -%}
+                  {%- assign is_kt_mm = false -%}
+                  {%- if mslug == "key-terms-mindmap" or mslug == "keyterms-mindmap" -%}
+                    {%- assign is_kt_mm = true -%}
+                  {%- endif -%}
+                  {%- if is_kt_mm and mod_has_key_terms -%}
+                    {%- continue -%}
+                  {%- endif -%}
+                  {%- case mslug -%}
+                    {%- when "key-terms", "keyterms", "key-terms-mindmap", "keyterms-mindmap" -%}{%- assign mlabel = "Key Terms" -%}
+                    {%- when "study-guide", "studyguide" -%}{%- assign mlabel = "Study Guide" -%}
+                    {%- else -%}{%- capture mlabel -%}{% include humanize.html slug=mslug %}{%- endcapture -%}
+                  {%- endcase -%}
+                  <li>
+                    <a href="{{ mdoc.url | relative_url }}" class="nav-link nav-link-resource{% if mdoc.url == page.url %} is-active{% endif %}">
+                      <span class="nav-resource-dot" aria-hidden="true"></span>
+                      <span>{{ mlabel }}</span>
+                    </a>
+                  </li>
+                {%- endif -%}
+              {%- endfor -%}
+
+              {%- assign rendered_chapters = "" -%}
+              {%- for cdoc in all_docs -%}
+                {%- assign cparts = cdoc.relative_path | split: "/" -%}
+                {%- if cparts.size >= 4 and cparts[1] == mod_dir -%}
+                  {%- assign chap_dir = cparts[2] -%}
+                  {%- assign chap_token = "|" | append: chap_dir | append: "|" -%}
+                  {%- unless rendered_chapters contains chap_token -%}
+                    {%- assign rendered_chapters = rendered_chapters | append: chap_token -%}
+                    {%- assign chap_key = mod_dir | append: "/" | append: chap_dir -%}
+                    {%- assign chap_prefix = "_content/" | append: chap_key | append: "/" -%}
+                    {%- assign target_doc = cdoc -%}
+                    {%- for sibling in all_docs -%}
+                      {%- if sibling.relative_path contains chap_prefix -%}
+                        {%- assign sib_name = sibling.relative_path | split: "/" | last | downcase -%}
+                        {%- if sib_name == "outline.md" -%}
+                          {%- assign target_doc = sibling -%}
+                          {%- break -%}
+                        {%- endif -%}
+                      {%- endif -%}
+                    {%- endfor -%}
+                    {%- assign is_active = false -%}
+                    {%- if chap_key == current_chapter_key and current_parts.size >= 4 -%}
+                      {%- assign is_active = true -%}
+                    {%- endif -%}
+                    <li>
+                      <a href="{{ target_doc.url | relative_url }}" class="nav-link{% if is_active %} is-active{% endif %}">
+                        {% include humanize.html slug=chap_dir %}
+                      </a>
+                    </li>
+                  {%- endunless -%}
+                {%- endif -%}
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endunless -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </nav>
+</aside>

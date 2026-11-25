@@ -1,0 +1,96 @@
+---
+---
+
+- **Abandonment**: The act of discontinuing emergency care without ensuring that another health care professional with equivalent or better training will take over.
+- **Advance Directive**: Instructions, written in advance, such as a do not resuscitate (DNR) order, a living will, or a durable power of attorney.
+- **Advanced Emergency Medical Technician (AEMT)**: The level of EMS practitioner who performs the responsibilities of an EMT with the addition of the use of advanced airway devices, monitoring of blood glucose levels, initiation of intravenous and intraosseous infusions, and administration of a select number of medications.
+- **Americans With Disabilities Act (ADA)**: A federal law passed in 1990 that protects individuals with a documented disability from being denied initial or continued employment based on their disability.
+- **Assault**: A willful threat to inflict harm on a person.
+- **Base Station**: The central dispatch and coordination area of an EMS communications system that ideally is in contact with all other elements of the system.
+- **Battery**: The act of touching a person unlawfully without their consent.
+- **Body Mechanics**: Application of the study of muscles and body movement (kinesiology) to the use of the body and to the prevention and correction of problems related to posture and lifting.
+- **Burnout**: A condition resulting from chronic job stress, characterized by a state of irritability and fatigue that can markedly decrease effectiveness.
+- **Cleaning**: The process of washing a soiled object with soap and water.
+- **Closed-Ended Questions**: A question that requires only a "yes" or "no" answer.
+- **Communication**: A dynamic process that incorporates verbal and nonverbal expressions into meaningful messages that are received and interpreted by others.
+- **Community Paramedicine (CP)**: Services provided by the EMS agency and personnel that are administratively and clinically integrated with other health care entities.
+- **Consent**: Permission that must be obtained before care is rendered.
+- **Consolidated Omnibus Budget Reconciliation Act (COBRA)**: A federal regulation that ensures the public's access to emergency health care regardless of ability to pay.
+- **Critical Incident**: Any situation that causes unusually strong emotions that interfere with the ability to function.
+- **Critical Incident Stress Debriefing (CISD)**: A session usually held within 24 to 72 hours of a critical incident, where a team of peer counselors and mental health professionals help emergency service personnel work through emotions that normally follow a critical incident.
+- **Culture**: The thoughts, communications, actions, and values of a racial, an ethnic, a religious, or a social group.
+- **Decoder**: Device that recognizes and responds to only certain codes imposed on radio broadcasts.
+- **Decoding**: Process by which a received message is translated and interpreted.
+- **Defamation**: An intentional false communication that injures another person's reputation or good name.
+- **Defense Mechanisms**: Psychological coping strategies individuals use to protect themselves from unwanted feelings or thoughts.
+- **Defusing**: A session held prior to a critical incident stress debriefing (CISD) for emergency service personnel most directly involved to provide an opportunity to vent emotions and get information before the CISD.
+- **Direct Medical Oversight**: Real-time oversight or medical direction provided by a physician to an EMS provider seeking immediate feedback or direction; can be online or on-scene.
+- **Disinfecting**: Using a disinfectant such as alcohol or bleach to kill many of the microorganisms that can be present on the surface of an object.
+- **Do Not Resuscitate (DNR) Order**: A legal document, usually signed by the patient and their physician, that indicates to medical personnel which, if any, life-sustaining measures should be taken when the patient's heart and respiratory functions have ceased.
+- **Durable Power Of Attorney**: A legal document that designates a person who is legally empowered to make health care decisions for the signer of the document if he cannot do it himself.
+- **Duty To Act**: The obligation to care for a patient who requires it.
+- **Emergency Medical Responder (EMR)**: The level of EMS practitioner who is likely to be the first person on the scene with emergency care training.
+- **Emergency Medical Technician (EMT)**: The level of EMS practitioner who provides basic emergency medical care and transportation to patients who access the EMS system including oxygen therapy and ventilation equipment, pulse oximetry, use of automatic blood pressure monitoring equipment, and limited medication administration.
+- **Emergency Medical Treatment And Active Labor Act (EMTALA)**: A federal regulation that ensures the public's access to emergency health care regardless of the person's ability to pay. Also known as the "anti-patient-dumping statute," forbidding turning a patient away at the door or sending him to a public hospital because of an inability to pay.
+- **Emergency Move**: A patient move that should be performed when there is immediate danger to the patient or to the rescuer.
+- **Encoder**: Device that breaks down sound waves into unique digital codes for radio transmission.
+- **Encoding**: Process of converting information into a message.
+- **Ethnocentrism**: The tendency to evaluate other cultures or groups according to the standards, values, and customs of one's own culture, often viewing one's own way of life as superior.
+- **Evidence-Based Guidelines (EBG)**: Development of medical guidelines based on scientific evidence and research studies.
+- **Evidence-Based Medicine**: Medical practice based on scientific evidence that certain procedures, medications, and equipment improve patient outcome.
+- **Expressed Consent**: Permission that must be obtained from every conscious adult who has the capacity to understand and make a reasoned judgment before emergency treatment can be provided.
+- **False Imprisonment**: The intentional and unjustifiable detention of a person without their consent or other legal authority.
+- **Feedback**: Any information that an individual receives about their behavior.
+- **Gestures**: Nonverbal body movements that convey meaning to others.
+- **Good Samaritan Law**: A law that provides immunity from liability for acts performed in good faith to assist at the scene of a medical emergency unless those acts constitute gross negligence.
+- **Haptics**: The study of touching.
+- **Health Insurance Portability And Accountability Act (HIPAA)**: A federal law enacted in 1996 that protects the privacy of patient health care information and gives the patient control over how the information is distributed and used.
+- **Implied Consent**: The assumption that in a true emergency in which a patient who is unresponsive or cannot make a rational decision is at a significant risk of death, disability, or deterioration of a condition, that patient would agree to emergency treatment. Also called the emergency doctrine.
+- **Indirect Medical Oversight**: The routine duties and responsibilities of the EMS medical director, including the creation of protocols and standing orders.
+- **Informed Consent**: Consent for treatment that is given by a patient who has the capacity to understand and make a reasoned judgment based on full disclosure of possible risks and consequences.
+- **Intentional Tort**: A wrongful act, injury, or damage that is committed knowingly.
+- **Intimate Zone**: In American culture, the space within less than 12 feet of an individual.
+- **Involuntary Consent**: Consent that is assumed when the patient either lacks the capacity to understand and make a reasoned judgment or is legally not permitted to make their own medical decisions.
+- **Kyphosis**: Abnormal curvature of the spine with convexity backward. Also called slouch.
+- **Leading Questions**: Questions that suggest an answer guided by the individual who is asking the question.
+- **Libel**: The act of injuring a person's reputation or good name in writing or through the mass media with malicious intent or reckless disregard for the falsity of those statements.
+- **Living Will**: A legal document that delineates the signer's wishes about general health care issues such as the use of long-term life support measures.
+- **Lordosis**: Abnormal anterior convexity of the spine. Also called swayback.
+- **Medical Direction**: Medical policies, procedures, and practices that are available to EMS providers either off-line or on-line.
+- **Medical Director**: Physician who is legally responsible for the clinical and patient care aspects of an EMS system.
+- **Medical Oversight**: The medical director's broad responsibilities, including all clinical and administrative functions and activities necessary to exercise ultimate responsibility for the emergency care provided by individual personnel and the entire emergency medical services (EMS) system.
+- **Minimum Data Set**: The minimum information the U.S. Department of Transportation has determined should be included on all prehospital care reports.
+- **Minor Consent**: Permission obtained from a parent or legal guardian for emergency treatment of a minor or an adult who has been legally ruled mentally incompetent.
+- **Mobile Data Terminal**: Device that is mounted in the cab of an ambulance, receives a signal from a digital radio, and displays the information on the terminal screen. Some also print a hard copy of the information.
+- **Mobile Integrated Healthcare (MIH)**: Provision by a variety of health care entities and practitioners of patient-centered health care in the out-of-hospital environment using mobile technology and resources and integrated administratively or clinically with the EMS system.
+- **Negligence**: The act of deviating from an accepted standard of care through carelessness, inattention, disregard, inadvertence, or oversight, which results in further injury to the patient.
+- **Nonurgent Move**: A patient move made when no immediate threat to life exists.
+- **Off-Line Medical Direction**: Medical policies, procedures, and practices that medical direction has established in written guidelines.
+- **On-Line Medical Direction**: Direct orders from a physician to a prehospital care provider given by radio or telephone.
+- **On-Scene Medical Direction**: Medical direction provided by an EMS medical director physician who is on scene with the EMS crew.
+- **Open-Ended Questions**: Questions that enable the patient to give a detailed response in their own words.
+- **Paramedic**: The level of EMS practitioner who provides the highest level of prehospital care, including advanced assessments and care, formation of a field impression, and invasive and drug interventions.
+- **Pathogens**: Microorganisms such as bacteria and viruses that cause disease.
+- **Personal Protective Equipment (PPE)**: Equipment worn to protect against injury and disease.
+- **Pertinent Negatives**: Signs or symptoms that might be expected in certain circumstances, based on the chief complaint or physical exam, but are denied by the patient or not found on examination.
+- **Physician Orders For Life-Sustaining Treatment (POLST)**: Orders that identify the desired level of life-sustaining treatment in patients with a terminal or life-threatening illness who are not likely to survive. Also known as medical orders for life-sustaining treatment (MOLST).
+- **Power Grip**: Recommended gripping technique. The palm and fingers come in complete contact with the object and all fingers are bent at the same angle.
+- **Power Lift**: Recommended technique for lifting. Feet are apart, knees bent, back and abdominal muscles tightened, back as straight as possible, lifting force driven through heels and arches, upper body rising before hips.
+- **Prehospital Care**: Emergency medical treatment given to patients before they are transported to a hospital or other facility. Also called out-of-hospital care.
+- **Prehospital Care Report (PCR)**: Documentation of an EMT's contact with a patient.
+- **Protocols**: The policies and procedures for all components of an EMS system. Also called orders or standing orders.
+- **Proximate Cause**: The act of deviating from an accepted standard of care through carelessness, inattention, disregard, inadvertence, or oversight, which results in further injury to the patient.
+- **Purified Protein Derivative (PPD) Tuberculin Test**: A test to determine the presence of a tuberculosis infection based on a person's positive reaction to tuberculin, a substance prepared from the tubercle bacillus.
+- **Quality Improvement (QI)**: A system of internal and external reviews and audits of an EMS system to ensure a high quality of care.
+- **Repeaters**: Devices that receive transmissions from a relatively low-powered source such as a mobile or portable radio and rebroadcast them at another frequency and a higher power.
+- **SBAR (Situation, Background, Assessment, And Recommendation)**: Acronym for situation, background, assessment, and recommendation; a method of organizing communications about a patient.
+- **Scope Of Practice**: The actions and care that an EMT is legally allowed to perform, as typically defined by state laws.
+- **Slander**: The act of injuring a person's reputation or good name through spoken statements with malicious intent or reckless disregard for the falsity of those statements.
+- **Standard Of Care**: Emergency care that would be expected to be given to a patient by any trained EMT under similar circumstances.
+- **Standard Precautions**: A method of preventing infection by disease organisms based on the premise that all blood and body fluids are infectious. Formerly called body substance isolation.
+- **Standing Orders**: Preauthorized treatment procedures; a type of treatment protocol.
+- **Sterilization**: The process by which an object is subject to certain chemical or physical substances (typically, superheated steam in an autoclave) that kill all microorganisms on the surface of an object.
+- **Telemetry**: The process of transmitting data through an automated communications process, usually using wireless data transfer technology.
+- **Tort**: A wrongful act, injury, or damage.
+- **Triage Tag**: A tag containing key information that is attached to a patient during a multiple-casualty incident.
+- **Urgent Move**: A patient move made because there is an immediate threat to life because of the patient's condition and the patient must be moved quickly for transport.

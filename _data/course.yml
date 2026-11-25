@@ -1,0 +1,10 @@
+# Controls the display order and titles for modules and chapters in _content/.
+# Omit `title` on any module or chapter to automatically fall back to its folder name (e.g. "chapter-7" -> "Chapter 7").
+# Files inside each folder (key-terms.md, key-terms-mindmap.md, study-guide.md, outline.md, mindmap.md, pq4rs.md, etc.)
+# are discovered automatically.
+
+- folder: module-2
+  title: "[Mod 2] Introduction"
+  chapters:
+    - folder: chapter-1
+      title: "[Ch. 1] EMS Systems, Research, and Public Health"

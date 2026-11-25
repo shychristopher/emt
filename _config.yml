@@ -1,0 +1,37 @@
+title: EMT Course Notes
+description: Study outlines, mind maps, and PQ4Rs for EMT coursework.
+baseurl: "/emt"
+url: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+collections:
+  content:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "content"
+    values:
+      layout: "chapter"
+
+plugins:
+  - jekyll-optional-front-matter
+
+# Never cache responses during local `jekyll serve`
+webrick:
+  headers:
+    Cache-Control: "no-store, no-cache, must-revalidate, max-age=0"
+    Pragma: "no-cache"
+    Expires: "0"
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,245 @@
+---
+layout: default
+---
+{%- assign all_docs = site.content | sort: "relative_path" -%}
+{%- assign parts = page.relative_path | split: "/" -%}
+{%- assign mod_dir = parts[1] | default: "" -%}
+{%- assign is_module_page = false -%}
+{%- if parts.size == 3 -%}
+  {%- assign is_module_page = true -%}
+  {%- assign filename = parts[2] | default: "" -%}
+{%- else -%}
+  {%- assign chap_dir = parts[2] | default: "" -%}
+  {%- assign filename = parts[3] | default: "" -%}
+{%- endif -%}
+{%- assign slug = filename | replace: ".md", "" | downcase -%}
+
+{%- assign is_key_terms_list = false -%}
+{%- if slug == "key-terms" or slug == "keyterms" -%}
+  {%- assign is_key_terms_list = true -%}
+{%- endif -%}
+
+{%- assign is_key_terms_mindmap = false -%}
+{%- if slug == "key-terms-mindmap" or slug == "keyterms-mindmap" -%}
+  {%- assign is_key_terms_mindmap = true -%}
+{%- endif -%}
+
+{%- assign is_mindmap_page = false -%}
+{%- if slug == "mindmap" or is_key_terms_mindmap -%}
+  {%- assign is_mindmap_page = true -%}
+{%- endif -%}
+
+{%- comment -%} Resolve display titles from _data/course.yml with humanized folder fallback {%- endcomment -%}
+{%- capture mod_title -%}{% include humanize.html slug=mod_dir %}{%- endcapture -%}
+{%- capture chap_title -%}{% include humanize.html slug=chap_dir %}{%- endcapture -%}
+{%- for mod in site.data.course -%}
+  {%- if mod.folder == mod_dir -%}
+    {%- if mod.title and mod.title != "" -%}
+      {%- assign mod_title = mod.title -%}
+    {%- endif -%}
+    {%- unless is_module_page -%}
+      {%- for chap in mod.chapters -%}
+        {%- if chap.folder == chap_dir -%}
+          {%- if chap.title and chap.title != "" -%}
+            {%- assign chap_title = chap.title -%}
+          {%- endif -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endunless -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} Friendly title for module-level pages {%- endcomment -%}
+{%- if is_module_page -%}
+  {%- case slug -%}
+    {%- when "key-terms", "keyterms", "key-terms-mindmap", "keyterms-mindmap" -%}{%- assign page_heading = "Key Terms" -%}
+    {%- when "study-guide", "studyguide" -%}{%- assign page_heading = "Study Guide" -%}
+    {%- else -%}{%- capture page_heading -%}{% include humanize.html slug=slug %}{%- endcapture -%}
+  {%- endcase -%}
+{%- endif -%}
+
+{%- comment -%} Find chapter study-guide.md and default chapter page {%- endcomment -%}
+{%- assign chap_study_guide = nil -%}
+{%- assign chap_default_doc = nil -%}
+{%- unless is_module_page -%}
+  {%- assign chap_prefix = "_content/" | append: mod_dir | append: "/" | append: chap_dir | append: "/" -%}
+  {%- for sibling in all_docs -%}
+    {%- if sibling.relative_path contains chap_prefix -%}
+      {%- assign sib_slug = sibling.relative_path | split: "/" | last | replace: ".md", "" | downcase -%}
+      {%- if sib_slug == "study-guide" or sib_slug == "study_guide" or sib_slug == "studyguide" -%}
+        {%- assign chap_study_guide = sibling -%}
+      {%- elsif sib_slug == "outline" -%}
+        {%- assign chap_default_doc = sibling -%}
+      {%- elsif chap_default_doc == nil -%}
+        {%- assign chap_default_doc = sibling -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endunless -%}
+
+{%- comment -%} Find module-level key-terms.md and optional key-terms-mindmap.md {%- endcomment -%}
+{%- assign key_terms_doc = nil -%}
+{%- assign key_terms_mindmap_doc = nil -%}
+{%- assign mod_prefix = "_content/" | append: mod_dir | append: "/" -%}
+{%- for mdoc in all_docs -%}
+  {%- assign mparts = mdoc.relative_path | split: "/" -%}
+  {%- if mparts.size == 3 and mparts[1] == mod_dir -%}
+    {%- assign mslug = mparts[2] | replace: ".md", "" | downcase -%}
+    {%- if mslug == "key-terms" or mslug == "keyterms" -%}
+      {%- assign key_terms_doc = mdoc -%}
+    {%- elsif mslug == "key-terms-mindmap" or mslug == "keyterms-mindmap" -%}
+      {%- assign key_terms_mindmap_doc = mdoc -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign dual_inline_mindmap = false -%}
+{%- if is_key_terms_list and key_terms_mindmap_doc == nil -%}
+  {%- assign dual_inline_mindmap = true -%}
+{%- endif -%}
+
+<article class="chapter-article{% if is_mindmap_page %} is-mindmap-page{% endif %}" id="chapterArticle">
+  <header class="chapter-header">
+    <div class="chapter-breadcrumb">
+      <span class="crumb-module">{{ mod_title }}</span>
+      <span class="crumb-sep" aria-hidden="true">/</span>
+      <span class="crumb-chapter">
+        {%- if is_module_page -%}
+          {{ page_heading }}
+          {%- if is_key_terms_mindmap %} · Mind Map{% endif -%}
+        {%- else -%}
+          {{ chap_title }}
+          {%- if slug == "study-guide" or slug == "study_guide" or slug == "studyguide" %} · Study Guide{% endif -%}
+        {%- endif -%}
+      </span>
+    </div>
+
+    <div class="chapter-title-row">
+      <h1 class="chapter-title">
+        {%- if is_module_page -%}
+          {{ page_heading }}
+        {%- else -%}
+          {{ chap_title }}
+        {%- endif -%}
+      </h1>
+
+      <div class="chapter-header-actions">
+        {%- if is_mindmap_page -%}
+          <button type="button" class="pill-toggle" id="mindmapViewToggle" data-mode="map">
+            View as Markdown
+          </button>
+        {%- elsif dual_inline_mindmap -%}
+          <button type="button" class="pill-toggle pill-toggle-accent" id="mindmapViewToggle" data-mode="prose">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            <span>View as Mind Map</span>
+          </button>
+        {%- endif -%}
+
+        {%- unless is_module_page -%}
+          {%- if slug == "study-guide" or slug == "study_guide" or slug == "studyguide" -%}
+            {%- if chap_default_doc -%}
+              <a href="{{ chap_default_doc.url | relative_url }}" class="pill-toggle pill-toggle-accent">
+                &larr; Back to Chapter
+              </a>
+            {%- endif -%}
+          {%- elsif chap_study_guide -%}
+            <a href="{{ chap_study_guide.url | relative_url }}" class="pill-toggle pill-toggle-accent">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+              <span>Study Guide</span>
+            </a>
+          {%- endif -%}
+        {%- endunless -%}
+      </div>
+    </div>
+  </header>
+
+  {% if is_key_terms_list %}
+  <div class="term-search-wrap" id="termSearchWrap">
+    <svg class="term-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+    </svg>
+    <input type="search" class="term-search-input" id="termSearchInput" placeholder="Filter key terms or definitions…" autocomplete="off">
+    <span class="term-search-count" id="termSearchCount"></span>
+  </div>
+  {% endif %}
+
+  {% if is_mindmap_page or dual_inline_mindmap %}
+  <div class="mindmap-stage{% if dual_inline_mindmap %} is-hidden{% endif %}" id="mindmapStage" data-lazy="{% if dual_inline_mindmap %}true{% else %}false{% endif %}">
+    <div class="mindmap-toolbar" role="toolbar" aria-label="Mind map controls">
+      <button type="button" class="mm-btn" id="mmZoomOut" title="Zoom out">&minus;</button>
+      <button type="button" class="mm-btn" id="mmZoomIn" title="Zoom in">+</button>
+      <button type="button" class="mm-btn" id="mmFit" title="Fit to view">Fit</button>
+      <button type="button" class="mm-btn" id="mmExpandAll" title="Expand all branches">Expand</button>
+      <button type="button" class="mm-btn" id="mmCollapse" title="Reset collapse level">Collapse</button>
+      <button type="button" class="mm-btn" id="mmFullscreen" title="Toggle fullscreen">Full</button>
+    </div>
+    <div class="mindmap-status" id="mindmapStatus">Loading mind map…</div>
+    <svg class="mindmap-svg" id="mindmapSvg"></svg>
+  </div>
+  <script type="application/json" id="mindmapOptionsData">{{ page.markmap | jsonify | replace: "</", "<\/" }}</script>
+  <div class="prose{% if is_mindmap_page %} is-hidden{% endif %}" id="mindmapProse"{% unless is_key_terms_list or is_key_terms_mindmap %} data-autolink-terms="true"{% endunless %}>
+    {{ content }}
+  </div>
+  {% else %}
+  <div class="prose" data-autolink-terms="true">
+    {{ content }}
+  </div>
+  {% endif %}
+</article>
+
+{%- if key_terms_doc and is_key_terms_list == false and is_key_terms_mindmap == false -%}
+<script type="application/json" id="moduleKeyTermsData">
+{
+  "url": {{ key_terms_doc.url | relative_url | jsonify }},
+  "html": {{ key_terms_doc.content | markdownify | jsonify | replace: "</", "<\/" }}
+}
+</script>
+<dialog class="term-dialog" id="termDialog" aria-labelledby="termDialogTitle">
+  <div class="term-dialog-header">
+    <span class="term-dialog-badge">Key Term</span>
+    <button type="button" class="icon-btn" id="termDialogClose" aria-label="Close definition">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 6 6 18M6 6l12 12"/>
+      </svg>
+    </button>
+  </div>
+  <h2 class="term-dialog-title" id="termDialogTitle"></h2>
+  <p class="term-dialog-body" id="termDialogBody"></p>
+  <div class="term-dialog-footer">
+    <a href="{{ key_terms_doc.url | relative_url }}" class="term-dialog-link" id="termDialogAllLink">
+      View all Module Key Terms &rarr;
+    </a>
+  </div>
+</dialog>
+{%- endif -%}
+
+{%- if is_module_page -%}
+  {%- assign show_kt_bar = false -%}
+  {%- if is_key_terms_list or is_key_terms_mindmap -%}
+    {%- if key_terms_doc and key_terms_mindmap_doc -%}
+      {%- assign show_kt_bar = true -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if show_kt_bar -%}
+  <nav class="bottom-bar-wrap" aria-label="Key Terms Views">
+    <div class="bottom-bar">
+      <a href="{{ key_terms_doc.url | relative_url }}" class="bottom-bar-btn{% if is_key_terms_list %} is-active{% endif %}"{% if is_key_terms_list %} aria-current="page"{% endif %}>
+        <span class="bottom-bar-icon" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>
+        </span>
+        <span class="bottom-bar-label">Terms List</span>
+      </a>
+      <a href="{{ key_terms_mindmap_doc.url | relative_url }}" class="bottom-bar-btn{% if is_key_terms_mindmap %} is-active{% endif %}"{% if is_key_terms_mindmap %} aria-current="page"{% endif %}>
+        <span class="bottom-bar-icon" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+        </span>
+        <span class="bottom-bar-label">Mind Map</span>
+      </a>
+    </div>
+  </nav>
+  {%- endif -%}
+{%- else -%}
+  {% include bottom_bar.html %}
+{%- endif -%}

@@ -1,0 +1,71 @@
+{%- assign parts = page.relative_path | split: "/" -%}
+{%- if parts.size >= 4 -%}
+  {%- assign chap_prefix = "_content/" | append: parts[1] | append: "/" | append: parts[2] | append: "/" -%}
+  {%- assign all_docs = site.content | sort: "relative_path" -%}
+
+  <nav class="bottom-bar-wrap" aria-label="Chapter Views">
+    <div class="bottom-bar">
+      {%- for doc in all_docs -%}
+        {%- if doc.relative_path contains chap_prefix -%}
+          {%- assign filename = doc.relative_path | split: "/" | last -%}
+          {%- assign slug = filename | replace: ".md", "" | downcase -%}
+          {%- if slug == "study-guide" or slug == "study_guide" or slug == "studyguide" -%}
+            {%- continue -%}
+          {%- endif -%}
+          {%- assign is_current = false -%}
+          {%- if doc.url == page.url -%}
+            {%- assign is_current = true -%}
+          {%- endif -%}
+
+          {%- case slug -%}
+            {%- when "outline" -%}
+              {%- assign label = "Outline" -%}
+              {%- assign icon = "outline" -%}
+            {%- when "mindmap" -%}
+              {%- assign label = "Mind Map" -%}
+              {%- assign icon = "mindmap" -%}
+            {%- when "pq4rs" -%}
+              {%- assign label = "PQ4Rs" -%}
+              {%- assign icon = "pq4rs" -%}
+            {%- when "flashcards" -%}
+              {%- assign label = "Flashcards" -%}
+              {%- assign icon = "flashcards" -%}
+            {%- when "keyterms", "key-terms", "terms", "vocabulary" -%}
+              {%- assign label = "Key Terms" -%}
+              {%- assign icon = "terms" -%}
+            {%- when "summary" -%}
+              {%- assign label = "Summary" -%}
+              {%- assign icon = "summary" -%}
+            {%- when "quiz", "practice" -%}
+              {%- assign label = "Practice" -%}
+              {%- assign icon = "practice" -%}
+            {%- else -%}
+              {%- assign label = filename | replace: ".md", "" | replace: "-", " " | replace: "_", " " -%}
+              {%- assign icon = "doc" -%}
+          {%- endcase -%}
+
+          <a href="{{ doc.url | relative_url }}" class="bottom-bar-btn{% if is_current %} is-active{% endif %}"{% if is_current %} aria-current="page"{% endif %}>
+            <span class="bottom-bar-icon" aria-hidden="true">
+              {%- if icon == "outline" -%}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+              {%- elsif icon == "mindmap" -%}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+              {%- elsif icon == "pq4rs" -%}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              {%- elsif icon == "flashcards" -%}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              {%- elsif icon == "terms" -%}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>
+              {%- elsif icon == "practice" -%}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+              {%- else -%}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+              {%- endif -%}
+            </span>
+            <span class="bottom-bar-label">{{ label }}</span>
+          </a>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </nav>
+{%- endif -%}

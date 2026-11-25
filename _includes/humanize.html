@@ -1,0 +1,2 @@
+{%- assign _words = include.slug | default: "" | replace: "-", " " | replace: "_", " " | split: " " -%}
+{%- for _w in _words -%}{{ _w | capitalize }}{% unless forloop.last %} {% endunless %}{%- endfor -%}
