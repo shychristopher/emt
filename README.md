@@ -6,6 +6,8 @@ An unofficial, GitHub Pages–ready Jekyll study library. Each module has a Stud
 
 ALS Connections starts off. The switch shows labeled ALS sections and branches in Study Guides, Rapid Review, PQ4RS, and Mind Maps. The browser remembers the setting.
 
+See [CONTRIBUTORS.md](CONTRIBUTORS.md) for source formats and the import workflow.
+
 ## Content layout
 
 - `_data/course.yml` holds module and chapter titles and navigation order.

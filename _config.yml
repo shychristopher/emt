@@ -32,6 +32,8 @@ webrick:
 
 exclude:
   - README.md
+  - CONTRIBUTORS.md
+  - scripts/
   - LICENSE
   - Gemfile
   - Gemfile.lock
