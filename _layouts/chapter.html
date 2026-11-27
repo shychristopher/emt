@@ -10,8 +10,6 @@ layout: default
 {% else %}
   {% assign related = module_pages | where_exp: 'doc', 'doc.chapter_id == nil' %}
 {% endif %}
-{% assign als = related | where: 'view', 'als-connections' | first %}
-{% assign bls = related | where: 'view', 'emt-notes' | first %}
 {% assign terms = related | where: 'view', 'key-terms' | first %}
 {% assign view = site.data.views | where: 'id', page.view | first %}
 {% assign subject = chapter.title | default: module.title %}
@@ -29,23 +27,7 @@ layout: default
     <p class="eyebrow">{% if chapter %}Chapter {{ chapter.number }}{% else %}Module {{ module.number }}{% endif %}</p>
     <h1>{{ subject | escape }}</h1>
   </div>
-  {% if page.view == 'als-connections' or page.view == 'emt-notes' %}
-    {% if page.view == 'als-connections' %}
-      {% assign toggle_url = bls.url %}
-      {% assign toggle_state = 'on' %}
-      {% assign toggle_label = 'Turn off ALS Connections and return to EMT Notes' %}
-    {% else %}
-      {% assign toggle_url = als.url %}
-      {% assign toggle_state = 'off' %}
-      {% assign toggle_label = 'Turn on ALS Connections and open annotated EMT Notes' %}
-    {% endif %}
-    {% if als and bls %}
-      <a class="als-toggle" data-state="{{ toggle_state }}" href="{{ toggle_url | relative_url }}" aria-label="{{ toggle_label }}">
-        <span class="als-switch" aria-hidden="true"></span>
-        <span>ALS Connections <small>{{ toggle_state | capitalize }}</small></span>
-      </a>
-    {% endif %}
-  {% elsif page.view == 'study-guide' or page.view == 'rapid-review' or page.view == 'pq4rs' or page.view == 'mindmap' %}
+  {% if page.view == 'study-guide' or page.view == 'rapid-review' or page.view == 'pq4rs' or page.view == 'mindmap' %}
     <button class="als-toggle" type="button" role="switch" aria-checked="false" aria-label="ALS Connections" id="alsPreference" hidden>
       <span class="als-switch" aria-hidden="true"></span>
       <span>ALS Connections <small aria-hidden="true">Off</small></span>
@@ -55,18 +37,10 @@ layout: default
 
 <nav class="view-nav" aria-label="Study views">
   {% for option in site.data.views %}
-    {% unless option.id == 'als-connections' %}
-      {% assign destination = related | where: 'view', option.id | first %}
-      {% if destination %}
-        {% assign active = false %}
-        {% if page.view == option.id %}{% assign active = true %}{% endif %}
-        {% if page.view == 'als-connections' and option.id == 'emt-notes' %}
-          {% assign destination = als %}
-          {% assign active = true %}
-        {% endif %}
-        <a href="{{ destination.url | relative_url }}"{% if active %} aria-current="page"{% endif %}{% if option.id == 'emt-notes' and als and bls %} data-als-notes="{{ als.url | relative_url }}" data-bls-notes="{{ bls.url | relative_url }}"{% endif %}>{{ option.label }}</a>
-      {% endif %}
-    {% endunless %}
+    {% assign destination = related | where: 'view', option.id | first %}
+    {% if destination %}
+      <a href="{{ destination.url | relative_url }}"{% if page.view == option.id %} aria-current="page"{% endif %}>{{ option.label }}</a>
+    {% endif %}
   {% endfor %}
 </nav>
 
@@ -74,8 +48,6 @@ layout: default
   <article class="reading-card" id="chapterArticle">
     <header class="reading-header">
       <h2>{{ view.label }}</h2>
-      {% if page.view == 'emt-notes' %}<p>The BLS edition of this chapter’s EMT notes.</p>{% endif %}
-      {% if page.view == 'als-connections' %}<p>The EMT notes edition with supplemental Advanced Life Support annotations.</p>{% endif %}
       {% if page.view == 'study-guide' and chapter == nil %}
         <nav class="module-chapters" aria-label="Module chapters">
           {% for item in module.chapters %}

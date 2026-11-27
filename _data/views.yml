@@ -5,5 +5,3 @@
 - { id: concept-maps, label: Concept Maps }
 - { id: key-terms, label: Key Terms }
 - { id: flashcards, label: Flashcards }
-- { id: emt-notes, label: EMT Notes }
-- { id: als-connections, label: ALS Connections }

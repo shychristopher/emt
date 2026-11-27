@@ -1,10 +1,10 @@
 # EMT Course Notes
 
-An unofficial, GitHub Pages–ready Jekyll study library. Each module has a Study Guide, Rapid Review, PQ4RS, Mind Map, and Concept Maps. Chapters also have searchable Key Terms, Flashcards, and EMT Notes.
+An unofficial, GitHub Pages–ready Jekyll study library. Each module has a Study Guide, Rapid Review, PQ4RS, Mind Map, and Concept Maps. Chapters also have searchable Key Terms and Flashcards.
 
 ## ALS Connections
 
-ALS Connections starts off. The switch shows labeled ALS sections and branches in Study Guides, Rapid Review, PQ4RS, and Mind Maps. The browser remembers the setting. In EMT Notes, the switch opens the paired BLS or ALS-annotated edition. Each edition can be bookmarked directly.
+ALS Connections starts off. The switch shows labeled ALS sections and branches in Study Guides, Rapid Review, PQ4RS, and Mind Maps. The browser remembers the setting.
 
 ## Content layout
 

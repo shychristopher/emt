@@ -53,22 +53,13 @@
     });
   }
 
-  const editionToggle = document.querySelector('a.als-toggle');
   const inlineToggle = document.getElementById('alsPreference');
-  const notes = document.querySelector('[data-als-notes]');
   let alsEnabled = false;
   try { alsEnabled = localStorage.getItem('emt-als-connections') === 'on'; } catch (error) {}
   function saveAlsPreference(enabled) {
     alsEnabled = enabled;
     try { localStorage.setItem('emt-als-connections', enabled ? 'on' : 'off'); } catch (error) {}
   }
-  function updateNotesLink() {
-    if (notes && !editionToggle) notes.href = alsEnabled ? notes.dataset.alsNotes : notes.dataset.blsNotes;
-  }
-  if (editionToggle) {
-    editionToggle.addEventListener('click', () => saveAlsPreference(editionToggle.dataset.state === 'off'));
-  }
-  updateNotesLink();
 
   const prose = document.getElementById('readingText');
   if (!prose) return;
@@ -134,7 +125,6 @@
       inlineToggle.dataset.state = alsEnabled ? 'on' : 'off';
       inlineToggle.setAttribute('aria-checked', String(alsEnabled));
       inlineToggle.querySelector('small').textContent = alsEnabled ? 'On' : 'Off';
-      updateNotesLink();
     }
 
     if (supplemental.size) {
