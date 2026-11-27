@@ -19,7 +19,13 @@
   const wordSegmenter = segmenter && new segmenter(language, { granularity: 'word' });
   const blockSelector = 'h1,h2,h3,h4,h5,h6,p,li,dt,dd,td,th,blockquote,figcaption,div';
   const ignored = '[hidden], [aria-hidden="true"], pre, svg, script, style, .concept-map, .callout-label, annotation';
+  const voiceKey = 'emt-listen-voice';
+  const contentLanguage = language.toLowerCase().split('-')[0];
+  const deviceLanguage = navigator.language.toLowerCase();
   let voices = [];
+  let recommendedVoice;
+  let preferredVoice = '';
+  try { preferredVoice = localStorage.getItem(voiceKey) || ''; } catch (error) {}
   let units = [];
   let textLocations;
   let unitIndex = 0;
@@ -27,12 +33,26 @@
   let utterance = null;
   let state = 'idle';
 
+  function voiceRank(item) {
+    const label = `${item.name} ${item.voiceURI}`;
+    const locale = item.lang.toLowerCase();
+    let rank = 0;
+    if (locale.split('-')[0] === contentLanguage) rank += 100;
+    if (/\b(?:natural|neural|premium)\b/i.test(label)) rank += 20;
+    else if (/\benhanced\b/i.test(label)) rank += 10;
+    if (/\bnovelty\b/i.test(label)) rank -= 30;
+    if (locale === deviceLanguage) rank += 2;
+    if (item.default) rank++;
+    return rank;
+  }
+
   function updateVoices() {
-    const previous = voice.value;
-    voices = speech.getVoices().filter((item) => item.localService);
-    voice.replaceChildren(new Option('Device default', ''));
+    voices = speech.getVoices().filter((item) => item.localService)
+      .sort((a, b) => voiceRank(b) - voiceRank(a) || a.name.localeCompare(b.name));
+    recommendedVoice = voices.find((item) => item.lang.toLowerCase().split('-')[0] === contentLanguage);
+    voice.replaceChildren(new Option(recommendedVoice ? `Auto · ${recommendedVoice.name}` : 'Device default', ''));
     for (const item of voices) voice.add(new Option(`${item.name} (${item.lang})`, item.voiceURI));
-    if (voices.some((item) => item.voiceURI === previous)) voice.value = previous;
+    if (voices.some((item) => item.voiceURI === preferredVoice)) voice.value = preferredVoice;
     voiceLabel.hidden = voices.length === 0;
   }
 
@@ -140,9 +160,7 @@
     }
     const start = offset;
     const next = new SpeechSynthesisUtterance(unit.text.slice(start));
-    const selected = voices.find((item) => item.voiceURI === voice.value)
-      || voices.find((item) => item.default && item.lang.startsWith(language))
-      || voices.find((item) => item.lang.startsWith(language));
+    const selected = voices.find((item) => item.voiceURI === voice.value) || recommendedVoice;
     if (selected) next.voice = selected;
     next.lang = selected?.lang || language;
     next.rate = Number(rate.value);
@@ -205,6 +223,10 @@
     speak();
   });
   stop.addEventListener('click', () => reset());
+  voice.addEventListener('change', () => {
+    preferredVoice = voice.value;
+    try { localStorage.setItem(voiceKey, preferredVoice); } catch (error) {}
+  });
   for (const control of [voice, rate]) {
     control.addEventListener('change', () => {
       if (state !== 'playing') return;
