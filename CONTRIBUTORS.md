@@ -22,7 +22,7 @@ If both outline source names exist, the importer uses `*-outline.md`. The same s
 | Source suffix | Published Markdown | View |
 | --- | --- | --- |
 | `outline.md` (or legacy `study.md`) | `outline.md` | Outline |
-| `tldr.md` | `rapid-review.md` | Rapid Review |
+| `tldr.md` | `summary.md` | Summary |
 | `pq4rs.md` | `pq4rs.md` | PQ4RS |
 | `map.md` | `mindmap.md` | Mind Map |
 | `concept.md` | `concept-maps.md` | Concept Maps |
@@ -34,7 +34,7 @@ Keep raw `*-bls.md`, `*-als.md`, prompts, and other working notes outside the re
 
 ## 2. Format each file
 
-- **Outline, Rapid Review, and PQ4RS.** Use UTF-8 Markdown. Start with a single H1 for the source title, then use H2s for major sections and lower levels for subsections. H2s drive the reader’s on-page navigation. Standard Markdown lists and tables work.
+- **Outline, Summary, and PQ4RS.** Use UTF-8 Markdown. Start with a single H1 for the source title, then use H2s for major sections and lower levels for subsections. H2s drive the reader’s on-page navigation. Standard Markdown lists and tables work.
 - **Mind Map.** Use headings and nested Markdown lists. Put one branch or point per list item and indent child items. The site builds the interactive map from that hierarchy and also provides an outline view.
 - **Concept Maps.** Use fenced `mermaid` blocks. Put a descriptive heading immediately above each diagram. Mermaid fences also work in the other Markdown views.
 - **Key Terms.** Use a top-level bullet per definition, formatted `- **Term (ACRONYM)**: Definition.` Keep alternate chapter definitions as separate entries. The site uses the glossary for search and chapter definition popups.
@@ -89,7 +89,7 @@ When you add or rename a module or chapter, update [`_data/course.yml`](_data/co
 
 ## 4. Publish a partial module or add Quizlet links
 
-Add the module and chapter entries to `_data/course.yml`, then import whichever files are ready. A chapter with only Key Terms opens directly to its glossary. Available views generate their own tabs, so new chapters can start with a single file. Keep the rest of your drafts in the source folder until they are ready.
+Add the module and chapter entries to `_data/course.yml`, then import whichever files are ready. A chapter with only Key Terms opens directly to its glossary. The floating bar shows only groups and views with resources, so new chapters can start with a single file. Keep the rest of your drafts in the source folder until they are ready.
 
 Paste an individual set URL under a chapter’s `quizlet` field. You can also set `quizlet` on the module if you have one set covering the whole module.
 
@@ -104,7 +104,7 @@ Paste an individual set URL under a chapter’s `quizlet` field. You can also se
       quizlet: "https://quizlet.com/123456789/example-chapter-flash-cards/"
 ```
 
-A chapter with only a Quizlet link can appear in the library. On chapter pages with other resources, Quizlet appears alongside the study tabs. A module's Flashcards page also lists the Quizlet sets from its chapters. Existing TSVs can still power the on-site deck. If you only have Quizlet links and want a module Flashcards page to collect them, add the module's Flashcards stub as described above.
+A chapter with only a Quizlet link can appear in the library. On chapter pages with other resources, Quizlet appears in the Practice drawer. A module's Flashcards page also lists the Quizlet sets from its chapters. Existing TSVs can still power the on-site deck. If you only have Quizlet links and want a module Flashcards page to collect them, add the module's Flashcards stub as described above.
 
 ## 5. Preview and review
 

@@ -1,8 +1,9 @@
 ---
-title: Rapid Review
+title: Summary
 module_id: module-2
-view: rapid-review
+view: summary
 chapter_id: chapter-6
+redirect_from: ["/content/module-2/chapter-6/rapid-review/"]
 ---
 
 # Chapter 6: Lifting and Moving Patients — TL;DR

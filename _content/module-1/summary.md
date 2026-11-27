@@ -1,8 +1,8 @@
 ---
-title: Rapid Review
+title: Summary
 module_id: module-1
-view: rapid-review
-redirect_from: ["/content/module-1/tldr/outline/", "/content/module-1/tldr/mindmap/", "/content/module-1/tldr/pq4rs/"]
+view: summary
+redirect_from: ["/content/module-1/rapid-review/", "/content/module-1/tldr/outline/", "/content/module-1/tldr/mindmap/", "/content/module-1/tldr/pq4rs/"]
 ---
 
 # Human Anatomy, Physiology, and Pathophysiology — Rapid Review

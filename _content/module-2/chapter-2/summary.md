@@ -1,8 +1,9 @@
 ---
-title: Rapid Review
+title: Summary
 module_id: module-2
-view: rapid-review
+view: summary
 chapter_id: chapter-2
+redirect_from: ["/content/module-2/chapter-2/rapid-review/"]
 ---
 
 # Chapter 2: Workforce Safety and Wellness of the EMT — TL;DR

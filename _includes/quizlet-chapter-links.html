@@ -1,0 +1,5 @@
+{%- for item in include.chapters -%}
+  {%- if item.quizlet and item.quizlet != '' -%}
+    <li><a href="{{ item.quizlet | escape }}">Chapter {{ item.number }} · {{ item.title | escape }}</a></li>
+  {%- endif -%}
+{%- endfor -%}

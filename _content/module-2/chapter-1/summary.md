@@ -1,8 +1,9 @@
 ---
-title: Rapid Review
+title: Summary
 module_id: module-2
-view: rapid-review
+view: summary
 chapter_id: chapter-1
+redirect_from: ["/content/module-2/chapter-1/rapid-review/"]
 ---
 
 # Chapter 1: Emergency Medical Service Systems, Research, and Public Health — Rapid Review

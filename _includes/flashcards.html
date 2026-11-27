@@ -1,11 +1,5 @@
 {% unless include.chapter %}
-  {% capture chapter_sets %}
-    {%- for item in include.module.chapters -%}
-      {%- if item.quizlet and item.quizlet != '' -%}
-        <li><a href="{{ item.quizlet | escape }}">Chapter {{ item.number }} · {{ item.title | escape }}</a></li>
-      {%- endif -%}
-    {%- endfor -%}
-  {% endcapture %}
+  {% capture chapter_sets %}{% include quizlet-chapter-links.html chapters=include.module.chapters %}{% endcapture %}
   {% assign chapter_sets = chapter_sets | strip %}
   {% if chapter_sets != '' %}
     <section class="quizlet-sets" aria-labelledby="quizlet-sets-title">

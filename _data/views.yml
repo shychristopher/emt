@@ -1,7 +1,7 @@
-- { id: outline, label: Outline }
-- { id: rapid-review, label: Rapid Review }
-- { id: pq4rs, label: PQ4RS }
-- { id: mindmap, label: Mind Map }
-- { id: concept-maps, label: Concept Maps }
-- { id: key-terms, label: Key Terms }
-- { id: flashcards, label: Flashcards }
+- { id: outline, label: Outline, group: read }
+- { id: summary, label: Summary, group: read }
+- { id: pq4rs, label: PQ4RS, group: read }
+- { id: mindmap, label: Mind Map, group: maps }
+- { id: concept-maps, label: Concept Maps, group: maps }
+- { id: key-terms, label: Key Terms, group: practice }
+- { id: flashcards, label: Flashcards, group: practice }

@@ -1,8 +1,9 @@
 ---
-title: Rapid Review
+title: Summary
 module_id: module-1
-view: rapid-review
+view: summary
 chapter_id: chapter-8
+redirect_from: ["/content/module-1/chapter-8/rapid-review/"]
 ---
 
 # Chapter 8: Pathophysiology — Rapid Review (TL;DR)

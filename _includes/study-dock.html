@@ -1,0 +1,72 @@
+{% capture dock_items %}
+  {% assign reading_groups = 'Read,Maps' | split: ',' %}
+  {% for group_label in reading_groups %}
+    {% assign group = group_label | downcase %}
+    {% assign group_views = site.data.views | where: 'group', group %}
+    {% assign group_count = 0 %}
+    {% capture group_links %}
+      {% for option in group_views %}
+        {% assign destination = include.related | where: 'view', option.id | first %}
+        {% if destination %}
+          {% assign group_count = group_count | plus: 1 %}
+          {% assign single_destination = destination %}
+          <a href="{{ destination.url | relative_url }}"{% if page.view == option.id %} aria-current="page"{% endif %}>{{ option.label }}</a>
+        {% endif %}
+      {% endfor %}
+    {% endcapture %}
+    {% if group_count > 1 %}
+      <details class="study-detail" name="study-tools">
+        <summary{% if include.view.group == group %} class="is-active"{% endif %}>{{ group_label }} <span class="study-chevron" aria-hidden="true"></span></summary>
+        <div class="study-menu">{{ group_links }}</div>
+      </details>
+    {% elsif group_count == 1 %}
+      <a class="study-direct" href="{{ single_destination.url | relative_url }}"{% if include.view.group == group %} aria-current="page"{% endif %}>{{ group_label }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% assign deck = include.related | where: 'view', 'flashcards' | first %}
+  {% capture chapter_sets %}{% unless include.chapter %}{% include quizlet-chapter-links.html chapters=include.module.chapters %}{% endunless %}{% endcapture %}
+  {% assign chapter_sets = chapter_sets | strip %}
+  {% assign quizlet = include.quizlet | strip %}
+  {% if include.terms or deck or quizlet != '' or chapter_sets != '' %}
+    <details class="study-detail" name="study-tools">
+      <summary{% if include.view.group == 'practice' %} class="is-active"{% endif %}>Practice <span class="study-chevron" aria-hidden="true"></span></summary>
+      <section class="study-practice" aria-labelledby="practice-title">
+        <h2 id="practice-title">Practice</h2>
+        <div class="practice-links">
+          {% if quizlet != '' %}
+            <a class="button button-primary" href="{{ quizlet | escape }}">Open Quizlet <span aria-hidden="true">↗</span></a>
+          {% endif %}
+          {% if deck %}
+            <a class="button" href="{{ deck.url | relative_url }}"{% if page.view == 'flashcards' %} aria-current="page"{% endif %}>{% if quizlet != '' %}On-site Flashcards{% else %}Flashcards{% endif %}</a>
+          {% endif %}
+          {% if include.terms %}
+            <a class="button" id="practiceGlossaryLink" href="{{ include.terms.url | relative_url }}"{% if page.view == 'key-terms' %} aria-current="page"{% endif %}>Full glossary</a>
+          {% endif %}
+        </div>
+        {% if chapter_sets != '' %}
+          <details class="practice-chapters">
+            <summary>Chapter sets on Quizlet</summary>
+            <ul>{{ chapter_sets }}</ul>
+          </details>
+        {% endif %}
+        {% if include.terms %}
+          <div id="practiceTerms" hidden>
+            <div class="term-search">
+              <label for="practiceSearchInput">Search key terms</label>
+              <input class="field" id="practiceSearchInput" type="search" disabled placeholder="Search terms and definitions" autocomplete="off">
+              <span id="practiceStatus" role="status"></span>
+            </div>
+            <div class="prose" id="practiceResults"></div>
+          </div>
+        {% endif %}
+      </section>
+    </details>
+  {% endif %}
+{% endcapture %}
+{% assign dock_items = dock_items | strip %}
+{% if dock_items != '' %}
+  <nav class="view-switcher" aria-label="Study tools">
+    <div class="study-dock">{{ dock_items }}</div>
+  </nav>
+{% endif %}

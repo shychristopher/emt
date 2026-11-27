@@ -1,8 +1,8 @@
 ---
-title: Rapid Review
+title: Summary
 module_id: module-2
-view: rapid-review
-redirect_from: ["/content/module-2/tldr/outline/", "/content/module-2/tldr/mindmap/", "/content/module-2/tldr/pq4rs/"]
+view: summary
+redirect_from: ["/content/module-2/rapid-review/", "/content/module-2/tldr/outline/", "/content/module-2/tldr/mindmap/", "/content/module-2/tldr/pq4rs/"]
 ---
 
 # EMS Foundations — Module 02 Rapid Review (TL;DR)

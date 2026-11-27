@@ -53,6 +53,66 @@
     });
   }
 
+  function enableTermSearch(prose, search, result) {
+    const sections = [...prose.querySelectorAll('.glossary-group')];
+    const containers = sections.length ? sections : [prose];
+    const groups = containers.map((container) => ({
+      container,
+      entries: [...container.querySelectorAll(':scope > ul > li, :scope > ol > li, tbody tr')]
+        .map((entry) => [entry, entry.textContent.toLowerCase()])
+    }));
+    const filter = () => {
+      const query = search.value.trim().toLowerCase();
+      let count = 0;
+      for (const { container, entries } of groups) {
+        let matches = 0;
+        for (const [entry, text] of entries) {
+          entry.hidden = !text.includes(query);
+          if (!entry.hidden) matches++;
+        }
+        if (container !== prose) container.hidden = matches === 0;
+        count += matches;
+      }
+      result.textContent = count + (count === 1 ? ' term' : ' terms');
+    };
+    search.addEventListener('input', filter);
+    filter();
+  }
+
+  const practiceTerms = document.getElementById('practiceTerms');
+  if (practiceTerms) {
+    const panel = practiceTerms.closest('details');
+    const link = document.getElementById('practiceGlossaryLink');
+    const search = document.getElementById('practiceSearchInput');
+    const status = document.getElementById('practiceStatus');
+    const results = document.getElementById('practiceResults');
+    let requested = false;
+    panel.addEventListener('toggle', async () => {
+      if (!panel.open || requested) return;
+      requested = true;
+      practiceTerms.hidden = false;
+      status.textContent = 'Loading key terms…';
+      try {
+        const currentGlossary = link.getAttribute('aria-current') === 'page'
+          ? document.getElementById('readingText') : null;
+        let glossary = currentGlossary;
+        if (!glossary) {
+          const response = await fetch(link.href);
+          if (!response.ok) throw new Error('Glossary unavailable');
+          glossary = new DOMParser().parseFromString(await response.text(), 'text/html')
+            .getElementById('readingText');
+        }
+        if (!glossary) throw new Error('Glossary unavailable');
+        results.replaceChildren(...Array.from(glossary.childNodes, (node) => node.cloneNode(true)));
+        enableTermSearch(results, search, status);
+        search.disabled = false;
+      } catch (error) {
+        requested = false;
+        status.textContent = 'Quick lookup could not load. Open the full glossary above.';
+      }
+    });
+  }
+
   const inlineToggle = document.getElementById('alsPreference');
   let alsEnabled = false;
   try { alsEnabled = localStorage.getItem('emt-als-connections') === 'on'; } catch (error) {}
@@ -161,31 +221,8 @@
 
   const search = document.getElementById('termSearchInput');
   if (search) {
-    const sections = [...prose.querySelectorAll('.glossary-group')];
-    const containers = sections.length ? sections : [prose];
-    const groups = containers.map((container) => ({
-      container,
-      entries: [...container.querySelectorAll(':scope > ul > li, :scope > ol > li, tbody tr')]
-        .map((entry) => [entry, entry.textContent.toLowerCase()])
-    }));
-    const result = document.getElementById('termSearchCount');
-    const filter = () => {
-      const query = search.value.trim().toLowerCase();
-      let count = 0;
-      for (const { container, entries } of groups) {
-        let matches = 0;
-        for (const [entry, text] of entries) {
-          entry.hidden = !text.includes(query);
-          if (!entry.hidden) matches++;
-        }
-        if (container !== prose) container.hidden = matches === 0;
-        count += matches;
-      }
-      result.textContent = count + (count === 1 ? ' term' : ' terms');
-    };
+    enableTermSearch(prose, search, document.getElementById('termSearchCount'));
     document.getElementById('termSearchWrap').hidden = false;
-    search.addEventListener('input', filter);
-    filter();
   }
 
   window.renderMathInElement?.(prose, {

@@ -9,7 +9,7 @@ import sys
 REPO = Path(__file__).resolve().parents[1]
 VIEWS = {
     "outline": ("outline", "Outline"),
-    "tldr": ("rapid-review", "Rapid Review"),
+    "tldr": ("summary", "Summary"),
     "pq4rs": ("pq4rs", "PQ4RS"),
     "map": ("mindmap", "Mind Map"),
     "concept": ("concept-maps", "Concept Maps"),
