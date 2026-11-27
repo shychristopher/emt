@@ -128,6 +128,8 @@
     const scroll = document.createElement('div');
     scroll.className = 'table-wrap';
     scroll.tabIndex = 0;
+    scroll.setAttribute('role', 'region');
+    scroll.setAttribute('aria-label', table.caption?.textContent.trim() || 'Scrollable table');
     table.before(scroll);
     scroll.append(table);
   }

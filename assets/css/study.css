@@ -236,10 +236,17 @@ html:has(.view-switcher) { scroll-padding-bottom: calc(5rem + env(safe-area-inse
 .prose .als-heading, .prose .als-inline > strong:first-child { color: var(--als); }
 .callout-label { font: 750 .72rem var(--mono); color: var(--link); }
 [data-callout="warning"] .callout-label, [data-callout="caution"] .callout-label { color: var(--warning); }
-.table-wrap { max-width: 100%; overflow-x: auto; margin: 1rem 0; }
+.table-wrap {
+  container-type: inline-size;
+  max-width: 100%; overflow-x: auto; margin: 1rem 0;
+}
 .prose table { border-collapse: collapse; width: 100%; font-size: .91rem; }
 .prose th, .prose td { border: 1px solid var(--line); padding: .52rem .68rem; vertical-align: top; }
 .prose th { background: var(--surface-muted); }
+@container (max-width: 38rem) {
+  .prose :is(th, td) { overflow-wrap: break-word; }
+  .prose :is(th, td):not(:only-child) { min-inline-size: 12rem; }
+}
 .prose img { max-width: 100%; height: auto; }
 
 .dialog { width: min(33rem, calc(100% - 2rem)); background: var(--surface); color: var(--ink); padding: 1.5rem; border: 1px solid var(--line); border-radius: .8rem; box-shadow: var(--shadow); }
