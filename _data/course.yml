@@ -33,3 +33,12 @@
     - id: chapter-6
       number: "06"
       title: Lifting and Moving Patients
+
+- id: module-3
+  number: "03"
+  title: Airway Management, Respiration,Ventilation, and Oxygenation
+  description: Learn how to assess and manage a patient's airway, respiration, ventilation, and oxygenation.
+  chapters:
+    - id: chapter-10
+      number: "10"
+      title: Airway Management, Respiration, Ventilation, and Oxygenation

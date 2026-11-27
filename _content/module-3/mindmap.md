@@ -1,0 +1,1354 @@
+---
+title: Mind Map
+module_id: module-3
+view: mindmap
+redirect_from: ["/content/module-3/overview/mindmap/"]
+---
+
+# Chapter 10: Airway Management, Respiration, Ventilation, and Oxygenation
+
+## Respiratory foundations
+
+- Airway, ventilation, and oxygenation in the primary assessment
+  - Airway patency, ventilation, and oxygenation are distinct priorities for patients of all ages.
+  - An open airway can coexist with ineffective ventilation, and adequate ventilation can coexist with poor oxygenation.
+  - Assess all three early and reassess as the patient changes.
+  - The National EMS Education Standards competency applies respiratory anatomy and physiology to establishing a patent airway, adequate ventilation, and respiration.
+- Respiration and its components
+  - Respiration encompasses gas exchange between the alveoli and pulmonary capillaries, exchange between systemic capillaries and cells, and cellular use of glucose and oxygen during metabolism.
+  - Ventilation, or breathing, is the mechanical movement of air into and out of the lungs.
+  - 1\. **Pulmonary Ventilation (Ventilation / Breathing):**
+    - The **mechanical process** of moving air in and out of the lungs.
+    - Directly related to **minute ventilation** and **alveolar ventilation**.
+  - 2\. **External Respiration (Alveoli/Capillary Gas Exchange):**
+    - The gas exchange process occurring between the **alveoli** and the surrounding **pulmonary capillaries**.
+    - **Function:** Oxygenates the blood and eliminates carbon dioxide (CO₂) in the lungs.
+  - 3\. **Internal Respiration (Cell/Capillary Gas Exchange):**
+    - The gas exchange process occurring between the **body's cells** and the **systemic capillaries**.
+    - **Function:** Delivers oxygen (O₂) to the cells and removes carbon dioxide (CO₂) from the cells.
+  - 4\. **Cellular Respiration and Metabolism (Aerobic Metabolism):**
+    - Occurs **inside the cell**.
+    - **Process:** Breaks down **glucose** in the presence of **oxygen**, producing high amounts of energy in the form of **ATP** and releasing **carbon dioxide (CO₂)** and **water** as by-products.
+- Anatomy of the Respiratory System
+  - **Core Physiological Pathway:**
+    - Inhaled oxygen travels to the alveoli, diffuses into pulmonary capillaries, binds primarily to **hemoglobin** in red blood cells (with a small fraction dissolved in plasma), and is delivered via arteries, arterioles, and capillaries to body cells.
+    - Carbon dioxide (CO₂) diffuses out of cells into capillaries and returns via veins to the lungs for exhalation.
+  - **Anatomical Division:** Divided into the **upper airway** and **lower airway** at the **cricoid cartilage**.
+  - The Upper Airway (Nose/Mouth to Cricoid Cartilage)
+    - **Sagittal Cross-Section of Upper Airway, top to bottom:**
+      - *Nasal cavity:* Superior, middle, and inferior turbinates; hard and soft palates.
+      - *Nasopharynx:* Tonsils/adenoids, uvula.
+      - *Oropharynx:* Tongue.
+      - *Laryngopharynx (hypopharynx):* Vallecula and epiglottis.
+      - *Larynx & lower transition:* Glottic opening, vocal cords, thyroid cartilage, cricothyroid membrane, cricoid cartilage, thyroid gland, with the esophagus posteriorly and trachea anteriorly.
+    - **Nose and Mouth:**
+      - Nasal passages warm, moisten, and filter air across damp **mucous membranes** (oral breathing provides less filtration and warming).
+      - **Tongue Obstruction:** In patients with altered mental status, relaxation of the submandibular muscles allows the tongue to fall posteriorly and block the airway.
+    - **Pharynx (Throat):**
+      - **Nasopharynx** (from nostrils/nasal passages) and **oropharynx** (from mouth) merge posteriorly into the pharynx.
+      - Splits at its inferior end into two passageways: the **trachea** (anterior, to lungs) and **esophagus** (posterior, to stomach).
+      - Must remain clear to prevent obstruction or **aspiration** of blood, vomitus, or secretions into the lungs.
+    - **Epiglottis:**
+      - Leaf-shaped cartilaginous flap acting as a valve that covers the laryngeal opening during swallowing and lifts open during breathing.
+      - *Obstruction Mechanism:* Unresponsiveness impairs swallowing reflexes (allowing aspiration) and relaxes epiglottic muscles, causing the epiglottis to drop over the **glottic opening**—an obstruction invisible to direct inspection that is relieved by the **head-tilt, chin-lift** or **jaw-thrust** maneuver.
+    - **Larynx (Voice Box):**
+      - Located between the epiglottis and trachea; houses the **vocal cords** (thin muscles that generate speech and protect the lower airway).
+      - **Thyroid cartilage:** Large anterior cartilage palpable at the front of the throat.
+      - **Cricoid cartilage:** Inferior border of the larynx and the **only complete circular cartilaginous ring** in the upper airway.
+      - **Anterior and Posterior Larynx Views, top to bottom:** Epiglottis, lesser cornu, hyoid bone, extrinsic ligament, ventricular fold, vocal cords, thyroid cartilage, arytenoid cartilage, pyriform fossae, cricothyroid ligament, cricoid cartilage, and upper tracheal cartilages.
+  - The Lower Airway (Cricoid Cartilage to Alveoli)
+    - **Lower Airway & Tracheal Cross-Section:**
+      - *Gross structure:* Hyoid, larynx, trachea bifurcating at the **carina** into left and right mainstem bronchi entering lung tissue.
+      - *Tracheal cross-section (outside to inside):* Posterior smooth muscle, C-shaped tracheal cartilage, lamina propria, and respiratory epithelium (mucosa).
+    - **Trachea (Windpipe):**
+      - Extends from the larynx to the **carina** (bifurcation into mainstem bronchi); supported anteriorly by rigid C-shaped cartilage rings, with a flexible muscular posterior wall.
+    - **Bronchi and Bronchioles:**
+      - Right and left mainstem **bronchi** contain cartilage and branch into smaller **bronchioles** composed of smooth muscle and mucous lining (no cartilage).
+      - Smooth muscle constriction and mucosal inflammation/swelling (as in **asthma**) sharply narrow bronchiole diameter -> increases **airway resistance** -> increases work of breathing -> risks respiratory muscle fatigue, failure, and cellular hypoxia.
+    - **Lungs and Pleura:**
+      - Bronchioles end in millions of **alveoli** wrapped in pulmonary capillaries for gas exchange.
+      - Elastic lung tissue naturally recoils inward toward the midline, held expanded against the chest wall by two pleural membranes:
+        - **Visceral pleura:** Inner layer covering the lung surface.
+        - **Parietal pleura:** Thicker outer layer lining the internal chest wall.
+        - **Pleural space:** Negative-pressure space between layers containing lubricating **serous fluid** that creates a "water glass" vacuum seal.
+      - *Pneumothorax Mechanism:* A tear in either pleural layer breaks the vacuum seal, drawing air into the pleural space and allowing the elastic lung to collapse.
+    - **Diaphragm:**
+      - Dome-shaped muscle separating thoracic and abdominal cavities; performs **60–70%** of normal ventilatory effort.
+- Mechanics and Control of Ventilation
+  - Mechanics of Pulmonary Ventilation
+    - *Baseline atmospheric pressure:* **760 mmHg**.
+    - **Inhalation / Inspiration (Active Process):**
+      - Diaphragm contracts downward (flaring lower ribs) and **external intercostal muscles** pull ribs/sternum upward and outward.
+      - Thoracic volume increases -> intrapleural pressure drops to **754 mmHg** and intrapulmonary pressure drops to **757 mmHg** -> air flows into lungs until pressures equalize.
+    - **Exhalation / Expiration (Passive Process):**
+      - Diaphragm and external intercostals relax and elastic lungs recoil -> thoracic volume decreases -> intrapleural pressure rises to **758 mmHg** and intrapulmonary pressure rises to **763 mmHg** -> air is pushed out.
+      - *Obstructive Disease Exception:* Air trapping and lost elastic recoil (e.g., asthma) force patients to actively contract muscles to exhale, rapidly depleting energy and causing respiratory muscle fatigue.
+  - Control of Respiration
+    - **Brainstem Rhythm Centers:** **Dorsal respiratory group (DRG)**, **ventral respiratory group (VRG)**, and **pontine respiratory center (pneumotaxic center)** regulate nerve impulses to breathing muscles.
+    - **Chemoreceptors & Ventilatory Drives:**
+      - **Central chemoreceptors (medulla):** Most sensitive to **blood pH and CO₂** -> drive normal breathing via a **hypercarbic drive** (↑ CO₂ → ↑ rate and depth).
+      - **Peripheral chemoreceptors (carotid bodies, aortic arch):** More sensitive to **arterial O₂** -> in **COPD**, chronically elevated CO₂ desensitizes central receptors, shifting patients to a **hypoxic drive** (breathing stimulated by low O₂).
+      - *COPD Oxygen Rule:* **Never withhold oxygen** from a hypoxic COPD patient; if prolonged high-concentration oxygen blunts their hypoxic drive, support breathing with **positive pressure ventilation (PPV)**.
+    - CAUTION — ALS Connection — COPD and oxygen-induced hypercapnia
+      - The chapter's “hypoxic drive” explanation is an oversimplification.
+      - Excess oxygen can raise arterial CO₂ through worsening ventilation–perfusion matching and through the Haldane effect, in which oxygenated hemoglobin carries less CO₂.
+      - A fall in ventilatory drive may contribute.
+      - Acute hypercapnia can develop during prehospital care.
+      - Correct hypoxemia promptly and titrate oxygen per protocol.
+      - The prehospital trial in suspected COPD exacerbation studied a target of 88–92% and found lower mortality with titrated oxygen than with routine high-flow oxygen.
+      - That finding applies to controlled oxygen therapy in this population.
+      - A patient with failing ventilation still needs ventilatory support.
+      - Report baseline home oxygen, changes in alertness, chest excursion, and the response to treatment.
+      - Prehospital titrated oxygen evidence comes from the Austin et al. randomized controlled trial (2010).
+- Respiratory Physiology & Pathophysiology
+  - Hypoxemia vs. Hypoxia
+    - **Oxygenation:** Saturation of blood and cells with oxygen via external and internal respiration.
+    - **Hypoxemia:** Low oxygen content in **arterial blood** (commonly caused by ventilation–perfusion [V/Q] mismatch, inadequate ventilatory drive, anemia, or carbon monoxide poisoning).
+    - **Hypoxia:** Inadequate oxygen delivery to **body cells** (caused by airway obstruction, inadequate ventilation, shock/hypoperfusion, toxic gases, pulmonary disease, CNS depression/overdose, stroke, or chest/head trauma).
+    - NOTE — ALS Connection — Saturation, oxygen content, and tissue delivery
+      - Hypoxemia conventionally refers to low arterial oxygen tension.
+      - Anemia and carbon monoxide exposure can reduce oxygen content or oxygen delivery despite preserved arterial oxygen tension.
+      - Tissue oxygen delivery also depends on blood flow.
+      - A patient with major blood loss can have a reassuring saturation and inadequate tissue perfusion.
+      - Report skin findings, mental status, blood pressure trends, and the suspected mechanism along with the saturation.
+      - An ALS partner can use this combination to decide whether ventilation, oxygenation, or circulatory support is the immediate priority.
+  - Progressive Signs of Hypoxia & Hypercarbia
+    - **Mild to Moderate Hypoxia:**
+      - Tachypnea and dyspnea
+      - **Early pale, cool, clammy skin** (hypoxia stimulates the medullary vasomotor center -> sympathetic vasoconstriction shunts blood to the brain + sweat gland activation)
+      - Tachycardia and elevated blood pressure
+      - Restlessness and agitation (from brain hypoxia) combined with disorientation/confusion (from CO₂ retention)
+      - Headache
+    - **Severe Hypoxia:**
+      - Tachypnea and dyspnea
+      - **Cyanosis** (late sign; bluish-gray discoloration at **conjunctiva, oral mucosa, lips, circumoral skin, and fingernail beds**; use oral mucosa/conjunctiva in dark-skinned patients; note that severe bleeding/anemia may prevent cyanosis due to low hemoglobin)
+      - Tachycardia progressing to dysrhythmias and **bradycardia** (Note: in **newborns**, bradycardia—such as HR <100 bpm—is an *early* sign of hypoxia)
+      - Severe confusion, loss of coordination, slow reaction time, altered mental status, and seizures
+    - **Hypercarbia (CO₂ Buildup) Signs:**
+      - Sleepy appearance and **head bobbing** (head bobs up on inhalation, down on exhalation) with droopy eyelids.
+    - **Immediate Action:** Open an obstructed airway; apply supplemental O₂ if breathing is adequate; begin **positive pressure ventilation (PPV)** immediately if rate or volume is inadequate.
+  - Gas Exchange
+    - **External Respiration (Alveolar/Capillary — Fig. 10-6a):** Gases diffuse down concentration gradients—O₂ moves from alveoli into pulmonary capillaries (binding to hemoglobin), and CO₂ moves from capillaries into alveoli for exhalation.
+    - **Internal Respiration (Capillary/Cellular — Fig. 10-6b):** O₂ diffuses from systemic capillaries into cells, and CO₂ moves from cells into capillaries for venous transport back to the lungs.
+  - Pathophysiological Disruptions
+    - **Cellular Shift:** Impaired ventilation, gas exchange, or perfusion forces cells into **anaerobic metabolism** (low ATP + **lactic acid** buildup -> cellular dysfunction and death).
+    - **Mechanical Ventilation Disruptions:**
+      - 1\. Impaired neural control of diaphragm/intercostals (brain injury, CNS depressant drugs, neuromuscular disease).
+      - 2\. Structural chest wall injury impairing bellows action (rib pain, flail chest, diaphragm rupture, chest compression).
+      - 3\. Increased airway resistance (bronchoconstriction, mucosal edema).
+      - 4\. Loss of airway patency (swelling from infection/allergy/burns, trauma, foreign body, loss of muscle tone).
+      - 5\. Progressive neuromuscular muscle weakness.
+    - **Gas Exchange & Perfusion Disruptions:**
+      - Low ambient O₂ (enclosed fires, toxic gases).
+      - Alveolar fluid/destruction (pneumonia, pulmonary edema, drowning, emphysema air trapping -> increased respiratory muscle work and exhaustion).
+      - Impaired cellular O₂ transport/use (carbon monoxide, cyanide).
+      - Impaired blood flow or oxygen-carrying capacity (pulmonary embolism, tension pneumothorax, heart failure, cardiac tamponade, anemia, hypovolemia).
+- Special Age-Group Considerations
+  - Infants and Children
+    - **Nose and Mouth:** Smaller and more easily occluded; infants are **obligate nose breathers** (keeping nasal passages clear is vital).
+    - **Pharynx:** Proportionally larger tongue and higher, U-shaped epiglottis increase upper airway obstruction risk.
+    - **Trachea and Alignment:** Narrower, softer, more flexible trachea kinks easily with neck flexion or extension; larger occiput flexes the neck forward when supine -> place **folded towel padding under the back and shoulders** to achieve neutral airway alignment.
+    - **Cricoid Cartilage:** Less rigid and is the **narrowest part of the upper airway** in children under **10 years old**.
+    - **Chest Wall and Diaphragm:** Softer, more compliant chest wall; heavy reliance on the diaphragm with prominent accessory retractions; easy chest expansion during PPV creates high risk of **alveolar overdistention/lung injury** if excessive tidal volume is delivered.
+    - **Oxygen Reserves & Metabolism:** Smaller lung O₂ reserves + **double the adult metabolic rate** -> rapid onset of hypoxia (**hypoxia is the most common cause of pediatric cardiac arrest**).
+  - Geriatric Patients
+    - **Anatomical, Pathophysiological, and Cognitive Changes:**
+      - Tooth decay, reduced neck flexibility, and oropharyngeal tumors complicate airway positioning and visualization.
+      - Loss of perioral muscle mass makes obtaining an effective **BVM mask seal** harder.
+      - Higher prevalence of **COPD** and **obstructive sleep apnea** accelerates hypoxia onset.
+      - Increased **GERD** elevates **aspiration** risk.
+      - Dementia/confusion reduces patient cooperation; lower functional residual lung volume decreases oxygen reserve.
+
+## Airway assessment and basic airway management
+
+- ALS Connection — Scope, credentialing, and medical direction
+  - The national model describes EMT functions such as airway positioning, suction, adjuncts, oxygen, and bag-mask ventilation.
+  - It includes CPAP at EMT level and adds supraglottic airway placement, waveform capnography, IV/IO access, and selected medications at AEMT level.
+  - Some states authorize EMTs to use supraglottic airways or capnography with additional oversight.
+  - Endotracheal intubation and broader airway pharmacology are generally paramedic-level capabilities.
+  - A national model describes a framework.
+  - State law and licensure govern permitted practice, and training, credentialing, agency protocols, and medical direction govern individual authorization.
+  - Preparing equipment, acquiring a reading, interpreting it, and performing a procedure each carry separate responsibilities.
+  - Assistance beyond routine EMT tasks can require state permission, medical director approval, and direct supervision.
+  - Evidence describes what studies found.
+  - Recommendations interpret evidence and sometimes incorporate expert consensus.
+  - Model guidelines help systems design care.
+  - Local protocols govern operations, and physician medical direction oversees care and provides consultation when required or when an authorized decision falls outside standing orders.
+  - Neither a paper nor a model guideline confers authorization.
+  - National EMS Scope of Practice Model issued in 2019 by NHTSA and NASEMSO, with change notices incorporated in August 2021.
+  - NASEMSO National Model EMS Clinical Guidelines, version 3.0 (March 2022).
+- Airway Functions and Considerations
+  - **Patent Airway:** An open airway; necessary for adequate breathing and oxygenation, making airway assessment the **first component** in the primary assessment of every patient.
+  - **Core Functions & Rules:**
+    - The airway and respiratory tract serve as the conduit allowing air to move from the atmosphere into the alveoli for gas exchange.
+    - Regardless of the patient's condition, the airway must **always remain patent**.
+    - Any obstruction (food, blood, swelling, or vomit) reduces air movement -> leads to poor gas exchange and potential hypoxia.
+    - The **degree of obstruction** directly determines the amount of air available for gas exchange (e.g., the tongue may create a partial obstruction, whereas a piece of food may completely block airflow).
+  - **Mental Status Correlation:**
+    - An alert, responsive patient talking in a normal voice has an open airway and adequate breathing.
+    - **Signs of an open airway:**
+      - Air can be felt and heard moving in and out of the mouth and nose.
+      - The patient is speaking in full sentences or with little difficulty.
+      - The sound of the voice is normal for the patient.
+  - **Altered Mental Status & Unresponsiveness Risks:**
+    - Patients with altered mental status or unresponsiveness cannot adequately protect their own airway -> high risk of occlusion/obstruction:
+      - The **tongue** relaxes and falls posteriorly, blocking the pharynx.
+      - The **epiglottis** can relax and obstruct the airway at the level of the larynx.
+      - Loss of the **gag or cough reflex** makes the patient susceptible to **aspiration** (inhaling small particles of food or liquid into the lungs).
+      - Patient breathing efforts create negative pressure that can draw the tongue, epiglottis, or both into the airway, blocking airflow to the trachea and lungs.
+    - **Assessment Tip:** A patient with an altered mental status who *continues* to maintain a gag or cough reflex can **still aspirate** blood, secretions, vomitus, or other substances.
+  - Facial burns can threaten airway patency.
+  - Soft-tissue trauma around the mouth and jaw can obstruct the airway with damaged tissue and blood.
+  - NOTE — ALS Connection — An open airway and a protected airway
+    - If jaw positioning resolves snoring, report how quickly the sound returns when support is released.
+    - Repeated emesis, inability to clear secretions, or progressive swelling can threaten the airway again even when air is moving now.
+    - A locally authorized AEMT may use a supraglottic airway as a ventilation option.
+    - A credentialed paramedic may consider a tracheal tube when basic support cannot be sustained or the airway is likely to deteriorate.
+    - A supraglottic device does not provide the same aspiration protection as a cuffed tracheal tube, and neither reverses aspiration that has already occurred.
+    - Advanced attempts can also interrupt ventilation and worsen hypoxemia or hypotension.
+    - Keep effective basic support going and tell your partner what positioning, suction, and mask technique have worked.
+- Abnormal Upper Airway Sounds
+  - When assessing a patient with severely altered mental status: manually open the mouth, perform a manual airway maneuver, inspect inside the mouth, and listen for abnormal sounds:
+    - **Snoring (sonorous sounds):**
+      - Occurs when the upper airway is partially obstructed by the **tongue** or relaxed tissues in the pharynx.
+      - Corrected by performing a **head-tilt, chin-lift maneuver** (lifts base of tongue from back of pharynx) or a **jaw-thrust maneuver** if spinal injury is suspected.
+    - **Crowing:** Sound like a crow cawing; occurs when muscles around the **larynx spasm** and narrow the opening into the trachea, causing air to rush through the restricted passage.
+    - **Gurgling:** Sound like gargling; indicates the presence of **blood, vomitus, secretions, or other liquid** in the airway -> **immediately suction** the substance from the airway.
+    - **Stridor:** Harsh, high-pitched sound heard during **inspiration**; characteristic of significant upper airway obstruction from **swelling in the larynx** (may also occur with mechanical obstruction by food or other objects).
+  - **Signs of a blocked or inadequate airway:**
+    - Abnormal upper airway sound (**stridor, snoring, crowing, or gurgling**)
+    - An awake patient who is **unable to speak**
+    - Evidence of a **foreign body airway obstruction** (tongue, food, vomit, blood, or teeth in the upper airway, mouth, or nose)
+    - **Swelling** to the mouth, tongue, or oropharynx
+  - NOTE — ALS Connection — Stridor, wheeze, and treatment rationale
+    - Rapid hoarseness or stridor with swelling after an allergen exposure raises concern for anaphylaxis.
+    - Epinephrine is an adrenergic agonist whose effects include reducing mucosal edema through vasoconstriction and relaxing bronchial smooth muscle.
+    - Predominantly expiratory wheeze with a compatible history may suggest lower-airway bronchospasm.
+    - Albuterol is a beta₂ agonist that relaxes bronchial smooth muscle.
+    - It does not treat laryngeal edema or shock.
+    - Both drugs can increase heart rate, and albuterol can cause tremor.
+    - Report exposure, symptom onset, voice change, air movement, perfusion, and the response to authorized treatment.
+    - EMT use of epinephrine and albuterol varies by route, credentialing, and local authorization.
+- Opening the Mouth (Crossed-Fingers Technique)
+  - Used to open the mouth of an unresponsive patient or a patient with altered mental status to inspect inside the mouth.
+  - **Clinical or equipment detail:** Shows a gloved hand opening an unconscious patient's mouth with thumb and index finger crossed—the thumb presses the lower incisors open while the index finger presses the upper incisors open.
+  - **4-Step Procedure:**
+    - 1\. Kneel above and behind the patient.
+    - 2\. Cross the thumb and forefinger of one hand.
+    - 3\. Place the **thumb on the patient's lower incisors** and your **forefinger on the upper incisors**.
+    - 4\. Use a **scissors motion or finger-snapping motion** to open the mouth.
+  - **Inspection & Clearing Rules:**
+    - Inspect for vomitus, blood, secretions, broken teeth, or foreign bodies -> **suction** any foreign substance.
+    - *If suction is not immediately available:* Turn the patient onto their side (**ONLY if no spinal injury is suspected**) and wipe fluids away using your index and middle fingers wrapped in a cloth or gauze pad.
+    - *If solid objects are visible (food, broken teeth, dentures):* Quickly sweep the mouth with your index finger to remove them. **Always visualize the object before performing a finger sweep** (blind sweeping can push the object deeper into the airway). Use extreme caution as the patient may bite down on your fingers, gag, or vomit.
+- Opening the Airway
+  - An open airway must be established **before** administering **positive pressure ventilation** (forcing air into the lungs).
+  - **Three Categories of Airway Opening/Maintenance Techniques:**
+    - **Manual airway maneuvers:** (1) Head-tilt, chin-lift maneuver; (2) Jaw-thrust maneuver
+    - **Suction**
+    - **Mechanical airways:** (1) Oropharyngeal airway (OPA / oral airway); (2) Nasopharyngeal airway (NPA / nasal airway)
+  - **Pre-Maneuver Clearing:** If obvious blood, vomitus, secretions, or other substances are in the mouth on contact, **immediately suction** the oropharynx and nasopharynx *prior* to initiating a manual maneuver (or turn the patient onto their side to drain heavy fluids **only if no spine injury is suspected**).
+  - Head-Tilt, Chin-Lift Maneuver
+    - **Indication:** Patients with **no suspected spinal injury** (e.g., unresponsive without spinal trauma, non-traumatic cardiac arrest, apneic without signs of trauma).
+    - **Limitation:** Temporary maneuver only; supplement with a mechanical airway if the airway cannot be maintained alone or if ventilation is required.
+    - **Mechanism and starting position:** Begin with the adult supine and the head neutral. The relaxed tongue and epiglottis can obstruct the posterior airway. Forehead tilt and a chin lift with the index and middle fingers move these structures away from the airway.
+    - **5-Step Procedure:**
+      - 1\. Place one hand on the patient's forehead and apply firm backward pressure with the palm to tilt the head back; place fingertips of the other hand **underneath the bony part of the lower jaw**.
+      - 2\. Lift the jaw upward to bring the chin forward. **Do not compress the soft tissues underneath the chin** (can obstruct the airway).
+      - 3\. Continue pressing on the forehead to keep the head tilted backward.
+      - 4\. Lift the chin and jaw so the teeth are brought nearly together (if needed, use your thumb to depress/retract the lower lip to keep the mouth slightly open).
+      - 5\. *Loose dentures:* Hold them in position (prevents lip obstruction and makes forming a mask seal easier); if dentures cannot be managed, remove them.
+  - Head-Tilt, Chin-Lift in Infants and Children
+    - **Infant Positioning:** Gently tilt the head back into a **"sniffing" or neutral position**—aligning the opening of the ear horizontally with the sternal notch (**ear-to-sternal-notch position**, requiring slight neck flexion and head extension).
+      - Place **padding behind the shoulders** in infants and young children to compensate for the large occiput.
+      - **Avoid overextension**—overextending an infant's head can kink and obstruct the underdeveloped trachea.
+    - **Child Positioning:** Tilt the head only **slightly back** from neutral; use **only the index finger of one hand** to lift the chin and jaw without pressing soft tissue beneath the chin.
+    - **Ear-to-Sternal-Notch Alignment:**
+      - *(a)* Child on floor with rolled towels behind head/neck creating flat ear-to-sternal-notch alignment.
+      - *(b)* Adult on hospital bed with rolled towel under neck creating flat alignment.
+      - *(c)* Non-obese adult on stretcher with folded blankets behind head creating sniffing position.
+      - *(d)* Obese adult on stretcher with only folded blankets behind head -> elevated chest from obesity creates a downward angle from sternal notch to ear (misaligned).
+      - *(e)* Obese adult with **ramping** (rolled towels/blankets behind neck and upper back raising head/torso) -> restores flat ear-to-sternal-notch alignment.
+  - Jaw-Thrust Maneuver
+    - **Indication:**
+      - Patients with **suspected spinal injury** (keeps head and neck in a neutral, in-line position—not turned, flexed, or extended) OR when the head-tilt, chin-lift fails in a non-spine-injured patient.
+      - Displaces the mandible forward, pulling the tongue away from the back of the airway.
+      - Temporary maneuver; supplement with a mechanical airway if needed.
+    - **Clinical or equipment detail:** Illustration and photo showing an EMT kneeling at the top of a supine patient's head with fingers cradling the angles of the lower jaw/ears to lift the mandible upward and forward while thumbs press below the mouth to retract the lower lip, keeping the head and neck neutral in-line.
+    - **3-Step Procedure:**
+      - 1\. Kneel at the top of the patient's head; rest elbows on the surface supporting the patient and place hands at the sides of the patient's head.
+      - 2\. Grasp the **angles of the lower jaw** on both sides and move the jaw forward with both hands (if no spinal injury is suspected, the head can be tilted backward).
+      - 3\. Retract the lower lip with your thumb if the lips close.
+    - *If unsuccessful:* Reposition the jaw; if still ineffective, insert an oral or nasal airway adjunct.
+  - Jaw-Thrust in Infants and Children
+    - **Clinical or equipment detail:** Shows EMT's thumbs placed on the infant's cheekbones while **two or three fingers of each hand** cradle the angle of the jaw to lift it up and forward without compressing soft neck tissue. Insert an airway adjunct if unsuccessful.
+  - Positioning the Patient for Airway Control
+    - **Modified Lateral (Recovery / Coma) Position:** Used for patients with altered mental status at risk of aspirating blood, secretions, or vomitus **ONLY when no spinal injury is suspected** and **no positive pressure ventilation is needed**.
+      - *Clinical or equipment detail:* Shows an unconscious patient on a stretcher in a left lateral recumbent position with the lower arm extended, upper hand tucked under the lateral face/cheek, and top leg bent at the hip and knee for stability.
+      - *Steps:* Place arm closest to you flat on the ground at a right angle to the body -> log roll patient onto side -> place hand of opposite (top) arm under lateral face/cheek -> bend top leg at hip and knee.
+      - *Spinal Injury Rule:* Keep supine with spine motion restriction; log roll as a unit to drain secretions, blood, or vomitus.
+      - *Ventilation Rule:* Patient **must be supine** to ventilate effectively when no advanced airway device is in place.
+      - *Positioning Safety Rules:*
+        - Keep body as lateral as possible so fluids drain freely out of the mouth; avoid chest pressure that interferes with breathing.
+        - **Never use a prone (face-down) position**—pushes abdominal contents upward against the diaphragm, limiting movement and causing inadequate ventilation and severe hypoxia.
+        - If left in the modified lateral position for **greater than 30 minutes**, turn the patient to the opposite side at 30 minutes (or sooner if signs of impaired blood flow appear in the bottom extremity).
+- Suctioning
+  - **Indication:** Immediately suction whenever **gurgling** is heard or blood, vomitus, secretions, or liquids are present (failure to suction forces liquid deeper into the airway and lungs).
+  - **Solid/Thick Obstructions:** Suction is ineffective for thick vomitus or solid objects (teeth, foreign bodies, food)—place patient on side (if no spinal injury) and perform a **visualized finger sweep**.
+  - **Standard Precautions:** Wear **protective eyewear, mask, and gloves**. Wear an **N-95, N100, or HEPA respirator** (plus eyewear and gloves) at all times if tuberculosis or COVID-19 is known or suspected.
+  - Suction Equipment
+    - **Mounted (On-Board) Suction Devices:**
+      - *Clinical or equipment detail:* Wall-mounted unit featuring tubing, a pressure gauge, a lidded collection vessel, and a holding case.
+      - *Specifications:* Must deliver airflow **>40 lpm** at the end of the delivery tube and generate a vacuum **> -300 mmHg** when tubing is clamped/kinked; must be **adjustable** to reduce vacuum for infants/children; powered by an electric vacuum pump or ambulance engine manifold.
+    - **Portable Suction Devices:**
+      - *Clinical or equipment detail:* Battery-powered portable suction unit with lidded air vessel, tubing, battery pack with handle, control knobs, and pressure gauge.
+      - *Clinical or equipment detail:* Hand-powered suction device with a spring-loaded handle, accordion-style air vessel, tubing, and caps.
+      - *Specifications:* Must generate **-80 to -120 mmHg** to suction the pharynx effectively and **-300 mmHg** when clamped; inspect before each shift/regularly.
+      - *Power Sources:*
+        - **Electric:** Batteries must be kept fully charged.
+        - **Oxygen-powered:** Fails if the oxygen source runs out.
+        - **Hand-powered:** Powered manually by the EMT (no battery/O₂ failure risk) and **more effective for heavier substances like thick vomitus**.
+      - *Required Components:* Wide-bore, thick-walled, nonkinking tubing; unbreakable (preferably disposable) collection bottle/container; supply of water for rinsing/clearing; sufficient vacuum pressure and flow.
+  - Suction Catheters
+    - **Rigid Catheter (Hard / Yankauer / "Tonsil Tip" / "Tonsil Sucker"):**
+      - Rigid plastic tube used to suction the **mouth and oropharynx** of an unresponsive patient; more effective for particulate matter.
+      - Insert **only as far as you can see** (typically no deeper than the base of the tongue).
+      - Touching the posterior oropharynx can stimulate a **gag reflex/vomiting** or stimulate the **vagus nerve**, causing **bradycardia**. In infants and children, **never touch the back of the airway** (risks soft tissue trauma and bradycardia).
+      - *Assessment Tip (Measuring):* Place tip at the **angle of the jaw** and mark a landmark at the **corner of the mouth**.
+    - **Soft Catheter (French Catheter):**
+      - Flexible tubing used to suction the **nose and nasopharynx** or when a rigid catheter cannot be used.
+      - *Measuring:* Measure from **tip of nose to tip of ear** (for nasopharynx) OR **corner of mouth to tip of ear** (for mouth/oropharynx); do not insert beyond the base of the tongue.
+  - Suctioning Technique
+    - 1\. Position yourself at the patient's head (or where you can observe the airway).
+    - 2\. Verify correct assembly and turn on the suction unit.
+    - 3\. Select the appropriate catheter and vacuum pressure:
+      - *Mouth/oropharynx:* Rigid catheter.
+      - *Nasal passages:* Soft (French) catheter at low-to-medium suction (**80–120 mmHg**); a **bulb syringe** may be used if a soft catheter is unavailable.
+      - *Standard Suction Pressures:* **Adult: 100–120 mmHg** | **Child: 80–100 mmHg** | **Infant: 60–80 mmHg** (use lowest effective vacuum pressure to avoid hypoxia).
+    - 4\. Measure the catheter. One illustrated oral measurement runs from the corner of the mouth to the earlobe. Open the mouth with the crossed-fingers technique if needed, then insert above the tongue **without suction** if possible, no deeper than the base of the tongue.
+    - 5\. Apply suction **only on the way out** of the airway, moving the tip side to side. Cover the suction control port during withdrawal when the catheter uses one.
+      - *Time Limits:* **≤15 seconds** at a time in adults; **~5 seconds** in infants and children (clear enough substance to prevent aspiration).
+    - 6\. Rinse catheter/tubing with water as needed to prevent clogging from dried or thick material.
+  - Suctioning risks and source timing examples
+    - **Unremovable thick vomitus/secretions:** Log roll patient onto their side and perform a visualized finger sweep.
+    - **Continuous frothy secretions:** Suction for **15 seconds** -> provide **positive pressure ventilation with supplemental oxygen for 2 minutes** -> suction for **15 seconds**; repeat until airway is cleared.
+    - **Oxygenation during suction:**
+      - The source attributes desaturation to removal of residual volume, the air remaining after maximal exhalation.
+      - Its accompanying clinical clarification identifies interrupted ventilation and oxygenation as contributors.
+      - The residual-volume explanation requires further verification.
+      - Monitor pulse, heart rate, and SpO₂:
+      - If heart rate drops (especially in infants/children), **immediately remove the catheter**, administer oxygen, and prepare to start PPV with supplemental oxygen.
+      - In adults, tachycardia, bradycardia, or irregular heart rate indicates catheter stimulation or dangerously low blood oxygen -> stop suctioning and resume PPV for **at least 30 seconds**.
+    - **Preoxygenation Before Suctioning:** In artificially ventilated patients with mucus/small secretions, ventilate at **10–12 ventilations/min for 5 minutes** prior to suctioning to wash out residual nitrogen and increase functional oxygen reserve.
+    - CAUTION — ALS Connection — Suction and maintaining oxygenation
+      - The prolonged preoxygenation and suction cycles are textbook examples.
+      - Use local, device- and airway-specific guidance and clear immediately obstructing material promptly.
+      - Hypoxemia during suction can reflect interrupted oxygenation or ventilation.
+      - Catheter stimulation can also cause bradycardia.
+      - Report recurrent contamination, reduced chest rise, desaturation, or bradycardia.
+      - Keep backup suction within reach and minimize interruptions when clearing the airway or changing devices.
+      - Suction through an advanced airway or tracheostomy requires the applicable training and authorization.
+- Airway Adjuncts
+  - Inserted after manual opening and suctioning to maintain airway patency; extend near to, but do **not** pass through, the larynx.
+  - **Universal Rules:**
+    - Must be clean and clear of obstructions.
+    - Must be properly sized to avoid complications or ineffectiveness.
+    - **Do NOT protect the airway from aspiration** of blood, vomitus, secretions, or foreign substances.
+    - Continuously monitor mental status—remove immediately if the patient becomes more responsive or gags.
+    - **Continue maintaining head-tilt, chin-lift or jaw-thrust** even after the adjunct is properly positioned.
+  - Oropharyngeal Airway (OPA / Oral Airway)
+    - **Design:** Semicircular hard plastic or rubber device (tubular or channeled-side designs in adult, child, and infant sizes with a curved body, straight shaft, and flange) that holds the tongue away from the posterior airway and allows suctioning.
+    - **Indication & Strict Contraindication:** Patient **must be completely unresponsive with NO gag or cough reflex**. **Do NOT use** in a responsive patient or one with an intact gag/cough reflex (triggers vomiting or laryngospasm).
+    - **Sizing Complications:** Too long -> pushes epiglottis over the laryngeal opening (complete obstruction); improper insertion -> pushes tongue posteriorly.
+    - **Insertion Procedure:**
+      - 1\. **Measure:** Hold next to face—should extend from the **front teeth to the angle of the jaw** (or from the **corner of the mouth to the tragus of the ear**). The illustrated alternatives use the earlobe or the angle of the jaw as the outer landmark.
+      - 2\. **Open & Insert (Adult):** Open mouth with crossed-fingers technique; insert **upside down** (tip pointing toward the roof of the mouth).
+      - 3\. **Rotate:**
+        - When tip contacts the soft palate, gently rotate **180°** while advancing until the flat flange rests on the front teeth, following the curve of the tongue and oropharynx to hold the tongue down and forward.
+        - Alternative: insert sideways at the corner of the mouth and rotate **90°** while advancing.
+    - **Pediatric Insertion:**
+      - Preferred method in infants and children uses a **tongue depressor (blade)** to press the tongue down toward the mandible and forward, inserting the OPA right-side up in its normal anatomical orientation **without rotation** until the flange rests on the teeth.
+      - The curve sits over the tongue to maintain an open oral passage into the pharynx.
+    - **Removal:** If the patient gags during insertion or tries to dislodge it afterward, gently pull **out and down** and prepare for vomiting.
+  - Nasopharyngeal Airway (NPA / Nasal Airway)
+    - **Design:** Curved hollow tube of soft plastic or rubber with a flange/flare at the proximal end and a bevel at the distal end (sized by tube diameter).
+    - **Indications:** Clenched teeth, biting, maxillary/facial injuries, or semiconscious/unresponsive patients needing airway assistance who **still have a minimally intact gag reflex** (less likely to stimulate vomiting because the soft tube gives when swallowing).
+    - **Contraindications & Risks:**
+      - **Avoid in suspected basilar skull fracture or severe facial trauma.**
+      - **Does NOT protect against aspiration**; can still trigger gagging, vomiting, or laryngospasm.
+      - Insertion is painful and can injure nasal mucosa, causing **nosebleeds** that may enter the airway.
+      - Still requires maintaining a **head-tilt, chin-lift or jaw-thrust maneuver**.
+    - **Insertion Procedure:**
+      - 1\. **Measure:** Extend from **tip of nose to tip of earlobe** (or **tip of nose to angle of jaw**); diameter must fit inside nostril without blanching nasal skin.
+      - 2\. **Lubricate:** Lubricate exterior thoroughly with a **sterile, water-soluble lubricant**.
+      - 3\. **Insert:**
+        - Choose the larger or more open nostril; gently push tip of nose upward; insert with **bevel facing the septum (wall between nostrils) or floor of nostril**, advancing straight back along the floor of the nostril near the midline until the flange rests against the nostril flare and the tube extends to the posterior pharynx behind the tongue.
+        - If resistance is met, rotate gently side-to-side; if resistance continues, **never force**—remove and try the other nostril.
+      - 4\. **Verify Airflow:** Feel for air moving through the tube on inhalation and exhalation; if absent in a spontaneously breathing patient, remove and try the other nostril.
+    - **Pediatric Limitations:** Very small diameter is easily occluded by secretions; large **adenoids** in young children make insertion difficult, cause bleeding/injury, or compress the tube and increase airway resistance -> generally ineffective in the very young.
+
+## Breathing assessment and when to assist ventilation
+
+- Rate, depth, and alveolar ventilation
+  - **Next Step After Airway:** Once a patent airway is established, immediately assess the adequacy of the patient's breathing.
+  - **Consequences of Inadequate Breathing:** Leads to poor gas exchange in the alveoli and ineffective oxygen delivery to body cells (rapidly progressing to cellular hypoxia and potential death if unrecognized).
+  - **Two Essential Variables:** You must evaluate **both** the **respiratory rate** and the **volume (depth)** of each breath—neither variable alone is sufficient to determine whether breathing is adequate.
+- Relationship of Volume and Rate in Breathing Assessment
+  - Tidal Volume and Minute Volume
+    - **Tidal Volume:** The amount of air moved in and out of the lungs in **one respiration**.
+    - **Minute Volume (Minute Ventilation):** The amount of air moved in and out of the lungs in **one minute**.
+      - **Formula:** `Minute volume = Tidal volume × Respiratory rate`
+      - **Normal Healthy Adult at Rest:** Approximately **5 to 8 L/min**.
+    - **Clinical Impact of Rate vs. Volume Disturbances:**
+      - A decrease in **either** tidal volume or respiratory rate can drop minute volume low enough to impair alveolar gas exchange and cause cellular hypoxia.
+      - You do not need to calculate an exact numerical minute volume on scene, but you **must** assess both rate and depth before deciding breathing is adequate:
+        - *Normal rate + poor volume:* An adult breathing at **14 breaths/min** (normal rate) with very shallow breaths (tiny tidal volume) has **inadequate breathing** and requires ventilation.
+        - *Deep volume + slow rate:* An adult taking full, deep breaths at only **6 breaths/min** has **inadequate breathing** and requires ventilation.
+      - An increased respiratory rate (e.g., rising from **12/min to 20/min**) increases minute volume *only* if tidal volume remains near normal or increases; if tidal volume decreases as rate rises, alveolar gas exchange can deteriorate dramatically.
+  - Assessment Tips (Evaluating Tidal Volume)
+    - Look for **adequate chest rise**.
+    - **Feel and listen** for air movement from the **nose and mouth**.
+- Alveolar Ventilation and Dead Air Space
+  - **Alveolar Ventilation:** The amount of breathed-in air that actually **reaches the alveoli** for gas exchange (oxygenating blood and removing carbon dioxide). Air remaining in conducting airways (trachea and bronchi) does **not** participate in gas exchange.
+  - **Dead Air Space:** The volume of air filling the non-exchanging conducting airways (~**150 mL** in an average-sized adult). Dead air space is filled **first** on every breath regardless of the total volume inhaled.
+  - **Formula:** `Alveolar ventilation = (Tidal volume − Dead air space) × Respiratory rate`
+  - Clinical Examples Demonstrating Why Tidal Volume Matters Most
+    - 1\. **Normal Respiratory Rate with Reduced Tidal Volume:**
+      - *Patient Presentation:* Average-sized adult with respiratory system depression breathing at **12 breaths/min**, but inhaling only **200 mL** per breath.
+      - *Minute Volume:* `200 mL × 12/min = 2,400 mL (2.4 L/min)`
+      - *Alveolar Ventilation:* `(200 mL − 150 mL dead air space) × 12/min = 50 mL × 12/min = 600 mL (0.6 L/min)` — only **50 mL per breath** reaches the alveoli.
+      - *Management:* Thoroughly inadequate breathing causing severe hypoxia if untreated. Requires **immediate assisted ventilation**—deliver each ventilation just as the patient begins to take their own breath to supplement and increase tidal volume to an adequate level.
+    - 2\. **Excessively Fast Respiratory Rate with Reduced Tidal Volume:**
+      - *Mechanism:* Very fast breathing shortens inhalation time so the lungs cannot fill fully, making breaths shallow and reducing tidal volume. Typically, an adult breathing at **40 breaths/min or greater** suffers a significant drop in tidal volume.
+      - *Patient Presentation:* Average-sized adult breathing at **42 breaths/min** with **200 mL** tidal volume.
+      - *Minute Volume:* `42/min × 200 mL = 8,400 mL (8.4 L/min)` — appears misleadingly higher than a normal adult's 6,000 mL/min (at 12/min).
+      - *Alveolar Ventilation:* `(200 mL − 150 mL dead air space) × 42/min = 50 mL × 42/min = 2,100 mL (2.1 L/min)`
+      - *Management:* Despite breathing **3½ times faster** than normal, alveolar air delivery is severely reduced -> **inadequate breathing** requiring ventilation.
+  - Key Clinical Takeaways
+    - A reduction in **tidal volume** reduces alveolar ventilation more drastically and causes poor gas exchange **sooner than rate disturbances**.
+    - An increased respiratory rate does **not** necessarily compensate for low tidal volume.
+    - **Rule:** Any patient with an **inadequate respiratory rate**—or a **poor tidal volume regardless of respiratory rate**—needs ventilation.
+    - NOTE — ALS Connection — What waveform capnography adds
+      - Pulse oximetry estimates arterial hemoglobin saturation.
+      - Waveform capnography plots exhaled CO₂ over successive breaths and reports end-tidal CO₂ (ETCO₂) at the end of expiration.
+      - Supplemental oxygen can improve saturation while shallow or infrequent breaths still allow CO₂ retention.
+      - ETCO₂ also reflects blood flow to the lungs, so shock can lower it despite inadequate ventilation.
+      - A leak, disconnected or obstructed sampling line, or poor sample can distort or erase the trace.
+      - Report waveform changes with chest rise, breathing effort, pulse and blood pressure, and any recent movement or circuit change.
+      - After intubation, the advanced clinician uses sustained waveform capnography to confirm and continuously monitor placement alongside clinical reassessment.
+      - Apply or operate the equipment only as authorized.
+- Core Assessment Technique: Look, Listen, Feel, and Auscultate
+  - Assess **rate, rhythm, quality, and depth** of respirations systematically:
+    - 1\. **Look (Inspect):**
+      - **Inspect the chest:**
+        - Watch chest wall rise and fall for adequate expansion; look for intercostal **retractions** (pulling inward between ribs) and excessive neck muscle use during inspiration.
+        - In an unresponsive patient, place your ear near the mouth/nose while watching the chest to look, listen, and feel simultaneously.
+        - Shallow or inadequate chest rise = inadequate tidal volume -> **ventilate immediately**.
+      - **Observe general appearance:** Check for anxiety, discomfort, distress, or straining of the large neck muscles (sternocleidomastoid). Patients having difficulty breathing typically **sit up and lean forward**.
+      - **Evaluate breathing pattern:** Determine whether rhythm is regular or irregular (brain injuries commonly produce irregular, ineffective patterns).
+      - **Inspect the nostrils:** Look for **nasal flaring** (nostrils opening wide during inhalation), which indicates difficulty breathing.
+    - 2\. **Listen:**
+      - Note speech pattern (speaking only a few words at a time before catching breath).
+      - In patients with altered mental status or unresponsiveness, place your ear next to the nose and mouth to listen for exhaled air; inadequate exhaled air volume = inadequate tidal volume -> **ventilate**.
+    - 3\. **Feel:**
+      - With your ear next to the patient's nose and mouth, feel the volume of exhaled air against your ear and cheek; inadequate exhaled volume = inadequate tidal volume -> **ventilate**.
+    - 4\. **Auscultate (with a Stethoscope):**
+      - **Landmarks:**
+        - **2nd intercostal space** (~2 inches below the clavicle) on the **midclavicular line**
+        - **4th or 5th intercostal space** on the **anterior or midaxillary line**
+        - **5th intercostal space** next to the **sternum** on the anterior chest
+      - *Clinical or equipment detail:* Illustration of anterior and lateral chest showing stethoscope bell placements—anteriorly on the upper lateral chest beneath the clavicle and lower on the medial chest beside the sternum (two landmarks per side, all medial to the nipple line), and laterally under the armpit level with the nipple.
+      - Listen to **one full inhalation and exhalation** to verify breath sounds are present and equal **bilaterally** (diminished or absent sounds indicate inadequate breathing).
+      - **Assessment Priority Rule:** Auscultation is **not** the primary method to check breathing status—always inspect chest rise and listen/feel with the naked ear first, then auscultate breath sounds later in the assessment.
+  - Four Parameters of Breathing Evaluation
+    - **Rate:** Count respirations for **1 full minute** (`1 inhalation + 1 exhalation = 1 respiration`).
+    - **Rhythm:** Regular vs. irregular pattern.
+    - **Quality:** Assessed initially by chest rise and accessory muscle use, and later by auscultating for presence/absence of breath sounds or abnormal noises.
+    - **Depth:** Tidal volume / degree of chest expansion.
+- Adequate Breathing
+  - Characteristics of Adequate Breathing
+    - **Rate:**
+      - **Average adult:** **12–20/min** | **Elderly resting rate:** **20–24/min**.
+      - **Adult concern extremes:** **<8/min** or **>24/min**.
+      - **Clinical Context Rule:** Any rate **>20/min** in a non-stimulated adult (except geriatric) is elevated, but do **not** ventilate based solely on an elevated rate if tidal volume and oxygenation are adequate (e.g., an alert, upset 22-year-old post-MVC breathing at **28/min** with clear speech, full orientation, and no signs of hypoxia or shallow breathing does **not** need ventilation).
+      - **Excessively Fast Rate Thresholds:** Adults breathing **>40/min** or pediatrics breathing **>60/min** lack sufficient time to refill the lungs between breaths, dropping tidal volume and requiring ventilation (always verify signs of inadequate tidal volume).
+      - *Why Extremes Fail:* Too slow -> insufficient air reaches alveoli -> cellular hypoxia/death. Too fast -> incomplete lung inflation -> reduced tidal volume -> cellular hypoxia.
+      - *Functional Definition:* **Adequate rate** moves enough air to meet cellular metabolic oxygen demands; **inadequate rate** is too slow or too fast to meet cellular metabolic oxygen demands.
+  - Respiratory Rates within a Normal Range
+    - **Adult:** **12–20** breaths/min
+    - **Adolescent (12–15 years):** **12–20** breaths/min
+    - **School-age child (6–11 years):** **18–25** breaths/min
+    - **Preschooler (3–5 years):** **20–28** breaths/min
+    - **Toddler (1–2 years):** **22–37** breaths/min
+    - **Infant (1 month–12 months):** **30–53** breaths/min
+    - **Neonate (birth–1 month):** **40–60** breaths/min
+    - **Rhythm:** Regular pattern with consistent volume and intervals (normal occasional sighs slightly alter the pattern).
+    - **Quality:** Equal and full breath sounds bilaterally; adequate and equal chest rise/fall; no excessive accessory muscle use (*Note:* infants and children normally use abdominal muscles more than adults, so expect greater abdominal movement).
+    - **Depth (Tidal Volume):** Full chest rise with each inhalation and full, adequate exhaled air heard and felt at mouth and nose.
+  - Respiratory Distress vs. Inadequate Breathing
+    - **Respiratory Distress:** The patient is working harder to move air into and/or out of the lungs, **but respiratory rate and tidal volume remain adequate**.
+      - *Management:* Administer **supplemental oxygen** (do **not** ventilate unless rate or tidal volume becomes inadequate).
+    - **Assessment Tip:** Adequate breathing requires **both** an adequate tidal volume and an adequate respiratory rate.
+    - TIP — ALS Connection — When less effort signals deterioration
+      - A patient who was speaking in short phrases and breathing hard now seems quieter, but is drowsy with shallow chest movement and diminished air entry.
+      - Report the change immediately.
+      - This pattern can represent fatigue and failing ventilation even if saturation has improved on oxygen.
+      - An authorized ALS partner may assess airflow and CO₂ trends and evaluate the cause while the EMT starts effective BVM support when indicated.
+      - Seek resources early for a worsening or difficult-to-maintain airway.
+      - Factor in transport time, rendezvous time, and the receiving facility's capabilities under local policy.
+      - Continue indicated care and time-sensitive transport while coordinating additional help.
+- Inadequate Breathing
+  - **Consequences:** Impairs alveolar oxygen exchange, cellular oxygen delivery, and carbon dioxide elimination -> cellular hypoxia and cell death.
+    - **Most Hypoxia-Sensitive Organs:** **Brain, heart, and liver**.
+    - **Brain Survival Window:** Brain cells begin to die in approximately **4 to 6 minutes** without an adequate oxygen supply.
+  - **Categories:**
+    - **Respiratory Failure:** Insufficient respiratory rate and/or tidal volume -> cellular and organ hypoxia.
+    - **Respiratory Arrest (Apnea):** Complete cessation of breathing (no air movement, no rate, no tidal volume) -> rapid hypoxia.
+  - **Common Causes of Respiratory Failure or Respiratory Arrest:**
+    - Stroke
+    - Myocardial infarction (heart attack)
+    - Drug overdose, especially opiates and other CNS depressants
+    - Toxic inhalation (e.g., carbon monoxide poisoning)
+    - Electrocution and lightning strike
+    - Suffocation
+    - Traumatic injuries to the head, spine, chest, or abdomen
+    - Infection to the epiglottis
+    - Airway obstruction by a foreign body
+  - **Assessment Tip:** Patients exhibiting signs of respiratory failure or respiratory arrest require **immediate positive pressure ventilation (PPV)**.
+  - **Agonal Respirations (Agonal Breathing):**
+    - Occasional gasping-type breaths frequently seen shortly after witnessed cardiac arrest; **totally ineffective**.
+    - *Management:* Provide **positive pressure ventilation** immediately, and **check the patient's pulse right away** if not yet confirmed in cardiac arrest.
+  - **Safety Rules:**
+    - If uncertain whether a patient needs breathing assistance, **err on the side of safety and provide ventilation**.
+    - **Always connect and deliver supplemental oxygen** whenever assisting ventilation.
+  - WARNING — ALS Connection — Agonal gasps and arrest recognition
+    - In an unresponsive patient with absent normal breathing or only gasps, complete the health care provider pulse check within 10 seconds.
+    - If a pulse is not definitely felt, start CPR and use the AED as soon as available.
+    - If a definite pulse is present with absent or ineffective breathing, provide ventilatory support and reassess the pulse.
+    - A monitor rhythm alone does not establish mechanical circulation.
+  - Signs of Inadequate Breathing and Severe Respiratory Distress
+    - Severe respiratory distress or inadequate breathing can present with an open mouth, prominent ribs, and strained sternocleidomastoid muscles.
+    - Look for:
+    - Fast or slow respiratory rate; irregular rhythm
+    - Increased effort to breathe; shallow or inadequate depth of breathing
+    - Circumoral and intraoral cyanosis
+    - Intercostal, supraclavicular, and suprasternal retractions
+    - Occasional gasping (agonal) breaths just before respiratory or cardiac arrest
+    - Cool and clammy skin
+    - Sternocleidomastoid muscle use
+    - Unequal or inadequate chest expansion
+    - Nasal flaring
+  - Abnormal effort, sounds, and chest movement
+    - **Abnormal work of breathing:**
+      - Retractions
+      - Nasal flaring
+      - Abdominal breathing
+      - Diaphoresis
+    - **Abnormal upper airway sounds** *(occluded or partially occluded airway)*:
+      - Stridor
+      - Sonorous or snoring
+      - Gurgling
+    - **Abnormal breath sounds** *(heard on thoracic auscultation)*:
+      - Wheezing
+      - Crackles
+      - Rhonchi (snoring sound on auscultation)
+      - Silent chest (no breath sounds heard)
+      - Unequal breath sounds (trauma, infection, pneumothorax)
+    - **Reduced minute ventilation:**
+      - Decreased tidal volume (chest does not rise adequately with each breath)
+      - Inadequate respiratory rate (too fast or too slow to maintain adequate minute ventilation)
+    - **Inadequate chest wall movement or chest wall injury:**
+      - Paradoxical chest wall movement (chest wall segment moves inward during inspiration and outward during expiration—reverse of normal)
+      - Splinting of the chest wall
+      - Asymmetrical chest wall movement
+    - **Irregular respiratory pattern** (head injury, stroke, metabolic derangement, toxic inhalation)
+    - **Rapid respiratory rate without clinical improvement** in the patient's condition
+  - Detailed Assessment Breakdown
+    - **Rate:** Outside normal age ranges:
+      - **Tachypnea:** Excessively rapid breathing rate; may indicate inadequate oxygenation and breathing, especially in adults.
+      - **Bradypnea:** Abnormally slow breathing rate; an ominous sign of inadequate breathing and oxygenation in infants and children, and also seen in adults with CNS depression, drug, or alcohol emergencies. Rate alone can be the sole cause of inadequate breathing.
+    - **Rhythm:** Irregular breathing pattern indicates severe brain injury or medical illness and typically produces inadequate rate, depth, and quality.
+    - **Quality:**
+      - Decreased/absent breath sounds, or inadequate/unequal chest wall rise and fall.
+      - **Retractions:** Depressions **between the ribs, above the clavicles, around neck muscles, and below the rib cage** during inspiration from excessive accessory muscle use (most common in infants and children).
+      - **Excessive abdominal movement:** Using abdominal muscles to push up on the diaphragm to force air out (distinguish from normal baseline abdominal breathing in infants/children).
+      - **"Seesaw" breathing:** Abdomen and chest move in opposite directions during breathing in infants.
+      - **Nasal flaring:** Nostrils flare open during inspiration (most common in children).
+    - **Depth:** **Shallow breathing** (minimal chest wall movement / inadequate tidal volume) requires immediate assisted ventilation.
+    - CAUTION — Use the clinical assessment to determine ventilatory adequacy
+      - Signs can appear independently.
+      - The source’s broad instruction to ventilate for any single abnormal sign conflicts with its example of adequate ventilation despite tachypnea.
+      - Interpret rate, tidal volume, air movement, rhythm, and mental status together.
+      - Provide prompt support when breathing is ineffective.
+- Core Clinical Decision (Oxygen Alone vs. Positive Pressure Ventilation)
+  - **Critical Assessment Choice:** Determining whether the patient needs **positive pressure ventilation (PPV)** or whether **supplemental oxygen alone** is sufficient—choosing oxygen alone when ventilation is required can mean the difference between survival and death.
+  - **Physiological Rationale (Alveolar Ventilation vs. Dead Air Space):**
+    - Only air that actually reaches the **alveoli** participates in gas exchange.
+    - If a patient's **tidal volume** is inadequate and you only apply an oxygen mask, the small volume inhaled may fill **only the dead air space**, leaving little or no oxygen reaching the alveoli.
+    - Applying oxygen alone to a patient with inadequate breathing is **ineffective** and will **not** prevent deterioration.
+    - Oxygenated air reaches the alveoli only when **both** respiratory rate and tidal volume are adequate.
+  - **Continuous Monitoring:** Pay close attention to chest wall activity throughout your assessment and continuously monitor respiratory rate and chest wall movement.
+- Why Neither Rate Nor Depth Alone Is Sufficient
+  - Both **respiratory rate** and **tidal volume** must fall within adequate limits—if **either** is inadequate, immediately begin **positive pressure ventilation (PPV)**:
+    - **Normal Rate + Inadequate Tidal Volume (Example 1):** An adult breathing at **16 respirations/min** (within normal limits) who has only slight chest rise and fall, minimal air heard or felt being expelled, and bilaterally diminished breath sounds has **inadequate breathing** -> requires immediate **PPV**.
+    - **Adequate Tidal Volume + Inadequate Rate (Example 2):** A patient with very good tidal volume who is breathing at only **6 respirations/min** has **inadequate breathing** -> requires immediate **PPV**.
+- Rate and depth combinations
+  - The source uses a **rule of two** for adequate breathing and a **rule of one** for inadequate breathing.
+  - 1\. **`Adequate respiratory rate + adequate tidal volume = Adequate breathing`**
+    - Both components are present and adequate; sufficient volumes of air reach the alveoli.
+    - **Action:** No positive pressure ventilation needed; administer supplemental oxygen via mask if necessary.
+  - 2\. **`Inadequate respiratory rate + adequate tidal volume = Inadequate breathing`**
+    - Even with good volume per breath, the rate is too slow (or ineffective) to move enough air into the alveoli over time for gas exchange.
+    - **Action:** Immediately begin **positive pressure ventilation**.
+  - 3\. **`Adequate respiratory rate + inadequate tidal volume = Inadequate breathing`**
+    - Even with a normal rate, each breath lacks sufficient volume to overcome **dead air space** and deliver oxygenated air into the alveoli.
+    - **Action:** Immediately begin **positive pressure ventilation**.
+  - IMPORTANT — ALS Connection — Start with effective ventilation
+    - A patent airway can coexist with inadequate ventilation, and a normal saturation on oxygen can coexist with CO₂ retention.
+    - If breathing is inadequate, provide effective basic ventilation promptly and look for improvement in chest rise, air movement, and oxygenation.
+    - Advanced airway equipment may help when basic ventilation is ineffective or difficult to maintain, but an invasive procedure can bring complications and interruptions.
+    - Effective BVM support may remain the best option during transport, especially in children.
+- Clinical example — Progression from distress to respiratory failure
+  - Presentation, oxygen selection, and progression to assisted ventilation
+    - A patient may breathe normally and still have a condition that warrants oxygen.
+    - In the illustrated progression, a patient with pursed lips and strained neck muscles still has adequate rate and depth.
+    - The crew uses a nonrebreather mask when high-concentration oxygen is indicated.
+    - As the patient moves into a tripod position, reassess chest excursion despite the rapid rate.
+    - When respirations become ineffective and the patient becomes unable to follow commands or loses consciousness, the crew uses two-person BVM.
+- Clinical example — Sudden headache and ineffective breathing
+  - Presentation, neurologic findings, and respiratory and pulse assessment
+    - A 67-year-old man develops a sudden, extremely severe headache, becomes confused, and loses consciousness.
+    - Family lays him supine to prevent injury.
+    - He shows flexion posturing in response to trapezius pressure.
+    - He snores during inspiration and expiration, with minimal chest excursion at approximately **5–6 breaths/min**.
+    - His radial pulse is strong at about **50 beats/min**.
+    - His skin is warm, dry, and normal in color, while **SpO₂ is 79%**.
+  - NOTE — ALS Connection — Sudden severe headache with failing ventilation
+    - Snoring, minimal chest movement, slow respirations, and severe desaturation call for prompt airway positioning and effective assisted ventilation with oxygen.
+    - Report last known well, headache onset, progression to posturing, baseline versus repeat vitals, and any anticoagulant history.
+    - An authorized ALS clinician may add glucose testing and waveform capnography, assess airway protection, and coordinate early stroke-capable destination notification under local policy.
+    - The presentation raises concern for an intracranial emergency, with definitive diagnosis requiring hospital evaluation.
+    - During transport, track chest rise, saturation, blood pressure, pulse, and neurologic changes.
+    - Tell the receiving team which findings preceded treatment and which changed afterward.
+
+## Assisted ventilation and noninvasive respiratory support
+
+- Positive pressure and ventilation methods
+  - **Positive Pressure Ventilation (PPV):** Artificially forcing air into the lungs of a patient who is breathing inadequately or not breathing at all.
+  - **Available Methods:** Mouth-to-mask, two-person bag-valve mask (BVM), one-person bag-valve mask (BVM), and automatic transport ventilator (ATV), alongside noninvasive support via CPAP and HFNC.
+- Physiological Differences: Spontaneous Ventilation vs. PPV
+  - 1\. **Air Movement:**
+    - *Spontaneous:* Negative pressure created by thoracic expansion draws air into the lungs.
+    - *PPV:* Forces air into the lungs via positive pressure regardless of thoracic expansion—making PPV the **treatment of choice** when chest wall injury (e.g., a flail segment) prevents adequate thoracic expansion.
+  - 2\. **Airway Wall Pressure:**
+    - *Spontaneous:* Airway wall pressure is unaffected.
+    - *PPV:* Pushes airway walls outward, creating a larger dead space that requires higher volumes to fill and ventilate effectively.
+  - 3\. **Esophageal Opening Pressure:**
+    - *Spontaneous:* The soft, flexible esophagus remains collapsed and no air enters.
+    - *PPV:* Can overcome esophageal opening pressure, forcing air into the stomach -> **gastric distention**, regurgitation, airway compromise, and aspiration.
+  - 4\. **Cardiac Output (Cardiothoracic Pump Effect):**
+    - *Spontaneous:* Negative intrathoracic pressure prior to inhalation acts like a vacuum, pulling venous blood into the inferior vena cava from below the diaphragm -> maintains right-heart **preload**, **stroke volume**, **cardiac output**, and **blood pressure**.
+    - *PPV:* Generates positive intrathoracic pressure during inhalation -> diminishes the vacuum effect -> **decreases venous return** -> reduces **preload, stroke volume, cardiac output, blood pressure, and organ perfusion** (especially dangerous in cardiac arrest or air-trapping conditions like severe asthma or tension pneumothorax).
+  - NOTE — ALS Connection — Reassess circulation after applying positive pressure
+    - If blood pressure falls after starting assisted ventilation, report when it happened and compare the latest pulse, perfusion, chest rise, and breath sounds with baseline.
+    - Positive pressure can reduce venous return, especially with low circulating volume or trapped gas.
+    - Worsening shock, an obstructed circuit, or tension pneumothorax in a compatible trauma presentation may also account for deterioration.
+    - A credentialed paramedic may evaluate for an advanced intervention while the EMT maintains effective ventilation and communicates changes.
+    - In suspected severe brain injury, avoiding hypoxemia, hypotension, and unnecessary hyperventilation helps limit secondary injury.
+- Basic Considerations & Standard Precautions
+  - **Three Major Requirements for Any Ventilation Device:**
+    - 1\. Maintain a **tight mask seal** without excessive air leakage.
+    - 2\. Deliver an **adequate volume of air** to inflate the lungs.
+    - 3\. Provide a **connection for simultaneous oxygen delivery**.
+  - **Standard Precautions:**
+    - *Minimum PPE:* **Gloves and protective eyewear** (high risk of contact with secretions, blood, or vomitus).
+    - *Heavy fluids:* Add a **face mask** if large amounts of blood or secretions are present.
+    - *Airborne precautions:* Wear a **HEPA, N-95, or N100 respirator** (plus eyewear and gloves) throughout the entire patient contact if **tuberculosis or COVID-19** is suspected.
+  - **Maximum Interruption Rule:** Never interrupt ventilation for **greater than 30 seconds**.
+- Adequate vs. Inadequate Ventilation
+  - Mask seal and effective alveolar ventilation
+    - *(a) Adequate ventilation with good alveolar ventilation:* Two-person BVM technique—one EMT uses both hands to hold a firm mask seal around the patient's mouth while the second EMT uses both hands to squeeze the bag.
+    - *(b) Inadequate ventilation with poor alveolar ventilation:* One-person BVM technique—one EMT uses one hand to hold the bag and one hand to hold the mask, unable to maintain a complete mask seal.
+  - Indications of Adequate Ventilation
+    - **Adequate rate:**
+      - *Adult with a pulse:* **10–12/min** (once every **5–6 seconds**).
+      - *Infant/child with a pulse:* **12–20/min** (once every **3–5 seconds**).
+      - *Newborn with a pulse:* **40–60/min** (once every **1–1.5 seconds**).
+      - *Delivery speed:* Deliver every ventilation steadily over **1 second** (prevents sudden high-pressure jets from overcoming esophageal opening pressure and causing gastric distention, vomiting, and aspiration).
+      - *Pulseless (no advanced airway):* **30 compressions : 2 ventilations** for adults, children, and infants (changes to **15:2** for infants and children during **two-rescuer CPR**); **3:1** (**90 compressions : 30 ventilations**) for newborns.
+    - **Consistent, sufficient tidal volume:** Causes **visible chest rise** with every ventilation.
+    - **Heart rate returns to normal** (unless underlying conditions prevent it).
+    - **Skin color improves:** Pale, gray, or cyanotic discoloration lessens and disappears.
+  - Indications of Inadequate Ventilation
+    - **Inadequate rate:** Too fast (prevents exhalation, causes gastric distention, and risks overventilation complications) or too slow (insufficient oxygen).
+    - **Chest does not rise and fall:** Inadequate volume, poor mask seal, improper device use, or airway obstruction (if chest fails to *fall*, the airway is not properly opened or the device/airway is obstructed, blocking exhalation).
+    - **Heart rate does not return to normal** (also consider blood loss, anxiety, or cardiac issues).
+    - **Color does not improve** (remains extremely pale, cyanotic, or gray).
+    - **Assessment Tip (Heart Rate Trends):**
+      - A rapid heart rate that continues to rise signals worsening hypoxia from inadequate ventilation.
+      - A rapid heart rate that slows down signals improving oxygenation—*unless* it continues dropping into **bradycardia**, which indicates worsening hypoxia and inadequate ventilation.
+- Mouth-to-Mouth and Mouth-to-Nose Ventilation
+  - **Physiological Basis:** Ambient air contains ~**21% O₂**; the body consumes **5%** and exhales **16% O₂** (primarily from dead air space), enough to oxygenate a patient.
+  - **Limitations & Protocol:** Not routinely recommended for EMTs because pocket masks and BVMs are readily available; if ever used, a **barrier device** must be applied.
+  - **Mouth-to-Nose Indications:** Pinch the nose for mouth-to-mouth; close the mouth for mouth-to-nose. Use mouth-to-nose when the mouth cannot be opened, with severe soft-tissue/bone injury to or around the mouth, in infants, or when a tight mouth-to-mouth seal cannot be achieved.
+- Textbook ventilation volumes and rates
+  - WARNING — ALS Connection — Current ventilation rates and context
+    - The source ventilation-rate table contains older rates, and the later ventilation and pediatric sections also give textbook estimates.
+    - For an adult with a pulse who is not breathing normally, AHA 2025 specifies 10 breaths/min.
+    - For an infant or child with a pulse and inadequate breathing, or during CPR with an advanced airway, AHA/AAP specifies 20–30 breaths/min.
+    - Adult arrest with an advanced airway uses 10 breaths/min with continuous compressions.
+    - At birth, neonatal resuscitation uses a separate algorithm with initial positive-pressure ventilation at 30–60 inflations/min when indicated.
+    - Applying the birth algorithm depends on the clinical context, beyond the chapter's age labels.
+    - Use your current age- and situation-specific training.
+    - Give enough volume for visible chest rise and use an adjunct when indicated and tolerated.
+    - The bag's labeled capacity is different from the delivered breath volume.
+    - Connect oxygen as soon as practicable while maintaining effective ventilation.
+  - **Target Tidal Volume (Patient with a Pulse):** Approximately **10 mL/kg (700–1,000 mL)**—enough to produce visible chest rise over **1 second**.
+  - **Textbook equipment setup:** The source specifies early oxygen at **15 lpm** and uses an **OPA or NPA** with ventilation. Apply an adjunct only if indicated and tolerated, as noted above. Ventilate with room air if oxygen is unavailable.
+  - Textbook rate and compression examples
+    - **Patient WITH a Pulse:**
+      - **Adult (adolescent and older):** **10–12 ventilations/min** (1 every **5–6 seconds**)
+      - **Child (1 year to adolescent):** **12–20 ventilations/min** (1 every **3–5 seconds**)
+      - **Infant (up to 1 year):** **12–20 ventilations/min** (1 every **3–5 seconds**)
+      - **Newborn (birth to 30 days):** **40–60 ventilations/min** (1 every **1–1.5 seconds**)
+    - **Patient WITHOUT a Pulse (No Advanced Airway):**
+      - **Adult (adolescent and older):** **30 compressions : 2 ventilations** (1- and 2-person CPR; compressions at **100–120/min**)
+      - **Child (1 year to adolescent):** **30:2** (1-person CPR) | **15:2** (2-person CPR) at **100–120/min**
+      - **Infant (up to 1 year):** **30:2** (1-person CPR) | **15:2** (2-person CPR) at **100–120/min**
+      - **Newborn (birth to 30 days):** **3 compressions : 1 ventilation** (1- and 2-person CPR)
+    - **Patient WITHOUT a Pulse WITH an Advanced Airway (ET Tube, Combitube, King LT, LMA):**
+      - **Adult, Child, and Infant:** Continuous compressions at **100–120/min** (no pause) + **10 ventilations/min** (1 every **6 seconds**)
+      - **Neonate (birth to 30 days):** **3 compressions : 1 ventilation** = **30 ventilations/min** (1 ventilation after every 3rd compression)
+  - Gastric Inflation
+    - **Cause:** High tidal volumes or rapid airflow generate high airway pressure, forcing open the lower esophageal sphincter and inflating the stomach.
+    - **Complications:** Regurgitation and aspiration (causing pneumonia and impaired gas exchange) + upward pressure on the diaphragm restricting lung expansion (especially in children).
+    - **Prevention:** Connect supplemental oxygen at **15 lpm** early so smaller tidal volumes (delivered slowly over **1 second**) still maintain adequate oxygenation.
+- Mouth-to-Mask Ventilation (Pocket Mask)
+  - **Clinical or equipment detail:** Shows a transparent handheld pocket mask with an open chimney/ventilation port connected to a short tube, a one-way valve, and a carry case.
+  - **Advantages:** Allows one EMT to maintain a **two-handed mask seal**; prevents direct contact with nose, mouth, and secretions; one-way valve blocks patient's exhaled air; delivers adequate (often greater) tidal volumes than 1-person BVM; includes an O₂ inlet.
+  - **Disadvantages:** Perceived infection risk; EMT fatigue over time; cannot deliver the highest possible O₂ concentration.
+  - **Required Mask Features:** Transparent material; tight facial seal; O₂ inlet for **15 lpm**; adult, child, and infant sizes; one-way valve at ventilation port.
+  - Mouth-to-Mask Technique — No Suspected Spinal Injury
+    - 1\. Attach one-way valve to ventilation port and connect O₂ tubing at **15 lpm**.
+    - 2\. Position at the top of the head (**cephalic technique**, best for watching chest rise) or at the side (**lateral technique**, preferred for one-person CPR to switch quickly between chest and airway, though a 2-handed seal is harder).
+    - 3\. Place narrow top over bridge of nose and broader bottom in cleft above chin. Hold with **"C-E" technique**: thumbs and index fingers form **"Cs"** pressing down around the mask chimney (thumb-side palms along sides of mask); middle, ring, and little fingers form **"Es"** grasping under the mandible in front of the earlobes to lift the jaw/chin upward while tilting the head back.
+    - 4\. Blow into the one-way valve over **1 second** until chest rises, then stop to allow exhalation. If chest does not rise, reposition the head and retry; if the second attempt fails, follow **foreign body airway obstruction** procedures.
+  - Mouth-to-Mask Technique — Suspected Spinal Injury
+    - Maintain spine motion restriction (SMR); use the **"C-E" grip** to lift the angle of the mandible forward **without tilting the head back** (jaw-thrust maneuver, keeping head and neck neutral).
+    - **Cardiac Arrest Exception (Assessment Tip):** If the patient is **pulseless** and jaw thrust fails to open the airway/ventilate after several attempts, slightly extend/tilt the head backward until airflow resistance decreases and the chest rises adequately—airway and ventilation take priority in cardiac arrest.
+  - Troubleshooting Ineffective Ventilation (5-Step Sequence)
+    - 1\. **Reposition head and neck** (or readjust jaw thrust; switch to head-tilt, chin-lift if in cardiac arrest and jaw thrust fails).
+    - 2\. **Switch maneuvers** in cardiac arrest (head-tilt, chin-lift <-> jaw-thrust).
+    - 3\. **Readjust the face mask** to eliminate seal leaks.
+    - 4\. **Administer a greater tidal volume** (needed for asthma, allergic reaction, collapsed lung, or pneumonia).
+    - 5\. **Insert an OPA or NPA** if not already in place.
+- Bag-Valve-Mask (BVM) Ventilation
+  - **Device construction:**
+    - *Components:* Face mask, exhalation port, nonrebreathing valve, self-inflating ventilation bag, oxygen supply inlet connection, air/oxygen intake valve, oxygen reservoir, and oxygen supply tubing.
+    - *Sizes:* Adult (~**1,600 mL**), child, and infant (**450–500 mL** minimum for full-term newborns, infants, and children; use adult BVM at **age 8 or older**).
+  - **Oxygen Delivery:** **21% O₂** without oxygen attached; **close to 100% O₂** with oxygen at **15 lpm** and reservoir attached. Stop squeezing as soon as the chest rises over **1 second** to avoid overventilation.
+  - **BVM features described in the source:**
+    - Disposable/sterilizable self-refilling bag; non-jamming valve permitting max O₂ flow of **30 lpm**; **no pop-off valve or manually disableable pop-off valve**; standard **15/22-mm** couplings; O₂ inlet and reservoir; true nonrebreather valve; temperature adaptability; transparent infant, child, and adult masks.
+    - A correctly sized mask spans the bridge of the nose to the cleft above the chin.
+  - **Two-Person BVM Technique (Preferred):**
+    - Rescuer 1 at head inserts OPA/NPA, places padding behind head for sniffing position (if no spinal injury), and holds a **two-handed "E-C" mask seal** (or jaw-thrust E-C seal if spinal injury suspected).
+    - Rescuer 2 squeezes the bag with **two hands** steadily over **1 second** until chest rises, with O₂ connected at **15 lpm** + reservoir.
+  - **One-Person BVM Technique:**
+    - Form a **one-handed "E-C" seal** (thumb on nose bridge, index on chin cleft, remaining fingers lifting mandible) while squeezing the bag with the other hand (or against your body/forearm). The source describes ventilating for about **1 minute** before attaching oxygen and lists a **30-second** maximum interruption. The adjacent resuscitation guidance prioritizes effective ventilation with minimal interruption and connecting oxygen as soon as practicable.
+    - *Technique detail:* Shows a second EMT maintaining SMR while the first EMT ventilates.
+    - *Technique detail:* Shows one EMT kneeling at the head, holding the supine patient's head between knees and thighs for SMR while sealing the mask with one hand and squeezing the bag with the other (least effective method—replace with two-person BVM as soon as possible).
+  - For SMR with two EMTs, the source illustrates one clinician manually stabilizing the head with hands on both sides while the second uses a one-person BVM.
+  - It also illustrates a two-person seal-and-bag technique with the clinician at the head stabilizing with the knees, and an alternative side-and-head arrangement that maintains in-line stabilization.
+  - These are source examples of crew positioning.
+  - Follow local SMR practice and prioritize effective ventilation.
+  - Bag-Valve-Mask Troubleshooting (7 Checks)
+    - 1\. **Check head/chin position** and reposition airway.
+    - 2\. **Check mask seal and size** to eliminate air leaks.
+    - 3\. **Assess for airway obstruction** (inspect mouth, visualized finger sweep, or FBAO clearance maneuvers).
+    - 4\. **Check BVM assembly and O₂ flow rate** (inadequate flow slows bag reservoir refilling and reduces delivered Vₜ).
+    - 5\. **Switch to an alternative ventilation method** (e.g., mouth-to-mask) if chest still fails to rise/fall.
+    - 6\. **Insert an OPA or NPA** if difficulty maintaining patency persists.
+    - 7\. **If abdomen rises/distends:** Either head-tilt, chin-lift is improper OR ventilations are too fast / tidal volume is too large -> reposition and squeeze slowly over **1 second**.
+    - TIP — ALS Connection — Two-person BVM and device transitions
+      - Assign one clinician to open the airway and hold the mask seal and another to deliver and pace breaths.
+      - Say aloud whether the chest is rising and whether the seal or resistance changes.
+      - Keep BVM and suction ready during airway placement and stretcher moves.
+      - If ventilation worsens after a transfer, immediately report the change and check the basics with the team.
+      - A displaced airway, leak, disconnected equipment, obstruction, or a new patient problem can look similar at first.
+      - During CPR, coordinate breaths with the current airway status and keep interruptions to compressions and ventilation as brief as possible.
+- Automatic Transport Ventilator (ATV)
+  - Some EMS systems use an ATV when prolonged ventilatory support is needed.
+  - **Function:** Delivers constant rate and tidal volume; mostly O₂-powered (**100% O₂**; one model is electric); lower inspiratory flow rates and longer inspiratory times reduce gastric distention risk compared to mouth-to-mask/BVM.
+  - **Advantages:** Frees both EMT hands to maintain airway/mask seal (1 EMT can hold SMR with knees and seal mask with two hands); preset Vₜ, rate, and minute ventilation; low-pressure and disconnection alarms.
+  - **Disadvantages:** Stops functioning if O₂ tank empties (always keep a pocket mask or BVM ready); some models cannot be used in children **under 5 years of age**; EMT cannot feel changes in airway resistance or lung compliance.
+  - **Recommended Features:**
+    - Time- or volume-cycled (**avoid pressure-cycled**);
+    - 15/22-mm connector;
+    - lightweight (**≤4 kg**) and rugged;
+    - default peak inspiratory pressure limit **60 cmH₂O** (adjustable **20–80 cmH₂O**) with audible high-pressure/low-compliance alarm;
+    - **50–100% O₂**;
+    - **1-second** inspiratory time;
+    - adjustable inspiratory flow (**30 lpm** adult, **15 lpm** child);
+    - rate **10/min** adult, **20/min** child;
+    - optional demand valve (peak flow **120 lpm**) and **1:2 second** I:E ratio;
+    - optional PEEP/CPAP.
+  - **Operation Steps:** Verify function -> attach to sealed mask -> set Vₜ and rate -> turn on and verify chest rise/fall -> monitor continuously (switch immediately to pocket mask/BVM if device failure suspected).
+  - CAUTION — ALS Connection — Transport ventilators and alarms
+    - The listed ATV specifications are textbook descriptions.
+    - Modern transport ventilators differ in modes, circuits, gas use, alarms, and pressure limits.
+    - A credentialed clinician selects settings for the patient's physiology and monitors the response.
+    - Obstructive disease may require time for exhalation to limit trapped gas and hypotension.
+    - A high-pressure alarm can reflect resistance, a kink, or falling lung compliance.
+    - A low-pressure alarm can reflect a leak or disconnection.
+    - Report the alarm and patient findings promptly, confirm backup oxygen and a working BVM, and assist with an authorized return to manual ventilation if needed.
+    - Changing settings or silencing alarms requires device-specific competency and authorization.
+- Assisting spontaneous breaths
+  - The source technique examples below retain their original rates and timing.
+  - Apply the age- and situation-specific guidance in **Current ventilation rates and context** when the rates differ.
+  - Always explain the procedure and coach the patient to reduce anxiety and improve cooperation.
+  - **Hypoventilation (reduced minute volume):** Ventilate at **10–12/min** (adult) or **12–20/min** (infant/child) to achieve visible chest rise.
+  - **Hypopnea (adequate rate, shallow tidal volume):** Assist at the patient's existing rate, delivering a ventilation just as the patient begins to inhale to boost tidal volume.
+  - **Bradypnea (adequate tidal volume, slow rate):** Start by assisting with the patient's inhalations, then over **5–10 ventilations** increase to **10–12/min** (every **5–6 seconds** in adults; **12–20/min** in infants/children).
+  - **Tachypnea with Hypopnea (excessively fast rate + shallow volume):** Start by assisting with the patient's breaths, then over **5–10 ventilations** gradually slow the rate to every **5–6 seconds** (**10–12/min**) with full tidal volumes.
+- Continuous positive airway pressure (CPAP)
+  - CPAP delivers noninvasive positive pressure through a tightly strapped face mask to an awake, spontaneously breathing patient, typically seated upright.
+  - The source illustrates adult and pediatric use.
+  - The listed pressures, ages, and clinical cutoffs are source examples, with protocol-dependent limits discussed alongside them.
+  - **Physiological Effects (measured in cmH₂O, range 4–20 cmH₂O; start at 5 cmH₂O, max 10 cmH₂O per most protocols due to barotrauma risk):**
+    - Inflates collapsed alveoli, improves pulmonary compliance, and reduces work of breathing.
+    - Overcomes **auto-PEEP** (trapped air pressure in CHF, pulmonary fibrosis, severe asthma, COPD).
+    - Acts as a **pneumatic splint** keeping weakened airways open during exhalation.
+    - In CHF/pulmonary edema, forces fluid out of alveoli back into interstitial spaces/capillaries and reduces afterload/myocardial workload.
+  - **Pediatric Protocols:** Often restricted to patients **over age 12**, though effective if tolerated and mask fits properly.
+  - **Criteria:** Awake, alert, oriented, obeys commands (**GCS > 10**); maintains own airway; spontaneous **RR > 25/min**; relatively hemodynamically stable; moderate-to-severe distress or early failure (accessory muscle use or **SpO₂ < 94%**); elevated ETCO₂; tolerates mask; does not require frequent suctioning; no facial deformities.
+  - **Indications:** **Congestive heart failure (CHF), pulmonary edema, COPD, asthma, pneumonia**.
+  - **Contraindications:**
+    - Apnea/respiratory arrest/agonal respirations;
+    - **GCS < 11**;
+    - inability to maintain airway;
+    - unresponsiveness;
+    - cardiogenic shock (**SBP < 90 mmHg**);
+    - cardiac arrest;
+    - active vomiting;
+    - upper GI bleeding or recent gastric surgery;
+    - pneumothorax or chest trauma (especially penetrating);
+    - tracheotomy;
+    - facial trauma (midface fractures) or anomalies;
+    - increased intrathoracic pressure causing hypotension (**SBP < 90 mmHg**). *(Use caution in hypotension/hypovolemia because increased intrathoracic pressure reduces venous return and cardiac output.)*
+  - **Administration Procedure:**
+    - 1\. Explain procedure, obtain baseline vitals and SpO₂, monitor SpO₂ continuously, and reassess vitals every **5 minutes**.
+    - 2\. Verify adequate O₂ supply + backup cylinder.
+    - 3\. Place patient seated or in **semi-Fowler's position (45°)**.
+    - 4\. Assemble circuit, verify function, and strap mask tightly over nose and mouth.
+    - 5\. Start at **5 cmH₂O** and titrate upward in **2 cmH₂O** increments up to max **10 cmH₂O** (for CHF/pulmonary edema); check for air leaks.
+    - 6\. Reassure the patient and coach inhalation through the nose and a slow, sustained exhalation through the mouth. The source example counts slowly to 4 during exhalation.
+    - 7\. Never discontinue until medical direction orders or ED transfer is complete—*unless* mental status drops below obeying commands or contraindications arise (immediately remove CPAP and switch to BVM). Notify receiving hospital ahead of arrival.
+  - **Monitoring Response:**
+    - *Respiratory rate:* Should decrease (if RR drops *alongside* declining mental status -> patient is deteriorating; switch to BVM).
+    - *Heart rate:* Should decrease as oxygenation improves (rising HR may indicate ↑ intrathoracic pressure dropping venous return/preload).
+    - *Systolic BP:* If **SBP < 100 mmHg** or poor perfusion develops -> reduce CPAP pressure/support (consult medical direction before initiating if baseline SBP < 100 mmHg).
+    - *SpO₂ & Dyspnea:* SpO₂ should increase; dyspnea, cyanosis, and accessory muscle use should decrease.
+    - *ETCO₂:* Initially rises as V/Q mismatch improves and retained CO₂ clears, then trends downward as gas exchange normalizes.
+    - Continuously watch for pneumothorax, gastric distention, vomiting, worsening distress, ↓ mental status, or intolerance.
+  - CAUTION — ALS Connection — What positive pressure can and cannot address
+    - CPAP supplies a single pressure throughout spontaneous breathing.
+    - In cardiogenic pulmonary edema it can recruit poorly aerated lung units and reduce left-ventricular afterload.
+    - “Forces fluid back” is an imprecise account of that benefit.
+    - Bilevel NIV adds inspiratory pressure support, which may unload breathing muscles and improve ventilation.
+    - Positive pressure can also reduce venous return and worsen hypotension.
+    - Trend blood pressure, alertness, effort, air entry, mask tolerance, and oxygenation.
+    - ETCO₂ has no universal expected trajectory during NIV, and mask leak can affect sampling.
+    - The chapter's numeric settings, ages, thresholds, and discontinuation language are examples.
+    - Follow the device and local protocol, and escalate immediately for vomiting, loss of airway protection, worsening perfusion, or ineffective breathing.
+    - Have BVM and suction ready.
+    - Consultation is appropriate when required by protocol or when suitability is unclear.
+- BiPAP, High-Flow Oxygen Therapy (HFOT), and High-Flow Nasal Cannula (HFNC)
+  - **Bilevel positive airway pressure (BiPAP):** Delivers separate inspiratory (**IPAP**) and expiratory (**EPAP**) pressures; **not recommended in prehospital care** due to insufficient study of prehospital effectiveness.
+  - **HFOT / HFNC (Nasal High Flow):**
+    - Uses a specialized wide-bore nasal cannula.
+    - Delivers heated, humidified oxygen and compressed air at **20–60 lpm** (compared to traditional EMS devices capped at 15 lpm).
+    - Generates lower airway pressure than CPAP/BiPAP while reducing work of breathing and RR, keeping mucus fluid, improving comfort/communication, and treating severe hypoxemia (e.g., COVID-19, COPD).
+    - **Contraindications:** **Cannot be used** in patients with **ventilatory failure** (requires BVM) or **hypercapnia** (elevated CO₂).
+  - NOTE — ALS Connection — Bilevel NIV and high-flow oxygen evidence
+    - The blanket statement against prehospital bilevel NIV is older than the 2022 NAEMSP position statement, which includes both CPAP and bilevel support as options for selected patients and finds insufficient field evidence to prefer one over the other.
+    - ERS/ATS guidance conditionally supports either for prehospital cardiogenic pulmonary edema, with low certainty.
+    - A prehospital CPAP trial found improved dyspnea and respiratory rate without shorter hospital stay.
+    - High-flow nasal oxygen can support oxygenation.
+    - In adults with hypercapnic COPD and acute respiratory failure, ERS guidance suggests trialing NIV first, based mainly on hospital evidence.
+    - Hypercapnia alone is an overly broad exclusion for high flow, and high flow cannot substitute for effective ventilatory support in an apneic or inadequately breathing patient.
+    - Local systems determine availability, monitoring, and authorization.
+    - The prehospital CPAP trial was reported by Finn et al. (2022 issue). The ERS/ATS NIV guideline dates to 2017 and the ERS high-flow nasal cannula guideline to 2022.
+- Hazards of Overventilation
+  - **In Cardiac Arrest:** Excessively fast rates or large tidal volumes maintain high intrathoracic pressure between chest compressions -> blocks development of negative intrathoracic pressure needed to draw venous blood into the right heart -> severely reduces blood entering left ventricle -> **decreases coronary and cerebral perfusion**.
+  - **In Spontaneously Breathing Patients:** Causes alveolar air trapping and overinflation -> compresses pulmonary capillaries (obstructing blood flow to left atrium) and eliminates negative intrathoracic vacuum (reducing venous return to right heart) -> **drops preload, cardiac output, blood pressure, and vital organ perfusion**.
+  - **Core Rule:** More ventilation is **not** better—strictly adhere to recommended ventilation rates and volumes (stop squeezing as soon as chest rises).
+- Clinical example — Recurrent airway contamination during transport
+  - Scene, history, and presentation
+    - A man about 30 years old is found unresponsive and prone in vomit.
+    - Witnesses report heavy drinking over several hours and stumbling before collapse.
+    - The crew checks for a possible altercation and approaches cautiously in a dim setting with a history of violence.
+    - No major bleeding or obvious mechanism of injury is evident, and the remaining medical history is unavailable.
+  - Airway clearance, assessment findings, and initial ventilation
+    - In this example the crew inspects and palpates the back, coordinates a log roll to supine with spine motion restriction, suctions the airway, and uses a jaw thrust.
+    - The patient does not respond to pressure and has no gag reflex, so the crew inserts an OPA.
+    - He breathes about **6 times/min** with minimal chest rise.
+    - His weak radial pulse is about **55 beats/min** and his skin is pale, cool, and cyanotic.
+    - The crew provides oxygen-assisted BVM at **10 breaths/min**, requests backup, and prioritizes transport.
+    - One EMT initially maintains jaw position, a single-hand seal, and stabilization while squeezing the bag.
+    - The other examines the posterior cervical region, chest, abdomen, pelvis, and extremities, with no traumatic findings identified, and records baseline vitals.
+    - This crew uses a collar and backboard in the example.
+    - Actual SMR decisions follow local protocol.
+  - Loading, reassessment, recurrent vomiting, and transfer of care
+    - During loading, the backup clinician takes the mask seal so the other can concentrate on squeezing the bag.
+    - The patient remains unresponsive.
+    - En route, the crew pauses ventilation for about **2 seconds** to check for contamination, resumes ventilation, switches to on-board oxygen, and repeats vital signs.
+    - The patient vomits again.
+    - The crew suctions promptly and resumes ventilation once the airway is clear.
+    - They notify the hospital, give a verbal handoff, document findings and care in the patient care report, then clean and restock.
+  - TIP — ALS Connection — Recurrent contamination, reversible causes, and handoff
+    - An EMT can report “found prone in vomit, initially unresponsive, about six shallow breaths per minute, weak pulse about 55, jaw support and suction helped, assisted breaths now produce chest rise, vomited again during transport.” Include timing and repeat vital signs, any trauma concerns, and the response to each intervention.
+    - The partner may check glucose for a reversible cause, review the capnography trend, and assess whether recurrent contamination threatens sustained ventilation.
+    - Alcohol exposure leaves other causes open, including hypoglycemia, trauma, opioid toxicity, or a mixed ingestion.
+    - Naloxone is an opioid-receptor antagonist that can restore spontaneous breathing in opioid toxicity.
+    - Authorized providers may consider it based on the presentation, while ventilation continues.
+    - Recurrent respiratory depression, abrupt withdrawal, vomiting, or agitation are important to report.
+    - The crew should prealert the hospital about aspiration risk and any ongoing ventilation needs.
+
+## Altered airways, facial trauma, and foreign-body obstruction
+
+- A Patient with a Stoma or Tracheostomy Tube
+  - **Stoma:** A surgical opening in the front of the neck through which the patient breathes air into the trachea.
+  - **Tracheostomy (Temporary Stoma):**
+    - Created by cutting through the skin and into the trachea to relieve an obstruction higher in the trachea or to replace an endotracheal tube (a tube passed through the mouth into the trachea) that has been in place for several hours or days.
+    - Often fitted with a **tracheostomy tube**—a curved hollow tube made of rubber, plastic, or metal—inserted into the stoma to hold it open.
+    - The patient may breathe completely through the stoma and tube, or partially through the mouth and nose around whatever tracheal blockage exists.
+    - Usually **temporary** and eventually closed and allowed to heal.
+  - **Laryngectomy (Permanent Stoma):**
+    - Surgical removal of all or part of the larynx, typically due to cancer; creates a **permanent** stoma:
+      - **Total laryngectomy:**
+        - All of the larynx is removed; the trachea is disconnected from the pharynx, brought forward, and connected directly to the stoma in the neck.
+        - There is **no longer any connection** between the trachea and the mouth/nose—the patient breathes **completely through the stoma**.
+      - **Partial laryngectomy:** Part of the larynx is modified by surgery, leaving some tracheal connection to the mouth and nose intact—the patient gets **some air through the stoma** and **some air through the mouth and nose**.
+  - **Assessment Reality:** Unless a family member tells you, it will probably not be immediately obvious whether a patient with a stoma (with or without a tube) can take in any air through the mouth and nose or solely through the stoma; ventilation procedures account for both possibilities.
+  - WARNING — ALS Connection — Identify the route to the lungs before ventilating
+    - A total laryngectomy permanently separates the mouth and nose from the lungs.
+    - Ventilation must reach the stoma.
+    - If anatomy is uncertain, NTSP guidance uses initial oxygen to both face and stoma while assessing patency and locating the airway route.
+    - Suspect a blocked or displaced tracheostomy when airflow is absent or a suction catheter cannot pass.
+    - Positive pressure through a displaced tube can inflate soft tissue.
+    - Do not apply the chapter's mouth-and-nose fallback to a known total laryngectomy.
+    - Ask about the surgery, tube type, cuff, and baseline needs, and locate the patient's emergency kit or airway card.
+    - Report which route produced chest rise.
+    - Tube exchange, stoma intubation, and other rescue procedures depend on training and authorization.
+- Bag-Valve-Mask-to-Tracheostomy-Tube Ventilation
+  - **Direct Connection:** The bag-valve device's standard connector attaches **directly to the tracheostomy tube** (with the face mask removed) to deliver positive pressure ventilation.
+  - **Preventing Air Escape:** It may be necessary to **seal the patient's mouth and nose** while ventilating through the tracheostomy tube so air does not escape upward, which would cause ineffective ventilation and inadequate tidal volumes.
+  - **Troubleshooting Inability to Ventilate Through the Tube:**
+    - 1\. First, **suction the tracheostomy tube** using a **soft suction catheter**.
+    - 2\. If still unable to ventilate, attempt to **ventilate through the mouth and nose while sealing the stoma**—this may improve ventilation or clear the obstruction blocking the tracheostomy tube.
+- Bag-Valve-Mask-to-Stoma Ventilation
+  - Typically used for a laryngectomy patient's permanent stoma at the **base of the neck** with **no tube inserted** (remember: total laryngectomy has **no airflow** from mouth/nose; partial laryngectomy may still have **some airflow** from mouth/nose).
+  - **5-Step Procedure:**
+    - 1\. **Expose the stoma:** Remove all coverings (e.g., scarves and ties) from the area of the stoma.
+    - 2\. **Clear and suction:** Clear any foreign matter from the stoma. Suction the stoma by passing a **sterile soft suction catheter** through the stoma into the trachea **no more than 3–5 inches**, suctioning enough to partially open the airway.
+    - 3\. **Position head and shoulders:** Do **not** perform a head-tilt, chin-lift or jaw-thrust maneuver. Keep the patient's **head straight** and **shoulders slightly elevated**.
+    - 4\. **Seal mask and ventilate:**
+      - Select a mask—most often a **child or infant mask**—that fits securely over the stoma and seals against the neck.
+      - Hold the mask seal with your hand and squeeze the bag to deliver each ventilation over a **2-second period**.
+      - Watch for **adequate chest rise and fall**, and feel to verify that air escapes back through the stoma during exhalation.
+    - 5\. **If chest does not rise (suspect partial laryngectomy):** Seal the patient's nose and mouth with one hand to prevent air leakage:
+      - Pinch the nose closed between your **third and fourth fingers**.
+      - Seal the lips with the **palm of your hand**.
+      - Place your **thumb under the chin** and press **upward and backward**.
+      - Repeat the ventilation process.
+- Mouth-to-Stoma Ventilation
+  - **Not Recommended:** Exposes the EMT to respiratory secretions and droplets, creating a risk of infectious disease contamination.
+  - **Preferred Method:** Use a **bag-valve-mask device with an infant- or child-sized mask** sealed over the stoma (following standard adult BVM principles, sealing over the stoma rather than the mouth).
+  - **Last-Resort Option:** Only if a BVM is unavailable and no other option exists, you **must place a barrier device over the stoma** before performing mouth-to-stoma ventilation.
+- Patients with Facial Injuries
+  - The face has an **extremely rich blood supply**, creating **two major complications**:
+    - 1\. **Airway-Occluding Swelling:** Blunt trauma can cause excessive soft-tissue swelling that partially or completely blocks the airway -> may require an airway adjunct (**avoid an NPA with mid-face trauma**) and **positive pressure ventilation** to force air past the swollen airway.
+    - 2\. **Severe Pharyngeal Bleeding:** Heavy bleeding into the pharynx complicates airway management -> requires **frequent or constant suctioning**.
+- Foreign body airway obstruction in adults
+  - WARNING — ALS Connection — Current adult choking guidance
+    - Use your current choking algorithm.
+    - AHA 2025 recommends cycles of five back blows followed by five abdominal thrusts for responsive adults with severe obstruction, with chest thrusts in place of abdominal thrusts in late pregnancy or when the abdomen cannot be encircled.
+    - Continue until relief or unresponsiveness.
+    - If the patient becomes unresponsive, begin CPR with compressions, look for a visible object before breaths, and avoid blind sweeps.
+    - The textbook's thrust-only and three-cycle directions are older teaching.
+    - During arrest, CPR starts promptly and the AED is applied as soon as available.
+  - The following source sequences retain older teaching for comparison with the current choking guidance immediately above.
+  - **Responsive, Choking, Effectively Moving Air:**
+    - Instruct the patient to **cough**.
+    - Do **not** perform abdominal thrusts or other FBAO maneuvers.
+    - Apply **high-concentration oxygen** and begin transport.
+  - **Severe Partial Obstruction with Poor Air Exchange:**
+    - Immediately manage as a **complete airway obstruction** by performing **abdominal thrusts**.
+    - **Three Signs of Severe Partial Obstruction with Poor Air Exchange:**
+      - 1\. Cough becomes **silent**
+      - 2\. **Stridor** heard on inhalation
+      - 3\. Increase in **labored breathing**
+  - **Complete Occlusion (No Air Movement):**
+    - Perform **three cycles** of the FBAO maneuver.
+    - If not relieved, **transport expeditiously** and continue FBAO cycles en route until relieved.
+  - **Post-Relief Management:**
+    - Reassess breathing and pulse immediately:
+      - *Inadequate or absent breathing:* Begin **positive pressure ventilation with supplemental oxygen**.
+      - *No pulse:* Apply the **AED** (or begin **CPR** if an AED is not immediately available).
+- Foreign body airway obstruction in infants and children
+  - WARNING — ALS Connection — Current pediatric choking guidance
+    - AHA/AAP 2025 recommends five back blows alternating with five chest thrusts for a responsive infant with severe choking, and five back blows alternating with five abdominal thrusts for a responsive child with severe choking.
+    - If either becomes unresponsive, start CPR with compressions and remove an object only if visible when opening the airway for breaths.
+    - This supersedes the breath-first and abdominal-thrust-only directions below.
+    - Current infant CPR uses the heel of one hand or the two-thumb encircling technique, not the textbook's two-finger compression method.
+    - For responsive infant choking, the 2025 guidance specifies heel-of-one-hand chest thrusts, updating the two-fingertip technique below.
+  - The source sequences below include superseded steps.
+  - Apply the current choking guidance immediately above.
+  - Children frequently put objects in their mouths; maintain a high index of suspicion as they may already be in compensated/decompensated respiratory failure or respiratory arrest upon arrival.
+  - **Seven Indications of a Partial Airway Obstruction:**
+    - 1\. Still alert and pink, with peripheral perfusion
+    - 2\. Skin normal or slightly pale with peripheral perfusion present
+    - 3\. **Stridor** (high-pitched inspiratory sound indicating blockage around the vocal cords)
+    - 4\. **Retractions** of intercostal, supraclavicular, and subcostal tissues
+    - 5\. Possible **crowing** or other noisy respirations
+    - 6\. Patient might be **crying**
+    - 7\. **Forceful cough** still present
+  - **Detecting Obstruction During PPV & Common Causes:**
+    - If high airflow resistance occurs during PPV -> reposition airway and reventilate -> if still not patent and no signs of respiratory disease are present, assume **FBAO** (especially if witnessed eating or playing with small objects right before sudden choking or apnea).
+    - **Most common cause in infants:** **Liquids**.
+    - **Most common cause in children:** **Small objects, food, toys, and balloons**.
+    - **Critical Safety Warning:** Perform FBAO maneuvers **only** when sure the obstruction is **not caused by a respiratory disease**—putting anything into the mouth of a pediatric patient with respiratory disease (such as epiglottitis) can trigger **fatal airway swelling or spasms**.
+  - Infant (<1 Year) or Child (>1 Year) with a Mild FBAO
+    - Still able to **cough, make sounds, and move air**.
+    - **Management:**
+      - Allow the infant or child to continue coughing to clear the object on their own; **do NOT perform any physical FBAO intervention**.
+      - Continuously monitor for signs of progression to a severe obstruction.
+      - Administer **blow-by oxygen** (infant) or **supplemental oxygen** (child) to maintain an **SpO₂ ≥ 94%**.
+  - Infant (<1 Year) with a Severe FBAO (Cannot Cough or Make Sounds)
+    - 1\. Position the infant **prone (belly down, back up) on your forearm in a head-down position**, supporting the head with your hand and resting your forearm on your thigh.
+    - 2\. Deliver **five sharp back slaps (blows)** between the shoulder blades.
+    - 3\. Transfer the infant to a **supine, head-down position** on your other forearm and deliver **five chest thrusts** using **two fingertips positioned one finger width beneath the nipple line**.
+    - 4\. Continue repeating 5 back slaps and 5 chest thrusts en route until the object is dislodged, the infant becomes unresponsive, or you arrive at the medical facility (consider ALS backup).
+  - Unresponsive Infant (<1 Year) with an FBAO
+    - 1\. Open the airway using a **head-tilt, chin-lift** maneuver.
+    - 2\. Open the mouth and look for the foreign body; remove it **only if visible** in the oropharynx. The source illustrates opening the mouth by lifting the lower jaw and tongue together between thumb and fingers for inspection. **Do NOT perform blind finger sweeps.**
+    - 3\. Deliver **two ventilations over a 1-second period**.
+    - 4\. Perform **30 chest compressions at a rate of 100/min** using the source’s older two-finger placement in the middle of the sternum just below the nipple line. Use the updated technique in the current pediatric choking alert.
+    - 5\. Look inside the mouth after compressions and remove the object if visible.
+    - 6\. Deliver **two ventilations** followed by another **30 chest compressions**.
+    - 7\. Repeat this cycle without transport delay (connect O₂ to the BVM with a reservoir) until the object is removed; if never visualized/removed, continue compressions and attempted ventilations.
+  - Child (>1 Year) with a Severe FBAO (Cannot Cough or Make Sounds)
+    - Perform **subdiaphragmatic abdominal thrusts**:
+      - 1\. Assure the child you are there to help.
+      - 2\. Stand or kneel behind the child, passing your arms under the child’s arms to reach the upper abdomen.
+      - 3\. Locate the navel and place the **thumb side of one clenched fist midway between the navel and the xiphoid process**.
+      - 4\. Grasp your clenched fist with your other hand.
+      - 5\. Deliver **five abdominal thrusts inward and upward at a 45-degree angle toward the head**.
+      - 6\. Continue series of five thrusts until the object is dislodged, you arrive at the hospital, or the child becomes unresponsive.
+  - Unresponsive Child (>1 Year) with an FBAO
+    - 1\. Open the airway using a **head-tilt, chin-lift** maneuver.
+    - 2\. Open the mouth and look for the foreign body; remove it **only if visible** in the oropharynx (**no blind finger sweeps**).
+    - 3\. Deliver **two ventilations over a 1-second period**.
+    - 4\. Perform **30 chest compressions at a rate of 100/min** using CPR landmarks and technique (**Clinical or equipment detail:** *(a)* older child — EMT kneels at the side with heel of one hand on top of the other in the center of the lower half of the sternum; *(b)* younger child — EMT kneels near the head using the heel of one hand in the center of the chest).
+    - 5\. Look inside the mouth after compressions and remove the object if visible.
+    - 6\. Deliver **two ventilations** followed by another **30 chest compressions**.
+    - 7\. Repeat this cycle without transport delay (with O₂ attached to BVM via reservoir) until the object is removed; if never visualized/removed, continue compressions and attempted ventilations.
+    - NOTE — ALS Connection — When an obstruction persists
+      - Report the witnessed event, whether cough was effective before deterioration, the time the patient became unresponsive, and whether any breaths produced chest rise.
+      - A trained, authorized paramedic may consider direct visualization and forceps removal for a visible obstructing object.
+      - Continue BLS resuscitation and minimize interruptions while the team prepares.
+      - Persistent symptoms after apparent relief may reflect residual obstruction or aspiration and matter at handoff.
+- Dental Appliances
+  - **Secure Full Dentures:** **Leave in place**—it is much easier to establish a tight face mask seal with dentures in place.
+  - **Extremely Loose Dentures or Loose Partial Dentures (Plates):** **Remove** them immediately so they do not dislodge and occlude the airway.
+  - **Ongoing Reassessment:** Frequently recheck the mouth in patients with dentures or partial plates to verify the appliances have not loosened during care or transport.
+
+## Oxygen therapy
+
+- CAUTION — ALS Connection — What a pulse oximeter can miss
+  - Poor perfusion, motion, cool extremities, and skin pigmentation can affect accuracy.
+  - Check signal quality and whether the displayed pulse is plausible, and interpret the number with the clinical exam.
+  - Standard two-wavelength pulse oximetry can be falsely reassuring in carbon monoxide poisoning.
+  - Report the exposure setting, other symptomatic people, syncope or confusion, and any pregnancy.
+  - Suspected CO exposure warrants oxygen per protocol even with a reassuring reading.
+  - The receiving team may use blood co-oximetry and consider specialty consultation based on the exposure and clinical findings.
+  - Other inhaled toxins have different mechanisms and may require different management.
+- Clinical oxygen selection
+  - **Reperfusion Injury & Free Radicals:**
+    - In ischemic conditions (**ischemic stroke, acute coronary syndrome, and post-resuscitation from cardiac arrest**), excessive oxygen in arterial blood increases **free radical production** once circulation is restored (**reperfusion**), worsening tissue damage in the heart or brain.
+  - **Nasal Cannula Efficacy:** Delivering **2 to 6 lpm** via nasal cannula increases arterial oxygenation much more effectively than previously thought in patients with adequate perfusion and gas exchange.
+  - **Protocol Guidance:** Oxygen is a drug—decide whether to give it, which device to use, and what concentration to deliver based on clinical findings, SpO₂, local protocols, and medical direction (err on the side of caution and give oxygen if unsure).
+  - Indications and SpO₂ Targets by Patient Category
+    - **General Rule:** Administer supplemental oxygen to any patient exhibiting evidence of **hypoxia, hypoxemia, or poor perfusion**, plus the specific thresholds below:
+    - **Medical Patient:**
+      - *Trigger:* Signs of poor perfusion/shock OR **SpO₂ < 94%** (initial or at any time).
+      - *Goal & Device:* Establish and maintain **SpO₂ ≥ 94%**—start **nasal cannula at 2 lpm** and titrate up to **6 lpm**; if 94% cannot be achieved at 6 lpm, switch to a **nonrebreather mask at 10–15 lpm**.
+    - **Trauma Patient (American College of Surgeons Recommendation):**
+      - *Trigger 1:* Signs of **major bleeding, poor perfusion, or shock** -> administer high-concentration oxygen via **nonrebreather mask at 10–15 lpm regardless of SpO₂**.
+      - *Trigger 2:* No signs of major bleeding, poor perfusion, or shock, but **SpO₂ < 95%** (initial or at any time) -> administer high-concentration oxygen via **nonrebreather mask at 10–15 lpm** to establish and maintain **SpO₂ > 95%** (differs from AHA's 94% target).
+    - **Acute Coronary Syndrome (ACS — AHA 2020 CPR and ECC Guidelines):**
+      - *Trigger:* **Dyspneic, hypoxemic, obvious signs of heart failure, or SpO₂ < 90%** (routine oxygen is **not** supported; deviates from the standard <94% threshold).
+      - *Goal & Device:* Establish and maintain **SpO₂ ≥ 90%**—start **nasal cannula at 2 lpm** and titrate up to **6 lpm**; if 90% cannot be achieved at 6 lpm, switch to a **nonrebreather mask at 10–15 lpm**.
+    - **Acute Ischemic Stroke (AHA 2020 Guidelines):**
+      - *Trigger:* Administer oxygen **only** if evidence of hypoxemia is present (**SpO₂ < 94%**, **cyanosis**, or **SpO₂ unknown**).
+      - *Goal & Device:* Apply **nasal cannula at 2 lpm** and titrate up to achieve **SpO₂ ≥ 94%** (do **not** routinely apply a nonrebreather mask at 15 lpm; uncontrolled high-concentration oxygen is associated with higher mortality).
+    - **Pregnant Patient (>20 Weeks Gestation):**
+      - *Trigger & Device:* If experiencing **any medical or trauma condition** that could cause **fetal hypoxia**, administer **high-concentration oxygen via nonrebreather mask** to maximize fetal oxygenation **regardless of the mother's SpO₂**.
+    - **Inhaled Poisoning or Toxic Exposure:**
+      - *Trigger & Device:* High-concentration oxygen via **nonrebreather mask at 15 lpm regardless of SpO₂**.
+    - **Chronic Obstructive Pulmonary Disease (COPD):**
+      - *Goal & Device:* Establish and maintain **SpO₂ of 88% to 92%** by titrating oxygen via **nasal cannula** (uncontrolled high-concentration oxygen increases mortality).
+    - CAUTION — ALS Connection — Current oxygen guidance depends on the presentation
+      - The thresholds above are textbook categories with condition-specific limits.
+      - The 2025 multisociety ACS guideline recommends oxygen for confirmed hypoxia below 90% and advises against routine oxygen at saturations of 90% or greater.
+      - The 2026 AHA/ASA ischemic stroke guideline specifies a goal above 94% in hypoxic patients and addresses airway or ventilatory assistance for reduced consciousness or bulbar dysfunction.
+      - It also sets out a specialized hospital pathway for selected thrombectomy patients.
+      - Use local prehospital targets, and report the oxygen device, saturation before and after it, and any need for ventilation.
+      - The Brain Trauma Foundation separately recommends continuous oxygen supplementation in suspected severe TBI and prompt correction of hypoxemia.
+      - Its guidance is specific to severe TBI.
+      - ACOG's 2025 intrapartum guideline advises against routine maternal oxygen for abnormal fetal heart rate patterns when the mother is adequately oxygenated.
+      - This is guidance for labor and fetal monitoring.
+      - For prehospital maternal trauma or medical illness, evaluate maternal breathing, oxygenation, perfusion and exposures under the applicable EMS protocol.
+      - The chapter's blanket pregnancy rule should not substitute for those condition-specific decisions.
+  - Clinical examples of oxygen selection
+    - **Oxygen NOT Needed:** Alert, oriented volleyball player with an isolated suspected ankle fracture, normal BP/HR/RR, **SpO₂ 98%** on room air, and no signs of hypoxia or poor perfusion -> **do not administer oxygen**.
+    - **High-Concentration Oxygen Needed:** MVC driver with suspected right tibia/fibula fracture, **BP 102/88 mmHg** (narrow pulse pressure), **HR 92 bpm**, **RR 22/min**, slightly pale/cool/clammy skin, **SpO₂ 93%** -> obvious signs of poor perfusion (shock) -> **nonrebreather mask at 10–15 lpm**.
+- Hazards of Oxygen Administration
+  - **Coronary vasoconstriction:** High arterial oxygen concentrations decrease coronary artery blood flow and increase coronary artery resistance in patients with cardiac disease.
+  - **Reperfusion free-radical injury:** Increases free radical production in reperfused ischemic tissues (stroke, ACS), increasing tissue damage.
+  - **Oxygen toxicity:** Rare in the prehospital setting (primarily a concern during prolonged interfacility transports on prolonged high O₂); causes **alveolar collapse**, reduced lung function, and **seizures**.
+  - **Retinopathy of Prematurity (ROP):**
+    - Retinal scar tissue formation and vision damage in **premature newborns** receiving excessive oxygen over extended periods.
+    - **Never withhold oxygen** from a hypoxic or inadequately breathing infant in the field, but consider lower concentrations during prolonged interfacility transport.
+  - **Respiratory depression or arrest in COPD (Hypoxic Drive):**
+    - COPD patients rely on low blood oxygen (**hypoxic drive**) rather than elevated CO₂ to stimulate breathing.
+    - Prolonged high-concentration oxygen can depress their respiratory drive, though it takes **longer than typical prehospital transport times** to eliminate hypoxic drive.
+    - **Rule:** **Never withhold oxygen** from a COPD patient showing any signs of hypoxia or in respiratory failure/arrest; during prolonged interfacility transports, use lower concentrations per physician orders, monitor closely, and be prepared to assist ventilations.
+  - CAUTION — ALS Connection — Reassessing COPD during oxygen therapy
+    - The supplemental COPD physiology note above explains why CO₂ can rise on excess oxygen even during prehospital care.
+    - A better saturation with increasing drowsiness or declining chest rise should trigger an immediate ventilation reassessment.
+    - Communicate the oxygen device and changes in effort and alertness along with saturation and any reliable waveform.
+    - ETCO₂ can help show trends, while blood gases can clarify arterial CO₂ and acid-base status when needed at definitive care.
+  - NOTE — ALS Connection — Choosing monitoring based on the clinical question
+    - In acute dyspnea with chest pressure or signs of pulmonary edema, a paramedic may seek a 12-lead ECG to look for cardiac ischemia that could be contributing to pump failure and change prearrival notification or destination.
+    - ECG electrodes measure cardiac electrical activity.
+    - Motion or poor contact can distort the tracing, and an organized rhythm still requires assessment of pulse and perfusion.
+    - When locally authorized, help acquire the tracing, note symptoms and timing, and report any changes during acquisition.
+    - Advanced interpretation and treatment decisions remain with the authorized clinician.
+    - Keep monitoring airway, respiratory effort, and response to support while the tracing is obtained.
+- Oxygen delivery devices
+  - Nonrebreather Mask (NRB)
+    - **Design & Mechanism:**
+      - Preferred device for delivering **high-concentration oxygen (~90% O₂)** in prehospital care.
+      - Equipped with an **oxygen reservoir bag** (filled with 100% O₂) separated from the mask by a **one-way valve** that blocks exhaled air from entering the bag, plus **rubber washers** over the exhalation ports that let exhaled air escape while preventing room air from entering during inhalation (slight ambient air leakage around mask edges yields ~90% delivered O₂).
+      - *Clinical or equipment detail:* Sagittal upper airway illustration showing 100% O₂ entering the reservoir through tubing, ambient air sealed out around the mask, and ~90% O₂ delivered to the airway.
+    - **Flow Rate & Reservoir Rule:** Typically **15 lpm** (must prevent the reservoir bag from collapsing when the patient inhales). **Completely inflate the reservoir bag before applying**—a poorly inflated reservoir reduces tidal volume and worsens hypoxia.
+    - **Size & Tolerance:** Available in adult, child, and infant sizes. If an infant, small child, or anxious adult will not tolerate the mask, coach/reassure the patient or have the EMT, parent, or familiar caregiver hold the mask close to the child's face to enrich inspired air.
+    - **4-Step Application:**
+      - 1\. Explain the procedure, reassure the patient, and instruct them to breathe normally.
+      - 2\. Select the proper mask size, set regulator to **15 lpm**, connect tubing, and completely fill the reservoir bag (press down on the rubber gasket covering the one-way valve to fill faster).
+      - 3\. Place mask over face, secure elastic strap around back of head, and mold soft metal nose bridge.
+      - 4\. Constantly monitor the reservoir bag to ensure it stays inflated during inhalation.
+  - Nasal Cannula (NC)
+    - **Design & Mechanism:**
+      - Preferred oxygen delivery device for most medical patients.
+      - Two soft plastic **nasal prongs** connected to thin tubing; operates as a **"low-flow" system** that does not provide the full tidal volume, so supplemental O₂ mixes with inhaled room air (21% O₂).
+      - *Application:* Insert the prongs into the nostrils and loop the tubing over the ears.
+      - *Clinical or equipment detail:* Sagittal upper airway illustration showing 100% O₂ entering through the cannula mixed with 21% ambient air via the nostrils and mouth, delivering **24% to 44% O₂**.
+    - **Flow Rate & Concentration Rule:**
+      - Flow rate: **1 to 6 lpm** -> delivers **24% to 44% O₂**.
+      - **Rule of Thumb:** **1 lpm = ~24% O₂**, and **each additional 1 lpm increases inhaled oxygen by ~4%**.
+    - **5-Step Application:**
+      - 1\. Explain procedure and instruct patient to breathe normally.
+      - 2\. Connect tubing to regulator and set flow at **2 lpm** (titrate up to **6 lpm** to reach target SpO₂, typically **94%**).
+      - 3\. Insert prongs into nostrils with the **tab facing down** and prongs **curving downward**.
+      - 4\. Loop tubing over and behind each ear and slide adjuster gently under chin (or adjust elastic strap comfortably).
+      - 5\. Check cannula position periodically to ensure it has not dislodged.
+  - Simple Face Mask
+    - **Design & Delivery:**
+      - Has **no reservoir**; exhaled air exits through side holes, which also draw in room air and dilute the oxygen concentration.
+      - Delivers **up to 60% O₂** depending on tidal volume and flow rate; usually set at **10 lpm** (**must not be set below 6 lpm**).
+      - **Not recommended for prehospital use** because it cannot deliver the high oxygen concentration of an NRB.
+  - Partial Rebreather Mask
+    - **Design & Delivery:**
+      - Resembles an NRB but has a **two-way valve** allowing the patient to rebreathe **about one-third of exhaled air** (the initial portion of exhaled air comes from **dead air space**, so it is oxygen-enriched from the prior breath).
+      - Delivers **35% to 60% O₂**; flow rate typically set at **10 lpm** (**no less than 6 lpm**).
+  - Venturi Mask
+    - **Design & Delivery:**
+      - Low-flow system using interchangeable **entrainment valves** to deliver **precise FiO₂ concentrations between 24% and 50%** at preset manufacturer flow rates.
+      - Commonly used for **COPD patients** because of its ability to deliver exact oxygen concentrations.
+  - Tracheostomy Mask
+    - **Design & Delivery:**
+      - Fits over a **tracheostomy tube** to deliver oxygen, aerosolized medication, or bland aerosol therapy; delivers **less than 50% O₂**.
+      - **Two Advantages over a T-tube:**
+        - 1\. **Less traction/pulling** on the airway from tubing weight.
+        - 2\. **Secretions can escape** freely from the tube.
+      - Preferred over a T-tube when lower oxygen concentrations are tolerated by the patient.
+- Properties & Production of Oxygen
+  - **Physical Characteristics:** Colorless, odorless gas normally present in the atmosphere at approximately **21%**.
+  - **Commercial Production (Fractional Distillation):** Air is liquefied and gases other than oxygen—primarily **nitrogen**—are boiled off; the remaining liquid oxygen is converted under high pressure into a gas.
+  - **Storage:** Stored in **steel or aluminum cylinders** under a pressure of approximately **2,000 pounds per square inch (psi)**.
+- Oxygen Cylinders & Duration of Flow
+  - Cylinder Sizes and Volumes (All ~2,000 psi When Full)
+    - **D cylinder:** **350 L**
+    - **E cylinder:** **625 L**
+    - **M cylinder:** **3,000 L**
+    - **G cylinder:** **5,300 L**
+    - **H cylinder:** **6,900 L**
+  - Determining Remaining Volume & Flow Duration
+    - **Gauge Reading Rule:** Applying a pressure gauge to read the remaining **psi** is the only way to determine how much oxygen remains in a tank. Full pressure is constant (~2,000 psi), while gas volume scales with tank size:
+      - *Example at 1,000 psi (half full):* A **D cylinder** holds ~**175 L** (`350 ÷ 2`), whereas an **M cylinder** holds ~**1,500 L** (`3,000 ÷ 2`).
+    - **Flow Rate Impact:** Higher flow rates (such as a nonrebreather mask at **15 lpm**) deplete cylinders much faster.
+  - Oxygen Duration Formula & Cylinder Constants
+    - **Formula:**
+      - `Duration (minutes) = [(gauge pressure in psi − 200 psi safe residual pressure) × cylinder constant] ÷ flow rate (lpm)`
+    - **Safe Residual Pressure:** Always **200 psi**.
+    - **Cylinder Constants:**
+      - **D** = `0.16`
+      - **E** = `0.28`
+      - **M** = `1.56`
+      - **G** = `2.41`
+      - **H** = `3.14`
+      - **K** = `3.14`
+    - **Textbook Calculation Example:** Full **E cylinder (2,000 psi)** delivering oxygen via nonrebreather mask at **15 lpm**:
+      - `[(2,000 − 200) × 0.28] ÷ 15 = 504 ÷ 15 = 33.6 minutes`
+    - TIP — ALS Connection — Oxygen planning during advanced support
+      - The chapter's duration formula assumes a constant oxygen flow.
+      - Some NIV and transport ventilators consume oxygen differently depending on the device, settings, leaks, and whether oxygen supplies the driving gas.
+      - Use your service's device-specific consumption method and reserve policy.
+      - Before movement, communicate cylinder pressure, the oxygen-dependent devices in use, expected travel and transfer time, and where backup oxygen and a working BVM are located.
+- Oxygen Cylinder Safety Precautions
+  - Because oxygen is an **accelerant for combustion** and cylinders are pressurized to **2,000 psi**, follow all safety rules strictly:
+  - **No combustible materials:** Never allow **oil or grease** (including petroleum-based adhesive tape or petroleum jelly) to contact the cylinder, regulator, fittings, valves, or hoses—oil and pressurized oxygen **will explode** on contact.
+  - **No smoking:** Never smoke or allow others to smoke near oxygen in use or on standby. Oxygen saturates towels, sheets, and clothing, causing fires to ignite and burn much more rapidly.
+  - **Temperature limit:** Store cylinders below **125°F**.
+  - **Proper regulator:** Never use a cylinder without a safe, properly fitting regulator valve; never use a valve modified from another gas.
+  - **Keep valves closed:** Keep all valves closed whenever a cylinder is not in use, **even if the tank is empty**.
+  - **Secure all tanks:** Secure cylinders in a carrier rack or to the stretcher during transport; never leave an oxygen tank unsecured in the patient or driver compartment, and never leave a tank standing unattended on scene.
+  - **Body positioning & projectile hazard:**
+    - **Never place any part of your body over the cylinder valve.**
+    - A punctured **2,000 psi** cylinder or broken valve can accelerate with enough force to **penetrate concrete walls**, and a loosely fitted regulator can blow off with enough force to **decapitate or penetrate a body**.
+    - Never stand an oxygen tank upright where it could fall and snap off its valve—**lay the oxygen tank down next to the patient**.
+- Pressure Regulators
+  - **Function:** Reduces high cylinder pressure (~2,000 psi) down to a safe working pressure of **30 to 70 psi** and controls oxygen flow (typically **1 to 15 lpm**, or up to **25 lpm** on therapy regulators).
+  - **Pin-Index Safety System (Yoke) & Color Coding:**
+    - Regulators attach via a **yoke**—a series of pins configured to fit cylinders holding only one specific gas, preventing accidental attachment to the wrong gas.
+    - U.S. oxygen cylinders are color-coded **steel green** or **aluminum gray**.
+  - **Two Regulator Types (Not Interchangeable):**
+    - 1\. **High-Pressure Regulator:**
+      - Provides **50 psi** to power a **flow-restricted, oxygen-powered ventilation device**.
+      - Has **one gauge** (cylinder contents) and a **threaded outlet**, with **no mechanism to adjust liter flow**.
+      - *Operation:* Attach equipment supply line to threaded outlet -> open cylinder valve fully -> **turn back one-half turn** for safety.
+    - 2\. **Therapy Regulator:**
+      - Administers oxygen from **0.5 lpm up to 25 lpm**.
+      - Typically has **two gauges** (tank pressure + measured flow rate) OR **one gauge** (tank pressure) + a **flow dial** marked in lpm.
+  - **Pressure, Volume, and Ambient Temperature:**
+    - Tank pressure drops proportionately as oxygen volume decreases (**1,000 psi** = half full).
+    - Ambient temperature directly affects gauge pressure: **↑ ambient temperature → ↑ tank pressure**; **↓ ambient temperature → ↓ tank pressure**.
+- Oxygen Humidifiers
+  - **Purpose:** Oxygen exits the cylinder as a dry gas, which can irritate the respiratory tract over prolonged periods.
+  - **Setup:** The sterile-water chamber connects to the regulator, and the patient delivery tubing connects to the chamber.
+  - **Mechanism:** Oxygen is forced through sterile water inside the container (disposable single-use versions are available), picking up moisture before entering the patient tubing.
+  - **Clinical Use:** Not harmful to skip for short prehospital transports; consider for prolonged transports (**1 hour or more**), and **recommended for asthma patients**.
+- Oxygen administration, termination, and source transfer
+  - CAUTION — Verify cylinder and regulator instructions
+    - The source gives different valve-opening directions for different regulator types and includes a step to briefly open an unconnected cylinder valve.
+    - Verify those steps against your device instructions and agency policy before use.
+  - Initiating Oxygen Administration
+    - 1\. Check the cylinder to verify it contains oxygen and remove the protective seal on the tank valve.
+    - 2\. Quickly open, then shut, the cylinder valve for **1 second** to clear dust or debris from the valve assembly.
+    - 3\. Place the yoke of the therapy regulator over the valve, align the pins, verify the **regulator washer** is present and properly seated, and hand-tighten the T-screw.
+    - 4\. Slowly open the main cylinder valve **about one-half turn** to charge the regulator; check the pressure gauge to confirm adequate oxygen supply.
+    - 5\. Attach the oxygen mask or nasal cannula tubing to the nipple of the regulator.
+    - 6\. Open the flowmeter control and set the desired flow rate in **liters per minute (lpm)**.
+    - 7\. With oxygen flowing, apply the mask or nasal cannula. Before applying a reservoir mask, confirm the reservoir inflates, then secure the mask with its strap.
+  - Terminating Oxygen Therapy (3 Steps)
+    - 1\. Remove the mask or cannula from the patient.
+    - 2\. Turn off the oxygen regulator flowmeter control, then turn off the cylinder valve.
+    - 3\. Open the regulator valve to bleed trapped oxygen until the pressure gauge reads **zero**, then turn the regulator flowmeter control completely off.
+  - Transferring Oxygen Source (Portable to On-Board)
+    - **Critical Rule:** **Remove the mask from the patient's face BEFORE disconnecting tubing** from the portable regulator.
+    - *Rationale:* Tubing easily snags on sheets, blankets, straps, or equipment and can take minutes to untangle—leaving a mask on the face with no oxygen flowing drastically reduces tidal volume and blood oxygen content. Reapply the mask only after reconnecting to the on-board source and verifying oxygen flow.
+
+## Pediatric airway, ventilation, and oxygen therapy
+
+- Establish and Maintain a Patent Airway
+  - **No Suspected Cervical Spine Injury — Head-Tilt, Chin-Lift (with Caution):**
+    - Because an infant's airway is much smaller and more flexible, excessive hyperextension of the head can cause the airway to **"kink" (like a garden hose)**, resulting in airway occlusion.
+    - Extend the head **only enough** to ensure a patent airway, then stop.
+    - When performing a chin lift, apply **little or no pressure to the soft tissue under the chin**, which can occlude rather than open the airway.
+    - **Infant:** Support the chin with finger and thumb and tilt gently, avoiding overextension.
+    - **Child:** The source illustrates tilting with forehead pressure and fingertip support at the bony chin. Its general pediatric technique specifies using a single index finger for the chin lift and avoiding soft-tissue pressure.
+  - **Possible Cervical Spine Injury — Manual Jaw-Thrust:**
+    - **Infant:** Shows an EMT's thumbs placed on the infant's cheekbones with fingers cradling the jaw and neck to lift the jaw forward without flexing or extending the neck.
+    - **Child:** Shows an EMT placing the index and middle fingers behind the posterior aspects of the lower jaw to push it upward while thumbs push down gently on the chin.
+- Suction Secretions, Vomitus, or Blood
+  - Suctioning temporarily prevents air from entering the lungs.
+  - **Time Limit:** Do **not** suction any longer than **3 to 5 seconds** at a time in an infant or child to avoid promoting hypoxia or causing **profound bradycardia from vagal stimulation**.
+  - **Equipment & Technique:**
+    - Use appropriately sized equipment.
+    - Avoid damaging soft tissues while inserting and moving the catheter in the mouth.
+    - If the patient is responsive and has a gag reflex, do **not** suction deeply enough to trigger vomiting.
+- Airway Adjuncts (OPA and NPA)
+  - **Oropharyngeal Airway:** Use if the child is **unresponsive and has no gag reflex**. Size from the corner of the mouth to the angle of the jaw and insert in the normal orientation with a tongue depressor, without rotation.
+  - **Nasopharyngeal Airway:** Used if the patient cannot tolerate an oral airway, **with major pediatric restrictions**:
+    - **Avoid in possible head trauma.**
+    - **Adenoidal Hypertrophy Risk:** Because children are prone to enlarged adenoids, an NPA can **"core out" adenoidal tissue**, causing significant upper airway bleeding that is difficult to control.
+    - **General Rule:** Generally **avoid NPAs in children and especially in infants**, whose nares are so small in diameter that the added airway resistance from a tiny NPA makes breathing through it too difficult to be effective.
+- Initiate Positive Pressure Ventilation (PPV)
+  - **When to Start:** Immediately begin PPV with a **BVM** or **pocket mask** if the infant or child is in **decompensated respiratory failure or respiratory arrest** (inadequate breathing or apnea), and connect **supplemental oxygen** as soon as possible.
+  - **Device Sizing & Tidal Volume:**
+    - Use a **one-way valve** with a mouth-to-mask device to prevent disease transmission.
+    - **Target pediatric tidal volume:** Approximately **6–8 mL/kg**.
+    - **Source BVM capacity examples:** **450–500 mL** minimum listed for a full-term newborn, infant, or child.
+    - **Source neonatal BVM capacity example:** **No larger than 250 mL**. The two recommendations overlap for newborns and require device- and age-specific verification. Bag capacity is distinct from delivered volume.
+  - **Mask Selection and Seal:**
+    - Fit the triangular mask from the bridge of the nose to the cleft below the lower lip. Hold it securely while maintaining age-appropriate airway alignment. The depicted child is supine with the head flat.
+    - **Seal and grip:**
+      - *One-handed technique:* Place the middle, ring, and little fingers of your nondominant hand along the jaw in an **"E" or "3" shape** (without pressing the soft tissues under the chin), and place the thumb and index finger on the mask in a **"C" shape** (thumb over bridge of nose, index finger over anterior jaw) while squeezing the bag with the other hand.
+      - *Two-handed technique (preferred):* Position behind the patient's head and apply the same **"E-C" or "3-C" grip** with both hands on opposite sides of the mask while a second rescuer squeezes the bag slowly just enough to make the chest rise.
+  - **Ventilation rate:**
+    - The source example uses **20–25 breaths/min** and slow, even breaths sufficient for visible chest rise.
+    - The cited 2025 pediatric guidance uses **20–30 breaths/min** for infants or children with a pulse and inadequate breathing, and during CPR with an advanced airway.
+    - Resuscitation at birth follows separate neonatal guidance.
+  - **Four Specific Indications for BVM Ventilation with Supplemental Oxygen in Infants and Children:**
+    - 1\. Have respiratory distress **and altered mental status**
+    - 2\. Have **cyanosis** present despite oxygen via a nonrebreather mask
+    - 3\. Display respiratory distress **with poor muscle tone**
+    - 4\. Are in **respiratory failure or respiratory arrest**
+- Position the Patient
+  - **Mild respiratory distress:** Allow the child to sit in the **caregiver's lap**.
+  - **Unresponsive (not requiring ventilation):** Place in a **lateral recumbent position** to help prevent aspiration, with suction readily available.
+  - **Requiring positive pressure ventilation:** Must be kept in a **supine position**.
+  - **Spine Motion Restriction (SMR):** Place a **folded towel (or similar padding) beneath the shoulder blades** to prevent the child's large occiput from flexing the head forward.
+  - NOTE — ALS Connection — Pediatric fatigue, equipment, and escalation
+    - Retractions can be prominent early.
+    - Decreasing effort with poor tone, decreased responsiveness, weak air entry, or bradycardia is concerning for decompensation.
+    - Report the change and whether positioning, suction, or BVM produces chest rise.
+    - Bring the child's actual or estimated weight, appropriately sized mask and adjuncts, and backup equipment to the ALS clinician.
+    - The 2025 pediatric guidance uses 20–30 breaths/min in the relevant assisted-ventilation contexts described in the earlier update.
+    - Successful BVM remains a valid management strategy.
+    - NAEMSP finds the benefit of prehospital pediatric intubation unclear and emphasizes pediatric-specific competency when systems use it.
+    - Coordinate destination and transport with the receiving capability and local policy.
+- Transport
+  - Any pediatric patient with a respiratory complaint or evidence of respiratory distress requires transport to an appropriate medical facility—preferably a **children's hospital or a hospital with specialized pediatric practitioners**.
+- Delivering Oxygen to Infants and Children
+  - **Early Respiratory Distress (Adequate Breathing):**
+    - If the pediatric patient is breathing adequately but exhibits other signs of **early respiratory distress**, administer supplemental oxygen to maintain an **SpO₂ of 94% or greater**.
+  - **Intolerance of Nasal Cannula or Mask — Blow-By Method:**
+    - If the infant or child cannot tolerate a nasal cannula or face mask, use a **blow-by method**:
+      - 1\. Push the oxygen supply tubing through a hole created in the bottom of a **disposable paper cup** (**do NOT use Styrofoam**, which flakes) and hold it near the patient's mouth—this is less frightening to younger children, who are often curious about and interested in the cup.
+      - 2\. Alternatively, hold the open end of the oxygen tubing close to the patient's face to administer oxygen.
+      - 3\. Have the **parent, other relative, or familiar caregiver** hold the cup or tubing near the child's face to reduce anxiety.
+- Pediatric Supplemental Oxygen Guidelines (Trauma vs. Medical)
+  - **Pediatric Trauma Patient (No Signs of Major Bleeding, Poor Perfusion, or Shock):**
+    - *Trigger:* Initial **SpO₂ < 95%** or SpO₂ falls below **95%** at any time.
+    - *Action & Target:* Administer high-concentration oxygen via a **nonrebreather mask at 10–15 lpm** to establish and maintain an **SpO₂ greater than 95%** (`> 95%`).
+  - **Pediatric Medical Patient:**
+    - *Trigger:* Any signs of **poor perfusion or shock**, OR initial **SpO₂ < 94%**, OR SpO₂ falls below **94%** at any time.
+    - *Action & Target:* Apply a **nasal cannula at 2 lpm** and titrate the liter flow upward until an **SpO₂ of 94% or greater** is achieved. If an SpO₂ of **94%** cannot be achieved with a nasal cannula at **6 lpm**, switch to a **nonrebreather mask at 10–15 lpm**.
+  - NOTE — ALS Connection — Pediatric oxygen targets and gas exchange
+    - The textbook's pediatric trauma and medical saturation targets are examples.
+    - Use the local condition-specific protocol, including separate newborn transition guidance and any known individualized baseline.
+    - Give the receiving team the lowest reliable saturation, observed effort and mental status, oxygen delivery method, response, and need for assisted breathing.
+    - Persistent cyanosis, poor perfusion, or altered responsiveness despite oxygen should prompt reassessment of ventilation, circulation, and the reliability of the reading.

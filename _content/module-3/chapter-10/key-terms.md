@@ -1,0 +1,99 @@
+---
+title: Key Terms
+module_id: module-3
+view: key-terms
+chapter_id: chapter-10
+---
+
+- **Agonal Respirations**: Gasping-type respirations that have no pattern and occur infrequently; a sign of impending cardiac or respiratory arrest. Also called agonal breathing.
+- **Alveolar Ventilation**: The amount of inspired air that reaches the alveoli of the lungs.
+- **Alveoli**: The air sacs of the lungs. Pl. of alveolus.
+- **Automatic Transport Ventilator (ATV)**: A positive pressure ventilation device that delivers ventilations automatically (ATV).
+- **Bag-Valve-Mask (BVM) Device**: A positive pressure ventilation device referred to as a BVM that consists of a bag with a nonrebreather valve and a mask. The bag-valve device is connected to the mask or other airway. The bag is squeezed to deliver a ventilation to the patient.
+- **Bilaterally**: On both sides.
+- **Bilevel Positive Airway Pressure (BiPAP)**: A form of noninvasive positive pressure ventilation. The BiPAP device delivers a continuous flow of air under pressure. It differs from the CPAP device in that it provides different pressures: higher during inspiration, lower during expiration. Also called biphasic positive airway pressure. See also continuous positive airway pressure (CPAP) (BiPAP).
+- **Bradypnea**: A breathing rate that is slower than the normal rate.
+- **Bronchi**: The two main branches leading from the trachea to the lungs, providing the passageway for air movement. Pl. of bronchus.
+- **Bronchioles**: Small branches of the bronchi.
+- **Carina**: The point at which the trachea splits into the right and left mainstem bronchi.
+- **Cellular Ventilation and Metabolism**: The process within the cell of breaking down glucose in the presence of oxygen. Also called aerobic metabolism.
+- **Chemoreceptors**: Receptors that constantly monitor the arterial content of oxygen, carbon dioxide, and the blood pH and stimulate a change in the respiratory rate and depth. See also central chemoreceptors; peripheral chemoreceptors.
+- **Continuous Positive Airway Pressure (CPAP)**: A form of noninvasive positive pressure ventilation. The CPAP device delivers a continuous flow of air under pressure. See also bilevel positive airway pressure (BiPAP) (CPAP).
+- **Cricoid Cartilage**: The most inferior portion of the larynx and only full cartilaginous ring of the upper airway. It is felt immediately below the thyroid cartilage.
+- **Crossed-Fingers Technique**: A technique in which the thumb and index finger are crossed with the thumb on the lower incisors and the index finger on the upper incisors. The fingers are moved in a snapping or scissor motion to open the mouth.
+- **Crowing**: A sound similar to that of a cawing crow that indicates that the muscles around the larynx are in spasm and beginning to narrow the opening into the trachea.
+- **Cyanosis**: A blue-gray color of the mucous membranes and/or skin, which indicates inadequate oxygenation or poor perfusion.
+- **Dead Air Space**: Anatomical areas in the respiratory tract (outside the alveoli) in which air collects during inhalation but no gas exchange occurs.
+- **Deoxygenated**: Containing low amounts of oxygen, as with venous blood.
+- **Diaphragm**: The major muscle of respiration that separates the chest cavity from the abdominal cavity.
+- **Epiglottis**: A small, leaf-shaped flap of cartilaginous tissue, located immediately posterior to the root of the tongue, that covers the opening of the larynx to keep food and liquid from entering the trachea and lungs.
+- **Esophagus**: Passageway at the lower end of the pharynx that leads to the stomach.
+- **Exhalation/Expiration**: The passive process of breathing air out of the lungs. Also called expiration.
+- **External Respiration**: The gas exchange process that occurs between the alveoli and the pulmonary capillaries.
+- **French Catheter**: Flexible tubing that is part of a suctioning system. Also called a French catheter.
+- **Gastric Distention**: Inflation of the stomach.
+- **Gurgling**: A gargling sound that indicates a fluid is in the mouth or pharynx.
+- **Hard Catheter**: A rigid plastic tube, called a Yankauer catheter, that is part of a suctioning system. Also commonly referred to as a hard catheter or tonsil tip or tonsil sucker.
+- **Head-Tilt, Chin-Lift Maneuver**: A manual technique used to open the airway. The head is tilted back by one hand. The tips of the fingers of the other hand are placed under the chin and used to lift the mandible up and forward.
+- **Hemoglobin**: A complex protein molecule found on the surface of the red blood cell that is responsible for carrying a majority of oxygen in the blood.
+- **High-Pressure Regulator**: A one-gauge regulator that is used to power the flow-restricted, oxygen-powered ventilation device. The flow rate cannot be adjusted.
+- **Hypoperfusion/Shock**: The inadequate perfusion of cells, tissue, and organs with oxygen and other nutrients, resulting in cell, tissue, and organ dysfunction.
+- **Hypoxemia**: A low oxygen content in arterial blood.
+- **Hypoxia**: A reduced oxygen delivery to the tissues.
+- **Inhalation/Inspiration**: The active process of breathing air into the lungs. Also called inspiration.
+- **Intercostal Muscles**: The muscles between the ribs.
+- **Internal Respiration**: The gas exchange process that occurs between the cells and the capillaries.
+- **Jaw-Thrust Maneuver**: A manual technique used to open the airway in the patient with a suspected spinal injury. The fingers are placed at the angles of the jaw and used to lift the mandible up and forward.
+- **Laryngectomy**: A surgical procedure in which a patient’s larynx is partially or completely removed. A stoma is created for the patient to breathe through.
+- **Larynx**: Structure that houses the vocal cords and is located inferior to the pharynx and superior to the trachea.
+- **Lower Airway**: The portion of the respiratory system that extends from the trachea to the alveoli of the lungs.
+- **Minute Volume**: The amount of air moved in and out of the lungs in one minute. Also called minute volume.
+- **Mucous Membrane**: A thin layer of tissue that lines various structures within the body.
+- **Nasal Airway**: A curved, hollow rubber tube with a flange or flare at the top end and a bevel at the distal end that is inserted into the nose. It fits in the nasopharynx and extends into the pharynx providing a passage for air. Also called nasal airway; NPA.
+- **Nasal Cannula**: An oxygen delivery device that consists of two prongs that are inserted into the nose of the patient. The oxygen concentration delivered is from 24–44%.
+- **Nasopharyngeal Airway**: A curved, hollow rubber tube with a flange or flare at the top end and a bevel at the distal end that is inserted into the nose. It fits in the nasopharynx and extends into the pharynx providing a passage for air. Also called nasal airway; NPA.
+- **Nasopharynx**: The portion of the pharynx that extends from the posterior nasal cavity to the soft palate.
+- **Nonrebreather Mask**: An oxygen delivery device that consists of a reservoir and one-way valve. It can deliver up to 95% to 98% oxygen to the patient.
+- **Oral Airway**: A semicircular hard plastic device that is inserted in the mouth and holds the tongue away from the back of the pharynx. Also called oral airway; OPA.
+- **Oropharyngeal Airway**: A semicircular hard plastic device that is inserted in the mouth and holds the tongue away from the back of the pharynx. Also called oral airway; OPA.
+- **Oropharynx**: The central portion of the pharynx lying between the soft palate and the epiglottis with the mouth as the opening.
+- **Oxygen Humidifier**: A container that is filled with sterile water and connected to the oxygen regulator to add moisture to the dry oxygen prior to being delivered to the patient.
+- **Oxygenated**: Containing high amounts of oxygen, as with arterial blood.
+- **Oxygenation**: The form of respiration in which oxygen molecules move across a membrane from an area of high oxygen concentration to an area of low oxygen concentration, as when oxygen moves out of a blood vessel into a cell; the process by which the blood and the cells become saturated with oxygen.
+- **Parietal Pleura**: The outermost pleural layer that adheres to the chest wall.
+- **Partial Rebreather Mask**: An oxygen delivery device similar to a nonrebreather mask but with a two-way valve that enables the patient to rebreathe approximately one-third of his exhaled air.
+- **Patent Airway**: An airway that is open and clear of any obstructions.
+- **Pharynx**: The throat, or passageway for air from the nasal and oral cavities to the larynx and passageway for food from the mouth to the esophagus; areas that comprise the pharynx are the nasopharynx, oropharynx, and laryngopharynx (also called the hypopharynx).
+- **Pleura**: Two layers of connective tissue that surround the lungs.
+- **Pleural Space**: A small space between the visceral and parietal pleura that is at negative pressure and filled with serous fluid.
+- **Positive Pressure Ventilation (PPV)**: Method of aiding a patient whose breathing is inadequate by forcing air into his lungs; artificial ventilation (PPV).
+- **Pressure Regulator**: A device that reduces the high pressure in an oxygen cylinder to a safe range, from 30 to 70 psi, and controls the flow of oxygen from 1 to 15 lpm.
+- **Pulmonary Ventilation**: The process of moving air in and out of the lungs. Also called just ventilation.
+- **Residual Volume**: The air remaining in the lungs after a maximal exhalation.
+- **Respiration**: The exchange of gases between an organism and its environment; the exchange of oxygen and carbon dioxide that takes place during inhalation and exhalation.
+- **Respiratory Arrest**: Complete stoppage of breathing. Also called apnea.
+- **Respiratory Distress**: Increased respiratory effort resulting from impaired respiratory function, while tidal volume and respiratory rate are still adequate.
+- **Respiratory Failure**: Insufficient respiratory rate and/or tidal volume.
+- **Respiratory Rate**: The number of breaths taken in one minute. Also called frequency.
+- **Retractions**: Depressions seen in the neck, above the clavicles, between the ribs, or below the rib cage from excessive muscle use during breathing. It is an indication of respiratory distress.
+- **Rigid Catheter**: A rigid plastic tube, called a Yankauer catheter, that is part of a suctioning system. Also commonly referred to as a hard catheter or tonsil tip or tonsil sucker.
+- **Serous Fluid**: Fluid that acts as a lubricant to reduce the friction between the parietal and visceral pleura.
+- **Simple Face Mask**: An oxygen delivery device that has no reservoir. Air is drawn in through holes in the side of the mask, diluting the oxygen concentration being delivered. Exhaled air exits through the same holes.
+- **Snoring**: A sound that is heard when the base of the tongue or relaxed tissues in the pharynx partially block the upper airway. Also called a sonorous sound.
+- **Soft Catheter**: Flexible tubing that is part of a suctioning system. Also called a French catheter.
+- **Stoma**: A permanent surgical opening into the neck and trachea. See also tracheostomy.
+- **Stridor**: A harsh, high-pitched sound heard on inspiration that indicates swelling of the larynx or obstruction of the upper airway.
+- **Tachypnea**: A breathing rate that is faster than the normal rate.
+- **Therapy Regulator**: A device that controls the flow and pressure of oxygen from the tank to enable a consistent delivery of oxygen by liters per minute.
+- **Thyroid Cartilage**: The bulky cartilage that forms the anterior portion of the larynx. Also called the Adam’s apple.
+- **Tidal Volume**: The amount of air moved in and out of the lungs in one respiration.
+- **Tonsil Tip/Tonsil Sucker**: A rigid plastic tube, called a Yankauer catheter, that is part of a suctioning system. Also commonly referred to as a hard catheter or tonsil tip or tonsil sucker.
+- **Trachea**: The tubelike structure that leads from the larynx to the lungs.
+- **Tracheostomy**: A surgical opening in the trachea.
+- **Tracheostomy Mask**: A device that can delivery aerosolized medication, bland aerosol therapy, or oxygen to a patient through a tracheostomy tube.
+- **Tracheostomy Tube**: A hollow tube that is inserted into a tracheostomy to allow the patient to breathe.
+- **Upper Airway**: The portion of the respiratory system that extends from the nose and mouth to the larynx.
+- **Ventilation**: The mechanical process by which air is moved in and out of the lungs, primarily caused by changes in pressure inside the chest.
+- **Venturi Mask**: A low-flow oxygen delivery device that provides precise concentrations of oxygen through an entrainment valve connected to the mask.
+- **Visceral Pleura**: Innermost layer of the pleura that covers the lung.
+- **Yankauer Catheter**: A rigid plastic tube, called a Yankauer catheter, that is part of a suctioning system. Also commonly referred to as a hard catheter or tonsil tip or tonsil sucker.
