@@ -1,261 +1,45 @@
 ---
 layout: default
-title: Home
+title: Course library
+redirect_from:
+  - /content/overview/outline/
+  - /content/overview/mindmap/
+  - /content/overview/pq4rs/
+  - /content/tldr/outline/
+  - /content/tldr/mindmap/
+  - /content/tldr/pq4rs/
 ---
-{%- assign all_docs = site.content | sort: "relative_path" -%}
-{%- assign course_sections = "overview,deep-dive,tldr,summary" | split: "," -%}
+<section class="hero">
+  <div class="hero-content">
+    <h1>EMT Course Notes</h1>
+    <p>Read the guides, trace connections in a map, or test what you remember with chapter flashcards.</p>
+    <a class="button hero-button" href="#modules">Browse the modules <span aria-hidden="true">↓</span></a>
+  </div>
+</section>
 
-<section class="home-page">
-  <header class="home-hero">
-    <h1>{{ site.title | default: "EMT Course Notes" }}</h1>
-    <p>{{ site.description | default: "Select a chapter from the sidebar or below to start studying." }}</p>
-  </header>
-
-  <aside class="home-disclaimer" aria-label="Study notes disclaimer">
-    <svg class="home-disclaimer-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/>
-    </svg>
-    <p>
-      <strong>Unofficial Study Notes:</strong> These materials are not endorsed by or affiliated with any school, EMT program, publisher, or the NREMT, and are not medical advice. Always verify against your official textbook, course curriculum, and local protocols—use for coursework or National Registry prep is at your own risk.
-    </p>
-  </aside>
-
-  {%- comment -%} Top-level Course Overview & TL;DR Cards {%- endcomment -%}
-  {%- assign has_course_sections = false -%}
-  {%- for sec in course_sections -%}
-    {%- for doc in all_docs -%}
-      {%- assign dparts = doc.relative_path | split: "/" -%}
-      {%- if dparts.size == 3 and dparts[1] == sec -%}
-        {%- assign has_course_sections = true -%}
-        {%- break -%}
-      {%- endif -%}
-    {%- endfor -%}
-    {%- if has_course_sections -%}{%- break -%}{%- endif -%}
-  {%- endfor -%}
-
-  {%- if has_course_sections -%}
-    <div class="course-banner-grid">
-      {%- for sec in course_sections -%}
-        {%- assign target_doc = nil -%}
-        {%- for doc in all_docs -%}
-          {%- assign dparts = doc.relative_path | split: "/" -%}
-          {%- if dparts.size == 3 and dparts[1] == sec -%}
-            {%- assign dname = dparts[2] | downcase -%}
-            {%- if dname == "outline.md" -%}
-              {%- assign target_doc = doc -%}
-              {%- break -%}
-            {%- elsif target_doc == nil -%}
-              {%- assign target_doc = doc -%}
-            {%- endif -%}
-          {%- endif -%}
-        {%- endfor -%}
-
-        {%- if target_doc -%}
-          {%- case sec -%}
-            {%- when "overview", "deep-dive" -%}
-              {%- assign sec_title = "Full Course Overview" -%}
-              {%- assign sec_desc = "Comprehensive deep dive combining every module and chapter." -%}
-            {%- when "tldr", "summary" -%}
-              {%- assign sec_title = "Course TL;DR" -%}
-              {%- assign sec_desc = "5-mile-high brief of the entire EMT course." -%}
-            {%- else -%}
-              {%- capture sec_title -%}{% include humanize.html slug=sec %}{%- endcapture -%}
-              {%- assign sec_desc = "Course-wide study guide." -%}
-          {%- endcase -%}
-          <a href="{{ target_doc.url | relative_url }}" class="course-banner-card">
-            <div class="course-banner-badge">Course-Wide</div>
-            <div class="course-banner-title">{{ sec_title }}</div>
-            <p class="course-banner-desc">{{ sec_desc }}</p>
-          </a>
-        {%- endif -%}
-      {%- endfor -%}
-    </div>
-  {%- endif -%}
-
+<section class="modules" id="modules" aria-labelledby="modules-title">
+  <h2 id="modules-title">Course modules</h2>
   <div class="module-grid">
-    {%- assign rendered_modules = "|overview|deep-dive|tldr|summary|" -%}
-
-    {%- for mod in site.data.course -%}
-      {%- assign mod_dir = mod.folder -%}
-      {%- assign mod_token = "|" | append: mod_dir | append: "|" -%}
-      {%- assign rendered_modules = rendered_modules | append: mod_token -%}
-      <div class="module-card">
-        <h2 class="module-card-title">{% if mod.title and mod.title != "" %}{{ mod.title }}{% else %}{% include humanize.html slug=mod_dir %}{% endif %}</h2>
-
-        {%- assign mod_has_key_terms = false -%}
-        {%- assign has_resources = false -%}
-        {%- for sec in course_sections -%}
-          {%- for sdoc in all_docs -%}
-            {%- assign sparts = sdoc.relative_path | split: "/" -%}
-            {%- if sparts.size >= 4 and sparts[1] == mod_dir and sparts[2] == sec -%}
-              {%- assign has_resources = true -%}
-              {%- break -%}
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endfor -%}
-        {%- for mdoc in all_docs -%}
-          {%- assign mparts = mdoc.relative_path | split: "/" -%}
-          {%- if mparts.size == 3 and mparts[1] == mod_dir -%}
-            {%- assign has_resources = true -%}
-            {%- assign mslug = mparts[2] | replace: ".md", "" | downcase -%}
-            {%- if mslug == "key-terms" or mslug == "keyterms" -%}
-              {%- assign mod_has_key_terms = true -%}
-            {%- endif -%}
-          {%- endif -%}
-        {%- endfor -%}
-
-        {%- if has_resources -%}
-          <div class="module-resource-row">
-            {%- for sec in course_sections -%}
-              {%- assign target_doc = nil -%}
-              {%- for sdoc in all_docs -%}
-                {%- assign sparts = sdoc.relative_path | split: "/" -%}
-                {%- if sparts.size >= 4 and sparts[1] == mod_dir and sparts[2] == sec -%}
-                  {%- assign sname = sparts[3] | downcase -%}
-                  {%- if sname == "outline.md" -%}
-                    {%- assign target_doc = sdoc -%}
-                    {%- break -%}
-                  {%- elsif target_doc == nil -%}
-                    {%- assign target_doc = sdoc -%}
-                  {%- endif -%}
-                {%- endif -%}
-              {%- endfor -%}
-              {%- if target_doc -%}
-                {%- case sec -%}
-                  {%- when "overview", "deep-dive" -%}{%- assign sec_label = "Full Overview" -%}
-                  {%- when "tldr", "summary" -%}{%- assign sec_label = "TL;DR" -%}
-                  {%- else -%}{%- capture sec_label -%}{% include humanize.html slug=sec %}{%- endcapture -%}
-                {%- endcase -%}
-                <a href="{{ target_doc.url | relative_url }}" class="resource-chip">{{ sec_label }}</a>
-              {%- endif -%}
-            {%- endfor -%}
-
-            {%- for mdoc in all_docs -%}
-              {%- assign mparts = mdoc.relative_path | split: "/" -%}
-              {%- if mparts.size == 3 and mparts[1] == mod_dir -%}
-                {%- assign mfile = mparts[2] -%}
-                {%- assign mslug = mfile | replace: ".md", "" | downcase -%}
-                {%- assign is_kt_mm = false -%}
-                {%- if mslug == "key-terms-mindmap" or mslug == "keyterms-mindmap" -%}
-                  {%- assign is_kt_mm = true -%}
-                {%- endif -%}
-                {%- if is_kt_mm and mod_has_key_terms -%}
-                  {%- continue -%}
-                {%- endif -%}
-                {%- case mslug -%}
-                  {%- when "key-terms", "keyterms", "key-terms-mindmap", "keyterms-mindmap" -%}{%- assign mlabel = "Key Terms" -%}
-                  {%- when "study-guide", "studyguide" -%}{%- assign mlabel = "Study Guide" -%}
-                  {%- else -%}{%- capture mlabel -%}{% include humanize.html slug=mslug %}{%- endcapture -%}
-                {%- endcase -%}
-                <a href="{{ mdoc.url | relative_url }}" class="resource-chip">{{ mlabel }}</a>
-              {%- endif -%}
-            {%- endfor -%}
+    {% for mod in site.data.course %}
+      {% assign module_root = '/content/' | append: mod.id %}
+      <article class="module-card">
+        <div class="module-card-header">
+          <span class="module-tag">Module {{ mod.number }}</span>
+          <h3><a href="{{ module_root | append: '/study-guide/' | relative_url }}">{{ mod.title | escape }}</a></h3>
+          <p>{{ mod.description | escape }}</p>
+          <div class="module-actions">
+            <a class="button button-primary" href="{{ module_root | append: '/study-guide/' | relative_url }}">Study guide <span aria-hidden="true">↗</span></a>
+            <a class="button" href="{{ module_root | append: '/rapid-review/' | relative_url }}">Rapid review</a>
           </div>
-        {%- endif -%}
-
-        <ul class="module-card-list">
-          {%- assign rendered_chapters = "|overview|deep-dive|tldr|summary|" -%}
-          {%- for chap in mod.chapters -%}
-            {%- assign chap_dir = chap.folder -%}
-            {%- assign chap_token = "|" | append: chap_dir | append: "|" -%}
-            {%- assign rendered_chapters = rendered_chapters | append: chap_token -%}
-            {%- assign chap_prefix = "_content/" | append: mod_dir | append: "/" | append: chap_dir | append: "/" -%}
-            {%- assign target_doc = nil -%}
-            {%- for sibling in all_docs -%}
-              {%- if sibling.relative_path contains chap_prefix -%}
-                {%- assign sib_name = sibling.relative_path | split: "/" | last | downcase -%}
-                {%- if sib_name == "outline.md" -%}
-                  {%- assign target_doc = sibling -%}
-                  {%- break -%}
-                {%- elsif target_doc == nil -%}
-                  {%- assign target_doc = sibling -%}
-                {%- endif -%}
-              {%- endif -%}
-            {%- endfor -%}
-
-            {%- if target_doc -%}
-              <li>
-                <a href="{{ target_doc.url | relative_url }}" class="module-card-link">
-                  <span>{% if chap.title and chap.title != "" %}{{ chap.title }}{% else %}{% include humanize.html slug=chap_dir %}{% endif %}</span>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
-                </a>
-              </li>
-            {%- endif -%}
-          {%- endfor -%}
-
-          {%- for cdoc in all_docs -%}
-            {%- assign cparts = cdoc.relative_path | split: "/" -%}
-            {%- if cparts.size >= 4 and cparts[1] == mod_dir -%}
-              {%- assign chap_dir = cparts[2] -%}
-              {%- assign chap_token = "|" | append: chap_dir | append: "|" -%}
-              {%- unless rendered_chapters contains chap_token -%}
-                {%- assign rendered_chapters = rendered_chapters | append: chap_token -%}
-                {%- assign chap_prefix = "_content/" | append: mod_dir | append: "/" | append: chap_dir | append: "/" -%}
-                {%- assign target_doc = cdoc -%}
-                {%- for sibling in all_docs -%}
-                  {%- if sibling.relative_path contains chap_prefix -%}
-                    {%- assign sib_name = sibling.relative_path | split: "/" | last | downcase -%}
-                    {%- if sib_name == "outline.md" -%}
-                      {%- assign target_doc = sibling -%}
-                      {%- break -%}
-                    {%- endif -%}
-                  {%- endif -%}
-                {%- endfor -%}
-                <li>
-                  <a href="{{ target_doc.url | relative_url }}" class="module-card-link">
-                    <span>{% include humanize.html slug=chap_dir %}</span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
-                  </a>
-                </li>
-              {%- endunless -%}
-            {%- endif -%}
-          {%- endfor -%}
+        </div>
+        <ul class="chapter-list" aria-label="Chapters">
+          {% for chap in mod.chapters %}
+            <li><a href="{{ module_root | append: '/' | append: chap.id | append: '/study-guide/' | relative_url }}">
+              <span class="chapter-number">{{ chap.number }}</span><span>{{ chap.title | escape }}</span><span aria-hidden="true">→</span>
+            </a></li>
+          {% endfor %}
         </ul>
-      </div>
-    {%- endfor -%}
-
-    {%- for doc in all_docs -%}
-      {%- assign parts = doc.relative_path | split: "/" -%}
-      {%- if parts.size >= 3 -%}
-        {%- assign mod_dir = parts[1] -%}
-        {%- assign mod_token = "|" | append: mod_dir | append: "|" -%}
-        {%- unless rendered_modules contains mod_token -%}
-          {%- assign rendered_modules = rendered_modules | append: mod_token -%}
-          <div class="module-card">
-            <h2 class="module-card-title">{% include humanize.html slug=mod_dir %}</h2>
-            <ul class="module-card-list">
-              {%- assign rendered_chapters = "|overview|deep-dive|tldr|summary|" -%}
-              {%- for cdoc in all_docs -%}
-                {%- assign cparts = cdoc.relative_path | split: "/" -%}
-                {%- if cparts.size >= 4 and cparts[1] == mod_dir -%}
-                  {%- assign chap_dir = cparts[2] -%}
-                  {%- assign chap_token = "|" | append: chap_dir | append: "|" -%}
-                  {%- unless rendered_chapters contains chap_token -%}
-                    {%- assign rendered_chapters = rendered_chapters | append: chap_token -%}
-                    {%- assign chap_prefix = "_content/" | append: mod_dir | append: "/" | append: chap_dir | append: "/" -%}
-                    {%- assign target_doc = cdoc -%}
-                    {%- for sibling in all_docs -%}
-                      {%- if sibling.relative_path contains chap_prefix -%}
-                        {%- assign sib_name = sibling.relative_path | split: "/" | last | downcase -%}
-                        {%- if sib_name == "outline.md" -%}
-                          {%- assign target_doc = sibling -%}
-                          {%- break -%}
-                        {%- endif -%}
-                      {%- endif -%}
-                    {%- endfor -%}
-                    <li>
-                      <a href="{{ target_doc.url | relative_url }}" class="module-card-link">
-                        <span>{% include humanize.html slug=chap_dir %}</span>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
-                      </a>
-                    </li>
-                  {%- endunless -%}
-                {%- endif -%}
-              {%- endfor -%}
-            </ul>
-          </div>
-        {%- endunless -%}
-      {%- endif -%}
-    {%- endfor -%}
+      </article>
+    {% endfor %}
   </div>
 </section>

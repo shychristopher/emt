@@ -1,28 +1,35 @@
-# Controls the display order and titles for modules and chapters in _content/.
-# Omit `title` on any module or chapter to automatically fall back to its folder name (e.g. "chapter-7" -> "Chapter 7").
-# Files inside each folder (key-terms.md, key-terms-mindmap.md, study-guide.md, outline.md, mindmap.md, pq4rs.md, etc.)
-# are discovered automatically.
-
-- folder: module-1
-  title: "[Mod. 1] Anatomy, Physiology, and Pathophysiology"
+- id: module-1
+  number: "01"
+  title: Anatomy, Physiology, and Pathophysiology
+  description: Study the structure and function of the human body and what changes when normal function breaks down.
   chapters:
-    - folder: chapter-7
-      title: "[Ch. 7] Anatomy and Physiology"
-    - folder: chapter-8
-      title: "[Ch. 8] Pathophysiology"
+    - id: chapter-7
+      number: "07"
+      title: Anatomy, Physiology, and Medical Terminology
+    - id: chapter-8
+      number: "08"
+      title: Pathophysiology
 
-- folder: module-2
-  title: "[Mod 2] Introduction"
+- id: module-2
+  number: "02"
+  title: EMS Foundations
+  description: Explore EMS systems, safety, professional practice, documentation, communication, and patient movement.
   chapters:
-    - folder: chapter-1
-      title: "[Ch. 1] EMS Systems, Research, and Public Health"
-    - folder: chapter-2
-      title: "[Ch. 2] Workforce Safety and Wellness of the EMT"
-    - folder: chapter-3
-      title: "[Ch. 3] Medical, Legal, and Ethical Issues"
-    - folder: chapter-4
-      title: "[Ch. 4] Documentation"
-    - folder: chapter-5
-      title: "[Ch. 5] Communication"
-    - folder: chapter-6
-      title: "[Ch. 6] Lifting and Moving Patients"
+    - id: chapter-1
+      number: "01"
+      title: EMS Systems, Research, and Public Health
+    - id: chapter-2
+      number: "02"
+      title: Workforce Safety and Wellness of the EMT
+    - id: chapter-3
+      number: "03"
+      title: Medical, Legal, and Ethical Issues
+    - id: chapter-4
+      number: "04"
+      title: Documentation
+    - id: chapter-5
+      number: "05"
+      title: Communication
+    - id: chapter-6
+      number: "06"
+      title: Lifting and Moving Patients

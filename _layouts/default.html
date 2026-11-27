@@ -1,84 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title | default: "EMT Course Notes" }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.chapter_id %}{% assign module = site.data.course | where: 'id', page.module_id | first %}{% assign chapter = module.chapters | where: 'id', page.chapter_id | first %}{{ chapter.title | escape }} · {% elsif page.module_id %}{% assign module = site.data.course | where: 'id', page.module_id | first %}{{ module.title | escape }} · {% endif %}{{ page.title | escape }} · {{ site.title | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
   <script>
-    (function() {
-      var saved = localStorage.getItem('emt-theme');
-      if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.setAttribute('data-theme', 'dark');
+    try {
+      const theme = localStorage.getItem('emt-theme');
+      if (theme === 'dark' || (!theme && matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.dataset.theme = 'dark';
       }
-      // Auto-cleanup any leftover Service Workers from other localhost apps
-      if ('serviceWorker' in navigator && (location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
-        navigator.serviceWorker.getRegistrations().then(function(regs) {
-          if (regs.length > 0) {
-            Promise.all(regs.map(function(r) { return r.unregister(); })).then(function() {
-              if (window.caches) {
-                caches.keys().then(function(keys) {
-                  return Promise.all(keys.map(function(k) { return caches.delete(k); }));
-                }).then(function() { location.reload(); });
-              } else {
-                location.reload();
-              }
-            });
-          }
-        });
-      }
-    })();
+    } catch (error) {}
   </script>
-  <style>
-{% include style.css %}
-  </style>
+  <link rel="stylesheet" href="{{ '/assets/css/study.css' | relative_url }}">
+  {% if page.content contains '$' %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.19.1/dist/katex.min.css" integrity="sha384-WwGtaC6ywCHxA5cstpj/3+xIZvTez8dq2IcBQaXRkenHZ7FVVq1ZROtURwfbtTlG" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.19.1/dist/katex.min.js" integrity="sha384-a1WQdjRj162i159OYq041X6I4K8NenkrI09LlPmiHg0YOb7CR+wJOraXwK9abpnE" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.19.1/dist/contrib/auto-render.min.js" integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"></script>
+  {% endif %}
+  <script defer src="{{ '/assets/js/study.js' | relative_url }}"></script>
+  {% if page.view == 'mindmap' %}<script defer src="{{ '/assets/js/mindmap.js' | relative_url }}"></script>{% endif %}
+  {% if page.content contains '```mermaid' or page.content contains 'language-mermaid' %}<script type="module" src="{{ '/assets/js/concept-maps.js' | relative_url }}"></script>{% endif %}
+  {% if page.view == 'flashcards' %}<script defer src="{{ '/assets/js/flashcards.js' | relative_url }}"></script>{% endif %}
 </head>
 <body>
-  <header class="mobile-header">
-    <button class="icon-btn mobile-menu-btn" id="drawerOpen" type="button" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/>
-      </svg>
-    </button>
-    <a href="{{ '/' | relative_url }}" class="mobile-brand">{{ site.title | default: "EMT Course" }}</a>
-  </header>
-
-  <div class="app-shell">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="shell">
     {% include sidebar.html %}
-
-    <main class="main-content" id="mainContent">
-      {{ content }}
-    </main>
+    <div class="workspace">
+      <header class="topbar">
+        <button class="button mobile-menu" type="button" id="navToggle" aria-expanded="false" aria-controls="sidebar" hidden>Menu</button>
+        <a class="mobile-brand" href="{{ '/' | relative_url }}">EMT Course Notes</a>
+        <button type="button" class="button theme-button" id="themeToggle" aria-label="Dark theme" aria-pressed="false" hidden>
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <path d="M20.7 15A9 9 0 0 1 9 3.3 9 9 0 1 0 20.7 15Z"/>
+          </svg>
+          <span>Dark mode</span>
+        </button>
+      </header>
+      <main id="main" class="main" tabindex="-1">{{ content }}</main>
+      <footer class="site-footer">Unofficial EMT study materials · Verify against your course materials and local protocols.</footer>
+    </div>
   </div>
-
-  <dialog class="disclaimer-dialog" id="disclaimerDialog" aria-labelledby="disclaimerTitle">
-    <div class="disclaimer-header">
-      <span class="disclaimer-badge">Unofficial Study Notes · Disclaimer</span>
-    </div>
-    <h2 class="disclaimer-title" id="disclaimerTitle">Before You Study</h2>
-    <div class="disclaimer-body">
-      <p>These notes, outlines, mind maps, and study guides are <strong>unofficial personal study materials</strong>. They are <strong>not</strong> endorsed, affiliated with, or reviewed by any EMT program, school, instructor, textbook publisher, or the National Registry of Emergency Medical Technicians (NREMT).</p>
-      <p>Content may contain typos, simplifications, omissions, or differences from your local EMS protocols. Always cross-check against your official textbook, course curriculum, and medical direction. Nothing on this site is medical advice.</p>
-      <p>Using these materials to study for any course, practical exam, or National Registry certification is <strong>entirely at your own risk</strong>. The author assumes no responsibility or liability for exam results, grades, inaccuracies, or clinical decisions.</p>
-    </div>
-    <div class="disclaimer-checks">
-      <label class="disclaimer-check">
-        <input type="checkbox" id="disclaimerAckCheck">
-        <span>I understand and agree that I am using these notes at my own risk.</span>
-      </label>
-      <label class="disclaimer-check disclaimer-check-muted">
-        <input type="checkbox" id="disclaimerRememberCheck" checked>
-        <span>Don't show this again on this device</span>
-      </label>
-    </div>
-    <div class="disclaimer-actions">
-      <button type="button" class="disclaimer-btn" id="disclaimerAcceptBtn" disabled>
-        Continue to Notes
-      </button>
-    </div>
+  <dialog class="dialog" id="disclaimerDialog" aria-labelledby="disclaimerTitle">
+    <h2 id="disclaimerTitle">Before you study</h2>
+    <p>These are unofficial personal study materials. They may contain errors, omissions, or differences from your local EMS protocols. Verify what you study against your textbook, course curriculum, and medical direction.</p>
+    <p>These materials are unaffiliated with EMT programs and the NREMT. Use them for study purposes only. They are not medical advice.</p>
+    <form method="dialog">
+      <label class="dialog-check"><input type="checkbox" id="disclaimerAckCheck"> I understand I’m using these notes at my own risk.</label>
+      <label class="dialog-check"><input type="checkbox" id="disclaimerRememberCheck" checked> Remember on this device</label>
+      <button class="button button-primary" id="disclaimerAcceptBtn" disabled>Continue to notes</button>
+    </form>
   </dialog>
-
-  <script>
-{% include app.js %}
-  </script>
 </body>
 </html>

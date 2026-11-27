@@ -1,138 +1,1062 @@
 ---
-markmap:
-  colorFreezeLevel: 2
-  initialExpandLevel: 2
-  layout: tree
-  theme: cards
-  wrapWidth: 340
+title: Mind Map
+module_id: module-2
+view: mindmap
+chapter_id: chapter-1
 ---
 
-# Chapter 1: EMS Systems, Research, and Public Health
-- **1. Key Terms & Foundations**
-  - **Key Terms (Grouped by Concept):**
-    - *Provider Levels:* Emergency Medical Responder (EMR), Emergency Medical Technician (EMT), Advanced Emergency Medical Technician (AEMT), Paramedic
-    - *System & Delivery Models:* EMS system, prehospital care, Mobile Integrated Healthcare (MIH), Community Paramedicine (CP), quality improvement (QI)
-    - *Medical Oversight & Direction:* medical oversight, direct medical oversight, indirect medical oversight, medical director, medical direction, off-line medical direction, on-line medical direction, on-scene medical direction, protocols, standing orders
-    - *Research & Legal:* evidence-based medicine, evidence-based guidelines (EBG), Americans with Disabilities Act (ADA)
-  - **Core Purpose:**
-    - Bridges sudden illness/injury onset with hospital stabilization, rehabilitation, or discharge (**Health Care Continuum**)
-    - Combines immediate out-of-hospital clinical care with system organization, evidence-based guidelines, quality improvement, and population-level public health integration
-    - Addresses preventable deaths and permanent disabilities from catastrophic accidents and sudden illnesses
-  - **Historical Roots:**
-    - Early ambulances operated out of local funeral homes (rapid transport over active field medical treatment)
-    - Military trauma lessons: Korean & Vietnam conflicts (immediate field stabilization improves survival); Iraq & Afghanistan conflicts (battlefield resuscitation & hemorrhage control)
-  - **Key Legislative, Policy & Educational Timeline:**
-    - **1960s–1970s:** CPR developed (1960s); AHA begins public CPR/BLS training in 1970s (now standard EMT prerequisite)
-    - **1966:** *Accidental Death and Disability: The Neglected Disease of Modern Society* (NAS/NRC "White Paper") exposes prehospital deficiencies and spurs reforms
-    - **1966:** Highway Safety Act requires state highway safety standards and puts DOT & NHTSA in charge of EMS systems and national curriculum
-    - **1973:** Emergency Medical Services System Act provides major federal funding for regional EMS planning, staffing, and training
-    - **1993:** NREMT Education and Practice Blueprint standardizes training/education frameworks
-    - **1996 & 2000:** NHTSA *EMS Agendas for the Future* push health care integration (1996) and national education/certification/licensure consistency (2000)
-    - **2005–2006:** NHTSA/HRSA *National EMS Core Content* (2005) & *Scope of Practice Model* (2006, 4 provider levels); IOM *EMS at the Crossroads* (2006: state reciprocity, paramedic program accreditation, national certification for licensure)
-    - **2014–2018:** *EMS Agenda 2050* (via NEMSAC) establishes a 30-year people-centered vision for EMS
+# Chapter 1: Emergency Medical Service Systems, Research, and Public Health
 
-- **2. EMS System Architecture, Access & Delivery**
-  - **State Governance & Benchmarks:**
-    - Individual states design and regulate EMS independently via a **Lead State EMS Agency** (statewide planning, coordination, regulation, and licensing of agencies/personnel—distinct from national NREMT certification)
-    - **NHTSA 10 Technical Assistance Program Assessment Standards:** (1) Regulation & policy, (2) resource management, (3) human resources & training (at least EMT level), (4) transportation (ground/air), (5) facilities, (6) communications, (7) public information & education, (8) medical direction, (9) trauma systems, (10) evaluation (QI)
-    - **Six System Design Goals (Gunderson, 2015):** Clinical quality, service quality, economic efficiency, accountability, improvement, and resilience
-    - **12 Modern EMS Service Lines (Gunderson, 2015):** Prevention & public education; triage; medical first response; ambulance response & transport; medical transportation; event coverage; disaster services; critical care transport; air medical transport; hazmat medical support; tactical medical support; community paramedicine
-  - **Accessing EMS (911 vs. Non-911):**
-    - Universal 911 access avoids looking up local 10-digit numbers and enables simultaneous police/fire/EMS dispatch
-    - **PSAP (Public Service Answering Point):** Receives, verifies, and records calls; selects agencies; dispatches responders
-    - **E-911 (Landlines):** Automatically displays **ANI** (phone number) and **ALI** (physical address)—vital if caller hangs up, is a child, or is incapacitated
-    - **EMDs (Emergency Medical Dispatchers):** Provide pre-arrival care instructions (bleeding control, CPR)
-    - **Wireless (~70% of calls, rising) & VoIP:**
-      - *Basic 911:* Transmits all 911 calls regardless of carrier subscription
-      - *Phase I E-911:* Provides callback number and cell tower/base station location
-      - *Phase II E-911:* Provides caller latitude/longitude within **50 to 300 meters** (many systems use GPS)
-      - *VoIP:* FCC requires 911 as standard feature transmitting callback number and registered physical address
-  - **Six EMS Service Delivery Models:**
-    - **Fire Department EMS:** Integrated into fire suppression (paid, part-paid, volunteer; transport or non-transport first response)
-    - **Municipal EMS ("Third Service"):** Standalone local government agency separate from fire and police (911 + occasional inter-facility/non-emergency transport)
-    - **Private EMS:** Private companies under municipal contract/regulation (911, inter-facility transfers, non-emergency transport)
-    - **Hospital-Based EMS:** Operated by for-profit or not-for-profit hospitals (911 + inter-facility transport)
-    - **Law Enforcement EMS:** Rare model in smaller, lower-volume jurisdictions leveraging patrol readiness
-    - **Public Safety Officer:** Personnel cross-trained in fire, police, and EMS within one unified agency
-  - **Four Provider Levels (*National EMS Scope of Practice Model*):**
-    - **EMR (Emergency Medical Responder):** Immediate lifesaving care before ambulance arrival (basic airway/ventilation/O2 devices, vital signs, spinal/extremity stabilization, eye irrigation, bleeding control, emergency moves, CPR, AED, emergency childbirth)
-    - **EMT (Emergency Medical Technician):** Basic emergency care and ambulance transport (EMR skills + advanced O2/ventilation equipment, pulse oximetry, automated BP monitors, limited medication administration/assistance)
-    - **AEMT (Advanced EMT):** Basic + limited advanced care and transport (EMT skills + advanced airway devices, blood glucose monitoring, IV/IO fluid therapy, select medications)
-    - **Paramedic:** Highest prehospital tier (EMT/AEMT skills + advanced assessments, field impressions, invasive procedures, expanded pharmacology)
-  - **Care Settings & Specialty Referral Centers:**
-    - *Prehospital Care* (emergency care before hospital arrival) vs. *Out-of-Hospital Care* (scene care with/without transport + inter-facility transfers)
-    - **10 Specialty Referral Centers:** Trauma center, Burn center, Obstetrical center, Pediatric center, Poison center, Stroke center, Cardiac center, Hyperbaric center (diving, CO/toxic exposures), Spine injury center, Psychiatric center
-    - Interagency coordination: EMTs serve as the medical liaison alongside fire, rescue, and law enforcement
-  - **Mobile Integrated Healthcare & Community Paramedicine (MIH-CP):**
-    - **MIH:** Patient-centered out-of-hospital health care using mobile tech/resources by various clinicians integrated with EMS
-    - **CP:** Out-of-hospital care delivered directly by an EMS agency and its providers integrated with broader health care entities
-    - **NAEMT Vision Services:** Expanding underserved access; telephone triage/advice instead of automatic ambulance dispatch; managing high-utilizer/high-readmission patients, chronic disease management, and preventive/post-discharge visits
+## The EMS system and continuum of care
+- **Public health burden and the purpose of EMS**
+    - Sudden death and disability caused by catastrophic illness and injury are major public health concerns in the United States.
+    - Inadequate or unavailable emergency medical services (EMS) can contribute to death and permanent disability; the source estimates that thousands of people die or suffer permanent harm each year for this reason, without providing a date or supporting statistic.
+    - EMTs help improve outcomes by providing emergency care as part of a coordinated system that connects the patient to appropriate resources.
+- **Education standards and prevention**
+    - The National EMS Education Standards place EMS systems and research within the preparatory domain and also address public health.
+    - These subjects connect safe, legally and ethically responsible emergency care with illness and injury prevention.
+- **Evolution of the care continuum**
+    - Modern EMS evolved from ambulance transportation, often provided by funeral homes with no treatment until arrival at a hospital, into a continuum of care beginning at the scene and extending through transportation, hospital care, rehabilitation or discharge.
+- **Historical development of EMS**
+    - **Wartime Influence:**
+        - **Korean and Vietnam conflicts**
+            - Demonstrated that injured soldiers benefited from emergency care in the field prior to transport, shifting civilian EMS from fast, untrained transport to trained on-scene and en-route care.
+        - **Iraq and Afghanistan wars:** Continue to inform trauma care and drive changes in EMS practice based on patient outcomes.
+    - **Key Milestones & Legislation:**
+        - **1960s**
+            - President's Committee for Traffic Safety identified a need to reduce highway crash injuries and deaths; cardiopulmonary resuscitation (CPR) procedures were developed.
+        - **1966 — The "White Paper"**
+            - National Academy of Sciences National Research Council published *Accidental Death and Disability: The Neglected Disease of Modern Society*.
+            - Detailed traffic crash deaths/injuries, identified severe prehospital care deficiencies, and recommended changes to ambulance systems, training, and prehospital care.
+        - **1966 — Highway Safety Act of 1966**
+            - Required each state to establish a highway safety program meeting federal standards, including emergency services.
+            - The Department of Transportation (DOT), via the **National Highway Traffic Safety Administration (NHTSA)**, took leadership and developed national standard curricula.
+        - **1970s**
+            - American Heart Association (AHA) began teaching CPR and basic life support (BLS) to the public.
+            - The source describes CPR course completion as a prerequisite for EMT courses; confirm the requirements of the individual program.
+        - **1973 — Emergency Medical Services System Act of 1973**
+            - Provided millions of dollars in funding for EMS system planning, implementation, personnel availability, and training.
+        - **1993**
+            - National Registry of EMTs (NREMT) released the *National Emergency Medical Services Education and Practice Blueprint* to define training/education issues and guide national training curricula.
+        - **1996:** NHTSA published *EMS Agenda for the Future* to make EMS a greater component of the U.S. health care system.
+        - **2000**
+            - Follow-up document *The EMS Education Agenda for the Future: A Systems Approach* released to address national consistency in education, training, certification, and licensure of entry-level EMS personnel.
+        - **2005**
+            - NHTSA and Health Resources and Services Administration (HRSA) published *National EMS Core Content*, defining the domain of knowledge in the *National EMS Scope of Practice Model* and promoting universal knowledge/skills.
+        - **2006:** NHTSA published the *National EMS Scope of Practice Model*, defining four levels of EMS licensure and their corresponding knowledge and skills.
+        - **2006:** Institute of Medicine (IOM) published *The Future of EMS Care: EMS at the Crossroads*, recommending:
+            - Common state scope of practice to allow reciprocity between states
+            - National accreditation for all paramedic programs
+            - National certification as a prerequisite for state licensure and local credentialing
+        - **NHTSA National EMS Education Standards:** Outline minimum terminal objectives for entry-level EMS personnel based on the *National EMS Scope of Practice Model*.
+        - **2014–2018 — EMS Agenda 2050**
+            - Recommended by the National EMS Advisory Council (2014) to update the 1996 agenda; developed in 2017–2018 through regional meetings, webinars, conferences, and public comment to provide a 30-year framework for EMS advancement.
+    - **NOTE — ALS Connection — The system, not just the procedure**
+        - The modern continuum connects early recognition, dispatch, first response, BLS, advanced assessment, transport, hospital intervention and recovery.
+            - A 12-lead ECG in the ambulance can be valuable because it connects the patient to an appropriate cardiac receiving facility; the ambulance cannot itself reopen an obstructed coronary artery using catheter-based PCI.
+            - The value of a skill depends on how effectively it connects to the rest of the system.
+            - EMS Agenda 2050 emphasizes integration and patient-centered care.
 
-- **3. The EMT: Roles, Safety & Clinical Oversight**
-  - **Safety Priority #1 (Self → Crew → Patient → Bystanders):**
-    - An injured EMT cannot help patients and diverts rescue resources
-    - **Vehicle Safety:** Drive defensively with due regard; wear seat belts at all times unless actively performing essential patient care in back
-    - **Scene Hazards:** Avoid traffic, downed power lines, fuel/chemical spills, fires, radiation; **never enter volatile scenes** (riots, active crime scenes, hostage situations) until law enforcement clears area; exercise caution with intoxicated/behavioral/volatile patients
-    - **Protective Measures & PPE:** High-vis reflective gear at night + adequate lighting; trauma/extrication gear (helmet/hard hat, protective outerwear, eye protection, leather gloves); standard infectious disease PPE (gloves, eye protection, mask, gown)
-  - **Core Clinical & Operational Duties:**
-    - Maintain vehicle/equipment readiness and operate emergency vehicles safely
-    - Triage multi-patient scenes → **Primary assessment** first (resolve airway, breathing, cardiac arrest, severe hemorrhage) → **Secondary assessment** & continuous reassessment
-    - Safe lifting/moving (lift/carry up to **125 lbs**) using proper body mechanics, sufficient crew, and emergency/urgent/nonurgent moves
-    - Select appropriate destination facility; give early pre-arrival notification (patient count, condition, trauma/stroke alerts); use lights/sirens judiciously
-    - **Transfer of Care:** Assist wheeled stretcher into ED, give **both verbal and written reports**, and never depart until care is formally transferred
-    - **Documentation & Advocacy:** Complete PCR promptly (permanent medical record); safeguard/document valuables; protect privacy/shield bodies; inform family of destination; honor reasonable requests; relay scene context to ED staff
-  - **Professional & Physical Standards:**
-    - **Traits:** Integrity, empathy, self-motivation, clean uniform/hygiene, self-confidence, time management, communication, diplomacy, teamwork, calm demeanor, emotional stability, lifelong learning, personal tracking of CE/skills/renewal fees
-    - **Sensory:** Good visual acuity (corrected/uncorrected), **good color vision** (driving + spotting cyanosis/pallor/flushing in skin/nail beds/lips/mucosa), adequate hearing (radios, scene, auscultation)
-    - **ADA (1990):** Prohibits job discrimination against individuals with documented disabilities; requires reasonable accommodations
-  - **Medical Direction & Oversight:**
-    - EMT practices strictly as the **designated agent of the physician Medical Director** (cannot practice independently)
-    - **Indirect (Off-Line) Medical Oversight:** Routine governance (training, QI audits, written guidelines)
-      - *Protocols:* Comprehensive written guidelines for triage, treatment, transport, destination
-      - *Standing Orders (Off-Line Medical Direction):* Preauthorized written subsets allowing EMTs to treat *without* calling a physician first (e.g., Chest Pain: O2 via NRB at 15 L/min, position of comfort, 1 prescribed nitroglycerin if SBP > 90 mmHg, 160–325 mg aspirin, request ALS)
-    - **Direct Medical Oversight:** Real-time physician guidance during care
-      - *On-Line Medical Direction:* Immediate guidance via radio, phone, or telemedicine (e.g., requesting authorization for repeat nitroglycerin)
-      - *On-Scene Medical Direction:* Medical director physically present on scene
+## System governance, organization and resources
+- **State EMS Agency Role**
+    - According to the **National Association of State EMS Officials (NASEMSO)**, every U.S. state and territory has a lead EMS agency.
+    - **Primary Responsibilities:**
+        - Overall planning of the statewide EMS system
+        - Coordination of the statewide EMS system
+        - Regulation of the statewide EMS system
+        - Licensing local EMS agencies and personnel
+    - **EMS, public safety and public health**
+        - EMS, public safety and public health frequently overlap. The state EMS agency works to ensure high-quality EMS that protects public health and safety.
+- **Technical Assistance Program Assessment Standards**
+    - **State autonomy and the NHTSA assessment framework**
+        - *Each state controls its own EMS system design and regulations independently of the federal government, but NHTSA recommends 10 standards:*
+        - **1.** **Regulation and policy:** State laws, regulations, policies, and procedures governing EMS; a state-level EMS agency must provide leadership to local jurisdictions.
+        - **2.** **Resource management:** Central state control of EMS resources so all localities and patients have equal access to acceptable emergency care.
+        - **3.** **Human resources and training:** All personnel staffing ambulances and transporting patients must be trained to at least the EMT level.
+        - **4.** **Transportation:** Safe, reliable transportation by ground or air ambulance.
+        - **5.** **Facilities:** Timely delivery of seriously ill or injured patients to an appropriate medical facility.
+        - **6.** **Communications:** System providing public access and communication among dispatcher, EMS personnel, and the hospital.
+        - **7.** **Public information and education:** EMS participation in educating the public on injury prevention and how to properly access EMS.
+        - **8.** **Medical direction:** A physician serving as medical director to provide medical oversight, oversee patient care, and delegate appropriate medical practices.
+        - **9.** **Trauma systems:** Specialized care system for trauma patients, including trauma center(s), rehabilitation programs, and systems for assigning and transporting patients.
+        - **10.** **Evaluation:** Quality improvement system for continual evaluation and upgrades.
+    - **Additional Elements of EMS System Design (Gunderson, 2015):**
+        - **Clinical quality:** Clinical performance achieves set patient outcomes.
+        - **Service quality:** System performance meets the needs of patients, the public, and communities of interest.
+        - **Economic efficiency:** High-quality services delivered at a reasonable cost.
+        - **Accountability:** Ensures the system meets the needs of patients and the public.
+        - **Improvement:** Continual effort to improve care delivery.
+        - **Resilience:** Ability to adapt to changes directly or indirectly affecting operations and stability.
+    - **Services Provided by Modern EMS Systems (Gunderson, 2015):**
+        - Prevention and public education
+        - Triage
+        - Medical first response
+        - Ambulance response and transport
+        - Medical transportation
+        - Event coverage
+        - Disaster services
+        - Critical care transport
+        - Air medical transport
+        - Hazardous materials response medical support
+        - Tactical response medical support
+        - Community paramedicine
+    - **NOTE — ALS Connection — System design and tiered response**
+        - ALS availability depends on resource management, training, staffing, communications, medical oversight and receiving facilities.
+            - A tiered response might send BLS first and an advanced clinician separately, or deploy a mixed EMT/paramedic crew from the outset.
+            - Neither configuration is inherently best for every community.
+        - **EMT teamwork**
+            - Know your service's dispatch upgrade criteria, intercept arrangements, radio channels, available specialty resources and destination policies.
+            - When requesting additional resources, describe the patient's needs and trends rather than just saying “send ALS.” An intercept should be coordinated so it does not needlessly prolong access to definitive care.
+- **Types of EMS Services**
+    - **Fire Department EMS**
+        - Uses existing fire suppression structure (paid, part-paid, or volunteer; rural, suburban, or urban); transport or non-transport; often provides 911 emergency responses only.
+    - **Municipal EMS ("Third Service")**
+        - Separate from police and fire (the first two public safety services); controlled by a public safety director, public health director, or municipal official; often 911 only, though some also provide inter-facility transfers and non-emergency transports.
+    - **Private EMS**
+        - Private companies; municipalities may set operating rules but do not govern or control them; often provide 911 emergency responses, inter-facility transfers, and non-emergency transports.
+    - **Hospital-Based EMS**
+        - Controlled by a for-profit or not-for-profit hospital; operates similarly to private EMS (911, inter-facility transfers, non-emergency transports).
+    - **Law Enforcement EMS:** Rare; found in smaller communities where law enforcement demand is less burdensome.
+    - **Public Safety Officer:** Cross-trained personnel combining fire, police, and EMS into a single service.
+    - **NOTE — ALS Connection — Service model versus clinical capability**
+        - Fire-based, municipal, private and hospital-based organizations describe administrative models, not a guaranteed clinical scope.
+            - Determine the actual crew credentials, medical direction, equipment, transport capability and service authorization.
+            - An ALS-capable ambulance may still encounter a patient who only needs BLS; conversely a specialty interfacility transfer may require expertise beyond ordinary paramedic training.
+            - The 2024 ACEP guidance on medical direction in critical care transport supports this distinction.
 
-- **4. Quality Improvement (QI), Patient Safety & Research**
-  - **Continuous Quality Improvement (CQI):**
-    - Non-punitive internal/external reviews and audits fixing *system-level* weaknesses
-    - **Six EMT Roles in QI:** (1) Thorough PCR documentation, (2) peer reviews and audits, (3) gathering patient/ED feedback, (4) continuing education, (5) preventive vehicle/gear maintenance, (6) regular skill practice toward mastery
-  - **Patient Safety & Error Prevention:**
-    - **5 High-Risk Prehospital Activities:** Care hand-offs, communication breakdowns, lifting/moving/dropping patients, ambulance collisions, omitting/improperly applying spinal motion restriction
-    - **3 Root Causes of Errors:** Skill execution failure, rule/protocol violation, knowledge gaps
-    - **Error-Prevention Strategies:** Clear protocols, adequate lighting, minimal assessment interruptions, clear med labeling/separation, reflection, questioning assumptions, decision aids, asking for help early, **closed-loop communication** (repeat order back + sender confirms "yes")
-  - **EMS Research & Evidence-Based Medicine (EBM):**
-    - Replaces anecdotal habit with scientific evidence proving interventions improve survival/recovery
-    - **4 Steps of EBM Decision-Making:** (1) Formulate clinical question → (2) search peer-reviewed literature → (3) appraise scientific validity/reliability → (4) update protocols and implement
-    - **Challenges:** Time-critical emergencies, informed consent limits, uncontrolled scenes, linking EMS to hospital outcome records
-    - **8 Steps of the Scientific Method:** Question → literature review → hypothesis → run study → collect/analyze data → support/reject hypothesis → identify limitations → publish peer-reviewed findings
-    - **National Infrastructure:** 2001 *National EMS Research Agenda*; 2014 FICEMS Strategic Goal; **NEMSIS** (national standardized EMS database); **NIGMS** (research funding/collaboration); **CARES** (largest U.S. out-of-hospital cardiac arrest registry linking 911/EMS/hospital survival); NHTSA *Safety in Numbers* (MVC injury analysis)
-  - **Evidence-Based Guidelines (EBGs):**
-    - Standardized clinical guidelines graded by strength of underlying scientific evidence
-    - **8-Step National Prehospital EBG Cyclical Process (FICEMS & NEMSAC):** (1) System inputs (protocols/AHA) → (2) Guideline initiation (evidence accumulation/evaluation) → (3) Establish priorities → (4) Guideline development → (5) EMS protocol development → (6) Dissemination → (7) Implementation → (8) Evaluation of effectiveness/outcomes/QI *(loops back to Step 2)*
-    - Key initiatives: 2015 NAEMSP Report (7 objectives/7 action items); NASEMSO Pediatric Pain Management Project
+## Access, dispatch and response
+- **Emergency access systems**
+    - EMS can be accessed through 911, the universal number for police, fire and EMS, or through a non-911 access system. Most EMS systems use 911.
+- **Enhanced 911 (E-911)**
+    - Automatically displays **ANI** (Automatic Number Identification) and **ALI** (Automatic Location Identification) on the call taker's screen (landline records can also provide the associated name)—even if the caller hangs up or cannot communicate (e.g., stroke, confusion, young child).
+- **PSAP (Public Service Answering Point):** Receives calls, collects/verifies/records information, decides which service responds, and alerts the necessary service.
+- **Two Main Benefits of 911:**
+    - **1.** Staffed by trained communications personnel, many trained as **Emergency Medical Dispatchers (EMDs)** who both dispatch services and give lifesaving pre-arrival instructions (e.g., bleeding control, CPR).
+    - **2.** Reduces access time (no 10-digit lookup, easy for children to dial) and allows simultaneous dispatch of police, fire, and EMS.
+- **Wireless (Cell Phone) 911 Calls:**
+    - The source reports a historical FCC estimate that **approximately 70%** of 911 calls came from wireless phones, with the proportion increasing at the time. This is not a verified current statistic.
+    - *Challenges:* No fixed address; closest cell site (tower) may be the only location identifier; calls near geographic boundaries can route to the wrong PSAP.
+    - *FCC wireless rules as described in the source (historical E-911 framework; current requirements may differ):*
+        - **Basic 911:** Wireless provider must transmit all 911 calls to a PSAP regardless of whether the caller subscribes to the provider.
+        - **Phase I Enhanced 911:** Provider must supply the device's phone number and the location of the transmitting cell site/base station.
+        - **Phase II Enhanced 911:** Provider must supply the caller's latitude and longitude, accurate within **50 to 300 meters** depending on technology.
+    - GPS tracking for exact cell phone location is used by many, but not all, EMS systems.
+- **VoIP (Voice over Internet Protocol)**
+    - FCC requires VoIP providers to include 911 as a standard feature, obtain the subscriber's physical location, and transmit all 911 calls (with callback number and registered location) to the appropriate PSAP.
+- **TIP — ALS Connection — Dispatch information and reassessment**
+    - Dispatch information helps a crew anticipate likely equipment and resources, but it is not a confirmed clinical diagnosis.
+        - A dispatch for weakness may ultimately involve stroke, hypoglycemia, infection or another process.
+        - Update dispatch when assessment changes the apparent acuity; communicate observed findings, location/access problems, patient count and resource needs.
+        - Dispatcher-assisted CPR is already meaningful care before any advanced provider arrives.
 
-- **5. Public Health & EMS Integration**
-  - **Public Health vs. Individual Medical Care:**
-    - **Public Health:** Focuses on **populations**; intervenes **before** onset (primary prevention); views disease as multi-factorial (behavioral, biological, social, economic, cultural, environmental, psychological); emphasizes prevention/education/promotion across multidisciplinary community settings
-    - **Individual Care:** Focuses on **one patient**; intervenes **after** onset (acute diagnosis/treatment) inside health care facilities/units
-    - **APHA:** Vision = *"Healthy people in healthy communities"*; Mission = *"To promote physical and mental health and prevent disease, injury, and disability"*
-    - Foundational definitions: C.E.A. Winslow (1920), IOM *The Future of Public Health* (1988), U.S. Public Health Service *Public Health in America* (1994)
-  - **Core Public Health Framework (CDC):**
-    - **Five Arms:** Epidemiology; biostatistics; health policy and management/administration; behavioral/social science and health education; environmental health
-    - **Three Core Functions & 10 Essential Services:**
-      - *1. Assessment (epidemiology & biostatistics):* Monitor health status; diagnose/investigate hazards; inform/educate/empower; research innovative solutions
-      - *2. Policy Development (all arms):* Mobilize community partnerships; develop supportive policies and plans
-      - *3. Assurance (health policy & administration):* Enforce health/safety laws; link people to personal health services; ensure competent workforce; evaluate effectiveness/accessibility/quality
-  - **Achievements & Life Expectancy Shifts:**
-    - **CDC 10 Greatest Public Health Achievements:** (1) Vaccination, (2) motor vehicle safety, (3) safer workplaces, (4) control of infectious diseases, (5) decline in coronary heart disease/stroke deaths, (6) safer/healthier foods, (7) healthier mothers/babies, (8) family planning, (9) drinking water fluoridation, (10) tobacco hazard recognition
-    - **Life Expectancy & Top Killers:** **1900:** **47.3 yrs** (pneumonia/flu, TB, diarrheal diseases) → **2018:** **78.4 yrs** (heart disease, cancer, unintentional injuries) → **2020/2022:** **77.0 yrs** (heart disease, cancer, COVID-19)
-  - **Governmental Authority & EMS Public Health Roles:**
-    - **Constitutional Authority:** Primary legal responsibility rests with **state and local governments**, supported by federal agencies (CDC, NHTSA, HRSA) and NGOs
-    - **Social Determinants of Health (SDOH — 5 Domains):** (1) Economic stability, (2) education access & quality, (3) health care access & quality, (4) neighborhood & built environment, (5) social & community context
-    - **Surveillance & Referrals:** EHRs track injury/illness trends; EMTs connect vulnerable patients (human trafficking, child/elder abuse, untreated mental illness) to social/primary care
-    - **Three Levels of EMS Prevention:**
-      - *Primary (Prevent before onset):* DUI/fall/fire/seatbelt/car-seat/helmet campaigns, community education, flu/COVID-19 vaccinations
-      - *Secondary (Early detection / limit progression):* Blood pressure screenings, reporting unsafe homes or abuse/neglect, public-access AEDs, disaster/pandemic planning
-      - *Tertiary (Acute treatment / limit disability):* Immediate emergency care, stabilization, and transport
+## Provider levels, scope and clinical authorization
+- **Levels of Training**
+    - **National framework for provider levels**
+        - *Defined by the **National EMS Scope of Practice Model 2019** (originally released by NHTSA in 2006 to improve consistency, patient safety, state reciprocity, and reduce public confusion):*
+        - **1.** **Emergency Medical Responder (EMR):** Immediate lifesaving care while awaiting higher-level responders.
+            - *Skills*
+                - Basic airway, ventilation, and oxygen therapy devices; vital signs; stabilization of spine and suspected extremity injuries; eye irrigation; bleeding control; emergency moves; CPR; automated external defibrillation (AED); emergency childbirth care.
+        - **2.** **Emergency Medical Technician (EMT):** Basic emergency medical care and ambulance transportation.
+            - *Skills*
+                - EMR skills with basic ambulance equipment + advanced oxygen therapy and ventilation equipment, pulse oximetry, automatic blood pressure monitoring equipment, and limited medication administration.
+        - **3.** **Advanced Emergency Medical Technician (AEMT):** Basic and limited advanced emergency medical care and transportation.
+            - *Skills*
+                - EMT skills + advanced airway devices, blood glucose monitoring, intravenous (IV) and intraosseous (IO, in the bone marrow) infusions, and administration of a select number of medications.
+        - **4.** **Paramedic:** Highest level of prehospital care; designed to reduce disability and death.
+            - *Skills:* EMT and AEMT skills + advanced assessments, forming a field impression, invasive and drug interventions, and transport.
+    - **ALS Connection: How national scope levels fit together**
+        - **National model capabilities and limitations**
+            - The following are illustrative capabilities from NHTSA's 2019 National EMS Scope of Practice Model, including 2021 changes, skill tables I–VII. They are **not** a local authorization list.
+        - **EMR**
+            - **Representative role:** Immediate lifesaving assistance
+            - **Examples of additional capability:** CPR, AED, basic ventilation and bleeding control
+        - **EMT**
+            - **Representative role:** BLS assessment, treatment and transport
+            - **Examples of additional capability:** Glucose measurement, CPAP, pulse oximetry, authorized medications, ECG acquisition/transmission
+        - **AEMT**
+            - **Representative role:** BLS plus limited advanced care
+            - **Examples of additional capability:** IV/IO access, selected parenteral medications, supraglottic airway and waveform capnography
+        - **Paramedic**
+            - **Representative role:** Broader advanced assessment and management
+            - **Examples of additional capability:** Interpretive ECG, manual defibrillation, pacing, endotracheal intubation and expanded pharmacology
+        - **CAUTION — ALS Connection — Scope clarification**
+            - The textbook AEMT list includes blood glucose monitoring, but the national model also includes it at EMT level.
+                - Acquisition/transmission of a 12-lead tracing and its clinical interpretation are different skills.
+                - National models include acquisition at EMT and AEMT levels, but interpretive 12-lead ECG at paramedic level.
+                - Some jurisdictions authorize additional tasks; others do not implement all model skills.
+                - The ability to recognize a problem or prepare equipment does not by itself permit independent intervention.
+        - **Prerequisites for authorized practice**
+            - Four separate prerequisites matter: **education** (learning), **certification** (verified competency), **licensure** (legal permission), and **credentialing** (system-specific approval).
+            - Assistance with a higher-level skill must itself be permitted and appropriately supervised.
+            - The 2021 National EMS Education Standards (updated February 2025) provide an education framework, not authorization.
+        - **NOTE — ALS Connection — State and system authorization**
+            - Know the difference between a state license and the specific tasks your agency credentials you to perform.
+                - When joining a new service, confirm the local scope matrix, medications, standing orders, medical-control requirements and any restrictions on mixed-level assistance.
+                - Do not assume reciprocity, national certification or a paramedic partner's approval alone is sufficient.
+                - The national scope document is a planning framework, not state law.
+        - **IMPORTANT — Clinical or safety principle**
+            - Knowledge does not equal authorization.
+                - Follow applicable state law, licensure, individual credentialing, agency protocols and medical direction.
+                - A higher-level partner cannot automatically expand your scope.
+                - The national framework is not a substitute for local authorization.
+
+- **Clinical applicability of national guidance**
+    - National sources provide general guidance; local protocols, legal scope matrices and individual agency credentialing determine authorized practice.
+    - Clinical decisions remain patient- and system-specific.
+
+## Medical oversight and clinical governance
+- **Medical Oversight of EMS**
+    - **Medical oversight**
+        - Comprehensive term for the clinical and administrative functions and activities performed by the EMS system's medical director to exercise ultimate responsibility for emergency care provided by individual personnel and the entire EMS system.
+    - **Indirect medical oversight**
+        - Makes up the majority of the medical director's responsibilities; encompasses the processes, routine duties, and activities that influence and control prehospital care and daily EMS system operations.
+    - **Direct medical oversight**
+        - Real-time oversight or medical direction provided by a physician to an EMS provider seeking immediate feedback or direction impacting patient care. Two forms:
+        - **On-line medical direction**
+            - EMS provider and physician (or authorized designee, where applicable) communicate via cell phone, telephone, radio, or video technology for immediate feedback and direction regarding the patient's diagnosis, condition, and emergency care.
+        - **On-scene medical direction**
+            - Feedback and medical direction regarding the patient's diagnosis, condition, and emergency care provided by an EMS medical director physician who is physically on-scene with the EMS crew.
+- **The medical director, protocols and standing orders**
+    - **Designated Agent**
+        - As an EMT, you are the designated agent of your EMS system's physician **medical director**; your emergency care is an extension of the medical director's authority (always learn your state's laws, statutes, and regulations regarding medical direction).
+    - **Medical Director Responsibilities:**
+        - Legally responsible for the clinical and patient care aspects of the EMS system
+        - Providing medical direction
+        - Overseeing and providing EMS education programs, refresher courses, and continuing education
+        - Credentialing providers for the system
+        - Facilitating the quality improvement system
+        - *Requirement:* Every EMS system must have a medical director to provide any level of prehospital care.
+    - **Protocols**
+        - A full set of guidelines defining the entire scope of medical care (triage, treatment, transport, destination).
+        - Often referred to as *orders*; may consist of clinical care guidelines provided by both off-line and on-line medical direction.
+    - **Off-line medical direction**
+        - A function of indirect medical oversight provided through predetermined, written guidelines (often called standing orders) that allow EMTs to use their judgment to administer emergency care without having to contact a physician.
+    - **Standing orders:** A subset of protocols that do not require real-time physician input.
+        - In some systems, synonymous with *off-line medical direction*.
+        - In other systems, refers specifically to treatments that can be performed if communication cannot be established or is lost with medical direction.
+    - **Historical chest-pain protocol example: standing versus on-line orders**
+        - **Historical example only — not a universal current protocol or medication authorization**
+            - The following is the textbook's illustrative protocol, retained to distinguish standing orders from orders requiring physician contact. It is **not** a current universal treatment protocol or an authorization to administer medications.
+            - **1.** Administer oxygen via nonrebreather mask at **15 lpm**
+            - **2.** Place patient in position of comfort
+            - **3.** Administer one patient-prescribed nitroglycerin tablet if systolic blood pressure is **greater than 90 mmHg**
+            - **4.** Administer one **160–325 mg aspirin**
+            - **5.** Contact advanced life support
+            - **6.** If the patient does not experience relief of chest pain from one nitroglycerin tablet, contact medical direction to consider administering additional doses.
+        - **How it applies**
+            - Items **1–5** are **off-line medical direction / standing orders** (performed without contacting a physician).
+            - Item **6** is **on-line medical direction** (requires direct communication and permission from a physician).
+    - **ALS Connection: Medical direction and the chest-pain example**
+        - **WARNING — Current-practice clarification — the historical chest-pain example is not a current universal protocol.**
+            - The 2025 multisociety acute coronary syndromes (ACS) guideline recommends oxygen for ACS with hypoxemia (SpO₂ below 90%) and does not recommend routine oxygen for ACS with saturation at or above 90%.
+                - This is specific to ACS, not a universal oxygen target for every illness.
+                - Assess ventilation, oxygenation, distress and reliability of the reading; follow local orders.
+                - The historical fixed 15 L/min example and medication instructions are retained solely to illustrate standing versus on-line orders.
+            - Nitroglycerin requires more than a single BP check; hemodynamic stability, possible right ventricular infarction, recent phosphodiesterase-5 inhibitor use and local medication rules matter.
+                - Aspirin also requires attention to contraindications such as serious allergy or active bleeding.
+                - Do not treat the example as independent permission to administer medications.
+        - **Clinical rationale**
+            - In ACS, coronary blood flow is reduced.
+            - Aspirin inhibits platelet aggregation, whereas nitroglycerin is a vasodilator that can relieve ischemic discomfort but may lower blood pressure.
+            - Neither symptom relief nor a normal initial ECG excludes ACS.
+        - **Potential ALS contribution**
+            - A 12-lead ECG samples electrical activity from multiple views of the heart.
+            - A paramedic may use the tracing and clinical findings to identify concerning ischemia or rhythm disturbances, communicate with the receiving center and plan further monitoring.
+            - Motion and electrode problems may distort the tracing; acquisition is different from interpretation.
+            - Additional treatment is individualized, not automatic.
+        - **EMT contribution**
+            - Obtain symptom onset and character, relevant cardiac history, vital sign trends, medications/allergies and any medication already taken.
+            - Continue authorized care, help acquire or transmit ECG if trained and credentialed, report worsening pain, dyspnea, hypotension or altered consciousness and facilitate appropriate transport.
+        - **CAUTION — ALS Connection — Orders versus authorization**
+            - A standing order is permission to act under stated conditions within the applicable scope.
+                - On-line medical direction provides real-time physician guidance; neither automatically overrides law or individual credentialing.
+                - If an order conflicts with your authorization or appears unsafe, clarify it through your chain of clinical oversight.
+
+## Health care resources and destination selection
+- **Prehospital and out-of-hospital care**
+    - Prehospital care refers to emergency medical treatment before arrival at a hospital or other facility.
+    - The source specifically describes care before transport; the broader term *out-of-hospital care* also recognizes on-scene care whether or not transport occurs, and care during interfacility transport.
+- **Hospital Emergency Department:** Standard destination staffed by physicians, nurses, and others for stabilization and preparation for further care.
+- **Specialty Centers:**
+    - **Trauma center:** Rapid surgical intervention and specialized injury treatment exceeding ED capabilities.
+    - **Burn center:** Specialized treatment for serious burns, often including long-term care and rehabilitation.
+    - **Obstetrical center:** High-risk obstetric patients.
+    - **Pediatric center:** Specialized treatment of infants and children.
+    - **Poison center:** Specialized treatment of poisoning victims.
+    - **Stroke center:** Specialized care for specific acute stroke patients.
+    - **Cardiac center:** Rapid, advanced management of cardiac emergencies.
+    - **Hyperbaric center:** Certain toxic exposures, diving emergencies, and other conditions.
+    - **Spine injury center:** Management of severe spine injuries.
+    - **Psychiatric center:** Behavioral emergencies.
+- **Interagency Teamwork**
+    - EMTs frequently work with specialized rescue teams, fire personnel, law enforcement, and paramedics, acting as a liaison between medical services and other public safety workers.
+- **NOTE — ALS Connection — Matching patient needs to destination**
+    - The EMT's observations may trigger a destination pathway before an advanced assessment is available.
+        - Examples: new focal neurologic deficits suggest a stroke pathway; significant trauma with concerning examination findings may warrant a trauma center; suspected coronary occlusion may warrant a PCI-capable cardiac center.
+        - A paramedic's ECG interpretation or additional assessment can refine the decision, but it does not replace local triage policy.
+    - **Clinical rationale**
+        - The critical intervention may only be available at the receiving facility (e.g., surgical hemorrhage control, coronary reperfusion or stroke imaging and treatment).
+        - The nearest building is not necessarily the most appropriate destination, and bypassing it is not always appropriate either.
+        - Consider time, patient stability, facility capability and medical direction.
+- **Clinical example: suspected stroke and destination advocacy**
+    - **Presentation and destination dilemma**
+        - A 78-year-old man is unable to speak and appears agitated.
+        - His niece requests transport to a small local hospital a few blocks away; a stroke center is approximately 20 minutes away.
+        - The choice illustrates the relationship between patient advocacy, regional resources, medical direction and time-sensitive care.
+    - **ALS Connection: Stroke assessment, destination and advocacy**
+        - **BLS assessment, differential and consent**
+            - The 78-year-old patient's inability to speak and agitation suggest a potentially time-sensitive neurologic emergency, but stroke is not the only possible cause.
+            - The EMT can perform a local stroke screen, check blood glucose if authorized, identify last known well (the last time the patient was known to be at their usual neurologic baseline, which informs eligibility for time-sensitive treatment), obtain baseline vital signs, assess airway protection and communicate the findings.
+            - Glucose abnormalities can resemble stroke.
+            - Do not infer lack of decision-making capacity solely from difficulty speaking; communicate in accessible ways and follow capacity, consent and medical-direction policies.
+        - **Advanced assessment and regional stroke pathways**
+            - An advanced clinician may further evaluate neurologic findings, perform a locally approved stroke severity screen, obtain ECG or vascular access as appropriate and prepare for deterioration.
+            - None of these confirms the type of stroke; imaging at the hospital is critical.
+            - Advanced procedures should not needlessly delay transport.
+            - The 2026 AHA/ASA guideline emphasizes regional stroke-system capability and transport considerations rather than a universal rule to bypass the nearest hospital.
+            - In some settings, direct transport to an endovascular thrombectomy (EVT)-capable center may be preferable; other systems support rapid transfer from a nearer stroke-capable hospital.
+        - **Teamwork**
+            - Explain to the niece that the destination decision considers available time-sensitive treatment, patient condition, transport time and local policy.
+            - Relay family information, anticoagulant use, onset/last-known-well time, neurologic findings and any changes.
+            - Follow destination rules, consult medical direction if indicated and prenotify the receiving facility.
+            - A 20-minute travel estimate alone does not establish the correct destination.
+
+## EMT responsibilities and professional practice
+- **Roles and Responsibilities**
+    - **Core responsibilities and system variation**
+        - An EMT is responsible for safety, assessment and emergency care, safe patient movement, transport and transfer, documentation and advocacy.
+        - The specific responsibilities vary by system.
+    - The EMT’s responsibilities include:
+        - Maintain vehicle and equipment readiness
+        - Ensure safety of the EMS crew, the patient, and bystanders at the scene
+        - Operate the emergency vehicle
+        - Assess the patient
+        - Provide emergency care
+        - Safely lift and move the patient
+        - Prepare oral and written reports
+        - Safely transport the patient
+        - Transfer patient care
+        - Perform record keeping and data collection
+        - Serve as the patient's advocate
+        - Provide emotional support to the patient, relatives, and others at the scene
+        - Integrate the EMS service with other emergency and nonemergency services
+        - Resolve the emergency incident
+        - Maintain medical and legal standards
+        - Provide administrative support
+        - Enhance professional development
+        - Develop and maintain community relations
+        - **Americans with Disabilities Act (ADA) of 1990**
+            - Protects individuals with a documented disability from being denied initial or continued employment based on their disability.
+            - Employers must make necessary and reasonable adjustments so individuals with disabilities are not precluded from employment (check state EMS office and ADA representative for details).
+    - **TIP — ALS Connection — Mixed-level crew readiness**
+        - Before the shift, agree on equipment locations, how to request assistance, roles during resuscitation and how you will transfer clinical leadership.
+            - Check authorized BLS equipment independently; learn where ALS supplies are kept without assuming permission to use them.
+            - Know how to locate a monitor, IV kit or airway bag without interrupting the higher-level provider.
+            - Both clinicians remain responsible for patient dignity, safe movement and accurate reporting.
+- **Professional Attributes**
+    - **Foundations of professional practice**
+        - Professional practice depends on appearance, knowledge, skills, physical capabilities, interests and temperament, and maintaining certification and licensure.
+    - Professional behavior includes:
+        - Integrity
+        - Empathy
+        - Self-motivation
+        - Professional appearance and hygiene
+        - Self-confidence
+        - Effective time management
+        - Good verbal and written communication skills
+        - Teamwork and diplomacy
+        - Respect for patients, coworkers, and other health care professionals
+        - Patient advocate
+        - Careful delivery of service
+        - Life-long learner
+    - **Appearance**
+        - Excellent personal grooming and a neat, clean appearance instill confidence and protect patients from contamination (dirty hands, dirty fingernails, soiled clothing).
+        - Respond in complete uniform or appropriate dress to project competence and trustworthiness as part of a medical team.
+    - **Knowledge and Skills**
+        - Complete the basic EMT training program outlined by the U.S. Department of Transportation (DOT).
+        - **Additional Required Knowledge:**
+            - Use and maintenance of common emergency equipment (suction machines, oxygen-delivery systems, airway adjuncts, AEDs, spinal immobilization equipment, splints, obstetrical kits, patient-moving devices, access tools).
+            - Assisting with medication administration approved by medical direction.
+            - Cleaning, disinfecting, and sterilizing non-disposable equipment.
+            - Safety and security measures for self, partner, other rescuers, patient, and bystanders.
+            - Territory and terrain within the service area for expedient response to the scene and receiving facility.
+            - State and local traffic laws and ordinances concerning emergency transport (ambulances have certain privileges, but are not immune from all traffic laws).
+        - **Ongoing Education**
+            - Use continuing education to learn advances in care/equipment, take refresher courses to renew knowledge/skills, and stay current on local, state, and federal legislation, regulations, standards, guidelines, and EMS issues.
+        - **CAUTION — ALS Connection — Equipment familiarity is not procedural competence**
+            - An EMT may learn the purpose of a monitor/defibrillator, capnograph, supraglottic airway, IV/IO kit or infusion pump without being authorized to use it.
+                - An IV provides access to a vein; IO access delivers medications or fluids through the marrow circulation.
+                - Neither establishes why the patient is sick.
+                - A pump controls delivery of an infusion and its alarms warrant attention, not unauthorized adjustment.
+                - An AED selects a shock recommendation automatically; manual electrical therapy involves separate interpretation and decisions.
+                - Ask the agency to train you on permitted equipment preparation and emergency contingencies before a call.
+    - **Physical Demands**
+        - **Strength:** Good physical health; able to lift and carry up to **125 pounds**.
+        - **Vision**
+            - Good eyesight (corrective lenses permitted) and good **color vision** to drive safely and assess color changes in skin, nail beds, lips, and inside the mouth (critical indicators of severity/condition).
+        - **Communication:** Effective oral and written communication with patients, crew members, other emergency responders, and medical staff.
+        - **Hearing**
+            - Good enough to accurately hear radio communications, patient/bystander responses, auscultated blood pressure, auscultated/abnormal patient noises, crew communication at the scene, and oral instructions.
+        - **CAUTION — Current-practice clarification — Physical demands**
+            - The 125-pound figure is retained as the textbook's example, not a universal nationwide lifting requirement or a safe single-person lifting target.
+                - Job-specific essential functions, reasonable accommodations, equipment and safe-lifting policies vary.
+                - Use adequate personnel and mechanical aids; do not attempt an unsafe lift to prove fitness.
+    - **Personal Traits**
+        - **Calm and reassuring personality:** Perform skills/procedures while speaking calmly and reassuringly to agitated, in-shock, or in-pain patients.
+        - **Leadership ability**
+            - Assess quickly, take control when appropriate, set priorities, give clear/concise directions, be confident/persuasive enough to be obeyed, and carry through.
+        - **Good judgment:** Make appropriate decisions quickly in unsafe or stressful crisis situations.
+        - **Good moral character:** Fulfill ethical obligations beyond statute or case law; uphold a position of public trust.
+        - **Stability and adaptability**
+            - Manage stress (exhaustion, frustration, anger, grief); delay expressing feelings until the emergency is over; recognize intense emotional reactions are normal and seek support (coworkers, counselors, friends, family) to stay mentally and physically fit.
+        - **Ability to listen**
+            - Gather information effectively from patients/bystanders and receive orders from medical direction/others; show empathy and compassion while maintaining professionalism, confidence, and competence.
+        - **Resourcefulness and ability to improvise**
+            - Think quickly and adapt when equipment, tools, or techniques don't work as planned (e.g., gaining entry to an overturned vehicle to ventilate an entrapped patient in an awkward position and continuing ventilation during extrication).
+        - **Cooperativeness:** Act as a leader while fully cooperating with other emergency services (fire, police) to provide the best patient care.
+    - **Maintenance of Certification and Licensure**
+        - Personal responsibility of each EMT.
+        - Requires meeting continuing education requirements, verifying skill competency, avoiding criminal or unethical behavior, and submitting all necessary fees.
+
+## Scene safety, assessment and patient management
+- **Personal safety and the safety of others**
+    - **Priority #1**
+        - Protect your own safety first.
+        - You cannot help the patient, other rescuers, or yourself if injured, and you must not endanger other rescuers by forcing them to rescue you instead of the patient.
+        - Once scene safety is ensured, the patient's needs become your priority.
+    - **Driving & Seat Belts**
+        - Drive safely with proper precautions to avoid traffic accidents; wear a seat belt whenever driving or riding unless it must be removed to care for the patient.
+    - **Hazardous Sites:** Remove yourself from high-traffic areas, downed power lines, gasoline leaks, fires, chemical spills, radiation leaks, etc.
+    - **Volatile Crowds:** Never enter a riot, crime scene, or hostage situation until controlled by law enforcement.
+    - **Behavioral/Substance Risks**
+        - Take extra precautions if a patient, relative, or bystander is suspected to be under the influence of drugs/alcohol, has a behavioral disorder, or is emotionally charged (they may suddenly change behavior and become a danger).
+    - **Scene Control**
+        - Follow directions from police, fire, utility, and other expert personnel.
+        - Create a safe treatment area (e.g., away from fire/explosion) and redirect traffic for patient and bystander safety.
+    - **Visibility & PPE:**
+        - Wear reflective emblems/clothing at night and provide adequate lighting at accident scenes.
+        - For jagged metal/broken glass: helmet or hard hat, protective outerwear, eye protection, and leather gloves.
+        - For infectious diseases: gloves, eye protection, mask, and gown as necessary.
+- **Patient assessment and emergency care**
+    - **Sequence:** After ensuring scene safety, gain access to patients, recognize/evaluate problems, and provide emergency care (often with more than one patient).
+        - **1.** **Primary assessment:** Identify and care for immediately life-threatening problems (airway compromise, respiratory insufficiency, cardiac arrest, severe bleeding).
+        - **2.** **Secondary assessment:** Stabilize and treat other emergency injuries or conditions discovered or suspected.
+    - **Execution**
+        - Work as quickly as possible while avoiding undue haste, carelessness, and mishandling of the patient. Continuously monitor changing conditions to keep the scene safe.
+    - **ALS Connection: BLS assessment as the foundation of advanced decisions**
+        - **Recognizing the need for advanced assessment**
+            - A patient may require additional assessment when the primary assessment reveals threatened airway, ineffective breathing, poor perfusion, altered consciousness or a worsening trend.
+                - The goal is to identify the physiologic problem, not simply to collect more measurements.
+        - **Inadequate ventilation or declining alertness**
+            - **Potential advanced assessment or intervention:** Capnography, possible advanced airway
+            - **Why it matters:** Ventilation may be failing despite oxygen delivery
+        - **Chest discomfort, syncope or abnormal pulse**
+            - **Potential advanced assessment or intervention:** ECG acquisition and paramedic interpretation
+            - **Why it matters:** May reveal ischemic changes or a dangerous rhythm
+        - **Cool skin, weak pulses, falling BP or confusion**
+            - **Potential advanced assessment or intervention:** Assessment for shock, possible vascular access
+            - **Why it matters:** Tissue perfusion may be compromised
+        - **Altered mental status**
+            - **Potential advanced assessment or intervention:** Glucose measurement, neurologic assessment and targeted therapy
+            - **Why it matters:** Metabolic or neurologic causes may overlap
+        - **Clinical interpretation and limitations**
+            - These are examples, not an automatic treatment pathway.
+            - An ECG, glucose result or advanced monitor adds information but does not make a diagnosis by itself.
+            - These examples are framed by the NASEMSO National Model EMS Clinical Guidelines, version 3 (March 2022), which are model guidance rather than local standing orders.
+        - **Oxygenation versus ventilation**
+            - Oxygenation describes oxygen entering the blood; ventilation describes movement of air and removal of carbon dioxide.
+            - Pulse oximetry estimates oxygen saturation, whereas waveform capnography displays exhaled carbon dioxide throughout respiration.
+            - A normal saturation, particularly during supplemental oxygen, does not prove adequate ventilation.
+            - Exhaled CO₂ also depends on circulation and can change with reduced blood flow, not just altered breathing.
+        - **NOTE — ALS Connection — Airway support**
+            - Effective BVM ventilation may be sufficient while a higher-level clinician evaluates airway options.
+                - A supraglottic airway or endotracheal tube may provide a more reliable route for ventilation in selected situations, but placement has risks and is not automatically superior.
+                - The 2025 AHA adult ALS guidelines support capnography to verify and monitor an endotracheal tube during adult arrest; interpret readings with clinical findings.
+        - **IMPORTANT — ALS Connection — Resuscitation is a team activity**
+            - Under the 2025 AHA adult BLS and ALS guidelines, high-quality compressions, early defibrillation for shockable rhythms and effective ventilation remain central even when advanced airway equipment, IV/IO access and medications are available.
+                - Advanced airway attempts should not interrupt essential compressions unnecessarily.
+        - **Teamwork example**
+            - Report the respiratory rate, effort, chest rise, mental status, saturation trend and response to BVM support.
+            - If requested and authorized, prepare suction or equipment while maintaining assigned care.
+            - Tell the partner immediately if chest rise worsens, the patient becomes less responsive or a device becomes disconnected.
+            - Do not stop essential care to prepare an optional advanced procedure.
+- **Safe lifting and moving**
+    - Prevent further patient injury by using the easiest and safest recommended emergency urgent or nonurgent moves and equipment.
+    - Use proper body mechanics and ensure sufficient help to lift and move patients and equipment to avoid self-injury.
+    - **TIP — ALS Connection — Patient movement with advanced equipment**
+        - Before a move, assign roles and check that oxygen tubing, monitoring cables and any advanced devices can travel with the patient.
+            - Coordinate who is responsible for the airway, monitor and any vascular line.
+            - Avoid pulling on or dislodging attached equipment.
+            - After movement, reassess breathing, circulation and relevant device function; report abnormalities rather than adjusting advanced equipment independently.
+            - The safest lift is not necessarily the fastest one.
+- **Clinical example: technical rescue and trauma assessment**
+    - **Presentation, mechanism and initial response**
+        - A 65-year-old man slips while disposing of yard waste and falls approximately 30 feet down a steep embankment.
+        - He has been at the bottom for approximately 30 minutes and is conscious, reporting right arm and leg injuries.
+        - The ambulance crew confirms the location with dispatch, uses the county map to plan the response, and responds with lights and sirens, arriving within eight minutes in this illustrative case.
+        - Police and fire personnel are already present.
+        - The ambulance is positioned for an easy exit; the police officer provides the initial patient report, and the fire rescue squad prepares to rappel down the embankment.
+    - **NOTE — ALS Connection — Resource planning at the embankment**
+        - The initial dispatch describes a fall, but the later report reveals a substantial mechanism, difficult access and possible multiple injuries.
+            - Consider early communication with dispatch and the incident commander about patient access, estimated extrication time, additional EMS resources and transport options.
+            - Depending on local criteria, an ALS intercept or trauma-system activation may be appropriate.
+        - **BLS relevance**
+            - Safe access, bleeding control, airway and breathing assessment, protection from environmental exposure and repeated vital signs matter regardless of who eventually leads clinical care.
+            - Do not enter a technical rescue environment without appropriate training and authorization.
+            - Do not postpone necessary BLS care or time-sensitive transport solely to obtain ALS.
+            - See the Trauma-system decisions are informed by the American College of Surgeons 2021 field triage guideline (released 2022).
+    - **Scene clearance, family support and extrication**
+        - The rescue officer confirms that approaching the embankment is safe, although the crew remains cautious.
+        - One EMT takes the patient's wife aside while the EMR-trained rescue team secures the patient to a backboard and extricates him.
+    - **Primary assessment and EMR handoff**
+        - *EMR Handoff Report*
+            - Chief complaint of pain to right wrist and right thigh; patent airway; respirations **24/min** with adequate volume; radial pulse **90 bpm** and strong; skin warm and dry; **SpO2 96%** on ambient air.
+        - *General Impression:* Alert, robust older man.
+        - *Mechanism of Injury:* Fall approximately 30 feet down a steep embankment.
+    - **Secondary assessment and treatment**
+        - *Vitals:* No change from EMR report.
+        - *Physical Exam*
+            - Abrasions to arms with pain and slight deformity to right wrist; superficial abrasions to right leg with deformity, swelling, and pain to right thigh; unable to feel or move toes of right foot, though foot pulses are present.
+        - *History*
+            - Sharp pain to right wrist and thigh immediately upon landing; no loss of consciousness; denies other complaints; allergic to **sulfa drugs**; takes medication for **high blood pressure**.
+        - *Treatment:* Enlist EMRs to help apply a **traction splint** to the right leg, then splint the injured wrist while speaking quietly and reassuringly.
+    - **Reassessment and transfer**
+        - Move patient to wheeled stretcher and into ambulance.
+        - Notify **trauma center** en route with patient condition details.
+        - Reassess every **15 minutes** until hospital arrival.
+        - Transfer care to ED staff, give verbal report, complete written **prehospital care report (PCR)**, and prepare unit for next call.
+    - **ALS Connection: Applying mixed-level reasoning to the trauma case**
+        - **Case-specific clinical reasoning — not a treatment algorithm**
+            - The following clinical reasoning illustrates mixed-level care, not a treatment algorithm.
+            - **Recognize and report**
+                - The fall, age, prolonged extrication, thigh deformity and loss of toe sensation/movement raise concern for substantial injury.
+                - Palpable distal pulses do not establish intact nerve function or exclude evolving injury.
+                - Report the deficits explicitly, including whether they existed before splinting and whether they changed afterward.
+            - **Maintain BLS priorities**
+                - Recheck primary assessment, control bleeding, protect against heat loss, stabilize suspected injuries as appropriate and arrange prompt movement and transport.
+                - Assess distal circulation, sensation and movement before and after intervention.
+                - The initial vital signs and room-air SpO₂ do not rule out occult injury or later deterioration.
+            - **Potential ALS contribution**
+                - AEMT or paramedic clinicians may consider vascular access within their scope, expanded monitoring and authorized analgesia.
+                - A paramedic may evaluate a broader differential for shock or injury.
+                - An IV does not stop internal hemorrhage; the patient may need surgical or other hospital care.
+                - Avoid unnecessary delays for procedures that do not change immediate management.
+            - **Teamwork**
+                - Share onset, mechanism, estimated time down, known medications and allergies, serial BP/pulse/respirations, mental status, pain and distal neurologic findings.
+                - Help with positioning, equipment and monitoring within authorization.
+                - Report new numbness, absent pulses, increased respiratory effort, hypotension or altered mental status immediately.
+        - **CAUTION — Current-practice clarification — traction splint**
+            - The textbook applied traction.
+                - NAEMSP's 2025 position statement notes uncertain comparative benefit and indicates static stabilization may be preferable in some patients.
+                - Traction requires assessment for associated pelvic, knee and lower-extremity injuries, uncertainty about the injury location, and the ability to apply traction safely; it carries additional risks.
+                - The existing neurologic deficit and substantial mechanism warrant careful assessment and protocol-guided decisions rather than automatically choosing traction.
+        - **NOTE — ALS Connection — Analgesia**
+            - A paramedic may consider fentanyl, an opioid analgesic that reduces pain perception through opioid receptors, when appropriate and authorized.
+                - Opioids may depress respiration or consciousness and can affect hemodynamics; selected advanced providers may have other pain medications instead.
+                - AEMT analgesic authorization varies substantially by jurisdiction.
+                - The EMT's responsibilities include pain assessment, appropriate splinting, monitoring and prompt communication of adverse changes.
+                - No dose or administration technique is provided here.
+                - Prehospital pain recommendations (published 2023, online 2021) address evidence limitations.
+        - **IMPORTANT — Current-practice clarification — reassessment and destination**
+            - The case's 15-minute interval is an example, not permission to wait that long if the patient deteriorates or following an intervention.
+                - Reassess immediately when condition changes and at the frequency required by acuity and protocol.
+                - High-risk trauma findings may warrant direct trauma-center transport according to the regional system.
+                - The backboard used for extrication is not necessarily the preferred device for prolonged transport.
+                - The 2021 ACS field triage guideline and 2018 joint spinal motion restriction statement inform these qualifications.
+
+## Transportation, handoff, documentation and patient advocacy
+- **Transport and transfer of care**
+    - **Destination Decision (before leaving scene)**
+        - Determine the most appropriate facility (local ED, pediatric hospital, burn center, etc.) based on patient condition, extent of injuries, prior health care contact, relative locations, hospital staffing, and destination protocols.
+        - Consult medical direction if necessary and follow local transport protocols.
+    - **Communications**
+        - Notify the receiving facility of the number of patients, destination(s), and nature/extent of injuries.
+        - Alert them about high-priority patients and immediate needs upon arrival (e.g., trauma team, stroke team).
+        - Report condition changes and consult on-line medical direction (telephone, cell phone, or radio) during transport as appropriate/required.
+    - **En Route & Driving**
+        - Continue assessment and emergency care en route.
+        - Drive to minimize further injury and maximize patient comfort.
+        - Obey laws/regulations and use lights and sirens properly—not all patients require them; reserving emergency response/transport for when necessary protects EMS personnel, the patient, and the public.
+    - **Arrival & Transfer**
+        - Help remove and maneuver the wheeled stretcher into the ED.
+        - Report **both verbally and in writing** to receiving facility personnel: injuries/conditions identified, care given, and patient's response to treatment.
+        - Assist as needed and do not leave before proper transfer of care.
+    - **TIP — ALS Connection — A useful structured handoff**
+        - A practical report includes: patient and chief concern; mechanism or history and onset; important positive and negative findings; initial and latest vital signs; interventions with times and responses; unresolved concerns and relevant allergies/medications.
+            - Use the agency's preferred structure (e.g., MIST: mechanism/medical complaint, injuries/information, signs, treatments).
+            - Confirm that the receiving clinician heard critical findings and understands outstanding care needs.
+        - This applies at BLS-to-ALS handoff, shift changes, intercepts and transfer to hospital staff.
+            - Communicate what was observed versus reported by others; never imply a test or medication was performed if it was not.
+            - The 2014 joint EMS-to-facility transfer-of-care statement addresses this care transition.
+- **Record keeping and data collection**
+    - Maintain an up-to-date log of calls throughout your shift, if required.
+    - Complete the written or electronic prehospital care report (PCR) before leaving the hospital, or as soon as possible.
+    - A copy becomes part of the patient's medical record and the EMS system's permanent records.
+    - **NOTE — ALS Connection — A shared clinical timeline**
+        - Record what you actually measured, at what time and under what conditions (e.g., room air versus supplemental oxygen), what you performed and how the patient responded.
+            - Include changes in condition, communications and the time responsibility transferred.
+            - The advanced clinician documents their own procedures and clinical decisions according to agency rules.
+            - Distinguish a measured value from an estimated or unavailable value; a missing entry is not a normal result.
+            - Consistent data support both individual continuity and system review.
+- **Patient advocacy**
+    - **Protecting Rights & Valuables:** Collect and safeguard valuables on the patient's person, transport them with the patient, and document what was given to ED personnel.
+    - **Privacy & Dignity**
+        - Protect privacy in the field, shield from curious bystanders, answer questions truthfully, and conceal the body of a deceased patient from curious onlookers.
+    - **Family/Friends:** Ensure they know how to get to the destination facility (some systems allow a relative in the operator's section of the ambulance).
+    - **At Receiving Facility**
+        - Provide necessary information, especially regarding circumstances hospital personnel did not witness.
+        - Honor reasonable patient requests (e.g., notifying a relative, securing the patient's home) while adhering to all confidentiality rules.
+    - **TIP — ALS Connection — Advocacy during advanced care**
+        - Explain what is happening in plain language within your competence, preserve privacy, relay patient questions to the treating clinician and report discomfort or deterioration.
+            - Do not dismiss a patient because monitoring appears normal or promise that a procedure will cure the underlying illness.
+            - If you notice a safety issue, speak up promptly and respectfully even when a higher-level clinician is leading care.
+
+## Quality improvement and patient safety
+- **Quality Improvement (QI)**
+    - **Definition:** Also known as **continuous quality improvement (CQI)** — a system of internal and external reviews and audits of all aspects of an EMS system.
+    - **Goals**
+        - Identify aspects of the system that can be improved and implement plans and programs to remedy shortcomings so the public receives the highest quality prehospital care.
+    - **Purpose:** Not designed to evaluate individual performance or penalize anyone; intended to determine system effectiveness and drive overall system improvement.
+    - **The EMT's role in QI:**
+        - **1.** **Document carefully:** Thoroughly document each call.
+            - QI committees study prehospital care reports (PCRs) to spot issues like excessive response times (remedied by redeploying ambulances) or seldom-used skills needing refresher training.
+        - **2.** **Perform reviews and audits:** Volunteer for QI committee work or critique the performance of other EMTs at the scene of a call.
+        - **3.** **Obtain feedback:** Gather feedback from patients, other EMS personnel, and hospital staff—either formally (surveys to patients and hospital staff) or informally (asking physicians, nurses, or other medical personnel for advice on your performance after a call).
+        - **4.** **Maintain equipment:** Conduct preventative maintenance on equipment and ensure it is in proper working order.
+        - **5.** **Participate in continuing education:** Take refresher courses and continuing education to reinforce, update, and expand knowledge and skills.
+        - **6.** **Maintain skills:** Continuously practice skills to a level of mastery.
+    - **NOTE — ALS Connection — Quality improvement across the crew**
+        - A meaningful QI review evaluates the whole care pathway, not only advanced procedures.
+            - For an arrest, review recognition, early CPR, interruptions, defibrillation timing, communication, treatment documentation and outcome.
+            - For a stroke, review recognition, last-known-well documentation, scene time, prenotification and destination selection.
+            - Missing or inaccurate initial findings, times, interventions and responses can obscure the cause of delays or apparent outcomes.
+            - The purpose is to identify correctable system problems and reinforce effective behaviors; accountability for unsafe practice may still be addressed under separate or related processes.
+- **Patient Safety**
+    - **High-Risk Activities** (put the patient at greater risk for medical mistakes, injury, or exacerbation of an existing injury):
+        - Transfer of care or "hand-off" at the scene between emergency responders or between medical personnel at the medical facility
+        - Poor communication leading to misunderstandings and medical errors
+        - Carrying and moving patients in a manner that puts them at risk for being dropped
+        - Involvement in an ambulance crash while transporting the patient to a medical facility
+        - Lack of spinal immobilization or improper spinal immobilization procedures (risk of converting a stable spinal column injury into an unstable spinal column injury, or exacerbating an existing injury)
+    - **Common Causes of Patient Care Errors:**
+        - Failure of the EMT to properly perform a skill
+        - Failure of the EMT to follow the rules
+        - Failure of the EMT to obtain or retain the appropriate knowledge to perform patient care effectively
+    - **Guidelines to Prevent Errors:**
+        - Develop clear protocols
+        - Light the scene effectively
+        - Minimize interruptions during assessment and emergency care
+        - Clearly mark all drugs and packages so each is distinct
+        - Reflect on all actions
+        - Question all assumptions
+        - Use decision aids if necessary
+        - Ask for assistance if you need it
+        - Use **closed-loop communications** — the receiver of a message repeats it back to the sender, and the sender acknowledges with a "yes" that it is correct.
+    - **WARNING — ALS Connection — Patient safety and speaking up**
+        - When multiple clinicians work simultaneously, errors can occur from interrupted tasks, assumptions or duplicate treatment.
+            - Use named assignments and closed-loop communication: “Please obtain a repeat BP”; “Obtaining repeat BP”; then report the value and time.
+            - Acknowledge it.
+            - Report a discrepancy or possible medication error immediately; do not conceal it or independently administer a corrective medication outside your scope.
+        - **Current terminology**
+            - The 2018 ACS-COT/ACEP/NAEMSP joint consensus statement supports spinal motion restriction (SMR) rather than the implication of complete spinal immobilization.
+            - Use selective, protocol-directed restriction and minimize unnecessary time on rigid extrication boards; the risk of unnecessary restriction must be weighed against injury concerns.
+
+## EMS research and evidence-based practice
+- **Evidence-Based Medicine**
+    - **Traditional vs. Evolved Approach:**
+        - *Traditional:* Combined a strong foundation of scientific knowledge, intuition, and good judgment.
+        - *Evolved*
+            - Emphasizes the science component through **evidence-based medicine**, which focuses on research to provide clear evidence that certain procedures, medications, and equipment improve the patient's outcome.
+    - **Evidence-Based Decision-Making Steps:**
+        - **1.** Formulate a question about emergency care that needs to be answered based on your clinical practice.
+        - **2.** Search medical literature for research data that are related and applicable to the question.
+        - **3.** Appraise the evidence for validity and reliability.
+        - **4.** If the evidence supports a change in practice, change protocols and implement the change in prehospital emergency care.
+    - **NOTE — ALS Connection — Evidence versus tradition**
+        - A more invasive technique is not automatically a better one.
+            - For example, adult cardiac arrest airway strategies depend on the ability to ventilate, team expertise and interruptions to CPR.
+            - Advanced airway placement is a possible component of resuscitation, not its primary measure of success.
+            - In the context of the 2025 AHA adult ALS guidance, meaningful outcomes include survival and neurologic function rather than the number of procedures performed.
+        - When reviewing a study, ask whether patients were treated in the field or in hospital, what comparison was made, what outcomes were measured, and whether the findings apply to your local crew and transport environment.
+            - Evidence can support a protocol revision; it does not authorize a clinician to revise standing orders during a call.
+- **The Scientific Method**
+    - Components used when conducting research:
+        - **1.** Pose a research question.
+        - **2.** Conduct a literature review to determine what research has already been conducted and where research is lacking.
+        - **3.** Develop a hypothesis.
+        - **4.** Conduct research study to test the hypothesis.
+        - **5.** Collect and analyze the data.
+        - **6.** Support or reject the hypothesis.
+        - **7.** Identify limitations of the study.
+        - **8.** Report the findings.
+- **National EMS Research Agenda & Federal Initiatives**
+    - **2001 — *National EMS Research Agenda*:**
+        - Commissioned by **NHTSA** and the **Maternal Child Health Bureau**.
+        - *Intent*
+            - Seek support to elevate the science of EMS and prehospital care to the next level, providing data to help EMS professionals deliver the best possible care through innovative delivery methods.
+        - **Federal Agencies Enlisted in EMS Research:**
+            - NHTSA
+            - Agency for Healthcare Research and Quality (AHRQ)
+            - Centers for Disease Control (CDC)
+            - Health Research and Services Administration (HRSA)
+            - National Fire Academy
+            - Department of Defense
+            - National Institutes of Health (NIH)
+    - **Recent Initiatives and Resources Promoting EMS Research:**
+        - **2014 — Federal Interagency Committee on EMS (FICEMS)**
+            - Adopted and published a strategic goal to include "data-driven and evidence-based EMS systems that promote patient care quality."
+        - **NHTSA & NEMSIS**
+            - Supported the development of EBGs by promoting the standardization and improvement of EMS data collection using the **National Emergency Medical Services Information System (NEMSIS)**.
+        - **National Institute of General Medical Sciences:** Provides coordination for EMS research and promotes funding and collaboration.
+- **Using Scientific Evidence in EMS**
+    - **Applying published scientific evidence**
+        - *After research is conducted, data are collected, analyzed, and published in peer-reviewed journals. EMS must use this scientific evidence in four ways:*
+        - **1.** To ensure that current prehospital care provides the safest care and the best outcomes for the patient.
+        - **2.** To demonstrate the value of EMS care through research-based patient and provider outcomes.
+        - **3.** To improve the safety of EMS personnel working in an extremely uncontrolled environment.
+        - **4.** To promote accurate and thorough documentation of the patient care report (PCR) for all patient encounters.
+- **National Data Collection Initiatives**
+    - **Cardiac Arrest Registry to Enhance Survival (CARES):**
+        - The largest out-of-hospital cardiac arrest (OHCA) registry in the United States.
+        - *Purpose:* Assist communities in standardizing outcome measures for QI and establishing benchmarks to improve cardiac care and increase survival of OHCA patients.
+        - *How It Works*
+            - Links 911 centers, police and fire service responders, EMS, and medical facilities into a single record of OHCA; data are used to determine outcomes, set benchmarks, and share findings with other progressive EMS systems nationwide.
+    - **NHTSA's *Safety in Numbers: EMS Data Is Important*:**
+        - *Purpose:* Improve patient outcomes related to motor vehicle crash injuries.
+        - *How It Works:* Uses EMS data to identify how, where, and when injuries occur, then develops strategies to prevent crashes and improve EMS care for those injuries.
+    - **NOTE — ALS Connection — Registry data can link BLS to ALS outcomes**
+        - The Cardiac Arrest Registry to Enhance Survival links information across prehospital and hospital care.
+            - Early interventions such as bystander CPR and defibrillation can be studied alongside subsequent advanced management and survival.
+            - A registry can reveal associations and identify opportunities for improvement, but by itself does not prove that one intervention caused a better outcome.
+            - Document actual event times and clinical observations rather than reconstructing a favorable timeline.
+- **EMT Responsibility in Research**
+    - Initiatives are underway to increase research specifically supporting or changing the delivery of prehospital emergency care.
+    - It is the responsibility of every EMT to participate in research so EMS can develop its own evidence-based practices to support and improve the profession.
+- **Evidence-Based Medicine (EBM) vs. Evidence-Based Guidelines (EBG)**
+    - **Evidence-based medicine (EBM):** An approach to decision making in medical care based on evidence gathered from strong and valid peer-reviewed research.
+        - Only the strongest and best-conducted research studies, when available, are used to produce recommendations supporting a change in medical practice.
+        - Most evidence-based guidelines reflect the level of evidence that exists and make recommendations supported (some strongly, others not so strongly) by research.
+    - **Evidence-based guidelines (EBG):** Take the same approach as EBM, using strong, valid research studies to develop guidelines for medical practice.
+        - In EMS, research is used to develop guidelines (best practices) to establish standards of care that impact the delivery of EMS.
+        - Changes to guidelines are based on current research findings that support, modify or reject current practices; new techniques and treatments should be supported by adequate evidence before implementation.
+    - **Overall Impact**
+        - Contributes to better patient management in the prehospital setting through a standardized, consistent set of guidelines based on expert research for proven successful patient care and EMS delivery.
+    - **NOTE — ALS Connection — From evidence to authorized practice**
+        - Keep these concepts separate:
+        - **Evidence:** findings from research, with limitations.
+        - **Recommendation:** an expert group's judgment informed by evidence and other considerations; strength may vary.
+        - **Guideline:** a general clinical decision framework, often containing several recommendations.
+        - **Protocol:** the approved operational rules for a particular service or jurisdiction.
+        - **Scope and credentialing:** legal and individual limits on practice.
+        - **Medical direction:** physician-led oversight that implements and supervises care.
+        - For example, an evidence-based analgesia guideline may support multiple approaches.
+            - The medical director chooses permitted options and training within the applicable scope.
+            - The EMT continues pain assessment and supportive care regardless of whether advanced analgesia is available.
+- **National Prehospital Evidence-Based Guideline Model Process**
+    - Facilitated and approved by **FICEMS** and the **National EMS Advisory Council (NEMSAC)**.
+    - **Cyclical Process Components:**
+        - **1.** System inputs (protocols and AHA guidelines)
+        - **2.** Guideline initiation: EMS evidence accumulation and evaluation
+        - **3.** Establish priorities for guideline development
+        - **4.** Guideline development
+        - **5.** EMS protocol development
+        - **6.** Dissemination of guidelines and protocols
+        - **7.** Implementation
+        - **8.** Evaluation of effectiveness, outcomes, clinical research, and QI evaluation
+    - *Cycle Loop:* The last step returns to the second step (**"Guideline initiation: EMS evidence accumulation and evaluation"**).
+- **Key National Initiatives & Grants**
+    - **2015 — National Association of EMS Physicians (NAEMSP):**
+        - Published *A National Strategy to Promote Prehospital Evidence-Based Guidelines Development, Implementation, and Evaluation*.
+        - Identified **seven objectives** "to promote sustainable mechanisms to develop, implement, and evaluate EMS EBG" and **seven action items** to carry out strategies promoting EBGs in EMS.
+    - **NASEMSO Pediatric Pain Management Grant:**
+        - Funded by **NHTSA** and **HRSA's Emergency Medical Services for Children (EMSC)** program.
+        - A **three-year project** to "support the use of and further refinement of" the National Evidence-Based Guidelines (EBG) Model Process.
+        - *Purpose:* Develop and implement a pain management guideline focusing on pediatric patients.
+    - **NOTE — ALS Connection — Pain is a clinical problem, not just a number**
+        - Pain relief may involve reassurance, positioning, injury stabilization and authorized medication.
+            - An ALS clinician may consider additional analgesics based on severity, contraindications, vital signs and scope.
+            - Evidence-based prehospital pain guidance supports a range of opioid and nonopioid options rather than one universal drug.
+            - The evidence-based prehospital pain management recommendations (online 2021; journal 2023) include recommendations limited by insufficient comparative evidence.
+        - **BLS relevance**
+            - Obtain an initial pain description and score using an appropriate scale, monitor the patient and report the response to treatment.
+            - Reassess breathing, mental status and perfusion after advanced analgesia.
+            - Pain improvement alone does not establish that the underlying injury is resolved.
+
+## Public health: population health, mission and prevention
+- **The EMT as Part of the Public Health Team**
+    - **Primary vs. Public Health Role**
+        - While the majority of an EMT's responsibilities involve treating patients with an acute medical illness or traumatic injury, EMTs are also part of the **public health team**.
+    - **Definition of Public Health:** Deals with protecting the health of an entire population.
+    - **Defining Specific Populations:** Populations are defined differently depending on the issue at hand and may include:
+        - A select group (e.g., children, elderly adults, individuals with mental or physical disabilities)
+        - A neighborhood
+        - A city
+        - A state
+        - An entire nation
+- **Identifying Public Health Problems**
+    - **First Responsibility:** Public health is first responsible for identifying problems that affect the health of the population in question.
+    - **Example**
+        - Lack of infant and child car seat use in a particular region, identified through **injury surveillance data**, prompting public health professionals to take action.
+    - **Frontline EMT Role:**
+        - Identifying the problem
+        - Reporting the issue to the proper agency
+        - Potentially providing education to those involved in the problem
+- **Preventive Strategies, Vision, and Mission**
+    - **Goal:** Reduce the incidence of injury and illness through preventive strategies geared at protecting, promoting, and improving the health of a population.
+    - **Typical Methods:**
+        - Research
+        - Education
+        - Health promotion
+    - **American Public Health Association (APHA) Definitions:**
+        - **Vision:** "healthy people in healthy communities"
+        - **Mission:** "to promote physical and mental health and prevent disease, injury, and disability"
+
+## Public health mission, core functions and achievements
+- **Defining Public Health**
+    - Public health is a complex, diverse field composed of people from different backgrounds, making it difficult to define.
+    - **1920 — C.E.A. Winslow (World-Renowned Public Health Leader):**
+        - Public health as the science and art of preventing disease, prolonging life, and promoting health and efficiency
+            - Through organized community effort for:
+                - Sanitation of the environment
+                - Control of communicable infections
+                - Education of the individual in personal hygiene
+                - Organization of medical and nursing services for early diagnosis and preventive treatment of disease
+                - Development of the social machinery to insure everyone a standard of living adequate for the maintenance of health
+            - Organize these benefits to enable every citizen to realize their birthright of health and longevity.
+    - **1988 — Institute of Medicine (IOM):**
+        - Referenced Winslow's definition in its seminal report, *"The Future of Public Health,"* which outlined the mission and goals/functions of public health.
+        - **IOM Mission:** *"fulfilling society's interests in assuring conditions in which people can be healthy."*
+    - **1994 — U.S. Public Health Service:**
+        - Released *"Public Health in America"* to provide a consensus on definition, vision, and function for both public health professionals and the public.
+        - **Mission:** *"promote physical and mental health and prevent disease, injury, and disability"* by:
+            - Preventing epidemics and the spread of disease
+            - Protecting against environmental hazards
+            - Preventing injuries
+            - Promoting and encouraging healthy behaviors
+            - Responding to disasters and assisting communities in recovery
+            - Ensuring the quality and accessibility of health services
+- **Core Concepts & Responsibility**
+    - All definitions emphasize **prevention**.
+    - Performing the missions outlined by the IOM and U.S. Public Health Service requires organized efforts led by both **governmental agencies** and **private organizations**.
+    - **Government agencies** hold a major role in ensuring that the mission, core functions, and essential services of public health are achieved.
+- **Core Functions of Public Health**
+    - Addressed at all levels of government: **Assessment**, **Policy Development**, and **Assurance**.
+    - Carried out through public health's multiple arms:
+        - Epidemiology
+        - Biostatistics
+        - Health policy and management / health administration
+        - Behavioral or social science / health education
+        - Environmental health
+    - **Breakdown of the 3 Core Functions:**
+        - **1.** **Assessment:** Led by the *epidemiology* and *biostatistics* areas; the systematic collection, assembling, analyzing, and availability of information on the health of the community.
+        - **2.** **Policy Development:** Involves *all arms* of government and public health; entails developing policies and plans that support individual and community health efforts, enforcing laws and regulations, and researching new solutions.
+        - **3.** **Assurance:** Generally led by the *health policy and management / health administration* arm; ensures the provision of health services through the involvement of policy makers and the public in the decision-making process.
+- **Core functions and the ten essential public health services (historical framework)**
+    - **Assessment:**
+        - **1.** Monitor health status to identify community health problems.
+        - **2.** Diagnose and investigate health problems and health hazards in the community.
+        - **3.** Inform, educate, and empower people about health issues.
+    - **Policy Development:**
+        - **4.** Mobilize community partnerships to identify and solve health problems.
+        - **5.** Develop policies and plans that support individual and community health efforts.
+    - **Assurance:**
+        - **6.** Enforce laws and regulations that protect health and ensure safety.
+        - **7.** Link people to needed personal health services and ensure the provision of health care when otherwise unavailable.
+        - **8.** Ensure a competent public health and personal health care workforce.
+        - **9.** Evaluate effectiveness, accessibility, and quality of personal and population-based health services.
+    - **Assessment, Policy Development, and Assurance (All Three):**
+        - **10.** Research for new insights and innovative solutions to health problems.
+    - **NOTE — Current-practice context — Public health framework**
+        - The ten-service list represents the historical framework.
+            - The 10 Essential Public Health Services framework was revised in 2020, with health equity at its center.
+            - For EMS systems, this encourages attention to barriers such as unequal access to timely response, specialty care, prevention and follow-up across communities.
+- **Partnership Between Public Health and Medicine**
+    - Public health is a unique field that partners with many health professions to ensure a healthy population, which often causes it to be confused with other professions that have similar goals and missions.
+    - One of the most frequent partnerships occurs between **public health** and the **medical profession**.
+    - Both work closely to ensure healthy individuals and are grounded in science, but they view health differently.
+- **How Public Health Views Health**
+    - Centers on the **prevention** of disease, injury, or disability ***before*** diagnosis of a condition in an **entire population**.
+    - Views disability or health conditions as a consequence of numerous factors:
+        - Behavioral
+        - Biological
+        - Social
+        - Economic
+        - Cultural
+        - Environmental
+        - Psychological
+- **Public health versus individual medicine**
+    - **Focus of Health:**
+        - **Public Health:** Focuses on population health.
+        - **Medicine:** Focuses on individual health.
+    - **View of Disease, Condition, or Disability:**
+        - **Public Health:** Views it as a consequence of multiple factors.
+        - **Medicine:** Views it as a problem within the body or mind.
+    - **Primary Emphasis:**
+        - **Public Health:** Emphasizes prevention through health education and health promotion.
+        - **Medicine:** Emphasizes diagnosis and treatment of the patient.
+    - **Workforce and Settings:**
+        - **Public Health:** Health professionals from various backgrounds working in many settings.
+        - **Medicine:** Physicians with various specialties working primarily in health care settings.
+- **How Medicine Views Health & Evolving Overlap**
+    - **Traditional Medical Focus**
+        - Deals with the acute care of ill individuals ***after*** the onset of symptoms and/or disease; views disease or disability as a result of an issue within the body or mind of the individual.
+    - **Recent Shift in Medicine**
+        - In recent years, the medical profession has begun to discourage these views and has sought to incorporate aspects of **disease prevention** into medical practice.
+    - **Ongoing Collaboration**
+        - Public health continually uses the expertise of the medical profession in dealing with disease epidemics and pandemics, including **COVID-19**, **cancer**, **obesity**, **influenza**, and others.
+- **The 10 Greatest Public Health Achievements**
+    - **1.** **Vaccination:** The historical source credits vaccination with eradication or elimination of smallpox and poliomyelitis and control of measles, rubella, tetanus, diphtheria, chickenpox, and HPV, among others.
+        - *Qualification*
+            - The source does not distinguish global eradication from regional elimination in this statement.
+            - Do not interpret it as confirmation that poliomyelitis has been eradicated worldwide; the current status requires verification.
+    - **2.** **Motor vehicle safety:** Resulting in a decrease in fatalities owing to laws regulating seat belt use, child safety seats, and drinking.
+    - **3.** **Safer workplaces:** Decreasing worker injury fatalities as a result of improved safety equipment, machinery, and devices, ventilation, and other regulatory efforts.
+    - **4.** **Control of infectious diseases:** Through improved water and sanitation practices and advanced scientific and technological advances.
+    - **5.** **Decline in deaths from coronary heart disease and stroke:** From health education and promotion efforts targeting risk factor reduction, and increased numbers and better trained emergency medical providers.
+    - **6.** **Safer and healthier foods:** The consequence of handwashing, sanitation, decreased microbial contamination, refrigeration, pasteurization, and pesticides.
+    - **7.** **Healthier mothers and babies:** Owing to improved prenatal care, nutrition practices, hygiene, and vaccinations.
+    - **8.** **Family planning:** Providing options allowing men and women to better control family size and pregnancies through contraception and fertility measures.
+    - **9.** **Fluoridation of drinking water:** Preventing tooth loss and decay.
+    - **10.** **Recognition of tobacco use as a health hazard:** Resulting in increased health education and promotion efforts and laws to prevent smoking.
+- **Trends in Leading Causes of Mortality & Life Expectancy (United States)**
+    - **Historical comparison of mortality and life expectancy**
+        - *Until 2019, the leading causes of death in 1900 were a stark contrast to the leading causes of death today:*
+        - **1900:**
+            - **Top 3 Causes of Death:** Pneumonia and influenza, tuberculosis, and diarrheal diseases.
+            - **Average Life Expectancy at Birth:** 47.3 years of age.
+        - **2018 (Prior to COVID-19):**
+            - **Top 3 Causes of Death:** Heart disease, cancer, and unintentional injuries.
+            - **Average Life Expectancy at Birth:** Increased by 30 years to 78.4 years of age *(CDC Data Brief 355)*.
+        - **2020:**
+            - **Average Life Expectancy at Birth:** Decreased to 77.0 years of age *(CDC Data Brief 427)*.
+        - **2022:**
+            - **Top 3 Causes of Death:** Heart disease, cancer, and COVID-19.
+
+## Public health governance and community partnerships
+- **Constitutional & Governmental Responsibility**
+    - **U.S. Constitution**
+        - The source describes health as a right of individuals and public health as historically a primary responsibility of the states rather than an express constitutional right.
+        - This is a general historical framing, not a complete statement of constitutional law.
+    - **Implementation**
+        - Most public health activities are implemented by **state and local governments**, although **all levels** (national, state, and local) are responsible for ensuring a healthy population.
+    - **State and Local Approach**
+        - State and local governments have developed mechanisms to prevent disease, promote health, and protect the health status of their residents by ensuring organized community efforts through enforcement of public health laws, regulations, and guidelines.
+- **State and Local Public Health Mechanisms**
+    - **Disease surveillance** to monitor disease, injuries, and disability
+    - **Health screenings and testing**
+    - **Health education and promotion** to prevent disease
+    - **Access to and quality of health care services**
+    - **Vaccinations**
+    - **Ensuring safe and sanitary conditions**
+
+## EMS roles in public health and prevention
+- **Intersectoral Public Health System**
+    - **Collective Responsibility**
+        - Preventing, promoting, and protecting the health of a population requires the collective responsibility of all public, private, and voluntary organizations, in addition to individuals and informal associations.
+    - **Intersectoral System**
+        - Public health functions as an intersectoral system in which all organizations and entities contribute and work together to deliver essential public health services within communities.
+    - **Key Milestones:**
+        - **1996 — *EMS Agenda for the Future*:** Envisioned EMS being fully integrated with health care providers, public health, and public safety in treatment and surveillance activities.
+        - **2002 — National Public Health Performance Standards Program:** Unveiled a diagram demonstrating the interrelationships in the public health system.
+    - **Examples of EMS roles in public health:**
+        - Public education programs (e.g., CPR demonstrations, showing children an ambulance)
+        - Health screenings (e.g., taking blood pressure and patient health information at a public blood pressure screening)
+- **Social Determinants of Health (SDOH) and EHR Reporting**
+    - **Definition of SDOH**
+        - *"The conditions in the environments where people are born, live, learn, work, play, worship, and age that affect a wide range of health, functioning, and quality-of-life outcomes and risks."*
+    - **Five Domains of SDOH:**
+        - **1.** Economic stability
+        - **2.** Education access and quality
+        - **3.** Health care access and quality
+        - **4.** Neighborhood and built environment
+        - **5.** Social and community context
+    - **Impact on Communities**
+        - SDOH affect health disparities and inequities within communities, including safer neighborhoods, income, education, language skills, job opportunities, polluted water and air, and access to health care and healthy foods.
+    - **EMS Role with Underserved Communities:**
+        - Providing referrals to obtain needed health services.
+        - Sharing critical health information with public health entities.
+    - **Electronic Health Record (EHR) Reporting:**
+        - Because EMS are the first responders to many public health situations, they have a unique role in providing important information about the communities they serve through the **electronic health record (EHR)**.
+        - Data from EHRs are analyzed by public health and used to make health policy decisions.
+    - **NOTE — ALS Connection — Social context informs clinical decisions**
+        - An EMT may discover that the patient cannot afford a prescribed medication, lacks transportation to appointments or has difficulty understanding discharge instructions.
+            - Relay objective findings to the ALS partner and receiving team; use approved referral mechanisms when available.
+            - These observations help contextualize care without replacing assessment or implying a diagnosis.
+            - Avoid labeling a patient as noncompliant without exploring barriers.
+            - Follow confidentiality and reporting rules; public health data sharing must occur through authorized processes.
+- **Prevention, Education, and Wellness**
+    - **Expanded Partnership Role**
+        - Public health and EMS are partners in ensuring the health of the public. EMS has taken on a greater role in performing additional functions amid an increase in:
+        - Natural disasters
+        - The COVID-19 pandemic
+        - The opioid crisis
+        - Other public health emergencies
+    - **Frontline Identification & Resource Role:**
+        - Identifying risks and sensitive populations (e.g., victims of human trafficking, children, elder abuse).
+        - Serving as a resource for the growing population of people with little or no access to health providers.
+        - Identifying individuals in need of mental health services.
+    - **EMS Roles Across the Three Levels of Prevention**
+        - **Primary Prevention (prevention of disease and disability within the community):**
+            - Health promotion and public health education efforts to:
+                - Prevent driving under the influence
+                - Inform about risk factors for chronic disease
+                - Prevent falls
+                - Educate about fire injury prevention
+                - Promote seat belt, car seat, and helmet use campaigns
+            - Provide correct, relevant, and timely information to communities.
+            - Administer screenings and vaccinations/immunizations to the public (e.g., during COVID-19, EMS dispensed COVID-19 and influenza vaccinations and provided COVID-19 testing).
+        - **Secondary Prevention (prevention of disease progression):**
+            - Screening to identify those at risk and minimize disease complications.
+            - Reporting any potential public health concerns.
+            - Maintaining safe home environments for children.
+            - Ensuring public access to automated external defibrillators (AEDs). The source relates this to heart-attack risk; AEDs treat shockable cardiac arrest rhythms, not an uncomplicated heart attack with a pulse.
+            - **Emergency management planning** (of growing importance in recent years—e.g., state and local public health agencies identify EMS to assist with surveillance, mitigation, and response activities in pandemic influenza planning).
+        - **Tertiary Prevention (disease management and rehabilitation):**
+            - Providing treatment and acute care to the community.
+        - **NOTE — ALS Connection — Prevention and resuscitation**
+            - Public CPR education and AED access connect public health directly to individual emergency care.
+                - An AED treats certain cardiac arrest rhythms, not an uncomplicated heart attack in a conscious patient with a pulse.
+                - Early CPR and appropriate AED use are important before ALS arrives and remain important during coordinated resuscitation.
+                - Vaccination and screening programs require program-specific training, lawful authority and appropriate oversight; they are not automatic permissions attached to an EMS license.
+                - The 2025 AHA adult BLS guidelines and the national scope model (2021 change notices) provide the relevant framework.
+- **Ongoing Integration**
+    - Ensuring the health of the population can be undertaken only through collaborative resources and efforts of multiple agencies (the public health system), in which EMS personnel play a vital function.
+    - EMS supports public health through:
+        - Individual treatment and acute patient care
+        - Surveillance activities
+        - Assisting in the prevention of diseases and disability and reducing the need for further medical care
+        - *"Connecting high-risk and underserved patients with needed primary care services"*
+    - Continued integration with public health is needed to respond to ongoing chronic and infectious disease threats as well as public health emergencies.
+
+## Mobile Integrated Healthcare and Community Paramedicine
+- **MIH and CP: clinical and organizational distinctions**
+    - **Mobile Integrated Healthcare (MIH) and Community Paramedicine (CP)**
+        - The provision of patient-centered health care in the out-of-hospital environment using mobile technology and resources.
+    - **Administrative and clinical integration**
+        - MIH includes services delivered by a variety of health care entities and practitioners that are administratively or clinically integrated with an EMS agency or system.
+        - CP specifically includes services delivered by the EMS agency and its personnel that are administratively and clinically integrated with other health care entities.
+- **MIH-CP Services**
+    - **NAEMT 2016 vision statement — representative services**
+        - *According to the **National Association of EMTs (NAEMT)** 2016 **Vision Statement on Mobile Integrated Healthcare and Community Paramedicine**, MIH-CP may include services such as:*
+        - Increasing access to care in underserved areas
+        - Providing advice to 911 callers via telephone instead of dispatch of resources
+        - Using specially trained EMS personnel to:
+            - Manage patients who are high-volume users of health care or at high risk for admission or readmission to a medical facility
+            - Manage chronic disease conditions
+            - Provide preventative care or post-discharge follow-up visits
+- **Role and Value of EMS in MIH**
+    - **Why EMS is suited to mobile integrated health care**
+        - EMS is particularly well positioned for MIH because it already works throughout the community in the out-of-hospital environment.
+            - Broadening its traditional emphasis on emergency response, emergency care and transportation increases its value within the health care system.
+            - This broader role includes:
+        - Patient education
+        - Preventive care
+        - Chronic disease management
+        - Post-discharge follow-up
+        - Alternative health care for patients
+    - **NOTE — ALS Connection — Community paramedicine is not simply routine ALS**
+        - A specially trained community paramedic may work with primary care, nursing, behavioral health and social services under a defined program.
+            - The purpose may be to identify barriers to treatment, review a chronic disease care plan or coordinate follow-up, not to perform an emergency procedure.
+            - EMTs may contribute observations, education or referrals when authorized.
+            - A scheduled visit or frequent EMS use does not exclude an acute emergency.
+            - Entry-level paramedic licensure does not automatically confer specialty program credentials.

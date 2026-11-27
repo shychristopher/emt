@@ -1,5 +1,5 @@
 title: EMT Course Notes
-description: Study outlines, mind maps, and PQ4Rs for EMT coursework.
+description: An unofficial study library for EMT coursework.
 baseurl: "/emt"
 url: ""
 
@@ -21,7 +21,7 @@ defaults:
       layout: "chapter"
 
 plugins:
-  - jekyll-optional-front-matter
+  - jekyll-redirect-from
 
 # Never cache responses during local `jekyll serve`
 webrick:

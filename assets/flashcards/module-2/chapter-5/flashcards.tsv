@@ -1,0 +1,438 @@
+Base Station	The central dispatch and coordination area of an EMS communications system that ideally is in contact with all other elements of the system.
+Closed-Ended Questions	Questions seeking a specific, often brief response, including yes/no or specific factual answers.
+Communication	A dynamic process that incorporates verbal and nonverbal expressions into meaningful messages that are received and interpreted by others.
+Culture	The thoughts, communications, actions, and values of a racial, an ethnic, a religious, or a social group.
+Decoder	Device that recognizes and responds to only certain codes imposed on radio broadcasts.
+Decoding	Process by which a received message is translated and interpreted.
+Defense Mechanisms	Psychological coping strategies individuals use to protect themselves from unwanted feelings or thoughts.
+Encoder	Device that breaks down sound waves into unique digital codes for radio transmission.
+Encoding	Process of converting information into a message.
+Ethnocentrism	The tendency to evaluate other cultures or groups according to the standards, values, and customs of one’s own culture,often viewing one’s own way of life as superior.
+Feedback	Any information that an individual receives about their behavior.
+Gestures	Nonverbal body movements that convey meaning to others.
+Haptics	The study of touching.
+Intimate Zone	In American culture, the space within less than 1½ feet of an individual.
+Leading Questions	Questions that suggest an answer guided by the individual who is asking the question.
+Mobile Data Terminal	Device that is mounted in the cab of an ambulance, receives a signal from a digital radio, and displays the information on the terminal screen. Some also print a hard copy of the information.
+Open-Ended Questions	Questions that enable the patient to give a detailed response in their own words.
+Repeaters	Devices that receive transmissions from a relatively low-powered source such as a mobile or portable radio and rebroadcast them at another frequency and a higher power.
+SBAR (Situation, Background, Assessment, And Recommendation)	Acronym for situation, background, assessment, and recommendation; a method of organizing communications about a patient.
+Telemetry	The process of transmitting data through an automated communications process, usually using wireless data transfer technology.
+Communication in the EMS system: Complete the statement — Communication connects every phase of emergency care: a patient, relative or bystander contacts a call taker; dispatch alerts responders verbally or digitally; the crew coordinates with other agencies, assesses _____	the patient, consults medical direction, notifies the receiving facility and transfers care.
+Communication in the EMS system: System communication enables _____	faster response, resource requests, medical oversight, data transmission and hospital preparation.
+Communication in the EMS system: Therapeutic communication is _____	equally important: it establishes rapport, enables accurate information gathering and helps providers adapt care to patients with different needs.
+Communication in the EMS system: Complete the statement — EMS system communication and therapeutic communication are preparatory content areas in the National EMS Education Standards, connecting knowledge of the EMS system, provider safety _____	and well-being, and medical, legal and ethical responsibilities to emergency care.
+Early EMS (Historical Background)	Ambulance crews only transported patients to hospitals with no emergency care responsibilities, so sophisticated communications systems were unnecessary.
+Historical Background — EMS Act of 1973 (Public Law 93-154): Complete the statement — Recognized communications as one of the _____ of an EMS system.	15 essential components
+Historical Background — EMS Act of 1973 (Public Law 93-154): Complete the statement — Defined the role of communications to include public access to EMS, dispatch for immediate response, and _____.	medical oversight
+Historical Background — EMS Act of 1973 (Public Law 93-154): Complete the statement — Provided grant funding that equipped most ambulances with Very High Frequency (VHF) and _____ radio equipment.	Ultra High Frequency (UHF)
+Historical Background — EMS Act of 1973 (Public Law 93-154): Complete the statement — Despite major technological progress, most EMS systems today still use _____ similar to the 1970s.	narrowband voice radio communication
+Field Data Transmission (Modern Advances)	Integration of data transmission from EMS personnel in the field to the medical facility or medical direction.
+Longitudinal Electronic Medical Record (EMR) (Modern Advances)	The source describes transmitting records to EMS through National EMS Information System (NEMSIS) electronic patient care report (PCR) systems; the availability of such integration depends on the system.
+12-Lead ECG Transmission (Modern Advances)	Capability to transmit 12-lead electrocardiograms (ECGs) to the medical facility or medical direction.
+MIH and Community Paramedicine (Modern Advances)	Increasing availability of mobile integrated health care (MIH) and community paramedicine requires a more robust communications system to manage both emergency calls and unscheduled/scheduled community health services.
+Modern Advances — FirstNet (First Responder Network Authority): Complete the statement — Established under the Middle Class Tax Relief and Job Creation Act (Public Law 112-96), signed by President Obama in _____.	2012
+Modern Advances — FirstNet (First Responder Network Authority): Complete the statement — Created a nationwide public safety broadband network similar to major cellular phone provider networks, but _____ (including EMS communications).	reserved for public safety
+Communication infrastructure: An EMS communication system combines radio, digital and other technologies so dispatch, field crews and medical facilities can _____	exchange information.
+Communication infrastructure: Complete the statement — The equipment differs in power, portability, coverage and the _____	types of information transmitted.
+Base Station: Complete the statement — Serves as the _____; ideally in contact with all other elements of the EMS system.	dispatch and coordination area
+Location (Base Station)	Should be on suitable terrain (preferably a hill) and in proximity to the hospital serving as a medical command center.
+Base Station — Power & Antenna: Complete the detail — Uses relatively high-power _____	output (80–150 watts).
+Base Station — Power & Antenna: Complete the statement — Equipped with a suitable antenna within a short distance (critical _____	for transmission and reception efficiency).
+Base Station — Power & Antenna: Complete the statement — Transmission power levels are limited by the Federal Communications Commission (FCC), and minimum usable reception signal level is limited by _____; a good antenna system helps compensate for these limits.	man-made noise
+Modern Trend (Base Station)	Newer systems use cellular and Internet-based communication systems.
+Land Mobile Radio Systems (LMRS): Complete the statement — Typically UHF, VHF, or _____ systems.	700- to 800-MHz
+Land Mobile Radio Systems (LMRS) — Enables four communication pathways: Complete the listed detail — Dispatch base-to-vehicle (mobile _____	and portable radios)
+Land Mobile Radio Systems (LMRS) — Enables four communication pathways: Complete the listed detail — Vehicle-to-medical _____	facility
+Land Mobile Radio Systems (LMRS) — Enables four communication pathways: Complete the listed detail — Medical _____	facility-to-medical facility
+Mobile Radios (Transmitter/Receivers): Complete the statement — Vehicle-mounted devices used to communicate within _____	the EMS system.
+Mobile Radios (Transmitter/Receivers) — Power & Range: Complete the statement — Transmit at lower power than base stations—typically _____.	20–50 watts
+Mobile Radios (Transmitter/Receivers) — Power & Range: Complete the statement — Average range of _____ on average terrain.	10 to 15 miles
+Mobile Radios (Transmitter/Receivers) — Power & Range: Complete the statement — Range is reduced by mountainous terrain or tall buildings; higher-output transmitters generally have greater range; the source describes the relationship as proportional, _____	although actual coverage also depends on terrain and the antenna system.
+Portable Radios (Transmitter/Receivers): Complete the statement — Handheld devices used when outside the vehicle or inside the patient compartment to stay in contact with _____	the base, other crew members, and medical direction.
+Portable Radios (Transmitter/Receivers): Complete the statement — May also be used by medical direction when stationed at _____	a hospital without a radio.
+Power & Range (Portable Radios (Transmitter/Receivers))	Typically 1 to 5 watts, giving limited range; signal can be boosted by retransmission through a repeater.
+Repeaters: Complete the statement — Devices that receive transmissions from a low-powered source (mobile or portable radio) and _____.	rebroadcast them at another frequency and higher power
+Repeaters: Complete the statement — Enable communication across wide geographic areas or difficult terrain; can be mounted in emergency vehicles or _____	at fixed sites throughout the EMS service area.
+Encoder (Digital Equipment)	Breaks down sound waves into unique digital codes (similar to CD players).
+Decoder (Digital Equipment)	Recognizes and responds only to those specific digital codes.
+Benefit (Digital Equipment)	Allows different mobile and base stations to operate on the same broadcast frequency, enabling more messages over crowded frequencies.
+Digital Equipment — Mobile Data Terminal (MDT): Mounted in the ambulance cab; receives a digital radio signal and displays dispatch information on screen (some can _____	print a hard copy).
+Digital Equipment — Mobile Data Terminal (MDT): Complete the statement — EMT can press designated buttons to indicate status (_____ ) or reply by voice.	en route, on scene, en route to hospital, at hospital, back in service
+Digital Equipment — Mobile Data Terminal (MDT): Complete the statement — Installed to reduce necessary radio transmissions; designed to _____ —not replace—voice communication.	facilitate
+Cellular (Wireless) Phones: Complete the statement — Transmit and receive through the air rather _____	than over wires.
+Cellular (Wireless) Phones — How They Work: Complete the statement — Service area is divided into slightly overlapping geographical cells ranging from _____ (acting like radio base stations); moving beyond one cell's range automatically transfers service to the next cell.	2 to 40 square miles
+Cellular (Wireless) Phones — Benefits: Excellent sound quality, channel availability, easy maintenance, and often increased privacy; smartphones also allow _____	taking/sending scene images, accessing/sending data files, and searching the Internet.
+Cellular (Wireless) Phones — Benefits: Often used as radio backups or where radio infrastructure is _____	too expensive.
+Major Disadvantage (Cellular (Wireless) Phones)	Part of the public phone system and can be easily overwhelmed during multiple-casualty disasters.
+Telemetry: Complete the statement — The process of transmitting data through an automated communications process, most often _____	using wireless data transfer technology.
+Telemetry: Complete the statement — Historically used primarily for ECG transmission; today also transmits _____.	vital signs, 12-lead ECGs, and other advanced patient data
+Telemedicine (Telehealth): Complete the statement — Most often used in _____ for non-urgent or non-emergency prehospital problems.	mobile integrated health care (MIH)
+Telemedicine (Telehealth): Complete the statement — Connects the EMS provider and patient remotely to health care practitioners for advanced assessment and care, helping triage and decide whether _____	to treat without transport—reducing unnecessary ED visits and hospital overcrowding.
+COVID-19 Impact (Telemedicine (Telehealth))	Accelerated widespread implementation to relieve pressure on EDs and hospitals.
+Telemedicine (Telehealth) — ET3 Model (Emergency Triage, Treat and Transport): Complete the statement — Announced by the U.S. Department of Health and Human Services (HHS) in early _____ to provide Medicare reimbursement for certain non-transport ambulance services and transports to alternate destinations (e.g., primary care doctors' offices, urgent-care clinics) or treatment on-scene/via telehealth.	2019
+Land Mobile Satellite Communications: Complete the statement — Alternative to radio communications for EMS systems operating in _____ where radio systems are nonexistent or extremely expensive.	sparsely populated, remote rural areas
+Communication pathways and equipment placement: A portable radio can _____	connect through a repeater to a base station, dispatch remote console, other repeaters and vehicle-mounted radios.
+Communication pathways and equipment placement: A mobile radio may _____	be installed beside the driver, with a microphone in the patient compartment for contact with medical direction.
+Communication pathways and equipment placement: Complete the statement — Dashboard computers with GPS mapping assist with location identification; portable radios permit communication away from the ambulance, and hospital _____	radio units connect medical personnel with the field crew.
+Broadcast Regulations (FCC): Complete the statement — The _____ has jurisdiction over all U.S. radio operations, including EMS systems.	Federal Communications Commission (FCC)
+Broadcast Regulations (FCC) — FCC Responsibilities: Complete the listed detail — Licenses individual _____	base station operations
+Broadcast Regulations (FCC) — FCC Responsibilities: Complete the listed detail — Assigns radio _____	call signs
+Broadcast Regulations (FCC) — FCC Responsibilities: Complete the listed detail — Approves equipment _____	for use
+Broadcast Regulations (FCC) — FCC Responsibilities: Complete the listed detail — Establishes limitations for _____	transmitter power output
+Broadcast Regulations (FCC) — FCC Responsibilities: Complete the listed detail — Assigns _____	radio frequencies
+Broadcast Regulations (FCC) — FCC Responsibilities: Complete the listed detail — Monitors _____	field operations
+Broadcast Regulations (FCC) — FCC Responsibilities: Complete the listed detail — Sets regulations to limit _____	interference with emergency radio broadcasts
+Broadcast Regulations (FCC) — FCC Responsibilities: Complete the listed detail — Bars the use of _____	obscenity and profanity in broadcasts
+System Maintenance — Care & Inspection: Complete the statement — Do not mishandle equipment or unnecessarily expose it _____	to harsh environmental conditions.
+System Maintenance — Care & Inspection: Complete the statement — Clean regularly with a _____.	damp cloth and mild detergent
+System Maintenance — Care & Inspection: Complete the statement — Check periodically to ensure equipment is not _____.	drifting from its assigned frequency
+System Maintenance — Battery Management: Complete the detail — Check battery-powered mobile/portable _____	radios and phones daily.
+System Maintenance — Battery Management: Complete the statement — Insert freshly charged rechargeable batteries every day and place removed _____	batteries in the recharger.
+System Maintenance — Battery Management: Complete the statement — Always keep a _____ on hand.	backup set of fully charged batteries
+System Maintenance — System Backups: Complete the statement — EMS agencies must maintain backup provisions for equipment or power failure, such as emergency generators at base and repeater stations and _____ in EMS units for radio failure.	cellular phones
+Ground Rules for Radio Communication: Complete the statement — Turn on the radio and select _____	the correct frequency.
+Ground Rules for Radio Communication: Complete the detail — Use EMS frequencies _____	only for EMS communication.
+Ground Rules for Radio Communication: Complete the detail — Reduce background noise _____	by closing vehicle windows.
+Ground Rules for Radio Communication: Complete the statement — _____ to ensure the channel is clear and avoid interrupting someone else's transmission.	Listen before transmitting
+Ground Rules for Radio Communication: Complete the detail — Adjust radio to _____	a proper volume.
+Ground Rules for Radio Communication: Complete the statement — Push the "press to talk" (PTT) button and _____ before speaking (allows system repeaters to operate so the start of your message is not cut off).	wait 1 second
+Ground Rules for Radio Communication: Complete the statement — Speak with your lips about _____ from the microphone.	2 to 3 inches
+Ground Rules for Radio Communication: Speak clearly, calmly, and slowly in a monotone voice that can _____	be completely understood.
+Ground Rules for Radio Communication: Complete the statement — Address the unit being called by its name and number, then _____	identify your unit by name.
+Ground Rules for Radio Communication: Complete the statement — Wait for the called unit to signal you to _____	begin (e.g., "go ahead").
+Ground Rules for Radio Communication: Complete the statement — If they respond "stand by", wait _____	until further notified.
+Ground Rules for Radio Communication: Complete the detail — Keep _____	transmissions brief.
+Ground Rules for Radio Communication: Complete the statement — If a transmission takes _____, pause for a few seconds to allow other units to use the frequency for emergency transmissions.	more than 30 seconds
+Ground Rules for Radio Communication: Complete the detail — Keep transmissions organized _____	and to the point.
+Ground Rules for Radio Communication: Complete the detail — Use plain English _____	and clear text.
+Ground Rules for Radio Communication: Complete the statement — Avoid slang and meaningless phrases _____	(e.g., "Be advised").
+Ground Rules for Radio Communication: Courtesy is _____	assumed—limit saying "Please", "Thank you", or "You're welcome".
+Ground Rules for Radio Communication: Complete the statement — Avoid codes or agency-specific terms unless accepted _____	in your system.
+Ground Rules for Radio Communication: Complete the statement — When transmitting a number that might be confused with another (e.g., 13 heard as _____ ), say the number ("thirteen") followed by the individual digits ("one-three").	30
+Ground Rules for Radio Communication: Complete the detail — Avoid offering _____	a diagnosis.
+Ground Rules for Radio Communication: Complete the statement — Remain impartial and give only objective information (observable, verifiable facts like vital signs, chief complaint, patient's medications) and _____ (opinions/judgments like "The patient appears to be in extreme pain").	relevant subjective information
+Ground Rules for Radio Communication: Complete the statement — Use the "echo" method (closed-loop communication) when receiving orders or information from dispatch, medical direction, or medical personnel: immediately repeat the order _____ to confirm accuracy and understanding.	word for word
+Ground Rules for Radio Communication: Complete the statement — Always _____ important information received (addresses, medication orders, etc.).	write down
+Ground Rules for Radio Communication — Protect patient privacy: Open radio transmissions can _____	be intercepted by scanners; cellular security varies by system.
+Ground Rules for Radio Communication — Protect patient privacy: Complete the statement — Do not use the patient's name; use objective, impartial language; do not make personalized comments (grounds for a slander suit); do _____ use profanity.	not
+Ground Rules for Radio Communication: Complete the statement — Use "we" rather than _____ (an EMT rarely acts alone).	"I"
+Ground Rules for Radio Communication: Complete the statement — Use "affirmative" and _____ rather than "yes" and "no" (which can be difficult to hear).	"negative"
+Ground Rules for Radio Communication: Complete the statement — When finished, say _____ and wait for confirmation that the other unit received the message and needs nothing repeated.	"Over"
+Ground Rules for Radio Communication — safety qualification: Privacy clarification: Open radio channels are _____	not confidential, but cellular and radio systems vary in security; not all cellular messages are publicly interceptable.
+Ground Rules for Radio Communication — safety qualification: Complete the detail — Use agency-approved _____	safeguards and channels.
+Ground Rules for Radio Communication — safety qualification: Complete the statement — HIPAA allows an EMS service to convey treatment-relevant patient information to the receiving clinician without a separate authorization; that permission is not permission to _____	share identifiable details with unrelated persons or via unapproved personal messaging. 7
+Phone / Cellular Phone Communication: Complete the statement — Treat the content and format similarly _____	to radio communications.
+Phone / Cellular Phone Communication: Complete the statement — Know the cellular technology being used and be aware of _____ in your service area.	cellular dead spots
+Phone / Cellular Phone Communication: Complete the statement — Have a _____ in place in case a cellular transmission fails mid-report.	backup plan
+Phone / Cellular Phone Communication: Complete the statement — Be familiar with important, commonly used telephone numbers (medical direction, _____	local hospital EDs, dispatch centers).
+Radio Codes: Complete the statement — Used by some EMS systems either alone or combined with _____	messages in plain English.
+Radio Codes: Shorten radio air time and provide _____	clear, concise information.
+Radio Codes: Complete the statement — Allow transmission of information in a format not understood by the _____	patient, family members, or bystanders.
+Radio Codes: Complete the statement — Useless unless everyone in the _____	system understands them.
+Radio Codes: Medical information is _____	often too complex for codes.
+Radio Codes: Infrequently used codes can _____	waste valuable time looking up their meaning.
+Radio Codes — Ten-Code System: Complete the statement — Published by the _____ (e.g., "10-4" meaning "received and understood").	Associated Public Safety Communications Officers (APCO)
+Radio Codes — Ten-Code System: Complete the statement — Used primarily for dispatch and _____	occasionally in EMS.
+Radio Codes — Ten-Code System: Complete the statement — Many EMS systems have abandoned all codes in favor of _____.	standard English
+Radio Codes — Ten-Code System: Codes that bystanders do not understand should _____	not be treated as a privacy safeguard; use approved communication channels.
+U.S. Department of Transportation (DOT) Guidelines (Times (Military Time))	Call for the use of accurate and synchronous clocks by EMTs.
+Times (Military Time): Complete the statement — To ensure accuracy and synchronicity, most systems use _____ rather than standard A.M. and P.M. designations in radio and written reports.	military time
+Times (Military Time) — Standard-to-Military Time Conversion: Complete the listed detail — 1:00 A.M. to 12 Noon _____	= 0100 to 1200 hours
+Times (Military Time) — Standard-to-Military Time Conversion: Complete the listed detail — 1:00 P.M. to Midnight _____	= 1300 to 2400 hours
+Times (Military Time) — Examples: Complete the detail — 1427 hours _____	= 2:27 P.M.
+Times (Military Time) — Examples: Complete the listed detail — 0030 hours = _____	30 minutes after midnight
+Break (Radio Terms)	Afford a "pause" so that the hospital can respond or interrupt if necessary
+Clear (Radio Terms)	End of transmission
+“in” (as listed in the source) (Radio Terms)	Requesting acknowledgment of transmission. The wording appears incomplete; confirm the actual term with agency radio procedures.
+Copy (Radio Terms)	Message received and understood
+ETA (Radio Terms)	Estimated time of arrival
+Go ahead (Radio Terms)	Proceed with your message
+Landline (Radio Terms)	Refers to telephone communications
+Over (Radio Terms)	End of message; awaiting reply
+Repeat/say again (Radio Terms)	Did not understand message
+Spell out (Radio Terms)	Asking sender to spell out phonetically words that are unclear
+Stand by (Radio Terms)	Please wait
+10-4 (Radio Terms)	Acknowledging that message is received and understood
+Roles, responsibilities and clinical leadership: Complete the statement — The EMT functions as a member of a team of health care professionals, often working alongside _____, and other professionals at a scene.	fire, rescue, law enforcement
+Roles, responsibilities and clinical leadership: Complete the statement — EMTs are expected to communicate professionally with both team members _____	and others on scene.
+Roles, responsibilities and clinical leadership — Benefits of Good Team Communication: Complete the detail — Improves how the _____	team accomplishes its goals.
+Roles, responsibilities and clinical leadership — Benefits of Good Team Communication: Complete the statement — Improves the quality of services provided to patients _____	and the community.
+Establishing Authority (Taking Charge)	Take charge confidently at the scene; your personal appearance and professional manner from arrival through departure communicate to bystanders, family members, and the patient that you are in charge.
+Taking Charge — Alert Patient (No Life-Threatening Conditions): Complete the statement — It may be appropriate to get a brief report—before making direct patient contact—from the _____ (e.g., police officer, relative, or someone who gave first aid).	Emergency Medical Responder
+Taking Charge — Alert Patient (No Life-Threatening Conditions): Complete the statement — This briefing does not need to take more than _____.	1 minute
+Taking Charge — Unresponsive Patient (Life-Threatening Injuries Observed): Complete the detail — Go directly _____	to the patient.
+Taking Charge — Unresponsive Patient (Life-Threatening Injuries Observed): Complete the statement — Ask questions of bystanders while _____	providing emergency care.
+Taking Charge — Orderly Transfer of Authority (Doctor, Fire-Rescue, or Police on Scene): Complete the statement — Must occur smoothly so you are not engaged in a dispute while _____	attempting to care for the patient.
+Taking Charge — Orderly Transfer of Authority (Doctor, Fire-Rescue, or Police on Scene) — With rescue or police personnel: Complete the statement — Use a clear statement and question such as, _____	"We're Emergency Medical Technicians.
+Taking Charge — Orderly Transfer of Authority (Doctor, Fire-Rescue, or Police on Scene) — With rescue or police personnel: Complete the statement — Is there anything we need to know before we provide emergency care?" — allows a quick _____	briefing and smooth takeover of patient care.
+With a doctor on scene (Taking Charge — Orderly Transfer of Authority (Doctor, Fire-Rescue, or Police on Scene))	Say, "We're certified EMTs, Doctor. How can we help?"
+Core Principle (Taking Charge)	In any situation, the EMT must be the advocate for good and proper patient care and not allow secondary issues to interfere with it.
+Team coordination, dispatch and scene communication — safety qualification: Complete the detail — Safety language — _____	CUS and escalation.
+Team coordination, dispatch and scene communication — safety qualification: Complete the statement — AHRQ TeamSTEPPS teaches escalating a safety concern from stating concern, to expressing _____	discomfort, to identifying the safety issue.
+Team coordination, dispatch and scene communication — safety qualification: If the first challenge is _____	overlooked, repeat the concern clearly and escalate through the appropriate chain. 10
+Team coordination, dispatch and scene communication — safety qualification: Example: "I'm concerned that his breathing is _____	worsening.
+Team coordination, dispatch and scene communication — safety qualification: Complete the detail — I'm uncomfortable _____	continuing without reassessing.
+Team coordination, dispatch and scene communication — safety qualification: Complete the statement — This is a safety issue." An EMT can identify a threat without _____	claiming expertise in an advanced procedure.
+Team coordination, dispatch and scene communication — safety qualification: If a monitor displays a pulse rate but no pulse is _____	palpable, announce the clinical finding immediately and initiate appropriate BLS care rather than waiting for the monitor to settle.
+Communicating with Dispatch — Role of Dispatch / EMD: Complete the statement — Usually the first contact on a run (often a certified _____ ).	Emergency Medical Dispatcher [EMD]
+Communicating with Dispatch — Role of Dispatch / EMD: Complete the statement — Acts as the public's point of contact (via 911) to gather emergency info, direct appropriate services, _____	and advise the caller until help arrives.
+Communicating with Dispatch — Advanced Automatic Collision Notification (AACN) / Standard feature in many newer car models that can transmit crash data to responding EMS crews: Complete the listed detail — Confirmation of crash _____	and exact vehicle location
+Communicating with Dispatch — Advanced Automatic Collision Notification (AACN) / Standard feature in many newer car models that can transmit crash data to responding EMS crews: Complete the listed detail — Change in velocity _____	during the crash
+Communicating with Dispatch — Advanced Automatic Collision Notification (AACN) / Standard feature in many newer car models that can transmit crash data to responding EMS crews: Complete the listed detail — Direction _____	of force
+Communicating with Dispatch — Advanced Automatic Collision Notification (AACN) / Standard feature in many newer car models that can transmit crash data to responding EMS crews: Complete the listed detail — Airbag _____	deployment
+Communicating with Dispatch — Advanced Automatic Collision Notification (AACN) / Standard feature in many newer car models that can transmit crash data to responding EMS crews: Complete the listed detail — Occurrence of _____	multiple collisions
+Communicating with Dispatch — Advanced Automatic Collision Notification (AACN): Complete the statement — Per the 2009 CDC Guidelines for Field Triage of Injured Patients, AACN data can be used prior to EMS arrival to predict injury severity, transportation mode (air vs. ground), and _____ (trauma center level).	medical facility destination
+Communicating with Dispatch — Legal Record & Timestamps: Complete the statement — Dispatch often records all conversations (callers, police, fire, EMTs, receiving facilities), which can become part of the _____ in a court case.	legal record
+Communicating with Dispatch — Legal Record & Timestamps: Complete the statement — Dispatch provides the _____ after most communications—critical for your written PCR and any future lawsuit.	time
+Nine Key Points to Communicate with Dispatch: Acknowledge that the dispatched call information was _____	received.
+Nine Key Points to Communicate with Dispatch: Complete the statement — Advise when the unit is _____ to the call.	en route
+Nine Key Points to Communicate with Dispatch: Complete the statement — Give _____ at the scene while en route, and report special road conditions or unusual delays.	estimated time of arrival (ETA)
+Nine Key Points to Communicate with Dispatch: Complete the statement — Announce _____, request additional resources, and coordinate response (some systems also require reporting when you reach the patient).	arrival on scene
+Nine Key Points to Communicate with Dispatch: Complete the statement — Contact dispatch if there is a _____ without communication.	prolonged on-scene time
+Nine Key Points to Communicate with Dispatch: Complete the statement — Announce _____, destination hospital, number of patients transported (if more than one), and ETA at the hospital.	departure from the scene
+Nine Key Points to Communicate with Dispatch: Complete the statement — Announce _____ or rendezvous point.	arrival at the receiving hospital
+Nine Key Points to Communicate with Dispatch: Complete the statement — Announce that you are _____ and available for another assignment after transferring the patient.	"clear"
+Nine Key Points to Communicate with Dispatch: Complete the statement — Announce that you are _____ and returning to the station.	leaving the hospital
+Nine Key Points to Communicate with Dispatch: Complete the detail — Announce arrival back _____	at the station.
+Nine Key Points to Communicate with Dispatch: Complete the statement — The dispatch sequence is interleaved with clinical communication: notify other agencies when necessary during response; consult medical direction when indicated; after departure, provide a patient report _____	to the receiving facility and update it as the patient's condition changes.
+Clinical example: Dispatch for heavy bleeding: A crew is _____	dispatched for a man bleeding heavily in a driveway in a semirural area.
+Clinical example: Dispatch for heavy bleeding: Complete the statement — The responding crew acknowledges the call, gives a 10-minute ETA and asks for additional _____	information, but dispatch has no further details.
+Clinical example: Dispatch for heavy bleeding: Complete the statement — Because the injury mechanism is initially unknown and violence is possible, the crew approaches cautiously, initially parks a short distance away, scans the area, _____	and backs into the driveway only when the scene appears secure.
+Clinical example: Dispatch for heavy bleeding: Complete the statement — They report arrival to dispatch, don gloves and protective eyewear, _____	and bring the jump kit.
+Clinical example: Dispatch for heavy bleeding: Complete the statement — A man in his 40s approaches with a blood-soaked rag around his right hand and bloodstained clothing; _____	an open garage with a workbench is visible.
+Communication (Principles of Patient Communication)	A dynamic process that incorporates verbal and nonverbal expressions into meaningful messages (composed of thoughts, ideas, information, and emotions) sent by one person and interpreted by another.
+Influencing Factors (Principles of Patient Communication)	Gender, culture, age, environment, and personal experience all influence how messages are sent and interpreted.
+Primary Goal (Principles of Patient Communication)	Establish a positive relationship with the patient, making it easier to gather necessary information and provide care.
+Encoding (The Communication Process)	The process by which the sender uses words and symbols to convert information into a message.
+Decoding (The Communication Process)	The process by which the receiver translates and interprets the message; affected by the receiver's individual perceptions, values, and experiences.
+Effectiveness (The Communication Process — Decoding)	The more closely the decoded message matches the intended meaning of the encoded message, the more effective the communication.
+Feedback (The Communication Process)	Any information an individual receives about their behavior (verbal or nonverbal, positive or negative).
+The Communication Process — Feedback: The receiver encodes feedback back to the original sender, who must _____	decode and interpret it; this exchange repeats throughout the communication process.
+Communication Responses (9 Techniques): Complete the statement — Actively listening and treating patients with respect, compassion, and empathy builds _____	rapport and ensures accurate interpretation.
+Facilitation (Communication Responses (9 Techniques))	Encourages the patient to provide more information using phrases such as "please continue," "go on," or "uh, huh."
+Communication Responses (9 Techniques) — Clarification: Asking additional questions to clarify meaning when a message is _____	unclear (e.g., if a patient is too upset to express themselves clearly, let them know you didn't understand and ask them to say it again).
+Summary (Communication Responses (9 Techniques))	Rephrasing what you interpreted and repeating it to the patient, asking if it accurately represents what they meant or felt; ask for clarification if not.
+Explanation (Communication Responses (9 Techniques))	Presenting information in a way the patient can understand (considering age and language barriers) and explaining what to expect before it occurs to build trust; watch verbal and nonverbal clues for understanding.
+Silence (Communication Responses (9 Techniques))	Allows time to think, gain insight, or formulate a verbal response (especially for patients with language or other barriers).
+Caution (Communication Responses (9 Techniques) — Silence)	May be therapeutic for an outgoing individual, but not beneficial for an individual coping with depression—consider the patient's needs.
+Reflection (Communication Responses (9 Techniques))	Redirects the patient's feelings and statements back to them to show understanding, empathy, and respect.
+Empathy (Communication Responses (9 Techniques))	The ability to recognize and understand someone else's state of mind or feelings ("putting yourself in the patient's shoes"); particularly effective with an agitated patient.
+Confrontation (Communication Responses (9 Techniques))	Assertively addressing discrepancies in a patient's feelings, attitudes, beliefs, or behaviors—not through anger or aggression, but with respect and a desire to help the patient overcome their crisis.
+Communication Responses (9 Techniques) — Facilitated Communication: Supporting a patient's hand, wrist, arm, shoulder, or elbow so they can _____	select letters on a letterboard, electronic keyboard, or communication device (used for certain developmental or sensory disabilities).
+Communication Responses (9 Techniques) — Facilitated Communication: Complete the statement — Be careful _____ to influence what the patient communicates.	not
+High-Intensity Emotions (Communicating with the Patient)	Patients and bystanders may be injured, frightened, anxious, angry, or in shock.
+The Three Cs (Communicating with the Patient)	Convey competence, confidence, and compassion in what you say and do to gain better cooperation and reduce hostile or irrational responses.
+Safety (Communicating with the Patient)	Always remain vigilant, cognizant of your safety, and have a plan for egress.
+First impressions (Patient Contact Guidelines)	Dress professionally and approach with compassion and confidence.
+Patient Contact Guidelines — Introductions & Names: Complete the statement — Introduce yourself using the name you want to be called; ask the patient's name _____	and what they wish to be called.
+Patient Contact Guidelines — Introductions & Names: Complete the statement — With older people, err on the side of formality _____	("Mrs. Lubeck", "Mr. Perez").
+Patient Contact Guidelines — Introductions & Names: Complete the detail — Continue using the _____	patient's name throughout contact.
+Introduce your team (Patient Contact Guidelines)	Identify agencies/personnel helping, and introduce your partner and anyone working closely with the patient by name.
+Gain consent (Patient Contact Guidelines)	Say, "I'm going to help you. Is that all right?"
+Patient Contact Guidelines — Handle defense mechanisms: Complete the statement — Psychological coping strategies used to protect against unwanted feelings/thoughts (e.g., saying "No!" or "I'm _____	okay!" out of denial, fear, or confusion).
+Patient Contact Guidelines — Handle defense mechanisms: Stay calm and shift focus or use distraction (e.g., "I can _____	see there's something wrong with your shoulder.
+Patient Contact Guidelines — Handle defense mechanisms: Complete the detail — Does _____	it hurt?").
+Speak clearly, calmly, and slowly (Patient Contact Guidelines)	Patients under stress or in shock process information slowly; avoid medical terminology, codes, jargon, and abbreviations.
+Professional tone of voice (Patient Contact Guidelines)	Speak with concern and compassion; raise your voice only if the patient is hard of hearing; avoid flippant, sarcastic, or angry tones.
+Respect privacy (Patient Contact Guidelines)	Limit bystanders; do not broadcast information; interview the patient alone if possible.
+Limit interruptions (Patient Contact Guidelines)	Allow interruptions only when necessary for patient care.
+Body position & space (Patient Contact Guidelines)	Be aware of your body language and physical distance.
+Control the physical environment (Patient Contact Guidelines)	Ensure sufficient lighting; limit outside noise; turn off unnecessary distracting equipment; ask permission to turn off TVs or loud devices.
+Be courteous (Patient Contact Guidelines)	Explain what you are doing, offer choices when possible, be honest, and apologize for necessary discomfort to give the patient a sense of control.
+Actively listen (Patient Contact Guidelines)	Answer questions as fully as possible (or explain when you cannot), and give ample time to answer before asking the next question.
+Be honest (Patient Contact Guidelines)	Losing a patient's trust makes providing care much more difficult.
+Nonverbal Communication: Complete the statement — Nonverbal body language speaks as strongly as—or _____	more strongly than—words.
+Nonverbal Communication: Complete the statement — When verbal and nonverbal messages _____, the source emphasizes the importance of nonverbal information.	contradict
+Nonverbal Communication: Complete the statement — Interpret discrepancies in context rather than assuming that body language _____	reveals the true meaning.
+Open posture (Nonverbal Communication — Posture)	Open arms, open hands, relaxed shoulders -> conveys concern, confidence, safety, and care.
+Closed/negative posture (Nonverbal Communication — Posture)	Crossed arms, pointing finger, clenched fists, shaking head negatively -> signals anger, hostility, disgust, or discomfort.
+Eye level (Nonverbal Communication — Posture)	Position yourself at the same eye level to show equality.
+Intimate zone (Nonverbal Communication — Distance (American Culture Spatial Zones))	Less than 1.5 feet (may feel threatening; always ask and inform before entering; step back if met with resistance).
+Personal distance (Nonverbal Communication — Distance (American Culture Spatial Zones))	1.5 to 4 feet (best distance for verbal communication).
+Social distance (Nonverbal Communication — Distance (American Culture Spatial Zones))	4 to 12 feet (acceptable for talking without shouting).
+Public distance (Nonverbal Communication — Distance (American Culture Spatial Zones))	12 feet or more.
+Cultural Note (Nonverbal Communication — Distance (American Culture Spatial Zones))	Other cultures have different spatial zones; watch eye contact and nonverbal reactions to gauge appropriate distance.
+Gestures (Nonverbal Communication)	Nonverbal body movements (including facial expressions like winking, smiling, rolling eyes, or furrowing eyebrows) conveying emotions such as fear, anxiety, pain, sorrow, relief, or dismay. A warm, kind smile welcomes communication.
+Eye Contact (Nonverbal Communication)	Communicates interest and concern; however, some cultures consider direct eye contact impolite or aggressive—modify your behavior if the patient is reluctant.
+Haptics (Nonverbal Communication)	The study of touching (holding a hand, patting a shoulder, hugging, laying a hand on a forearm) to calm patients and express compassion. Ask permission if reluctance is sensed.
+Asking Questions: Complete the statement — Ask _____, allow adequate response time, avoid jargon, adjust for age/development, and take notes.	one question at a time
+Open-Ended Questions (Asking Questions)	Allow a detailed response in the patient's own words and provide the most information (e.g., "What seems to be the problem?", "How are you feeling?"). Use throughout the interview when possible.
+Asking Questions — Closed-Ended (Direct) Questions: Complete the statement — Call for specific information; useful for getting facts quickly, filling gaps from open-ended responses, and controlling interview flow (e.g., "What _____	medications do you take?", "When did the pain begin?").
+Asking Questions — Closed-Ended (Direct) Questions: Complete the statement — Easier for patients to answer; common _____	during history taking.
+Avoid leading or biased questions (Considerations in Interviewing)	Questions that suggest an answer (e.g., "So you're having chest pain. It really hurts doesn't it?") produce inaccurate info and derail the interview.
+Do not interrupt (Considerations in Interviewing)	Let the patient finish their thoughts.
+Talking too much (Considerations in Interviewing)	For an overly talkative patient, use more closed questions to keep answers brief. If the EMT talks too much, active listening is impossible.
+Do not provide false assurance (Considerations in Interviewing)	Never lie; be honest without being heartless.
+Do not give inappropriate advice (Considerations in Interviewing)	Never diagnose or discourage prompt medical treatment; the best advice is to be evaluated by a physician at the hospital.
+Considerations in Interviewing: Do not ask "why" questions that imply blame — what should an EMT know?	Remain impartial and nonjudgmental (avoid "Why did you do that?").
+Considerations in Interviewing — Family preference issues: Complete the statement — Adults with capacity to give informed consent make their own _____	decisions regardless of family preferences.
+Considerations in Interviewing — Family preference issues: Complete the statement — Consider family preferences for children (parental consent) or patients who lack decision-making capacity, subject _____	to applicable consent and refusal procedures.
+Considerations in Interviewing — Family preference issues: If patient condition requires _____	a specific facility (e.g., trauma center over a small local ED), kindly explain why it is in the patient's best interest.
+Considerations in Interviewing — Motivating an unmotivated patient: Complete the statement — Start normally with open-ended questions -> ensure understanding -> use a _____ (telephone interpreter) if needed -> switch to closed questions if they still struggle/refuse -> give positive feedback and address special needs.	language line
+Considerations in Interviewing — Interviewing a hostile patient: Complete the statement — Ensure scene safety first (do not approach if unsafe; call law enforcement; follow _____	restraint protocols and have backup personnel).
+Considerations in Interviewing — Interviewing a hostile patient: Complete the statement — Once safe, maintain a professional, nonthreatening demeanor, explain benefits of cooperation, state acceptable conduct/alternatives, _____	and proceed as with an unmotivated patient.
+Culture (Transcultural Considerations)	The thoughts, communications, actions, and values of a racial, ethnic, religious, or social group; affects how info is received, how illness is viewed, and preferred treatments (including folk medicine practices).
+Ethnocentrism (Transcultural Considerations)	The view that one culture's way of doing things is the right way and any other way is inferior. Avoid cultural imposition and never impose your beliefs or values on patients.
+Language Barriers (Transcultural Considerations)	Ask if relatives or bystanders can interpret; if none, check with dispatch or medical direction for a radio interpreter or use toll-free interpreter lines. Always consider who interpreted the information.
+Considerations for Elderly Patients: Complete the statement — Do _____ assume all elderly patients have hearing or vision problems; if detected, speak slowly, distinctly, and more loudly, and obtain their glasses or hearing aids.	not
+Hearing loss / Deafness (Considerations for Elderly Patients)	Keep your lips visible while speaking clearly and slowly; for American Sign Language (ASL) users, check if relatives/bystanders can interpret, or write notes on a pad.
+Considerations for Elderly Patients — Respect & Patience: Never appear brusque or impatient; allow _____	ample time to answer; offer to help gather medications/info since they may tire easily; never speak to older adults as if they are children or mentally incapacitated.
+Considerations for Elderly Patients — Respect & Patience — safety qualification: Complete the statement — Current-practice update — Qualified interpretation _____	and communication access.
+Considerations for Elderly Patients — Respect & Patience — safety qualification: The original suggestions about family or bystanders interpreting should _____	not be the default approach.
+Considerations for Elderly Patients — Respect & Patience — safety qualification: Complete the statement — For applicable covered entities, ADA effective-communication requirements prioritize appropriate aids and qualified interpreters; federal language-access rules also restrict _____	relying on accompanying adults or children for interpretation.
+Considerations for Elderly Patients — Respect & Patience — safety qualification: Emergency exceptions are _____	limited, such as imminent threats with no qualified interpreter available.
+Considerations for Elderly Patients — Respect & Patience — safety qualification: Complete the statement — Use agency-approved telephone/video language services or qualified sign-language interpreters _____	when needed. 12 13
+Considerations for Elderly Patients — Respect & Patience — safety qualification: Complete the statement — Speak directly to the patient, pause for interpretation _____	and confirm understanding.
+Considerations for Elderly Patients — Respect & Patience — safety qualification: Writing may _____	work for simple exchanges but may not be sufficient for complex consent or medical history.
+Considerations for Elderly Patients — Respect & Patience — safety qualification: Complete the statement — Document the language or communication aid, interpreter identity/service as _____	appropriate, and any limitations.
+Considerations for Elderly Patients — Respect & Patience — safety qualification: Do not assume a language or sensory barrier means _____	altered mental status, and do not delay immediate lifesaving care while arranging communication access.
+Considerations for Children: Complete the statement — Having parents present helps, provided parents stay calm and confident (frightened/disoriented parents _____	transfer those feelings to the child).
+Positioning (Considerations for Children)	Crouch down or sit on the floor to be at the child's eye level (a towering uniformed figure can be frightening).
+Approach (Considerations for Children)	Maintain eye contact, speak calmly, use simple language without talking down, and always be honest (lying makes regaining trust extremely difficult).
+Family-Centered Care — Origin: Complete the statement — Introduced in _____ as part of former U.S. Surgeon General C.	1987
+Family-Centered Care — Origin: Complete the statement — Everett Koop's initiative for family-centered, community-based, coordinated care for children with special health care needs and their families; championed in EMS by the _____ program.	EMSC
+Core Concept (Family-Centered Care)	Health care providers acknowledge and use the family's knowledge of their family member's condition and their ability to communicate with that family member.
+Family-Centered Care — Key Principles: Complete the statement — Comprehensive understanding of _____ to anticipate the physiologic and emotional needs of an ill or injured child.	normal growth and development
+Family-Centered Care — Key Principles: Complete the statement — _____ with family members throughout the assessment and management of the child.	Open communication
+Medical direction and receiving-facility notification: Medical direction may _____	be located at the receiving facility or elsewhere.
+Medical direction and receiving-facility notification: Complete the statement — Common reasons for consultation include permission to assist with a patient's prescribed medication, authorization to administer ambulance stock medication, procedural _____	guidance, triage decisions, and instructions not to perform an intervention.
+Medical direction and receiving-facility notification: Prearrival notification allows _____	the receiving facility to assign rooms, prepare equipment and call additional personnel, including trauma, stroke and cardiac teams.
+Medical direction and receiving-facility notification: Complete the detail — It also supports _____	continuity of care.
+Shared patient report structure: Complete the statement — Reports to medical direction and the receiving facility have a _____	common clinical information set.
+Shared patient report structure: Complete the detail — Include the following _____	in a concise report:
+Shared patient report structure: Complete the statement — Unit identification and level of service (BLS or _____ ); optionally identify yourself as the reporting provider.	ALS
+Shared patient report structure: Complete the detail — Patient's age and _____	sex (if known).
+Shared patient report structure: Complete the detail — Patient's _____	chief complaint.
+Shared patient report structure: Complete the statement — Need for special services (trauma team, stroke team, STEMI alert, or request _____	to transport to a specialized center).
+Shared patient report structure: Complete the statement — Brief, pertinent history of the present illness (including scene assessment _____	and mechanism of injury).
+Shared patient report structure: Complete the detail — Major _____	past illnesses.
+Shared patient report structure: Complete the detail — Patient's _____ (2 words)	mental status.
+Shared patient report structure: Complete the detail — Patient's baseline _____	vital signs.
+Shared patient report structure: Complete the detail — Pertinent findings of _____	your physical examination.
+Shared patient report structure: Complete the statement — Description of emergency medical care you (and _____	others) have given.
+Shared patient report structure: Complete the detail — Patient's response to _____	emergency medical care.
+Shared patient report structure: Complete the statement — Request for further actions/interventions when indicated (an additional element _____	in the medical-direction report).
+Shared patient report structure: Complete the detail — Estimated time _____	of arrival (ETA).
+Shared patient report structure: Complete the statement — The standard receiving-facility report when leaving the scene contains the same 13 core elements, without the separate _____	request for further actions when none is needed.
+Shared patient report structure: Complete the statement — Include a request for special services or specialty _____	transport when appropriate.
+Shared patient report structure: Complete the statement — Continue to reassess and document findings en route, report any deterioration or improvement, and notify the _____	hospital of arrival if local protocol requires it.
+Verifying medical orders: Report information accurately and clearly—the patient's life may _____	depend on decisions based on it.
+Verifying medical orders: Complete the statement — Repeat orders to administer medications or perform procedures word for word (this also applies to orders telling you _____ to do something).	not
+Verifying medical orders: Complete the statement — If you do not understand an order, ask for it to be repeated, then _____	repeat it back word for word.
+Verifying medical orders: Complete the statement — If an order appears inappropriate, _____ —medical direction may have misunderstood your report or misspoke; clarifying can prevent a harmful medication or inappropriate procedure.	question the order
+SBAR (Standardized Communication Format): Complete the statement — Especially useful when communicating with medical direction (particularly when seeking further orders), during handoffs from EMRs at the scene, _____	and when giving transfer reports at the medical facility.
+Primary Advantage (SBAR (Standardized Communication Format))	Medical professionals know what information to expect and how it will be communicated, dramatically reducing miscommunication, lack of communication, or misunderstanding.
+S — Situation (SBAR (Standardized Communication Format) — SBAR Breakdown & Textbook Example)	The problem/reason for calling and the patient's chief complaint.
+Example (SBAR (Standardized Communication Format) — SBAR Breakdown & Textbook Example / S — Situation)	"Dr. White, this is EMT Stockdale. I have a 56-year-old male patient complaining of chest discomfort."
+B — Background (SBAR (Standardized Communication Format) — SBAR Breakdown & Textbook Example)	Concise description of past medical history and the patient's response to treatment so far.
+SBAR (Standardized Communication Format) — SBAR Breakdown & Textbook Example / B — Background — Example: Complete the statement — "He has a history of a previous MI _____	and has a stent.
+SBAR (Standardized Communication Format) — SBAR Breakdown & Textbook Example / B — Background — Example: His pain, which is _____	typical of his previous MI, began 50 minutes ago.
+SBAR (Standardized Communication Format) — SBAR Breakdown & Textbook Example / B — Background — Example: Complete the statement — He experienced no relief of pain following administration of three _____	nitroglycerin sprays or oxygen therapy.
+SBAR (Standardized Communication Format) — SBAR Breakdown & Textbook Example / B — Background — Example: Complete the statement — He was also given a _____	180-mg aspirin tablet."
+A — Assessment (SBAR (Standardized Communication Format) — SBAR Breakdown & Textbook Example)	Pertinent subjective and objective findings (mental status, vital signs, neurologic findings, blood glucose level, Glasgow Coma Score).
+Example (SBAR (Standardized Communication Format) — SBAR Breakdown & Textbook Example / A — Assessment)	"He is alert and his blood pressure is 168/98 mmHg. His heart rate is 108 bpm. He is very anxious."
+R — Recommendation (SBAR (Standardized Communication Format) — SBAR Breakdown & Textbook Example)	What you are requesting for the patient (e.g., an order for another medication dose).
+Example (SBAR (Standardized Communication Format) — SBAR Breakdown & Textbook Example / R — Recommendation)	"I would like to administer another nitroglycerin spray."
+Clinical example: Recognizing deterioration and updating the receiving facility: A 36-year-old woman is _____	alert and oriented on scene with severe abdominal pain.
+Clinical example: Recognizing deterioration and updating the receiving facility: The pain began suddenly four hours ago while resting on a couch, progressively worsened, and is _____	dull, aching, intermittent and nonradiating.
+Clinical example: Recognizing deterioration and updating the receiving facility: Complete the statement — Nothing improves or worsens it; she _____	rates it 8/10.
+Clinical example: Recognizing deterioration and updating the receiving facility: Complete the statement — She reports nausea, dizziness or light-headedness on standing, and feeling _____	unwell for several days.
+Clinical example: Recognizing deterioration and updating the receiving facility: Complete the statement — She has no known allergies, takes OTC Prilosec for heartburn, reports no pertinent medical history apart from tonsil removal at age 10, _____	and has not eaten or drunk anything for seven hours.
+Clinical example: Recognizing deterioration and updating the receiving facility: Complete the statement — Examination reveals equal but sluggish pupils, no JVD, equal clear bilateral breath sounds, a rigid and tender abdomen without evidence of _____	trauma, and intact motor and sensory function in all extremities.
+Clinical example: Recognizing deterioration and updating the receiving facility: Initially her respirations have adequate chest rise and peripheral pulses are _____	very weak.
+Clinical example: Recognizing deterioration and updating the receiving facility: During transport, with seven minutes remaining, she begins closing her eyes and requires _____	verbal prompting to open them.
+Clinical example: Recognizing deterioration and updating the receiving facility: Complete the statement — The respiratory chest rise remains adequate, but her _____	skin and pulses worsen.
+Clinical example: Recognizing deterioration and updating the receiving facility: The following findings are _____	case-specific observations, not universal treatment thresholds.
+Clinical example: Recognizing deterioration and updating the receiving facility: Complete the detail — Recognize _____	the trend
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the initial for BP?	88/64
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the en route for BP?	82/62
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the significance for BP?	Falling pressure
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the initial for HR?	128
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the en route for HR?	134
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the significance for HR?	Rising rate
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the initial for RR?	24
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the en route for RR?	26
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the significance for RR?	Rising respiratory rate
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the initial for Mentation?	Alert, oriented
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the en route for Mentation?	Requires verbal prompting
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the significance for Mentation?	Worsening responsiveness
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the initial for SpO2?	96% on room air
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the en route for SpO2?	Error
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the significance for SpO2?	No reliable current value
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the initial for Skin/pulses?	Cool, clammy; weak pulses
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the en route for Skin/pulses?	More pale; barely palpable pulses
+Clinical example: Recognizing deterioration and updating the receiving facility: What is the significance for Skin/pulses?	Worsening peripheral perfusion
+Clinical example: Recognizing deterioration and updating the receiving facility — Clinical rationale: The pattern is _____	concerning for circulatory shock with inadequate tissue perfusion.
+Clinical example: Recognizing deterioration and updating the receiving facility — Clinical rationale: Internal hemorrhage, including pregnancy-related bleeding if relevant, is _____	one possible explanation; other serious abdominal, vascular or infectious causes remain possible.
+Clinical example: Recognizing deterioration and updating the receiving facility — Clinical rationale: Complete the statement — The initial saturation does not establish adequate oxygen delivery to tissues: delivery also _____	depends on blood flow and hemoglobin.
+Clinical example: Recognizing deterioration and updating the receiving facility — Clinical rationale: Poor peripheral perfusion can _____	contribute to an unreliable oximeter signal.
+Clinical example: Recognizing deterioration and updating the receiving facility — Clinical rationale: An error is _____	not proof of hypoxemia and must not be recorded as a numeric value. 2 4
+Clinical example: Recognizing deterioration and updating the receiving facility — Immediate EMT priorities: Continue primary assessment, protect the airway as needed, assess ventilation and oxygenation, provide _____	indicated authorized BLS support, prevent heat loss, reassess frequently, and expedite transport.
+Clinical example: Recognizing deterioration and updating the receiving facility — Immediate EMT priorities: Complete the statement — Tell the partner and receiving facility immediately _____	about the change.
+Clinical example: Recognizing deterioration and updating the receiving facility — Immediate EMT priorities: Complete the statement — Coordinate ALS or medical direction under local protocol without delaying _____	time-sensitive access to definitive care.
+Situation (Clinical example: Recognizing deterioration and updating the receiving facility)	“We are seven minutes out with a 36-year-old woman with severe abdominal pain and worsening signs of shock.”
+Background (Clinical example: Recognizing deterioration and updating the receiving facility)	“Sudden onset four hours ago, progressively worsening, with nausea and light-headedness. No known allergies; reports Prilosec and no pertinent medical history.”
+Clinical example: Recognizing deterioration and updating the receiving facility — Assessment: Complete the statement — “Initial BP 88/64, pulse 128, respirations 24, saturation _____	96% on room air.
+Clinical example: Recognizing deterioration and updating the receiving facility — Assessment: Complete the statement — Now BP 82/62, pulse 134, respirations 26 with chest rise, requiring verbal _____	prompting to open her eyes.
+Clinical example: Recognizing deterioration and updating the receiving facility — Assessment: Complete the statement — Skin increasingly pale, cool and clammy; radial _____	pulses barely palpable.
+Clinical example: Recognizing deterioration and updating the receiving facility — Assessment: Complete the detail — Current pulse oximeter _____	reading is unavailable.
+Clinical example: Recognizing deterioration and updating the receiving facility — Assessment: Complete the detail — Abdomen rigid _____	and tender.”
+Recommendation/request (Clinical example: Recognizing deterioration and updating the receiving facility)	“Request immediate preparation for an unstable patient; please advise if further direction is indicated. ETA seven minutes.”
+Clinical example: Recognizing deterioration and updating the receiving facility: Complete the statement — Add the actual unit identifier, interventions, their times and responses _____	in a real report.
+Clinical example: Recognizing deterioration and updating the receiving facility: Those details are _____	not provided by the source scenario and must not be invented.
+Clinical example: Recognizing deterioration and updating the receiving facility: Complete the statement — At bedside, update the findings again, identify the last reliable measurements and _____	pass along the written/electronic report.
+Oral report at the receiving facility: Complete the statement — Delivered in person when turning the patient over _____	to hospital staff.
+Oral report at the receiving facility: Complete the statement — Summarizes your earlier radio broadcast plus _____	updated reassessment findings.
+Oral report at the receiving facility — Key Items to Include: Complete the listed detail — Patient's _____	chief complaint
+Oral report at the receiving facility — Key Items to Include: Complete the listed detail — Vital signs _____	taken en route
+Oral report at the receiving facility — Key Items to Include: Complete the listed detail — Treatment given en route _____	and the patient's response
+Oral report at the receiving facility — Key Items to Include: Complete the listed detail — Pertinent history not given _____	in the earlier report
+Oral report at the receiving facility: Complete the statement — Must also supply the facility with a copy of the written _____.	prehospital care report (PCR)
+Transferring patient care to another EMS provider: Complete the statement — Follow all agency policies and protocols when transferring care to another EMT _____	or paramedic in the field.
+Transferring patient care to another EMS provider — Identify yourself and give a verbal report including: Complete the listed detail — Patient's _____	current condition
+Transferring patient care to another EMS provider — Identify yourself and give a verbal report including: Complete the listed detail — Patient's age and _____	sex (if known)
+Transferring patient care to another EMS provider — Identify yourself and give a verbal report including: Complete the listed detail — Chief _____	complaint
+Transferring patient care to another EMS provider — Identify yourself and give a verbal report including: Complete the listed detail — Brief, pertinent history _____	of what happened
+Transferring patient care to another EMS provider — Identify yourself and give a verbal report including: Complete the listed detail — Description of how _____	you found the patient
+Transferring patient care to another EMS provider — Identify yourself and give a verbal report including: Complete the listed detail — Major _____	past illnesses
+Transferring patient care to another EMS provider — Identify yourself and give a verbal report including: Complete the listed detail — Vital _____	signs obtained
+Transferring patient care to another EMS provider — Identify yourself and give a verbal report including: Complete the listed detail — Pertinent physical _____	exam findings
+Transferring patient care to another EMS provider — Identify yourself and give a verbal report including: Complete the listed detail — Emergency medical _____	care given
+Transferring patient care to another EMS provider — Identify yourself and give a verbal report including: Complete the listed detail — Patient's response _____	to care provided
+Before Leaving (Transferring patient care to another EMS provider)	Ask if receiving personnel need any additional information; obtain any info needed for your own documentation; provide a copy of your documentation if required by agency policy.
+Clinical example: Communication from assessment to handoff in a stable hand injury: The patient in the earlier heavy-bleeding dispatch is _____	a 46-year-old man who injured his right hand with a saber saw while cutting molding at his workbench.
+Clinical example: Communication from assessment to handoff in a stable hand injury: Complete the statement — He was startled and his hand _____	contacted the blade.
+Clinical example: Communication from assessment to handoff in a stable hand injury: Complete the statement — He is pale and slightly sweaty and reports feeling dizzy at the sight of _____	blood; the bleeding has almost stopped.
+Clinical example: Communication from assessment to handoff in a stable hand injury: The crew introduces itself and helps _____	him sit in the ambulance for assessment.
+General Impression (Clinical example: Communication from assessment to handoff in a stable hand injury — Primary Assessment)	Mid-40s male, injured, alert.
+Clinical example: Communication from assessment to handoff in a stable hand injury — Primary Assessment — ABC & Priority: Complete the statement — Responds fully -> patent airway, _____	no breathing problem.
+Clinical example: Communication from assessment to handoff in a stable hand injury — Primary Assessment — ABC & Priority: Radial pulse on uninjured side is _____	slightly fast but strong.
+Clinical example: Communication from assessment to handoff in a stable hand injury — Primary Assessment — ABC & Priority: Complete the statement — Rag is blood-soaked but no _____	blood dripping now.
+Clinical example: Communication from assessment to handoff in a stable hand injury — Primary Assessment — ABC & Priority: Complete the statement — Bleeding appears controlled, no signs/symptoms of shock -> _____.	not a priority for rapid transport
+Injury Exposure & Care (Clinical example: Communication from assessment to handoff in a stable hand injury — Secondary Assessment)	Carefully remove greasy rag -> 3-inch-long laceration across the base of the palm, bleeding minimally. Apply sterile dressing and bandage in place.
+Distal Perfusion & Neuro (CMS) (Clinical example: Communication from assessment to handoff in a stable hand injury — Secondary Assessment)	Normal skin color, warm and moist; patient gently wiggles fingers (motor intact) and identifies touched fingers while looking away (sensory intact).
+Baseline Vitals (Clinical example: Communication from assessment to handoff in a stable hand injury — Secondary Assessment)	BP 148/86 mmHg, HR 92/min, RR 14/min (full and adequate), skin normal color, warm, and moist.
+SAMPLE History (Clinical example: Communication from assessment to handoff in a stable hand injury — Secondary Assessment)	Slight wound pain; allergic to penicillin; no current medications; denies significant medical problems; drank a cup of coffee 15 minutes prior; denies unusual problems before the accident.
+En Route Reassessment (Clinical example: Communication from assessment to handoff in a stable hand injury — Reassessment & Handoff)	Completely alert and oriented; no blood soaking through dressing (bleeding controlled); repeat vitals obtained.
+Clinical example: Communication from assessment to handoff in a stable hand injury — Reassessment & Handoff — Radio Report to Receiving Hospital: "Receiving hospital, this is _____	the BLS unit en route to you with an ETA of 10 minutes.
+Clinical example: Communication from assessment to handoff in a stable hand injury — Reassessment & Handoff — Radio Report to Receiving Hospital: Complete the statement — We have a 46-year-old male with a 3-inch laceration of the right _____	hand caused by a saber saw.
+Clinical example: Communication from assessment to handoff in a stable hand injury — Reassessment & Handoff — Radio Report to Receiving Hospital: Complete the detail — The patient is _____	alert and oriented.
+Clinical example: Communication from assessment to handoff in a stable hand injury — Reassessment & Handoff — Radio Report to Receiving Hospital: The patient says he is _____	allergic to penicillin.
+Clinical example: Communication from assessment to handoff in a stable hand injury — Reassessment & Handoff — Radio Report to Receiving Hospital: His vital signs are _____	blood pressure 146/84, radial pulse 80, respirations 14 and of good quality, skin normal, warm, and moist.
+Clinical example: Communication from assessment to handoff in a stable hand injury — Reassessment & Handoff — Radio Report to Receiving Hospital: Complete the detail — We have dressed _____	and bandaged the wound.
+Clinical example: Communication from assessment to handoff in a stable hand injury — Reassessment & Handoff — Radio Report to Receiving Hospital: Complete the statement — Bleeding appears to have stopped and the patient acknowledges only _____	slight pain from the wound."
+Clinical example: Communication from assessment to handoff in a stable hand injury — Reassessment & Handoff — Arrival & Transfer of Care: Complete the statement — Notify dispatch of arrival and receive _____	the arrival timestamp.
+Clinical example: Communication from assessment to handoff in a stable hand injury — Reassessment & Handoff — Arrival & Transfer of Care: Complete the statement — Deliver in-person oral report to ED nurse (name, 3-inch right palm laceration from saber saw, penicillin allergy, dressed/bandaged with bleeding stopped, updated vitals: BP 144/82 mmHg, pulse 80 bpm, _____, normal skin).	RR 14/min
+Post-Call (Clinical example: Communication from assessment to handoff in a stable hand injury — Reassessment & Handoff)	Complete PCR, clean ambulance, radio dispatch "available for assignment" (with dispatch confirmation of the time), and plan to radio dispatch upon arrival back at base.
+Land Mobile Radio Systems (LMRS) — Enables four communication pathways: Which items are listed in this category?	Dispatch base-to-vehicle (mobile and portable radios); Vehicle-to-vehicle; Vehicle-to-medical facility; Medical facility-to-medical facility
+Broadcast Regulations (FCC) — FCC Responsibilities: Which items are listed in this category?	Licenses individual base station operations; Assigns radio call signs; Approves equipment for use; Establishes limitations for transmitter power output; Assigns radio frequencies; Monitors field operations; Sets regulations to limit interference with emergency radio broadcasts; Bars the use of obscenity and profanity in broadcasts
+Times (Military Time) — Standard-to-Military Time Conversion: Which items are listed in this category?	1:00 A.M. to 12 Noon = 0100 to 1200 hours; 1:00 P.M. to Midnight = 1300 to 2400 hours
+Communicating with Dispatch — Advanced Automatic Collision Notification (AACN) / Standard feature in many newer car models that can transmit crash data to responding EMS crews: Which items are listed in this category?	Confirmation of crash and exact vehicle location; Change in velocity during the crash; Direction of force; Airbag deployment; Rollover; Occurrence of multiple collisions
+Oral report at the receiving facility — Key Items to Include: Which items are listed in this category?	Patient's chief complaint; Vital signs taken en route; Treatment given en route and the patient's response; Pertinent history not given in the earlier report
+Transferring patient care to another EMS provider — Identify yourself and give a verbal report including: Which items are listed in this category?	Patient's current condition; Patient's age and sex (if known); Chief complaint; Brief, pertinent history of what happened; Description of how you found the patient; Major past illnesses; Vital signs obtained; Pertinent physical exam findings; Emergency medical care given; Patient's response to care provided
+What was the actual first ET3 performance-period start date given in the source correction?	January 1, 2021, not January 1, 2011. The pilot ended December 31, 2023.
+Why is historical facilitator-dependent letter selection not recommended?	The facilitator may author the message. Do not use it to establish consent, refusal, symptoms or preferences; support independently selected communication aids instead.
+What is an appropriate posture when communicating with an agitated patient?	Nonthreatening posture, adequate distance, a clear exit and de-escalation; do not tower over the patient to assert authority.
+What transport safety lesson qualifies the historical hand-injury scenario?	Do not use a crew jump seat as a patient transport position simply because a patient refuses the cot. Use agency-approved patient positions and restraints.
+What is a closed-ended question in an EMS interview?	A question requesting a specific, usually brief response; it may be yes/no or request a specific fact such as symptom onset.

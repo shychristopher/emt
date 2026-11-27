@@ -1,45 +1,28 @@
 # EMT Course Notes
 
-A lightweight, GitHub Pages–ready Jekyll layout for EMT study materials.
+An unofficial, GitHub Pages–ready Jekyll study library. Each module has a Study Guide, Rapid Review, PQ4RS, Mind Map, and Concept Maps. Chapters also have searchable Key Terms, Flashcards, and EMT Notes.
 
-## Folder Structure
+## ALS Connections
 
-Keep folder names clean URL slugs inside `_content/`, and set display order and chapter titles in `_data/course.yml` (omitting `title` automatically falls back to the folder name, e.g. `chapter-7` → `Chapter 7`):
+ALS Connections starts off. The switch shows labeled ALS sections and branches in Study Guides, Rapid Review, PQ4RS, and Mind Maps. The browser remembers the setting. In EMT Notes, the switch opens the paired BLS or ALS-annotated edition. Each edition can be bookmarked directly.
 
-```text
-_content/
-├── overview/                  # Course-wide Full Overview (outline.md, mindmap.md, pq4rs.md, optional study-guide.md)
-├── tldr/                      # Course-wide TL;DR / 5-mile-high brief (outline.md, mindmap.md, pq4rs.md...)
-├── module-1/
-│   ├── overview/              # Module Full Overview (outline.md, mindmap.md, pq4rs.md...)
-│   ├── tldr/                  # Module TL;DR (outline.md, mindmap.md, pq4rs.md...)
-│   ├── key-terms.md           # Module Key Terms (searchable list + inline Mind Map toggle + auto-link popups)
-│   ├── key-terms-mindmap.md   # Optional dedicated Mind Map for Key Terms (adds Terms List | Mind Map bottom bar)
-│   ├── study-guide.md         # Module Study Guide
-│   ├── chapter-7/
-│   │   ├── outline.md
-│   │   ├── mindmap.md
-│   │   ├── pq4rs.md
-│   │   └── study-guide.md     # Optional chapter Study Guide (opens via header button)
-│   └── chapter-8/
-│       └── outline.md
-└── module-2/
-    └── chapter-1/
-        ├── outline.md
-        ├── mindmap.md
-        └── pq4rs.md
-```
+## Content layout
 
-- Every `.md` file in `_content/` needs YAML front matter at the top (at minimum two lines of `---`) so Jekyll renders it as a page.
-- `overview/` (or `deep-dive/`) and `tldr/` (or `summary/`) work identically at both the **course level** and **module level** with the full floating bottom switcher (`Mind Map` | `Outline` | `PQ4Rs` | etc.).
-- `mindmap.md` supports standard `markmap:` front matter (`colorFreezeLevel`, `initialExpandLevel`, `wrapWidth` / `maxWidth`) and renders with zoom, fit, expand/collapse, and fullscreen controls.
-- `key-terms.md` inside a module automatically highlights matching terms across that module's chapters (and across all course-wide Overview/TL;DR pages) and opens a definition popup when clicked.
+- `_data/course.yml` holds module and chapter titles and navigation order.
+- `_data/views.yml` holds study view labels and order.
+- `_content/module-N/` holds module resources. Each `chapter-N/` adds its own views. Front matter identifies the module, optional chapter, and view. Each page's Markdown body follows its front matter.
+- `assets/flashcards/module-N/chapter-N/flashcards.tsv` holds the original two-column deck. The Flashcards page points to it via its `deck` front matter.
+- Mind Map pages use nested Markdown to build an interactive Markmap. Concept Maps pages use Mermaid code fences and render one diagram at a time when opened. The underlying outline and diagram source remain readable if the external renderers are unavailable.
 
-## Running Locally
+Old outline and overview URLs redirect to their corresponding Study Guide or Rapid Review. Retired course-wide pages redirect to the library, and retired module glossary URLs go to their module, where chapter glossaries are available.
 
-```bash
+## Run locally
+
+Use the Ruby and Bundler versions that support the lockfile, then run:
+
+```sh
 bundle install
 bundle exec jekyll serve --port 4001
 ```
 
-Then open `http://127.0.0.1:4001/emt/` (or pass `--baseurl ""` to serve at `http://127.0.0.1:4001/`).
+Open `http://127.0.0.1:4001/emt/`. To serve from the root, pass `--baseurl ""`.

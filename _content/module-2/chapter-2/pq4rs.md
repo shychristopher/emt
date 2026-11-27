@@ -1,259 +1,970 @@
 ---
+title: PQ4RS
+module_id: module-2
+view: pq4rs
+chapter_id: chapter-2
 ---
 
-# Workforce Safety and Wellness of the EMT — Complete PQ4R Study Guide
+# Chapter 2: Workforce Safety and Wellness of the EMT — PQ4RS
 
 ## Preview
-- **Primary Goal:** Safeguard the EMT's personal well-being in dangerous and high-stress environments.
-- **Five Core Focus Areas:**
-  1. Recognizing and managing normal occupational stress.
-  2. Practicing appropriate **Standard Precautions**.
-  3. Wearing proper **personal protective equipment (PPE)** at accident and illness scenes.
-  4. Recognizing common infectious diseases.
-  5. Implementing strategies to prevent work-related injuries.
-- **Core Key Terms:**
-  - *Stress & Mental Health:* burnout, critical incident, critical incident stress debriefing (CISD), defusing
-  - *Infection Control & PPE:* cleaning, disinfecting, pathogens, personal protective equipment (PPE), purified protein derivative (PPD) tuberculin test, Standard Precautions, sterilization
-- **Chapter Architecture:**
-  1. **Emotional Aspects of Emergency Care:** Distress vs. emotional crises, Kübler-Ross's 5 grief stages, interacting with dying patients/families, postmortem/crime-scene preservation, everyday vs. high-stress calls, acute/delayed/cumulative stress reactions, warning signs across 5 domains, stress management, and CISM (defusing vs. 7-phase CISD).
-  2. **Scene Safety:** Role boundaries, the 5 pathogen groups, transmission modes, the 13 notable pathogens (transmission, incubation, PPE), OSHA Standard Precautions, 24h/48h post-exposure reporting, 6-step CDC hand hygiene, PPE rules, cleaning vs. disinfecting vs. sterilization, sharps/uniform decontamination, immunizations/PPD screening, hazmat scouting (ERG), specialized rescues, ANSI/ISEA roadway vests, and violent/crime scenes.
-  3. **Wellness Principles:** Six dimensions of wellness, 5 physical fitness components (including the 70% target heart rate formula and worked example), sleep/circadian rhythms and the 5 NASEMSO fatigue guidelines, smoking/alcohol/drug risks, NAEMT resilience, EMT PTSD/suicide statistics, and the 7-step safe glove removal sequence.
 
----
+Workforce safety and wellness are prerequisites for effective emergency care. The EMT must protect the crew, recognize hazards, prevent infectious exposure, support patients and families, and maintain the physical and emotional capacity to respond safely. These obligations apply across BLS and ALS; additional clinical capabilities do not change the need for a safe scene or authorize work outside an individual's scope.
+
+The chapter connects six major subjects:
+
+- **Professional responsibility:** scope, medical direction, teamwork and injury prevention.
+- **Scene safety:** hazardous materials, rescue operations, roadway exposure, violence and evidence preservation.
+- **Infection prevention:** transmission, barriers, hand hygiene, equipment handling, immunization and occupational exposure follow-up.
+- **Emotional care:** dignity, grief, communication, patient wishes and family support.
+- **Occupational stress:** recognition, coping, peer support and appropriate professional assistance.
+- **Wellness:** fitness, sleep, nutrition, relationships, resilience and organizational support.
+
+```mermaid
+flowchart TD
+    A[Workforce safety and wellness] --> B[Safe scene and authorized role]
+    A --> C[Infection prevention]
+    A --> D[Physical and mental readiness]
+    B --> E[Safe patient contact]
+    C --> E
+    D --> E
+    E --> F[Effective BLS and ALS teamwork]
+    F --> G[Clinical and emotional care]
+    G --> H[Safe handoff and crew recovery]
+    H --> D
+```
 
 ## Question
-- What are the 5 core focus areas of this chapter and the 11 core key terms?
-- How does distress escalate into an emotional crisis, and what are Kübler-Ross's five emotional stages of dying and major loss?
-- What are the nine specific principles for interacting with dying patients, families, and bystanders—including how postmortem care changes at a potential crime scene?
-- How do acute, delayed, and cumulative stress reactions differ, what are the 10 core warning signs and 5 symptom domains, and how do lifestyle, family, workplace, and CISM (defusing vs. 7-phase CISD) address stress?
-- What is the golden rule of EMT scene role boundaries?
-- How do bacteria, viruses, fungi, protozoa, and helminths differ, and what are the exact transmission routes, incubation periods, and PPE requirements for all 13 notable pathogens?
-- What are the employer/employee duties under OSHA Standard Precautions, the 24-hour airborne and 48-hour bloodborne reporting workflows, the 6-step CDC hand hygiene steps, and the distinctions between cleaning, disinfecting, and sterilization?
-- What are the exact immunization schedules, titers, PPD screening rules, hazmat scouting steps, rescue PPE items, ANSI/ISEA vest classes (1, 2, and 3), and violent/crime scene precautions?
-- What are the six dimensions of wellness, the five components of physical fitness (plus the 70% target heart rate equation and worked example), the 5 NASEMSO fatigue guidelines, mental health/PTSD suicide statistics, and the 7-step safe glove removal procedure?
 
----
+- **Q01.** Why is responder safety a prerequisite for patient care, even when a critically ill or injured patient needs immediate assistance?
+- **Q02.** How do legal scope, credentialing, protocols and medical direction shape collaboration between EMTs, AEMTs and paramedics?
+- **Q03.** How does the route of pathogen transmission influence protective measures, and why are Standard Precautions necessary even without a known diagnosis?
+- **Q04.** How do exposure prevention, immediate medical evaluation and formal notification work together to protect EMS personnel?
+- **Q05.** What makes compassionate care during death, dying and resuscitation compatible with clinical priorities and legal responsibilities?
+- **Q06.** How can an EMS team distinguish stress reactions from medical emergencies and support recovery without assuming every responder reacts the same way?
+- **Q07.** How do physical fitness, adequate sleep and mental and social wellness influence clinical performance over time?
 
 ## Read
 
-### 1. Emotional Aspects of Emergency Care
-- **Emotional Crises in Emergency Care:**
-  - Patients and family members experience *distress*—acute physical or mental suffering caused by pain, anxiety, strain, or sorrow.
-  - Emotional pressures exceeding coping capacity trigger an *emotional crisis*.
-  - Emergency care helps patients and families move toward reestablishing emotional equilibrium.
-- **Death and Dying:**
-  - *EMT Responsibilities:* Care for both the dying patient's emotional needs and injuries or illnesses; support family members and bystanders, especially after sudden death; recognize that grief stages also apply to nonfatal emergencies involving major loss (e.g., losing limbs in an industrial accident).
-  - *Elizabeth Kübler-Ross's Five Emotional Stages* (individuals progress at their own rates and in their own ways; not all five stages are seen during emergency care):
-    1. **Denial ("Not me."):** Defense mechanism buffering shock against approaching death or illness/injury realities.
-    2. **Anger ("Why me?"):** May target the EMT; avoid defensiveness and respond empathetically with active listening and communication.
-    3. **Bargaining ("Okay, but first let me . . ."):** Attempts to make agreements perceived to postpone death briefly.
-    4. **Depression ("Okay, but I haven't . . ."):** Silence, distance, sadness, and despair over unfinished matters or those left behind.
-    5. **Acceptance ("Okay, I am not afraid."):** Acknowledgment of impending death (not happiness); families often need greater support at this stage.
-  - *Nine Principles for Interacting with Dying Patients, Families, and Bystanders:*
-    1. **Prioritize care & individual needs:** Prioritize emergency care while addressing needs for dignity, respect, sharing, communication, privacy, and control across different grief rates.
-    2. **Maintain dignity:** Avoid negative remarks; speak to unresponsive patients as if alert and explain care.
-    3. **Show respect & sincerity:** Watch both words and body language; allow family presence during resuscitation when appropriate, explain efforts, and show you never simply "gave up."
-    4. **Communicate clearly:** Orient the patient to surroundings, explain events, roles, and transport plans, give straightforward answers, report known facts without guessing, and update family without interrupting care.
-    5. **Allow emotional expression:** Permit crying, screaming, or venting if safe; do not take directed anger personally.
-    6. **Listen empathetically:** Honor final requests/messages when possible, stay with family until the medical examiner or coroner arrives, and arrange ambulance transport for a family member if feasible.
-    7. **Avoid false assurances:** Be honest and tactful without confirming death or destroying hope (e.g., state that everything possible is being done and encourage not giving up).
-    8. **Use a gentle tone:** Explain injury scope and procedures kindly in understandable terms.
-    9. **Handle postmortem contact & crime scenes:** Clean blood/secretions/vomitus and elevate the head briefly if allowed by local protocol; warn of severe trauma and cover injured areas; **do not** clean the body, remove blood, or allow family access/touching in a possible crime scene until cleared by law enforcement, coroner, or medical examiner, preserving evidence and documenting thoroughly.
-- **High-Stress Situations in EMS:**
-  - *Definition:* Stress is any change in the body's internal balance when external demands exceed personal resources.
-  - *Everyday stressors:* Long hours, shift work, boredom between calls, overwork, low recognition, instant response demands, life-and-death decisions, fear of serious errors, grief/dying exposure, and responsibility for another life.
-  - *High-stress calls:* Multiple-casualty incidents (MCIs); abuse and neglect of infants, children, adults, or elderly individuals; emergencies involving infants and children; injury or death of a coworker; caring for a relative or bystander; severe traumatic injuries (such as amputations).
-- **Stress Reactions & Warning Signs:**
-  - *Three Types of Stress Reactions:*
-    1. **Acute stress reaction:** Immediate or shortly after a high-stress incident, affecting cognitive, physical, behavioral, or psychological function. Minor responses (nausea, elevated heart rate, sweating, tremors, appetite shifts, trouble concentrating, insomnia) are common; absence of symptoms reflects different coping rather than superior strength. Seek immediate medical evaluation for possible medical emergencies (e.g., chest pain, shortness of breath).
-    2. **Delayed stress reaction:** Signs/symptoms appear days, months, or years later (classic example: **PTSD**). Delayed onset can obscure the link to the triggering event; includes nightmares, irritability, insomnia, impaired concentration, flashbacks, interpersonal conflict, reduced ability to relate to others, and risk of substance misuse. Requires mental health professional care.
-    3. **Cumulative stress reaction:** Results from ongoing exposure to stress building over time; a major driver of **burnout** (state of exhaustion and irritability) that can progress to emotional exhaustion, severe physical illness, reduced care effectiveness, or leaving EMS.
-  - *10 Core Warning Signs:* Irritability with coworkers, family, and friends; inability to concentrate; difficulty sleeping and nightmares; anxiety; indecisiveness; guilt; loss of appetite; loss of sexual desire or interest; isolation; loss of interest in work.
-  - *5 Categories of Stress Signs & Symptoms:*
-    - **Thinking:** Confusion, impaired judgment/decision-making, loss of motivation, chronic forgetfulness, loss of objectivity.
-    - **Psychological:** Depression, excessive anger, negativism, hostility, defensiveness, mood swings, feelings of worthlessness.
-    - **Physical:** Persistent exhaustion, headaches, GI distress, dizziness, pounding heart.
-    - **Behavioral:** Overeating, increased alcohol or drug use, teeth grinding, hyperactivity, lack of energy.
-    - **Social:** Increased interpersonal conflicts, reduced ability to view patients as individuals.
-- **Stress Management:**
-  - *Lifestyle changes:*
-    - **Diet:** Reduce sugar, caffeine, and alcohol; increase lean protein, limit carbohydrates, reduce saturated fat, and eat small, frequent meals on shift.
-    - **Exercise:** Releases pent-up crisis emotions, helps prevent injury, and triggers endorphin release.
-    - **Relaxation & diversions:** Deep breathing (inhale, hold, forceful exhale), meditation, visual imagery, and healthy diversions (funny movies, books, concerts).
-    - **Avoid self-medication:** Alcohol or pills worsen underlying stress once effects wear off.
-  - *Life balance:* Prioritize activities numerically and address them in order; confide in trusted friends/loved ones so they understand your experience and feel included; accept human fallibility—mistakes happen and do not diminish your worth; clinical skill grows with experience, time, and practice.
-  - *Family & friends' reactions:*
-    - **Lack of understanding:** Misinformation from media/entertainment.
-    - **Fear of separation or being ignored:** Frustration over long hours, physical strain, or perceived job priority.
-    - **Worry about on-call situations:** Exaggerated perception of call dangers.
-    - **Inability to plan:** Frustration over call restrictions or leaving events early.
-    - **Frustrated desire to share:** Difficulty discussing shift events leaves loved ones feeling locked out.
-    - **Support strategies:** Share feelings and safety practices openly, invite loved ones into fitness/healthy meals, and protect dedicated time with them.
-  - *Work-environment changes:* Use a coworker "buddy" system to monitor stress and encourage breaks or diversions; foster positive coworker support and avoid destructive criticism; take brief aerobic exercise breaks (brisk walk, stationary bike, treadmill, elliptical); request shifts allowing adequate rest and family/friend time; request duty rotations (such as moving from high-violence/crime areas to higher-medical call areas).
-  - *Professional help:* Seeking mental health care is a sign of strength and protects patient care; untreated severe stress, anxiety, or depression impairs clear thinking and field performance.
-- **Critical Incident Stress Management (CISM):**
-  - *Purpose & overview:* Addresses **critical incident** stress (which can mirror burnout and cause intrusive mental images, fear of EMS work, or impaired performance at later calls); combines structured peer and mental health support across two core debriefing/defusing processes within a broader system.
-  - *Critical Incident Stress Debriefing (CISD):*
-    - Ideally held **24 to 72 hours** after a critical incident.
-    - Led by peer counselors and mental health professionals through **seven phases:** (1) reviewing facts, (2) sharing feelings, (3) identifying signs/symptoms, (4) sorting feelings with professional guidance, (5) learning stress-coping strategies, (6) planning return to work, and (7) arranging follow-up care.
-    - Non-punitive (not for assigning blame) and confidential; may include EMS, law enforcement, fire, dispatch, ED staff, and affected family members (or multiple sessions for large MCIs/disasters).
-    - Relieves stress rather than serving as standalone professional counseling; ongoing scientific debate regarding effectiveness.
-  - *Defusing:*
-    - Held **up to 8 hours** post-incident for those most directly involved.
-    - Lasts **30 to 45 minutes** and is less structured than CISD, offering immediate venting and initial information before a larger CISD session.
-  - *10 Components of a Comprehensive CISM Program:* Preincident stress education; on-scene peer support; one-on-one support; disaster support services; defusing; CISD; follow-up services; spouse and family support; community outreach programs; other health and welfare programs.
+### Workforce safety and shared clinical responsibilities
 
-### 2. Scene Safety
-- **Core Scene Safety Principles:**
-  - Keep yourself safe at illness or injury scenes through disease protection, rescue procedures, and violence/crime scene awareness.
-  - Advocate for protective measures to keep both fellow emergency personnel and yourself safe and well.
-  - **Never** act in any capacity other than a medical responder unless specifically trained and authorized to do so.
-- **Protecting Yourself from Disease:**
-  - *Five Pathogen Categories:*
-    - **Bacteria:** Microscopic, single-celled organisms capable of reproducing independently or in a host (e.g., sinus/ear infections, bacterial pneumonia, strep throat, tuberculosis, UTIs); typically respond to antibiotics.
-    - **Viruses:** Smaller than bacteria; require a host cell to reproduce and are **not** treatable with antibiotics (e.g., common cold, flu, HIV/AIDS, hepatitis A/B/C, viral pneumonia, SARS, chicken pox, RSV; emerging infectious diseases [EID] include COVID-19, Ebola virus disease [EVD], and Zika virus disease [ZVD]).
-    - **Fungi:** Plantlike microorganisms generally causing disease only when immune function is compromised (e.g., pneumonia in HIV-infected patients).
-    - **Protozoa:** Single-celled, motile organisms typically found in soil; often affect immunocompromised hosts (fecal-oral entry, mosquito vector for malaria), though some affect immunocompetent hosts (e.g., certain gastroenteritis or vaginal infections).
-    - **Helminths:** Parasitic worms (roundworms, flukes, tapeworms) acquired by ingesting worm eggs in contaminated food/water or skin penetration by larvae (e.g., hookworm attaching to intestine, causing blood loss and anemia).
-  - *Transmission Modes:*
-    - **Infectious vs. communicable:** Infectious diseases result from pathogen transmission; communicable diseases spread person-to-person (e.g., malaria is vector-borne via mosquitoes and not spread person-to-person).
-    - **Direct contact:** Blood-to-blood contact, open wounds/exposed tissue, mucous membranes of eyes and mouth.
-    - **Indirect contact:** Contaminated objects such as needles.
-    - **Airborne droplets:** Coughing, sneezing, or exhaling infected droplets inhaled into the respiratory tract.
-  - *All 13 Notable Pathogens (Transmission | Incubation | Protection):*
+Workforce safety and wellness are part of the preparatory content of the National EMS Education Standards; infectious disease is also addressed under medicine. EMTs apply knowledge of the EMS system, their own safety and well-being, and medical, legal and ethical issues when providing emergency care. Assessment findings guide basic emergency care and transportation for acutely ill patients. [National EMS Education Standards][education].
 
-| Pathogen | Mode of Transmission | Incubation Period | Required Protection |
-| :--- | :--- | :--- | :--- |
-| **HIV/AIDS** | Blood, semen, vaginal fluid, blood transfusion, needlestick, transplacental, breastfeeding | Months | Gloves, eyewear, hand washing |
-| **Hepatitis B and C** | Blood, semen, vaginal fluid, needlestick, transplacental, human bite, sexual contact | Weeks or months | Gloves, eyewear, hand washing |
-| **Tuberculosis** | Respiratory secretions, airborne or direct contact | 2–6 weeks | Gloves, eyewear, HEPA or N-95 respirator, hand washing |
-| **Influenza** | Airborne droplets, direct contact with body fluids | 1–3 days | Gloves, surgical mask, hand washing |
-| **Chicken pox (varicella)** | Airborne droplets, direct contact with open sores | 11–21 days | Gloves, surgical mask, hand washing |
-| **Bacterial meningitis** | Oral and nasal secretions | 2–10 days | Gloves, surgical mask, hand washing |
-| **Pneumonia** | Respiratory secretions and droplets | 1–3 days | Gloves, surgical mask, hand washing |
-| **German measles (rubella)** | Airborne droplets, transplacental | 10–12 days | Gloves, surgical mask, hand washing |
-| **Whooping cough (pertussis)** | Respiratory secretions, airborne droplets | 6–20 days | Gloves, surgical mask, hand washing |
-| **Staphylococcal skin infection** | Direct contact with infected lesion or contaminated object | 1–3 days | Gloves, hand washing |
-| **SARS coronavirus / COVID-19** | Respiratory airborne, direct contact | SARS: 10 days; COVID-19: 3–7 days | Gloves, N-95 or N100 respirator, hand washing, eye protection |
-| **Ebola virus disease (EVD)** | Direct contact with blood or body fluids | 2–21 days (average onset 8–10 days) | Gloves, hand washing, N-95 respirator, surgical/isolation gown, boot covers, specialized training in donning/doffing PPE |
-| **Zika virus disease (ZVD)** | *Aedes* mosquito bite, pregnant woman to fetus, sexual contact | 3–12 days | Avoiding mosquito bites, abstaining from sex with infected/potentially infected partner (condoms reduce risk), preventing pregnancy, avoiding mosquito exposure in areas where ZVD occurs |
+Safety involves protecting oneself from infectious disease, following appropriate rescue procedures, managing the hazards of violence and crime scenes, and preventing occupational injuries. Advocate for protective measures for yourself and fellow responders. Unless separately trained and authorized, an EMT is a medical responder, not a technical rescuer or tactical responder.
 
-  - *Standard Precautions & Exposure Reporting:*
-    - Formerly called body substance isolation (BSI); required under OSHA guidelines against blood and other potentially infectious substances/body fluids.
-    - **Shared employer & employee duties:** Employers must establish a written exposure control plan, provide training, required immunizations, and protective equipment, and maintain a written post-exposure policy (including documentation, baseline/interval testing where required, and post-exposure notification procedures); employees must complete training and follow plan procedures.
-    - **Airborne infection (e.g., TB) workflow:** Facility diagnoses disease in transported patient → notifies designated officer (DO) within **24 hours** → DO notifies EMT → employer arranges medical evaluation and follow-up.
-    - **Bloodborne infection (e.g., HIV, HBV) workflow:** EMT contacts blood/body fluids → seeks immediate medical care and documents for workers' compensation → requests DO determination → DO gathers info/consults receiving facility → facility reports findings to DO within **48 hours** → DO notifies EMT.
-    - **General exposure reporting:** Promptly report suspected exposures to supervisor (date, time, fluid type, volume, incident details) per local protocol and agency policy.
-  - *Hand Washing:*
-    - Single most important infection-prevention measure; reduces spread to EMT and between patients (including MRSA and *Clostridium difficile* colitis), even when gloves are worn.
-    - U.S. Public Health Service notes 10–15 seconds of vigorous lathering/scrubbing with plain soap removes most contaminants.
-    - **6-Step CDC Hand Hygiene Sequence:** (1) Remove hand jewelry → (2) wet hands with clean running water (warm or cold), turn off tap, apply soap → (3) lather backs of hands, between fingers, and under nails → (4) scrub at least **20 seconds** (e.g., hum "Happy Birthday" twice) → (5) rinse well under clean running water → (6) dry with clean towel or air dry.
-    - **Alcohol-based hand sanitizer:** Use when soap and running water are unavailable in the field (at least **60% alcohol** per CDC); does not eliminate all germs, so wash with soap and water as soon as possible; overuse can dry/chafe/crack skin and create a pathogen portal of entry.
-  - *Personal Protective Equipment (PPE):*
-    - Barrier protecting skin and mucous membranes from blood and body fluids; requires instruction/training before use, and all used PPE must be treated as contaminated.
-    - **Eye protection:** Clear plastic eye or full-face shields, protective eyewear with side shields, or removable side shields on prescription glasses (form-fitting goggles optional/not required).
-    - **Protective gloves:** High-quality vinyl, latex-free, or synthetic gloves for patient care; remove safely, wash hands, and replace if torn; consider double-gloving when appropriate; never reuse or wear between different patients; use proper doffing technique and wash hands after removal; wear utility gloves when cleaning vehicles/equipment.
-    - **Gowns:** Wear during significant blood/fluid contact (e.g., childbirth); use disposable gowns when possible; change uniform after large splashes and wash contaminated uniforms separately from personal clothes.
-    - **Masks:** Disposable surgical mask against splashes/airborne droplets (may also mask patients with suspected airborne illness); wear HEPA or N-95 respirator for suspected TB or COVID-19 (must be clean-shaven, and N-95 requires annual fit testing).
-  - *Routine Care, Disposal, Decontamination & Immunizations:*
-    - **Equipment & waste handling:** Prefer disposables; never reuse single-use items; bag, seal, and label infectious/soiled disposables as biohazardous waste (double-bag HIV, hepatitis B, or similar infectious waste).
-    - **Contaminated uniforms:** Remove, bag, and label; wash in hot soapy water for at least **25 minutes**; take a hot, thorough shower (for gross contamination, stand in a labeled biohazard bag and strip top-to-bottom directly into the bag).
-    - **Cleaning vs. Disinfecting vs. Sterilizing:**
-      - *Cleaning:* Mechanical washing with soap and water using friction to remove soil/residue.
-      - *Disinfecting:* Includes cleaning plus chemical germicide/hospital-grade disinfectant to kill many surface microorganisms (used for intact-skin items like backboards, splints, blood pressure cuffs; clean visible soil on nonhorizontal surfaces as needed; clean blood/body fluids promptly with hospital-grade disinfectant or household bleach solution; wash hands afterward).
-      - *Sterilization:* Chemical or physical process (e.g., superheated steam in an autoclave) destroying **all** microorganisms on a surface; required for items entering the body or touching mucous membranes (e.g., laryngoscope blades) after thorough cleaning, following local protocols, manufacturer instructions, and chemical hazard precautions.
-    - **Sharps safety & logging:** Immediately place needles/sharps into a rigid, mounted, puncture-proof sharps container; never recap needles; record blood/body fluid contact and resulting cleaning in logbook or flow sheet.
-    - **Immunizations & screening:** Pre-duty physician clearance and initial-hire TB screening via purified protein derivative (PPD) tuberculin test (CDC includes individual TB risk assessment, symptom evaluation, and test; annual TB testing not recommended unless known exposure, ongoing transmission, or increased occupational risk). Recommended immunizations: COVID-19; tetanus (one-time Tdap if not previously received, then Td/Tdap booster every **10 years**; Tdap each pregnancy for pregnant HCWs); hepatitis B (2-dose Heplisav-B or 3-dose Recombivax HB / Engerix-B; offered free by OSHA-covered employers within **10 days** of exposure-risk assignment); annual influenza; MMR (for those born in/after 1957: 2 measles, 2 mumps, >=1 rubella); and varicella if needed; verify rubella, measles, and mumps immunity and obtain a hepatitis B titer, while continuing Standard Precautions even when immunized.
-- **Protecting Yourself from Accidental and Work-Related Injury:**
-  - *Everyday prevention:* Vehicle restraints, safe lifting/moving, adequate sleep, physical fitness, proper nutrition, and Standard Precautions.
-  - *Hazardous materials:* Invisible vapors/gases can travel far; scout from a distance using binoculars before approaching and check placards/labels against the U.S. DOT *Emergency Response Guidebook* (carried on every EMS vehicle and available as a mobile app). Do not enter until trained hazmat teams control the scene, contamination is limited, and patients are decontaminated; hazmat personnel use SCBAs and specialized protective suits.
-  - *Rescue situations:*
-    - High-risk hazards: downed power lines (dangerous even without fire/sparks), fire/explosions/spills, hazmat, structural collapse, low-oxygen confined spaces (e.g., grain silos), unsecured trenches, WMD (biological, nuclear, chemical), and highway/busy roadway MVAs.
-    - Request specialized teams (power company, fire, specialized rescue) and law enforcement for traffic control before entering life-threatening rescues; once safe, wear required PPE per protocol/minimum scene standards (turnout gear, puncture-proof gloves, helmet with reflective tape and chin strap, eye protection, weather/dust gear such as rubber/waterproof boots, cold layers, or dust respirator).
-    - **High-visibility apparel:** Required on/near roadways per federal regulations: **ANSI/ISEA 107-2004 Class 2 or Class 3**, or **ANSI/ISEA 207-2006 Public Safety Vest [PSV]** with breakaway design, turnout fit, and service markings (Class 1 is for `<25 mph` parking lots/low-speed areas; Class 2 is for `>=25 mph` or diverted attention; Class 3 is for high traffic risk/high distraction).
-  - *Violence and crime:*
-    - Call law enforcement before entering suspected violent or crime scenes—especially when weapons or perpetrators may be present (domestic disputes, agitated/hostile drug or alcohol intoxication, street/gang/bar fights, potential suicide, angry family/bystanders, hostile behavioral emergency, any crime scene)—and wait until law enforcement controls the scene and removes weapons.
-    - Watch for emerging hazards including clandestine drug laboratories and "chemical suicides" using hazardous materials.
-    - During civil unrest or urban transports outside normal coverage areas, coordinate with law enforcement on blocked routes/violence and plan alternate routes in advance.
-    - Understand the capabilities and limitations of body armor if issued or worn.
-    - At crime scenes, disturb the scene only as needed to provide medical care to preserve the chain of evidence.
+Everyday injury prevention includes vehicle restraint systems, safe lifting and moving techniques, adequate sleep, physical fitness, proper nutrition, and Standard Precautions.
 
-### 3. Wellness Principles & Practical Skills
-- **Overview of Wellness:**
-  - Foundational requirement for performing EMT responsibilities effectively; goes beyond simply being free of illness.
-  - Encompasses six interconnected dimensions: **physical**, **intellectual**, **emotional**, **social**, **environmental**, and **spiritual**.
-  - Imbalance in any dimension can lead to poor health; core clinical focus centers on **physical** and **mental** well-being.
-- **Physical Well-Being:**
-  - *Five Core Components of Physical Fitness:*
-    1. **Cardiovascular Endurance:** Built through aerobic activity (walking, jogging, swimming, elliptical, step machine) that strengthens heart, lungs, and vessels to supply oxygen and nutrients during prolonged exertion. Requires reaching and maintaining a target heart rate for **30–40 minutes at least 3 days per week**.
-       - *70% Target Heart Rate Formula:* (1) Measure resting heart rate (RHR) → (2) `HRmax = 220 - Age` → (3) `(HRmax - RHR) × 0.70` → (4) `Target HR = [(HRmax - RHR) × 0.70] + RHR`.
-       - *Worked Example (28-year-old, RHR = 62 bpm):* `HRmax = 220 - 28 = 192 bpm` → `192 - 62 = 130 bpm` → `130 × 0.70 = 91 bpm` → `91 + 62 = 153 bpm`.
-    2. **Muscle Strength:** Maximum force a muscle exerts in a single contraction (measured by maximum weight lifted); developed through weightlifting and resistance exercises; essential for repetitive lifting of heavy equipment and patients.
-    3. **Muscle Endurance:** Ability of muscles to perform repeated contractions without undue fatigue; developed by lifting heavier-than-accustomed weights via weight training; crucial for sustained carries (e.g., from a bedroom to the ambulance).
-    4. **Muscle Flexibility:** Ability to move joints through a full range of motion, primarily improved through stretching; supports safe lifting and moving mechanics and helps prevent muscle and joint injuries.
-    5. **Body Composition:** Primarily evaluated by ratio of body fat to total weight; lower body fat ratios correlate with better health, whereas higher ratios increase risks for **heart disease**, **hypertension**, and **diabetes**; maintained or reduced through proper nutrition and exercise.
-  - *Adequate Sleep:*
-    - 24/7 EMS shift schedules—especially hours outside normal waking/alertness windows—disrupt natural **circadian rhythms**, impairing physical coordination, cognitive processing, and social functioning.
-    - Sleep deprivation increases accident and injury risk for the EMT and compromises patient care quality; chronic insufficient sleep contributes to heart disease, weight gain, and impaired mental function.
-    - Need **at least 8–10 hours of sleep daily**, yet research indicates roughly half of EMS providers get **under 6 hours per day**.
-    - **Four Sleep Strategies:** Create a cool, dark environment that mimics nighttime; maintain a consistent sleep schedule allowing an uninterrupted block of sleep; avoid heavy meals, caffeine, or exercise immediately before sleeping; minimize interruptions (turn off phone ringers and pagers, set cell phones to silent, and place a sleeping sign on the door).
-    - **Five Evidence-Based Fatigue-Mitigation Guidelines (NASEMSO):**
-      1. Measure and monitor personal fatigue using reliable and/or valid fatigue/sleepiness surveys.
-      2. Keep shifts shorter than **24 hours**.
-      3. Provide EMS personnel access to caffeine as a fatigue countermeasure.
-      4. Allow on-duty napping opportunities to mitigate fatigue.
-      5. Provide fatigue and fatigue-related risk education and training.
-  - *Smoking Cessation:* Undermines an EMT's role as a public health promoter and elevates personal risk for **cardiovascular disease**, **pulmonary disease**, and **cancer**.
-  - *Alcohol- and Drug-Related Issues:* Using alcohol or prescription/illegal drugs to cope with occupational stress is harmful, ineffective at resolving stress, and impairs health and mental function; requires professional help and **Employee Assistance Programs (EAP)**.
-- **Mental Well-Being:**
-  - Unmanaged EMS stress contributes to chronic physical illness, emotional distress, relationship strain, and personal life imbalance.
-  - Talk with close friends or family, practice exercise, relaxation, and enjoyable hobbies (such as fishing or hiking), and use professional counseling or **EAP** resources.
-  - Over **30%** of first responders have received a formal mental health diagnosis (such as **depression** or **PTSD**).
-  - *Resilience (per NAEMT):* The ability to cope with stress and adversity without lasting physical or psychological harm; shaped by nutrition, exercise, sleep, smoking/drinking habits, and social interaction, keeping an EMT flexible, engaged, satisfied, and relatively relaxed.
-  - *Suicide in the EMT:* EMS suicide rates are rising; EMTs with often-undiagnosed **PTSD** face a suicide rate **six times higher** than the general population. **24/7 Crisis Resource:** National Suicide Hotline at **1-800-273-8255**.
-- **Safe Glove Removal Procedure (7-Step Sequence):**
-  - *Core rule:* Contaminated glove surfaces may touch only other contaminated glove surfaces; clean inside glove surfaces may touch only other clean inside glove surfaces. Never touch a contaminated surface with bare hands or fingers, and never touch clean surfaces with contaminated gloves.
-  - *Steps:*
-    1. Hook gloved fingers under the outer/cuff edge of the opposite glove without touching clean inner surfaces.
-    2. Pull the cuff down, keeping contaminated surfaces against contaminated surfaces and avoiding the clean inside.
-    3. Pull the glove completely off and inside out so fluids/contaminants remain contained inside.
-    4. Crumple the removed contaminated glove inside the remaining gloved hand and dispose of it in a biohazard receptacle without touching clean surfaces.
-    5. Slide bare, clean fingers under the clean inside cuff of the remaining glove.
-    6. Roll/pull the second glove off and inside out using only clean inside surfaces with your clean hand.
-    7. Drop the inverted glove into the biohazard receptacle while keeping clean hands and clean surfaces free of contact with the contaminated exterior.
+#### ALS Connection: Shared safety, different clinical capabilities
 
----
+The following is a conceptual comparison based on the [national scope model (2019, updated 2021)][scope] and [2021 education standards][education]. It is not a skills authorization list.
+
+| Level | General role and examples |
+| --- | --- |
+| EMT | Basic assessment, airway positioning, suction, bag-mask ventilation, hemorrhage control, CPR/AED, and locally authorized medications. |
+| AEMT | EMT foundation plus selected advanced skills, such as vascular access, a limited medication set and selected advanced airway adjuncts. |
+| Paramedic | Broader advanced assessment, ECG interpretation, pharmacology, advanced airway management and electrical therapies, as authorized. |
+
+A mixed-level crew shares responsibility for scene safety, infection prevention, communication and reassessment. A paramedic may lead advanced clinical decisions while the EMT continues essential care; an AEMT has a distinct scope and is not interchangeable with a paramedic. Actual staffing, clinical leadership and delegation are governed locally.
+
+> [!CAUTION]
+> **Knowledge does not equal authorization.** Research evidence describes what may work; professional recommendations and clinical guidelines translate evidence into general care frameworks. Local protocols specify approved actions; legal scope limits what a clinician may perform; credentialing determines which skills that individual may use. Medical direction provides clinical oversight within these limits. A partner cannot expand your legal scope by asking you to do something. Preparing equipment, observing a procedure and independently performing it are different activities. [National scope model][scope].
+
+> [!TIP]
+> **Mixed-crew briefing:** Before patient contact, establish who will lead assessment, who will obtain vital signs and history, who will manage equipment and transport, and who will communicate with dispatch. Speak up about hazards regardless of certification level.
+
+> [!IMPORTANT]
+> **ALS Connection — higher clinical capability does not make a hazardous scene safe.** An advanced airway, vascular access or cardiac monitor cannot protect the crew from gunfire, electrical injury, toxic atmospheres or structural collapse. Stage according to incident command, request appropriate resources and reassess hazards throughout care. Technical rescue (including hazardous-materials and swift-water rescue) and tactical EMS require separate training, equipment and authorization. All clinicians must stay within their assigned role. [National education standards][education]; [PHMSA ERG][erg].
+
+### Scene hazards and safe operations
+
+#### Hazardous materials
+
+* Many hazardous chemicals travel great distances as invisible vapors or gases.
+* **Approach:** From a safe distance, use binoculars to look for signs or placards and compare them with the U.S. DOT *Emergency Response Guidebook* (ERG). The source describes the ERG as required on all EMS vehicles; it is also available digitally or as a phone app. Verify applicable vehicle requirements locally. [PHMSA ERG][erg].
+* **Historical domestic placarding examples (diamond-shaped signs):**
+  1. Explosive A (1, reddish background)
+  2. Explosive B (1, reddish background)
+  3. Blasting agents (1, reddish background)
+  4. Poison gas (2, white background)
+  5. Flammable gas (2, red background)
+  6. Non-flammable gas (2, green background)
+  7. Chlorine (2, white background)
+  8. Oxygen (2, yellow background)
+  9. Flammable (3, red background)
+  10. Combustible (3, red background)
+  11. Flammable solid (red stripe background)
+  12. Flammable solid / Dangerous When Wet (red stripe background, blue triangle at top with struck-through W)
+  13. Oxidizer (5.1, yellow background)
+  14. Organic peroxide (5.2)
+  15. Poison (6, white background)
+  16. Radioactive (yellow and white background)
+  17. Corrosive (8, black and white background)
+  18. Dangerous (red triangles at top and bottom on white background)
+* **Hazmat Response:** Trained hazmat rescuers wear **self-contained breathing apparatuses (SCBAs)** and specialized full-body protective suits. Wait for a hazmat team to control the scene; provide emergency care **only** after the scene is safe, contamination is limited, and patient decontamination is complete.
+
+> [!NOTE]
+> **ALS Connection — hazardous exposure and clinical assessment.** A toxic exposure may cause respiratory failure, altered mental status or circulatory instability. ALS may provide additional monitoring and substance-specific treatments when indicated, but these never replace scene control, removal from exposure by appropriately trained personnel, and required decontamination. Report the identified substance if known, exposure route, symptoms, number of potentially exposed patients and decontamination status to the clinical lead and receiving facility. Avoid bringing a contaminated patient or equipment into the ambulance unless managed under the appropriate specialized response plan. The [2024 Emergency Response Guidebook][erg] supports initial transportation-hazard recognition; it is not a definitive medical treatment guide.
+
+#### Rescue operations
+
+* **Life-Threatening Rescue Hazards:**
+  * Downed power lines / electrocution potential (dangerous even when no fire or sparks are visible)
+  * Fire or threat of fire (including gasoline or chemical spills)
+  * Explosion or threat of explosion
+  * Hazardous materials
+  * Possible structural collapse
+  * Low oxygen levels in confined spaces (e.g., grain silos)
+  * Improperly secured trenches
+  * Biological, nuclear, and chemical weapons
+  * Motor-vehicle accidents (MVAs) on highways or busy roadways
+* **Protocol:** Call specialized teams (power company, fire department, specialized rescue) before attempting rescue/treatment; call law enforcement for traffic control on busy roadways.
+* **Protective gear (selected according to hazard, local protocol and authorized role):**
+  * Once controlled, follow local protocol for PPE: turnout gear, puncture-resistant gloves (described as puncture-proof in the chapter), helmet, and protective eyewear.
+  * *Wet weather:* Rubber/waterproof boots and slip-resistant waterproof gloves.
+  * *Cold weather:* Gloves, warm hat, long underwear, multiple torso layers.
+  * *Grain/cement/dust accidents:* The chapter lists a dust respirator; this is not authorization to enter an oxygen-deficient or otherwise hazardous confined space.
+  * *Falling debris risk:* Impact-resistant protective helmet with reflective tape and chin strap.
+  * **General Rule:** Wear at least the same protective equipment that others on the scene are required to wear (e.g., helmet in a factory requiring helmets).
+
+> [!TIP]
+> **ALS teamwork — moving a patient with advanced equipment.** Before lifting, agree on who controls the patient, airway, monitor, oxygen supply and any vascular lines; check that equipment is secured and that sufficient personnel are available. During movement, communicate changes in breathing, consciousness or device position. After movement, reassess the patient and report device disconnection or loss of waveform promptly. The authorized clinician verifies placement and function of advanced devices. Avoid unsafe lifting or attempting technical rescue just to preserve an advanced intervention. [NAEMSP airway guidance][airway]; [National education standards][education].
+
+#### Roadway safety and high-visibility apparel
+
+* **ANSI/ISEA 107-2004 (High-Visibility Safety Apparel and Headwear):**
+  * **Class 1:** Parking lots and areas with traffic moving **less than 25 mph**.
+  * **Class 2:** Personnel with attention diverted from traffic, or traffic moving **25 mph or greater**.
+  * **Class 3:** Work greatly diverts attention away from the roadway with serious risk from moving vehicles.
+* **ANSI/ISEA 207-2006 (Public Safety Vest — PSV):**
+  * Same retro-reflective material as Class 2 and nearly the same fluorescent material.
+  * Includes **breakaway features**, dimensions sized to fit over turnout gear, and **color-specific markings** to differentiate law enforcement, fire, and EMS.
+* **Historical federal requirement described by the chapter:** Emergency personnel exposed to traffic within the right-of-way of a federally funded highway were required to wear ANSI/ISEA 107-2004 Class 2 or Class 3 apparel or ANSI/ISEA 207-2006 PSV. See the standards update below for current application.
+
+> [!CAUTION]
+> **Standards update:** The apparel editions cited in the chapter are historical. The 2023 11th edition of the FHWA Manual on Uniform Traffic Control Devices (MUTCD), § 6C.05, references Class 2 or 3 apparel under ANSI/ISEA 107-2015 or equivalent revisions for workers within roadway temporary traffic control zones, with specified exceptions. Use current adopted roadway rules, incident-command instructions and agency-approved apparel; the textbook's speed-based shorthand is not a substitute for the applicable standard. [FHWA MUTCD, 11th edition][mutcd].
+
+#### Violence and crime scenes
+
+* **When to Call Law Enforcement Before Entering:** Domestic disputes, agitated/hostile patients under the influence of drugs/alcohol, street/gang fights, bar fights, potential suicide, angry family/bystanders, behavioral emergencies with hostile actions/threats, and any crime scene.
+* **Entry Rule:** Do **not** enter to render care until law enforcement has adequately controlled the scene and removed anyone with weapons (guns, knives).
+* **Specific Modern Threats:**
+  * **Clandestine drug laboratories:** Illegal drug processing/production sites posing both violence and chemical/hazmat hazards.
+  * **Chemical suicides:** Suicide attempts using hazardous materials that can also injure or kill responders and bystanders.
+  * **Civil unrest:** Maintain open communication with law enforcement to identify blocked routes and violent areas; routinely plan **alternate routes** when transporting to large city centers outside your normal response area.
+* **Body Armor ("Bullet-Proof Vest"):** Considered/issued by many metropolitan EMS agencies; understand specific uses and limitations prior to field use.
+* **Crime Scene Preservation:** Take precautions to preserve the **chain of evidence**—general rule is to avoid disturbing the scene unless necessary for medical care.
+
+##### ALS Connection: Agitation, crew safety and physiological monitoring
+
+After the scene has been secured, agitation may reflect fear, intoxication, hypoxia, hypoglycemia, head injury, delirium or other medical conditions. It is not automatically a psychiatric diagnosis. When safe, use calm communication and de-escalation, observe breathing and mental status, obtain history and authorized assessment findings, and relay changes to the clinical lead.
+
+An ALS clinician may consider additional monitoring and, only when medically appropriate and authorized, medication for severe agitation. Sedation can reduce dangerous agitation but can also depress ventilation, impair airway protection or produce circulatory effects, depending on the medication. It is not a means of punishment or simply a way to facilitate law enforcement custody. Avoid restraint positions or practices that compromise breathing; maintain observation and reassessment during transport. The EMT can prepare authorized airway equipment, monitor respiratory effort, airway patency, mental status, oxygenation and perfusion trends, and report deterioration, without independently administering an unauthorized sedative or operating outside restraint policy. [Joint EMS restraint position statement (2021)][restraint].
+
+#### Clinical example: Domestic violence and scene clearance
+
+EMS responds to a domestic dispute involving reported gunfire. An officer signals the crew to remain back; from a safe distance, the crew observes an injured, unresponsive officer with substantial bleeding and hears further gunfire. The crew stages rather than entering an unsecured scene. Police report a hostage situation involving a spouse and two children; the suspect has recently lost employment and is undergoing treatment for alcohol use disorder. These are case-specific circumstances, not predictors of violence. A specialized law enforcement team manages the incident. Even after approximately two hours, EMS has not received clearance to approach. The two children are eventually released and transported by another unit.
+
+After law enforcement secures the scene, the EMTs approach using Standard Precautions. In the source example, the officer, the suspect and the spouse have sustained apparently fatal gunshot injuries. No additional transports occur; the crew notifies dispatch and remains until released by incident command. Apparent fatal injury does not independently establish a clinician's authority to pronounce death. Evaluate patients according to local resuscitation, triage and death-determination procedures, and document necessary care and any disturbance of the scene. Advanced resources do not change the requirement to await scene clearance. [AHA ethics (2025)][ethics].
+
+The same incident illustrates an acute stress reaction and the role of supportive supervision and referral.
+
+#### ALS Connection: Pediatric trauma at an unsafe scene
+
+A clinical example involves a three-year-old girl with a gunshot injury to the chest and substantial blood visible at the scene. The age, mechanism and visible blood are case findings, not independent indications for a specific intervention. The following considerations are not a mandatory treatment sequence.
+
+1. **Safety and resources:** Do not enter an unsecured scene. Coordinate with law enforcement, dispatch and incident command. Consider early ALS and appropriate trauma-system resources without delaying necessary safe transport.
+2. **BLS assessment and care:** Once safe, assess airway, breathing, perfusion, mental status and external hemorrhage. Provide indicated authorized BLS care, obtain age-appropriate vital signs when feasible, prevent heat loss and reassess. Report trends and the response to care.
+3. **Why ALS may help:** Thoracic trauma can impair ventilation, oxygenation and circulation; hemorrhage can reduce circulating volume and tissue perfusion. A child's initially preserved blood pressure does not exclude shock. Depending on findings and local protocol, ALS may consider additional monitoring, vascular access, resuscitative fluids or blood where available, analgesia or advanced management of suspected life-threatening chest injury. No specific advanced procedure follows automatically from the injury description alone.
+4. **Teamwork and transport:** The EMT can maintain effective basic airway care and hemorrhage control, communicate changes, prepare age-appropriate supplies within authorized responsibilities and help coordinate prompt transport to the appropriate trauma facility. Advanced procedures must not unnecessarily delay definitive care. The receiving team needs the mechanism, findings, vital trends, interventions, response and estimated arrival.
+5. **Crew recovery:** Recognize that severe pediatric injury can be emotionally difficult. Offer peer support and access to professional assistance; separate operational learning from compulsory emotional disclosure.
+
+The clinical discussion is grounded in the [2025 NAEMSP pediatric severe trauma statement][pediatric], [2025 AHA/AAP pediatric advanced life support guidance][pals] and [NICE PTSD guidance][nice]. These recommendations require adaptation to local protocols, available resources and the child's actual condition.
+
+### Infection prevention and occupational exposure
+
+#### Pathogens and disease transmission
+
+Pathogens are infectious agents typically visible only through a microscope, found in the environment or on or in a patient. The chapter groups them into five common categories. The broad descriptions below are introductory generalizations rather than organism-specific diagnostic or treatment rules; the source does not establish universal antibiotic responsiveness, viral illness severity, or fungal susceptibility by immune status.
+
+1. **Bacteria:** Microscopic, single-celled organisms capable of reproducing on their own or within a host providing a favorable environment and food supply.
+   * *Common diseases:* Sinus infection, ear infection, bacterial pneumonia, strep throat, tuberculosis, urinary tract infections.
+   * *Treatment:* Typically respond to **antibiotic** treatment.
+2. **Viruses:** Smaller than bacteria; cannot grow on their own and require a **host cell** to reproduce (invade cell -> reproduce -> release new virus particles -> infect other cells).
+   * *Treatment:* **Antibiotics are not effective** (viruses lack the bacterial components antibiotics treat). Most are mild and self-limiting (e.g., common cold, flu).
+   * *Common diseases:* AIDS (from HIV), hepatitis (A, B, and C), viral pneumonia, SARS, chicken pox, respiratory syncytial virus (RSV).
+   * *Recently emerging infectious diseases (EID):* COVID-19, Ebola virus disease (EVD), Zika virus disease (ZVD).
+3. **Fungi:** Described in the chapter as plantlike microorganisms that typically do not cause infection in a person with a normally functioning immune system; may cause opportunistic diseases in immunocompromised patients (e.g., pneumonia in an HIV-infected person).
+4. **Protozoa:** Single-celled organisms typically found in soil and able to move. Often infect immunocompromised patients, though some infect uncompromised patients.
+   * *Transmission/Examples:* Frequently enter via the **fecal-oral route**; mosquitoes carry protozoa causing **malaria**; some forms of gastroenteritis and vaginal infections in uncompromised immune systems.
+5. **Helminths:** Parasitic worms (roundworms, flukes, tapeworms) introduced by ingesting worm eggs in infected food/water or via worm larvae invading through the skin.
+   * *Example:* **Hookworm** attaches to the intestine, leading to blood loss and anemia.
+
+* **Infectious vs. Communicable Diseases:**
+  * **Infectious disease:** Contracted from pathogen transmission, but not necessarily communicable (e.g., malaria is typically vector-borne via mosquitoes rather than spread by ordinary person-to-person contact).
+  * **Communicable disease:** Spreads from person to person:
+    * *Direct contact:* Blood-to-blood contact, contact with open wounds and exposed tissue, or contact with mucous membranes of the eyes and mouth.
+    * *Indirect contact:* Via a contaminated object (e.g., a needle).
+    * *Respiratory transmission (described as airborne in the original chapter):* Coughing, sneezing, or exhaling infectious respiratory particles that reach another person’s respiratory tract. See the distinction between droplet and airborne precautions below.
+
+> [!NOTE]
+> **ALS Connection — infection versus physiological deterioration.** Infection prevention is based on exposure risk, not whether a patient appears severely ill. Conversely, a patient with infection may develop respiratory compromise or sepsis-related circulatory dysfunction. An EMT can report fever history, breathing effort, mental status, skin perfusion, blood pressure and trends. ALS may add cardiac monitoring, vascular access or other protocol-directed supportive care depending on the findings. These observations do not identify an organism or establish sepsis by themselves. Early notification and transport help the receiving facility prepare for both treatment and isolation. [National model guidelines, v3 (2022)][model]; [CDC Standard Precautions][standard].
+>
+> **Terminology clarification:** Droplet and airborne precautions are distinct infection-control categories even though respiratory particles exist along a size continuum. Choose precautions for the suspected disease and exposure circumstances, not simply the fact that a patient coughs. [CDC isolation guidance][isolation].
+
+#### Infectious diseases: Transmission, incubation and protective measures
+
+> [!WARNING]
+> The following table records the chapter's disease-specific examples, including historical incubation estimates and PPE recommendations. It is not a current PPE-selection protocol. The precautions and incubation values have important limitations, explained immediately after the table.
+
+| Disease | Transmission described in the chapter | Source incubation estimate | Source protective measures (not a protocol) |
+| --- | --- | --- | --- |
+| HIV/AIDS | Blood, semen, vaginal fluid, blood transfusion, needlestick, transplacental, breast feeding. | Months. | Gloves, eyewear, hand washing. |
+| Hepatitis B and C | Blood, semen, vaginal fluid, needlestick, transplacental, human bite, sexual contact. | Weeks or months. | Gloves, eyewear, hand washing. |
+| Tuberculosis (TB) | Respiratory secretions, airborne or direct contact. | 2–6 weeks. | Gloves, eyewear, HEPA or N-95 respirator, hand washing. |
+| Influenza | Airborne droplets, direct contact with body fluids. | 1–3 days. | Gloves, surgical mask, hand washing. |
+| Chicken pox (varicella) | Airborne droplets, direct contact with open sores. | 11–21 days. | Gloves, surgical mask, hand washing. |
+| Bacterial meningitis | Oral and nasal secretions. | 2–10 days. | Gloves, surgical mask, hand washing. |
+| Pneumonia | Respiratory secretions and droplets. | 1–3 days. | Gloves, surgical mask, hand washing. |
+| German measles (rubella) | Airborne droplets, transplacental. | 10–12 days. | Gloves, surgical mask, hand washing. |
+| Whooping cough (pertussis) | Respiratory secretions, airborne droplets. | 6–20 days. | Gloves, surgical mask, hand washing. |
+| Staphylococcal skin infection | Direct contact with infected lesion or contaminated object. | 1–3 days. | Gloves, hand washing. |
+| SARS Coronavirus / COVID-19 | Respiratory airborne, direct contact. | SARS: 10 days; COVID-19: 3–7 days. | Gloves, N-95 or N100 respirator, hand washing, eye protection. |
+| Ebola virus disease (EVD) | Direct contact with blood or body fluids. | 2–21 days (average onset 8–10 days). | Gloves, hand washing, N-95 respirator, surgical/isolation gown, boot covers, specialized training in donning/doffing PPE. |
+| Zika virus disease (ZVD) | Bite of an infected *Aedes* mosquito, pregnant woman to fetus, sexual contact with an infected person. | 3–12 days. | Avoiding mosquito bites, abstaining from sex with an infected/potentially infected partner (condoms reduce risk), preventing pregnancy, avoiding mosquito exposure in areas where ZVD is known to occur. |
+
+> [!WARNING]
+> **Current-practice clarification — the textbook disease table is not a PPE selection protocol.** In particular, suspected chickenpox (varicella) requires airborne, contact and standard precautions; a surgical mask alone is insufficient as the crew's respiratory protection. Pulmonary/laryngeal TB is primarily an airborne hazard. Pneumonia is a syndrome with many causes, so precautions and incubation vary by organism; HIV infection also does not have one universal months-long incubation period (acute infection, diagnostic window and progression to AIDS are different concepts). For suspected Ebola or another designated viral hemorrhagic fever, use the current EMS-specific risk assessment, trained PPE procedures and designated transport plan; the simple PPE list in the table is not a complete ensemble. For SARS-CoV-2 and other respiratory pathogens, use current disease-specific and agency guidance. [CDC isolation appendix][isolation]; [CDC VHF EMS guidance][vhf]; [CDC VHF PPE guidance][vhfppe].
+
+#### Standard Precautions and OSHA responsibilities
+
+* The chapter uses Standard Precautions in place of the earlier terminology body substance isolation (BSI). Apply these precautions even when infection is not known.
+* **OSHA Requirements:**
+  * *Employer responsibilities:* Develop a written exposure control plan; provide training, certain immunizations, and proper PPE; develop and enforce a written exposure policy.
+  * *Employee responsibilities:* Complete training and follow exposure control plan procedures; properly document needlesticks or direct contact with potentially infectious body fluids.
+  * Some policies require immediate baseline infection testing of the exposed worker with subsequent testing at designated intervals.
+* **Federal notification legislation:** Provides a process for notification of EMS personnel who come into contact with patients infected with communicable diseases (HIV, HBV, TB, COVID-19).
+
+#### Hand hygiene
+
+* **Single most important way** to prevent the spread of infection (even if you wear gloves). Reduces spread of infections like **MRSA** (methicillin/oxacillin-resistant *Staphylococcus aureus*) and ***Clostridium difficile* colitis**.
+* The chapter attributes a **10–15-second** vigorous soap-lathering estimate to the U.S. Public Health Service. This is not the recommended minimum for the handwashing sequence below.
+* **Handwashing sequence described in the chapter:**
+  1. Remove all jewelry from your hands.
+  2. **Wet** hands with clean running water (warm or cold), turn off tap, apply soap.
+  3. **Lather** hands by rubbing together (backs of hands, between fingers, under nails).
+  4. **Scrub** for at least **20 seconds** (hum "Happy Birthday" from beginning to end twice).
+  5. **Rinse** well under clean running water.
+  6. **Dry** with a clean towel or air dry.
+* **Alcohol-Based Hand Sanitizer:**
+  * The chapter recommends a product containing at least **60% alcohol** when soap and running water are unavailable; clinical guidance also favors alcohol-based hand rub in most situations when hands are not visibly soiled (see clarification below).
+  * Does not eliminate all germs—wash thoroughly with soap and water as soon as possible.
+  * *Caution:* Overuse can cause dry, chafed, cracked skin, creating a potential portal of entry for pathogens.
+
+> [!NOTE]
+> **Current-practice clarification — hand hygiene.** CDC prefers alcohol-based hand rub in most clinical situations when hands are not visibly soiled; soap and water are indicated when visibly dirty and in other specified situations. Follow agency procedures for particular pathogens and outbreaks. Perform hand hygiene before clean or aseptic tasks (including preparation of vascular access equipment), after patient contact, and after removing gloves. Gloves do not replace hand hygiene. The chapter's 20-second washing method is a useful learning technique; do not interpret the earlier 10–15-second statement as a reason to shorten it. [CDC clinical hand hygiene][hands].
+
+#### Personal protective equipment (PPE)
+
+* Acts as a barrier protecting skin and mucous membranes from blood and body fluids. Requires proper instruction/training before use. Once used, treat all PPE as contaminated.
+* **Eye Protection:** Protects against splashes. Options include clear plastic eye/face shields, safety glasses with side shields, removable side shields for prescription glasses, or form-fitting goggles (not required).
+* **Protective Gloves:**
+  * Wear high-quality vinyl, latex-free, or other synthetic gloves for all patient care.
+  * If a glove tears: remove as soon as safe, wash hands, replace with a new glove.
+  * **Double-gloving** is desirable in some instances.
+  * Never reuse gloves; change between patients; use proper removal technique to avoid surface contact; wash hands after removal.
+  * Wear **utility gloves** when cleaning vehicles and equipment.
+* **Gowns:** Wear for significant blood/body fluid contact (e.g., childbirth); use disposable if possible. Change uniform after large-splash situations. Contaminated clothing must be handled through employer-controlled procedures, not taken home for laundering. The source historically recommends separate laundering from personal clothing.
+* **Masks:**
+  * **Surgical mask:** Protects nose/mouth from splashes; can also be placed on the patient if an airborne disease is suspected.
+  * **HEPA or N-95 respirator:** Required for suspected **TB** or **COVID-19**. The original chapter describes a clean-shaven wearer and an annual fit test; the precise respiratory-protection requirements are explained below.
+
+> [!CAUTION]
+> **Respirator clarification:** OSHA requires an appropriate respiratory protection program, fit testing before use and at least annually for tight-fitting respirators, and a seal check each time one is donned. Facial hair cannot interfere with the sealing surface or valves; the actual rule is not a blanket ban on every style of facial hair. A surgical mask used as patient source control is not equivalent to a fit-tested respirator worn by a clinician. Do not use the chapter's TB/COVID examples as an exhaustive list of respirator indications. [OSHA respiratory protection][resp]; [CDC isolation guidance][isolation].
+
+##### ALS Connection: Respiratory protection during airway care
+
+Suctioning, bag-mask ventilation and advanced airway management can expose clinicians to respiratory secretions; certain airway procedures may generate infectious aerosols. This matters for the EMT ventilating the patient just as much as the paramedic placing an advanced airway. Select PPE by anticipated exposure and pathogen, minimize unnecessary personnel near the airway, and use agency-approved equipment and ventilation/infection-control practices. [CDC standard precautions][standard]; [CDC empiric transmission precautions][empiric].
+
+**Monitoring and teamwork:** Pulse oximetry estimates arterial oxygen saturation; waveform capnography displays exhaled carbon dioxide over successive breaths and provides information about ventilation and, indirectly, perfusion. A normal oxygen saturation does not prove adequate ventilation, especially when supplemental oxygen is used. Capnography can be affected by poor perfusion, equipment problems and leaks. During airway care, report respiratory effort, chest rise, mental status, oxygen saturation trends and changing monitor findings. Continue effective authorized BLS ventilation and suction while the advanced clinician determines whether an airway intervention is appropriate. Advanced airway placement may be unnecessary when basic methods are working. [NAEMSP airway position statement (2022)][airway]; [AHA adult ALS (2025)][aha].
+
+##### Safe glove removal
+
+The core principle is to touch contaminated glove surfaces only with contaminated surfaces, and clean glove interiors only with clean surfaces. Never touch a contaminated exterior with bare fingers.
+
+1. With a gloved finger, hook or grasp the other glove's outer cuff at the inner wrist without touching skin or the clean inside of the glove.
+2. Pull the cuff down from the inner wrist, turning the glove inside out. Keep contaminated surfaces away from clean surfaces.
+3. Continue pulling the glove off the fingers until it is completely inside out and contaminants are contained.
+4. Crumple or hold the removed glove in the still-gloved hand, keeping it away from clean surfaces.
+5. Slip clean, bare fingers inside the clean inner cuff of the remaining glove at the wrist.
+6. Roll the second glove inside out and off the hand and fingers, touching only its clean interior with the bare hand.
+7. Dispose of the removed gloves in the appropriate receptacle without contacting the contaminated outer surfaces. Perform hand hygiene.
+
+The source depicts disposal in a biohazard receptacle; apply the waste-containment requirements described below.
+
+> [!TIP]
+> **ALS teamwork — removing gloves between tasks:** Changing gloves and cleaning hands after patient contact and before a clean task prevents transfer of contaminants from the patient or stretcher to equipment, medication packaging and other surfaces. Doffing is a shared competency regardless of scope. If a glove tears, address the barrier failure as soon as safely possible and follow exposure procedures when indicated. [CDC hand hygiene][hands]; [OSHA bloodborne pathogens][osha].
+
+#### Equipment, waste and environmental infection control
+
+* Use disposable equipment whenever possible; never reuse it. Discard after one patient.
+* Place disposable equipment from suspected infectious patients in a sealed, clearly labeled **biohazardous/infectious waste bag**; the chapter historically recommends double-bagging equipment used with HIV, hepatitis B, or other infectious patients. Actual containment requirements depend on contamination and leakage risk, not diagnosis alone (see clarification below).
+* **Soiled uniforms:** Remove, bag and label under employer-controlled procedures. The chapter historically describes hot soapy laundering for at least **25 minutes**, showering and rinsing, and removing grossly contaminated clothing top-to-bottom into a labeled biohazard bag while standing inside it. These are source descriptions, not independent instructions to improvise a doffing or laundering procedure; follow approved agency procedures and do not launder contaminated work clothing at home.
+* Document any contact with blood/body fluids and resulting cleaning in your logbook or flow sheet.
+* **Noncritical items** (no patient contact or intact skin only, e.g., BP cuffs): The source describes sponging, wiping or washing, rinsing with clear water and drying thoroughly. Appropriate disinfection is also required for reusable BP cuffs; use compatible products and instructions.
+* **Equipment entering the body or touching mucous membranes:** Thoroughly clean all blood/tissue/residue, then perform **high-level disinfection or sterilization** per local/manufacturer guidelines before each use.
+* **Sharps:** Dispose of all needles/sharps immediately in a rigid, well-mounted, puncture-proof **sharps container**. **Never recap needles.**
+* Clean blood/body fluid spills promptly using approved procedures and compatible hospital-grade disinfectants. The original chapter also describes a household bleach-and-water solution; do not improvise mixtures. Nonhorizontal surfaces (walls, window coverings) only need cleaning if visibly soiled. Wash hands thoroughly after cleaning.
+* **Equipment reprocessing methods:**
+  * **Cleaning:** Mechanical process using friction (soap and water) to wash a soiled object.
+  * **Disinfecting:** Chemical process (includes cleaning) using a hospital-grade disinfectant or germicide to kill many surface microorganisms (used for intact-skin items like backboards and splints).
+  * **Sterilization:** Chemical or physical process (e.g., superheated steam in an autoclave) that kills **all** microorganisms on an object's surface (required for critical devices entering sterile tissue or the bloodstream; the chapter also describes laryngoscope blades, which are semicritical and require at least high-level disinfection). Sterilization requires specialized training/equipment, and many sterilants are hazardous.
+
+> [!CAUTION]
+> **Current-practice clarification:** A reusable BP cuff requires appropriate disinfection rather than merely rinsing; sterilization is essential for critical devices, whereas semicritical devices require at least high-level disinfection. Waste containment depends on contamination, leakage risk, regulations and agency policy, not simply an HIV or hepatitis diagnosis. OSHA requires appropriate labeled containment and secondary containment when needed, and employer-controlled handling of contaminated laundry. Do not take contaminated work clothing home to launder yourself. Follow approved spill procedures and product labeling rather than an improvised bleach mixture. [OSHA bloodborne pathogens][osha]; [CDC reprocessing guidance][disinfect].
+
+##### ALS Connection: Aseptic equipment handling and ambulance turnover
+
+| Equipment category | Clinical significance |
+| --- | --- |
+| Noncritical (e.g., BP cuff, monitor cables touching intact skin) | Clean and disinfect with an appropriate product per instructions. |
+| Semicritical (e.g., reusable laryngoscope blade contacting mucosa) | At least high-level disinfection; sterilize if required by device instructions or policy. |
+| Critical (e.g., items entering sterile tissue or bloodstream) | Must be sterile; single-use sterile items are discarded after use. |
+
+An EMT can establish a clean area for packaged supplies, avoid contaminating sterile components, and distinguish clean equipment from used items. Preparing supplies does not authorize IV insertion or medication preparation. After the call, clean high-touch monitor surfaces and equipment using compatible products and required wet contact times; do not improvise reprocessing of complex airway devices. [CDC reprocessing guidance][disinfect]; [CDC equipment classification][classification].
+
+#### Occupational screening and immunizations
+
+Immunization and screening are preventive measures; they do not replace Standard Precautions.
+* **Tuberculosis Screening:** The chapter describes a **purified protein derivative (PPD) tuberculin test** upon initial hire; initial testing may instead use an IGRA blood test (CDC screening includes individual TB risk assessment, symptom evaluation, and TB test). Annual TB testing is **not** recommended by the CDC unless there is known exposure, ongoing transmission, or increased occupational risk.
+* **Recommended Immunizations for Active-Duty EMTs:**
+  * **COVID-19 (SARS-CoV-2)**
+  * **Tetanus prophylaxis:** One-time **Tdap** dose ASAP if not previously received; **Td or Tdap booster every 10 years** thereafter; pregnant health care workers need a Tdap dose during **each pregnancy**.
+  * **Hepatitis B vaccine:** 2-dose series (Heplisav-B) or 3-dose series (Recombivax HB or Engerix-B). OSHA requires employers to offer this at **no cost** within **10 days** of assignment according to the source; the supplied OSHA clarification specifies 10 working days, subject to exceptions.
+  * **Influenza vaccine:** Annually.
+  * **MMR (Measles, Mumps, Rubella):** For health care personnel born during or after **1957**, adequate vaccination is 2 doses live measles, 2 doses live mumps, and at least 1 dose live rubella.
+  * **Varicella vaccine:** If needed.
+* Verify immune status with a physician (rubella, measles, mumps, and a **hepatitis B titer**). Always practice Standard Precautions even when immunized.
+
+> [!CAUTION]
+> **Current-practice clarification — occupational screening and immunization.** Initial TB testing may use a blood test (IGRA) or a tuberculin skin test (TST), not necessarily PPD alone; persons with documented prior positive results are managed differently. Routine annual testing is generally not recommended without exposure or ongoing transmission. OSHA's hepatitis B offer deadline is **10 working days** after initial assignment to occupational exposure (subject to the standard's exceptions), rather than 10 calendar days. Vaccine recommendations depend on age, immunity, risk, contraindications and the current schedule; the textbook list is not an individualized vaccination plan. Use occupational health and the current CDC schedule, including current COVID-19 guidance. [CDC/NTCA TB recommendations (2019)][tb]; [OSHA][osha]; [CDC adult immunization schedule][vaccines].
+
+#### Exposure reporting and occupational-health evaluation
+
+Document the date and time, type and amount of body fluid, and circumstances of a suspected exposure. Promptly notify your supervisor and designated officer and follow agency policy. Do not wait for notification from a receiving facility before seeking necessary medical evaluation.
+
+* **Exposure-notification pathways described in the chapter:**
+  * **Airborne Infection (e.g., TB):**
+    1. You transport a patient infected with a life-threatening disease (e.g., TB) without knowing they are infected.
+    2. The medical facility diagnoses the disease in the patient.
+    3. The medical facility must notify your **designated officer (DO)** within **24 hours** according to the original chapter; the supplied federal-law correction below gives the applicable 48-hour outer limit.
+    4. Your designated officer notifies you of the exposure.
+    5. Your employer arranges for evaluation and follow-up by a doctor or appropriate health care professional.
+  * **Bloodborne Infection (e.g., HIV, HBV):**
+    1. You come into contact with a patient's blood or body fluids and wonder if they are infected with a life-threatening bloodborne disease.
+    2. Seek immediate medical attention and document the incident for worker's compensation.
+    3. Ask your designated officer to determine if you have been exposed.
+    4. Your designated officer gathers information and, if warranted, consults the receiving medical facility.
+    5. The medical facility gathers information and reports findings to your designated officer within **48 hours**; your DO notifies you of the findings.
+
+> [!CAUTION]
+> **Federal notification correction:** The chapter gives 24 hours for routine airborne notification. The current Ryan White Act provision, 42 USC § 300ff–132, specifies notification as soon as practicable and no later than **48 hours after the facility's determination**. The notification process is separate from immediate medical evaluation. An agency or state may impose more stringent procedures. [Federal statute][ryanlaw]; [CDC/NIOSH notification process][ryan].
+
+##### ALS Connection: Bloodborne exposure and time-sensitive occupational care
+
+ALS care commonly introduces sharps hazards through vascular access and other invasive procedures. A contaminated sharp can bypass the protective skin barrier and inoculate blood directly into tissue. Standard Precautions apply even when infection is not known.
+
+**Crew responsibilities:** Locate and secure a sharps container before an invasive procedure, keep unnecessary hands away from the sharp, and ensure used devices are disposed of immediately by the clinician using them. If an exposure occurs, wash injured skin with soap and water or flush exposed mucous membranes, notify the supervisor/designated officer, and obtain urgent occupational-health evaluation. Record the exposure objectively; do not wait for source-patient test results before seeking care. [OSHA bloodborne pathogens standard][osha]; [2025 US PHS occupational HIV guidelines][pep].
+
+**Clinical rationale:** Occupational HIV post-exposure prophylaxis (PEP) uses antiretroviral drugs to inhibit establishment of infection. It is time sensitive: when indicated, the 2025 guideline recommends starting as soon as possible and within 72 hours, with specialist consultation for unusually high-risk exposures presenting later. Other bloodborne exposures require different evaluation. PEP selection and follow-up belong to the evaluating clinician, not the ambulance crew. [2025 US PHS guidelines][pep].
+
+### Emotional care of patients and families
+
+Distress is acute physical or mental suffering caused by pain, anxiety, strain, or sorrow. An emotional crisis occurs when emotional pressures exceed a patient's or family member's ability to cope. Emergency care includes helping those affected move toward emotional equilibrium, alongside treating illness or injury.
+
+#### Death and Dying
+
+* Death and dying are inherent parts of emergency medical care; you must care for the dying patient's emotional needs alongside their injuries or illnesses, and help family or bystanders during sudden death.
+* **Elizabeth Kübler-Ross (*On Death and Dying*):** Identified five general stages experienced by dying patients and those close to them.
+  * Each person is unique and may experience these responses at their own rate and in their own way; patients and family members may experience them at different times.
+  * Also applies to **nonfatal emergencies** (e.g., a patient who loses both legs in an industrial accident will grieve the loss of the limbs).
+
+##### Five Emotional Stages
+
+*Characteristically, you will not witness all five stages during emergency treatment (e.g., a critically injured patient aware death is imminent typically displays denial, bargaining, or depression; a terminally ill patient may be more prepared and display acceptance). Accept these emotions as real and necessary.*
+
+1. **Denial ("Not me."):** Refusal to accept the possibility that death is near; a defense mechanism creating a buffer between the shock of approaching death and the need to deal with the illness or injury.
+2. **Anger ("Why me?"):** In the traditional model, anger generally follows denial; the EMT may be the target. Do not become defensive—be empathetic and use your best listening and communication skills.
+3. **Bargaining ("Okay, but first let me . . ."):** Trying to make agreements that, at least in the patient's mind, will postpone death for a short time.
+4. **Depression ("Okay, but I haven't . . ."):** As reality settles in, the patient may become silent, distant, sad, and despairing—usually about those they will leave behind and things left undone.
+5. **Acceptance ("Okay, I am not afraid."):** Patients may appear to accept death, though they are not happy about it. At this stage, the **family** usually requires more support than the patient does.
+
+> [!NOTE]
+> **Shared BLS/ALS awareness — grief is not a diagnostic algorithm.** Use the five stages as a vocabulary for possible emotional responses, not a required sequence or a test of whether somebody is grieving correctly. An altered or withdrawn patient may also have an acute medical problem. Continue assessing mental status and physiological stability rather than attributing unusual behavior solely to grief.
+
+##### Dealing with the Dying Patient, Family, and Bystanders
+
+*While emergency care of the illness or injury is your priority, you have an obligation to help patients, families, and bystanders through grieving. Their core needs are **dignity, respect, sharing, communication, privacy, and control**.*
+
+* **Maintain the patient's dignity:** Avoid negative statements about the patient's condition. An unresponsive patient may still hear you and feel fear; talk to them as if fully alert and explain the care you are providing.
+* **Show the greatest possible respect:** Families are extra sensitive to how a dying relative is treated, including unspoken messages and body language. Allow family to stay during resuscitation efforts when safe and feasible, explain what you are doing, and assure them you are making every possible effort (so they understand the efforts being made). Be sincere in both *what* you say and *how* you say it.
+* **Communicate:** Orient the patient to surroundings; explain repeatedly if necessary what happened, where it happened, who you are, and what you plan to do. Assure them you are doing everything possible and getting them to a hospital quickly. Communicate the same message to the family without interrupting care. Explain procedures, give straightforward answers, and report only what you know to be true (do not guess or make assumptions).
+* **Allow family members to express themselves:** Let them scream, cry, or vent grief in a way that is not hazardous to you or others. Do not take anger personally; be tolerant and avoid getting defensive.
+* **Listen empathetically:** Take notes on messages dying patients want delivered to survivors, assure them you will honor their requests, and follow through. If possible, have a team member stay with the family to listen and answer questions.
+* **Do not give false assurances:** Be honest but tactful and allow for some hope. The chapter originally advises against confirming imminent death in response to a patient’s question, expressing concern about hopelessness. This must not be interpreted as a requirement to mislead. A supportive response, when accurate in the circumstances, is: *"We are doing everything we can for you. We need you to help us by not giving up."*
+* **Use a gentle tone of voice:** Explain the scope of the injury/problem and procedures kindly in terms the family can understand.
+* **Touching or holding the body after death:**
+  * If local protocol allows and scene-preservation requirements permit, arrange for it.
+  * Improve the body's appearance: clean vomitus, blood, or secretions from the face and hands; elevate the head for a few minutes to allow fluids to drain.
+  * If the body is mutilated, warn the family first and explain that badly injured parts are covered.
+  * **Possible Crime Scene Exception:** Do **not** clean the patient or remove any blood. Do **not** allow family to enter the crime scene or touch the body until permission is granted by law enforcement, the coroner, or the medical examiner. Preserve evidence and thoroughly document all actions.
+* **Comfort the family:**
+  * Arrange for family to briefly see and talk to the patient if death is imminent (without interrupting care or delaying transport).
+  * Encourage family to talk to an unresponsive patient (**hearing** is believed by many experts to be the last sense lost during dying).
+  * If the patient is deceased and the family asks you to pray with them, do so if you feel comfortable.
+  * Stay with the family until the medical examiner or coroner arrives.
+  * If a family member asks to accompany the patient in the ambulance, arrange it if at all possible.
+
+##### ALS Connection: Resuscitation, patient wishes and family support
+
+During a resuscitation, a paramedic may assess cardiac rhythm, consider reversible causes, select advanced interventions and evaluate whether continued efforts are medically appropriate. The EMT's chest compressions, ventilation, AED use when appropriate, and communication remain essential. Another crew member, when available, can obtain relevant history (including witnessed events, prior care and documented patient wishes) and support the family without interrupting care.
+
+- **Clinical reasoning:** Advanced monitoring adds information, but it does not establish that resuscitation will succeed. Decisions about withholding or terminating efforts depend on the circumstances, applicable rules and medical direction.
+- **Patient autonomy:** Report a possible do-not-resuscitate order or portable medical order to the team leader. Do not assume a family statement alone establishes a legally valid order, or that the presence of a paramedic confers authority to pronounce death.
+- **Teamwork:** Use plain language, offer family presence when safe and feasible, assign a support person if available, and respect privacy. If a family asks whether someone will survive, acknowledge uncertainty without promising an outcome. After authorized cessation of efforts, communicate death clearly and compassionately according to your role and local policy. Preserve evidence if the scene is potentially criminal.
+
+The [2025 AHA ethics guidance][ethics] supports family involvement and attention to patient preferences; [2025 AHA adult ALS guidance][aha] addresses termination decisions and resuscitation monitoring. The chapter's instruction not to confirm imminent death should not be interpreted as a requirement to mislead patients or families. Truthful, sensitive communication and local disclosure rules still apply.
+
+### Occupational stress and critical incident support
+
+#### High-Stress Situations
+
+* Stress involves a change in the body’s internal balance and can occur when external demands exceed personal resources. EMS personnel may experience a concentration of stressful events in a relatively short time, with physical, emotional, psychological and social consequences.
+* **Top Sources of Stress for EMTs:**
+  * Long hours and shift work
+  * Boredom between calls
+  * Working too much and too hard
+  * Getting little recognition
+  * Having to respond instantly
+  * Making life-and-death decisions
+  * Fearing serious errors
+  * Dealing with dying people and grieving survivors
+  * Being responsible for someone's life
+* **Calls That Produce Extreme Stress:**
+  * Multiple-casualty incidents (MCIs) involving multiple patients at a single scene
+  * Abuse and neglect of infants, children, adults, and the elderly
+  * Emergencies involving infants and children
+  * Injury or death of a coworker
+  * Responding and providing emergency care to a relative or bystander
+  * Severe traumatic injuries, such as amputations
+
+#### Stress Reactions
+
+*Three basic types of stress reactions:*
+
+1. **Acute Stress Reaction:**
+   * Results from exposure to a high-stress situation (can occur in patients, bystanders, you, your partner, or other responders).
+   * Signs and symptoms occur **immediately or shortly after** the incident and may involve cognitive, physical, behavioral, or psychological functions.
+   * *Medical Emergency Signs:* If anyone (patient or responder) shows signs like chest pain or shortness of breath, seek immediate medical treatment.
+   * *Possible acute stress findings:* Nausea, elevated heart rate, sweating, tremors, loss of appetite or excessive eating, trouble concentrating, inability to sleep.
+   * *Note:* Having none of these responses is also normal (indicates different coping mechanisms, not being a stronger or better provider).
+2. **Delayed Stress Reaction:**
+   * **Posttraumatic stress disorder (PTSD)** is a typical example; signs and symptoms are not evident immediately and may take **days, months, or even years** to appear.
+   * Because of the delay, it can be difficult to connect symptoms to the specific past incident.
+   * *Typical Symptoms:* Nightmares, irritability, insomnia, inability to think clearly or concentrate, flashbacks, increased interpersonal conflicts, decreased ability to relate to others.
+   * *Risk & Care:* Sufferers may seek relief through drugs or alcohol; requires help from a **mental health professional**.
+3. **Cumulative Stress Reaction:**
+   * Results from **constant exposure** to stressful situations that build over time.
+   * Common cause of **burnout** (a state of exhaustion and irritability).
+   * *Progression:* Initially unrecognized (increased anxiety and irritability) -> emotional exhaustion -> more severe physical ailments.
+   * *Impact:* Markedly decreases EMS provider effectiveness and has caused some of the best providers to leave the profession.
+
+> [!NOTE]
+> **ALS Connection — stress symptoms versus medical emergencies.** Sympathetic activation can increase heart rate, sweating and respiratory rate. Similar findings may occur with hypoglycemia, cardiac ischemia, hypoxemia or other acute illness. A responder with concerning symptoms is also a potential patient: stop unsafe work, request evaluation and do not assume anxiety explains chest pain, syncope or breathing difficulty. The ALS clinician may use ECG, glucose testing or additional monitoring according to the presentation; report onset, associated symptoms and baseline observations. [National education standards][education].
+
+#### Recognizing stress in yourself and others
+
+* **Warning signs of stress:**
+  * Irritability with coworkers, patients, family, and friends
+  * Inability to concentrate
+  * Difficulty sleeping and nightmares
+  * Anxiety
+  * Indecisiveness / inability to make decisions
+  * Guilt
+  * Loss of appetite
+  * Loss of sexual desire or interest
+  * Isolation / desire to be left alone
+  * Loss of interest in work
+* **General Categories of Stress Signs and Symptoms:**
+  * **Thinking:** Confusion, inability to make judgments or decisions, loss of motivation, chronic forgetfulness, loss of objectivity.
+  * **Psychological:** Depression, excessive anger, negativism, hostility, defensiveness, mood swings, feelings of worthlessness.
+  * **Physical:** Persistent exhaustion, headaches, gastrointestinal distress, dizziness, pounding heart.
+  * **Behavioral:** Overeating, increased alcohol or drug use, grinding teeth, hyperactivity, lack of energy.
+  * **Social:** Increased interpersonal conflicts, decreased ability to relate to patients as individuals.
+
+#### Stress management and work-life balance
+
+Address stress early, before it progresses and interferes with functioning both in and outside the field.
+
+##### Keep Balance in Your Life
+
+* **Assess Priorities:** List all activities on paper, number them in priority order (1, 2, etc.), and address them in that order.
+* **Share Your Worries:** Talk to a trusted, respected confidante or loved ones to relieve stress, discover alternatives, and help loved ones understand and feel included.
+* **Accept Mistakes:** Admit no one is right all the time; a mistake does not reduce your value. Prehospital care is like a contact sport—experience makes you better, and it takes dedication, time, and practice.
+
+##### Recognize the Response of Your Family and Friends
+
+* **Common Family/Friend Stressors:**
+  * *Lack of understanding:* Little/no knowledge of EMS; misinformation from movies, TV, and the Internet.
+  * *Fear of separation or being ignored:* Distress over long hours and absences ("Your job is more important to you than your family!").
+  * *Worry about on-call situations:* Overemphasizing or exaggerating the danger you face.
+  * *Inability to plan:* Frustration over staying in call area or leaving events early ("You're not the only one on call. Let someone else go this time.").
+  * *Frustrated desire to share:* You find it hard to talk about your shift, leaving them frustrated in their desire to support you.
+* **How to Help Them:** Talk about your work and feelings, answer questions, explain daily safety precautions to ease anxiety, invite them to stay fit with you (daily exercise, healthy meals), and put time with them on your priority list.
+
+##### Make Changes in Your Work Environment
+
+* **Develop a "buddy" system** with a coworker to watch out for each other and suggest relaxation/diversions.
+* **Encourage and support coworkers** with positive remarks; resist criticizing or dwelling on the negative.
+* **Take periodic exercise breaks** (brisk walk, exercise bike, treadmill, elliptical).
+* **Request work shifts** that allow more time to relax with family and friends.
+* **Request a rotation of duty assignment** (e.g., move from a high-crime/violence station to a station responding to more illnesses).
+
+> [!TIP]
+> **ALS teamwork — reducing error under stress.** Use a brief pre-task plan, explicit task assignments and closed-loop communication: the receiver repeats the request and confirms completion. For an unfamiliar medication or piece of equipment, state what you can safely do and ask the authorized clinician to verify the rest. Report an unexpected finding immediately. Stop and clarify an ambiguous instruction rather than guessing. These are practical team habits consistent with the team-based approach to prehospital airway care described by [NAEMSP (2022)][airway].
+
+##### Seek Professional Help
+
+* Mental health professionals help normalize reactions, mobilize coping strategies, and build more effective stress management tools.
+* **NOT a sign of personal weakness:** It is the strong EMT who seeks professional help to perform duties effectively; extreme stress, anxiety, or depression impairs clear thinking and patient care.
+
+#### Critical Incident Stress Management (CISM)
+
+* **Effects of critical incident stress:** Burnout signs/symptoms, repeated mental images of the incident, fear of continuing in EMS, and inability to function at subsequent emergencies.
+* **Two traditional approaches described in the chapter (see the evidence limitation below):**
+
+1. **Critical Incident Stress Debriefing (CISD):**
+   * Traditionally described as being held within **24 to 72 hours** of a critical incident.
+   * Led by peer counselors and mental health professionals guiding participants through **seven phases**:
+     1. Review the facts of the event
+     2. Share feelings
+     3. Identify signs and symptoms being experienced
+     4. Sort through feelings with a mental health professional
+     5. Receive suggestions for overcoming stress
+     6. Develop a plan of action for returning to the job
+     7. Obtain follow-up assistance if lingering issues remain
+   * *Rules:* Not meant to assign blame; information is intended to remain confidential, subject to applicable limits.
+   * *Participants:* Anyone involved (law enforcement, firefighters, EMS, communications, hospital ED personnel, and sometimes family members; multiple meetings for mass-casualty disasters).
+   * *Note:* Even with professional counselors present, CISD is **not** professional counseling—it is a means to relieve stress.
+2. **Defusing:**
+   * A less-structured version of CISD held up to **8 hours** following a critical incident.
+   * Attended only by those **most directly involved**; lasts **30 to 45 minutes**.
+   * Allows the smaller group to vent emotions and get needed information before the larger CISD meeting.
+
+##### Evidence and comprehensive CISM programs
+
+* **Controversy:** Centers on the need for scientific evidence proving CISD truly helps emergency personnel resolve stress issues; stay current with the literature.
+* **Components of a Comprehensive CISM Program:**
+  * Preincident stress education
+  * On-scene peer support
+  * One-on-one support
+  * Disaster support services
+  * Defusing
+  * CISD
+  * Follow-up services
+  * Spouse and family support
+  * Community outreach programs
+  * Other health and welfare programs
+
+> [!CAUTION]
+> **Current evidence — CISM and psychological debriefing.** The traditional CISD phases and timing are descriptive, not evidence that compulsory emotional debriefing prevents PTSD. [NICE NG116 (2018)][nice] recommends against psychologically focused debriefing for PTSD prevention or treatment; [WHO (2012)][who] likewise advises against using it to prevent post-traumatic symptoms. This does not mean all components of CISM are ineffective or that supportive peer contact is harmful. Distinguish voluntary support and an operational quality-improvement review from a session requiring participants to recount traumatic experiences. Offer confidential support within applicable limits, practical help, access to professional evaluation and follow-up. Avoid pressuring a colleague to disclose feelings or promising that one meeting will prevent later symptoms.
+
+##### Clinical example: Recognizing an acute stress reaction after violence
+
+Following the domestic-violence incident described under scene safety, one partner becomes quiet and tense on the drive back. At the station, the partner responds angrily to an attempt to discuss the call and expresses an intention to leave EMS. Both crew members contact their supervisor, who recognizes signs of an acute stress reaction and encourages the affected EMT to contact the Employee Assistance Program (EAP). The EMT speaks with a mental health professional and returns for the next shift appearing relaxed and confident in the ability to perform competently.
+
+This case illustrates recognition, supportive supervision and referral, not a guaranteed recovery timeline. Use factual operational review, confidential voluntary support and further follow-up when indicated. An apparent initial improvement does not establish that no further follow-up is necessary. [NICE PTSD guidance][nice].
+
+### Physical, mental and social wellness
+
+Wellness is fundamental to performing EMT duties effectively; it extends beyond the absence of illness. Its six interrelated dimensions are physical, intellectual, emotional, social, environmental and spiritual. An imbalance in any dimension may contribute to poor health.
+
+#### Physical Well-Being
+
+Physical well-being supports the ability to perform the physical demands of EMS. Its core areas include physical fitness, adequate sleep, disease prevention and injury prevention.
+
+##### Nutrition, exercise and relaxation
+
+The chapter recommends reducing sugar, caffeine, alcohol and saturated fat, increasing lean protein, limiting carbohydrates, and eating small amounts frequently while at work. These are general textbook suggestions rather than an individualized diet. Aerobic exercise provides a physical outlet for accumulated emotions, helps prevent injury and promotes endorphin release, which the chapter describes as a natural antidepressant effect.
+
+Relaxation strategies include deep breathing (the source describes taking a deep breath, holding it and exhaling forcefully), meditation, visual imagery and temporary diversions such as a funny movie, a good book or attending a concert with a friend. Alcohol or pills used to self-medicate do not resolve the underlying problem and may compound stress.
+
+##### Physical Fitness
+
+* **Five Core Components:** Cardiovascular endurance, muscle strength, muscle endurance, muscle flexibility, and body composition.
+* **Cardiovascular Endurance:**
+  * Gained through **aerobic exercise** to improve the ability of the heart, lungs, and vessels to supply muscles and organs with oxygen and nutrients during prolonged work (e.g., walking, jogging, swimming, elliptical, step machine).
+  * *Target:* Reach and maintain your **target heart rate** for **30–40 minutes** at least **three days a week**.
+  * *Estimated Target Heart Rate Formula (chapter exercise example, not an individualized prescription):*
+    1. Measure your resting heart rate.
+    2. Subtract your age from **220** to get your estimated maximum heart rate.
+    3. Subtract your resting heart rate from your maximum heart rate, then multiply by **70% (0.70)**.
+    4. Add the result from step 3 to your resting heart rate.
+  * *Worked Example (28-year-old with a resting heart rate of 62 bpm):*
+    1. Resting heart rate = **62 bpm**
+    2. Estimated maximum heart rate = `220 - 28` = **192 bpm**
+    3. `(192 - 62) = 130 bpm`; `130 x 0.70` = **91 bpm**
+    4. Target heart rate = `91 + 62` = **153 bpm**
+* **Muscle Strength:**
+  * The amount of force a muscle can produce through a single contraction (tested by the amount of weight that can be lifted).
+  * Built primarily through weight lifting or resistance exercises; essential for repeatedly lifting patients and equipment.
+* **Muscle Endurance:**
+  * The ability of the muscle to function repeatedly without unwarranted fatigue.
+  * Improved through weight training by forcing muscles to lift greater weight than they are used to; necessary for carrying patients and equipment for long periods (e.g., from a bedroom to the ambulance).
+* **Muscle Flexibility:**
+  * Allows you to move your joints through the full range of motion; achieved primarily through **stretching**.
+  * Key to lifting and moving patients/equipment properly; without it, you are prone to muscle and joint injury.
+* **Body Composition:**
+  * Evaluated primarily by the ratio of body fat to total weight.
+  * The chapter associates a lower body fat ratio with better health and higher body fat with increased risk for chronic conditions such as **heart disease, hypertension, and diabetes**.
+  * Maintained/reduced through proper nutrition and exercise.
+
+##### Adequate Sleep
+
+* **Circadian Rhythms:** EMS operates 24/7; working shifts outside your normal awake/alert span interrupts your body's natural timing system (**circadian rhythms**), causing difficulty with physical coordination, thought processes, and social functions.
+* **Sleep Deprivation Risks:**
+  * Puts you at risk for accidents and injury and puts patients at risk of improper care.
+  * The chapter reports **8–10 hours** as a daily minimum and cites research indicating that **half of EMS personnel obtain less than 6 hours** per day. The 8–10-hour figure is not a universal adult minimum (see sleep-duration clarification below); the prevalence estimate is source-reported, not independently verified.
+  * Regular lack of sleep contributes to chronic diseases such as heart disease, weight gain, and poor mental function.
+* **Methods to Improve Sleep Quality and Duration:**
+  * Select an environment that mimics nighttime (cool and dark).
+  * Select a regular time to sleep when an uninterrupted block of sleep can be achieved.
+  * Prepare for sleep by avoiding heavy meals, caffeine, or exercise immediately before sleep time.
+  * Reduce interruptions by turning off phone ringers, shutting off pagers, setting cell phones to silent, and posting a sign on your door indicating you are sleeping.
+* **Five Evidence-Based Guidelines to Minimize Fatigue During EMS Shifts** *(NASEMSO: `https://nasemso.org/projects/fatigue-in-ems/`)*:
+  1. Use reliable and/or valid fatigue/sleepiness surveys to measure and monitor personal fatigue.
+  2. Work shifts shorter than **24 hours**.
+  3. EMS personnel should have access to **caffeine** as a fatigue countermeasure.
+  4. EMS personnel should have opportunities to **nap while on duty** to mitigate fatigue.
+  5. EMS personnel should receive **education and training** to mitigate fatigue and fatigue-related risks.
+
+> [!NOTE]
+> **ALS Connection — fatigue as a patient safety issue.** Fatigue impairs attention and performance regardless of certification level. In a mixed crew, this can affect medication verification, monitoring, airway decisions, driving and handoff. Agree on relief or escalation when a crew member cannot work safely, use explicit cross-checks, and follow agency fatigue-management procedures. Caffeine and naps are countermeasures, not substitutes for adequate sleep or safe staffing. The textbook's five fatigue recommendations match the [2018 evidence-based EMS fatigue guidelines][fatigue].
+>
+> **Sleep-duration clarification:** CDC generally recommends at least seven hours for adults aged 18–60, with age-specific recommendations for older adults. The chapter's 8–10-hour statement is not a universal adult minimum; individual sleep requirements and shift-related recovery vary. [CDC sleep guidance][sleep].
+
+##### Smoking Cessation
+
+* As part of the public health system, EMTs are responsible for promoting a healthy lifestyle to reduce disease, illness, and injury.
+* Smoking violates this responsibility and increases your own risk of **cardiovascular disease, pulmonary disease, and cancer**.
+* Quitting improves both your public image and your health.
+
+##### Alcohol- and Drug-Related Issues
+
+* Overindulgence in alcohol to relieve stress must be avoided—it harms health and mental function and does not eliminate stress.
+* Using prescription medications or illegal drugs to cope with stress is a **grave warning sign**.
+* Seek professional assistance immediately if you or a fellow EMT is relying on drugs or alcohol; many EMS agencies offer **Employee Assistance Programs (EAP)** for these situations.
+
+#### Mental Well-Being
+
+* EMS stress can lead to chronic physical illness, emotional issues, relationship difficulties, and personal-life imbalance (friends/family outside EMS may not understand job stress).
+* **Coping Strategies:** Talk to family members or loved ones about how you feel; use exercise, relaxation, and enjoyable hobbies (e.g., fishing, hiking).
+* **Professional Support:** If self-help methods are not enough, use your agency's **EAP** or seek professional counseling.
+* **Source-reported prevalence:** Researchers have found that a significant number of EMS personnel experience traumatic events on the job, and **over 30%** of first responders have received a formal diagnosis of a mental health disorder (such as **depression** or **PTSD**).
+
+##### Resilience and the EMT
+
+* **Definition (NAEMT):** *Resilience* is the ability to cope with stress and adversity without suffering lasting physical or psychological harm.
+* **Influencing Personal Habits:** Nutrition, exercise, sleep habits, smoking/drinking habits, and social interaction.
+* **Characteristics of a Resilient EMT:** Relaxed, engaged in work, flexible, happy, satisfied, and able to manage stressors without significant compromise or psychological/emotional damage.
+
+##### Suicide in the EMT
+
+* The chapter reports an increasing suicide rate among EMS professionals.
+* The chapter reports that EMS professionals with PTSD (which may go undiagnosed) have a suicide rate **six times higher** than the general population; the supplied material does not identify the specific study.
+* The chapter emphasizes improving resilience as a suicide-prevention strategy; it is only one component of prevention.
+* **Historical crisis number:** The chapter lists 1-800-273-8255. The current U.S. crisis access number identified in the supplied clarification is **988** (call or text).
+
+> [!IMPORTANT]
+> **Current wellness and crisis-support clarification:** In the United States, call or text **988** for suicide or mental-health crisis support; call 911 for an immediate life-threatening emergency. [SAMHSA crisis resources][crisis]. Resilience is one part of prevention, not a guarantee against illness or a substitute for accessible clinical care, supportive leadership, safe staffing and timely intervention. An EMT, AEMT or paramedic who is impaired by distress should be supported in obtaining help rather than expected to manage alone. The numerical claims about diagnosis prevalence and suicide risk cannot be attributed to a specific study from the supplied chapter; do not generalize them as current population estimates.
 
 ## Reflect
-- **Scene Safety vs. Emotional Crisis:** Why must an EMT secure scene hazards and don matched PPE *before* addressing emotional crises, and how does acting strictly within your medical responder role protect both physical safety and legal standing?
-- **Crime Scene vs. Standard Postmortem Care:** On a standard resuscitation where death occurs, you clean blood/secretions and briefly elevate the head; at a suspected crime scene, you leave blood and the body undisturbed. How does that protect the chain of evidence without sacrificing family compassion?
-- **Stress Reaction Progression:** Why does an absence of acute stress symptoms after a pediatric call or MCI *not* mean an EMT is immune to delayed stress (PTSD) or cumulative stress (burnout)?
-- **Pathogen & PPE Matching:** Looking at the 13 pathogens table, which diseases require **airborne/respirator precautions (N-95/HEPA/N100)** rather than a standard surgical mask, and why do HIV and Hepatitis B/C only require gloves, eyewear, and hand washing for routine care?
-- **Circadian Disruption & Clinical Error:** How do shifts of 24+ hours and sleeping `<6 hours/day` directly link physical fatigue to errors in patient care and highway driving?
 
----
+### Safety is a condition of care, not a competing intervention
+
+A patient can have a clear clinical need while the crew lacks a safe opportunity to meet it. The source's hazardous-materials, violence and rescue examples show that **scene control enables medical care**. Staging is an active safety decision: it allows the appropriate agency to control the hazard while EMS coordinates resources and prepares for patient contact. An advanced airway or monitor changes available treatment, not the physical danger of the scene.
+
+### Infection prevention is a chain of barriers
+
+The following diagram is an educational interpretation of the chapter's infection-control principles. Each layer addresses a different opportunity for exposure or onward transmission; one layer cannot substitute for all others.
+
+```mermaid
+flowchart LR
+    A[Potentially infectious source] --> B[Exposure route]
+    B --> C[Hand hygiene and appropriate PPE]
+    C --> D[Safe task and sharps handling]
+    D --> E[Safe doffing and reprocessing]
+    E --> F[Reduced onward transmission]
+    D -->|Barrier failure| G[Immediate first aid and reporting]
+    G --> H[Urgent occupational evaluation]
+```
+
+A patient does not need to look ill to pose an infectious hazard. Conversely, respiratory compromise or poor perfusion warrants assessment even when the infectious organism is unknown. Infection control and clinical stabilization are parallel responsibilities. Similarly, a clean-looking device is not necessarily appropriately disinfected: its intended patient contact determines the required reprocessing category.
+
+### Human factors connect provider wellness and patient outcomes
+
+Fatigue, cumulative stress and emotionally difficult calls can affect attention, judgment, communication and physical coordination. The resulting risks extend across driving, lifting, airway care, medication verification and handoff. Clear task assignments and cross-checks reduce reliance on a single person's performance, but they do not make severe fatigue or impairment safe. Professional support and organizational changes address risks that personal coping alone cannot resolve.
+
+### Emotional findings require context
+
+Grief, fear, agitation and stress may explain behavior but do not exclude a physiological problem. A quiet patient may be grieving or experiencing an altered mental state; a sweating, tachycardic responder may be stressed or acutely ill. The shared reasoning principle is to avoid premature attribution, assess concerning findings, and respond with both clinical vigilance and compassion.
+
+### Applied reflection
+
+- **F01.** A crew has an advanced clinician and a patient needs urgent treatment, but law enforcement has not cleared the scene. What is the difference between clinical capability and operational permission in this situation?
+- **F02.** During ventilation with supplemental oxygen, a patient has an apparently normal oxygen saturation but concerning respiratory effort. Why should the team not rely on the saturation alone?
+- **F03.** After a severe call, a colleague declines to discuss feelings but is willing to talk about practical needs. How can the crew promote both operational learning and psychological safety?
 
 ## Recite
-1. List the **5 core focus areas** of Chapter 2 and define all **11 core key terms** without looking.
-2. Recite Kübler-Ross's **5 stages of grief** with their exact quoted phrases, and state the **9 principles** for interacting with dying patients and families.
-3. Contrast **acute**, **delayed**, and **cumulative** stress reactions, list the **10 core warning signs**, and name symptoms across all **5 domains** (thinking, psychological, physical, behavioral, social).
-4. Compare **defusing** (`<=8 hours`, `30–45 min`) and **CISD** (`24–72 hours`, **7 phases**), and name the **10 components** of a comprehensive CISM program.
-5. Differentiate **bacteria, viruses, fungi, protozoa, and helminths**, and recite the **transmission, incubation period, and PPE** for **TB, HIV, Hepatitis B/C, Influenza, Varicella, Meningitis, Pneumonia, Rubella, Pertussis, Staph, SARS/COVID-19, Ebola, and Zika**.
-6. Walk through the **24-hour** airborne and **48-hour** bloodborne notification rules, the **6-step CDC hand hygiene sequence**, **cleaning vs. disinfecting vs. sterilization**, the **25-minute** uniform wash rule, and the **immunization/PPD requirements**.
-7. Distinguish **ANSI/ISEA Class 1 (`<25 mph`), Class 2 (`>=25 mph`), and Class 3** high-visibility apparel, and list the high-risk rescue and violence/crime scene triggers.
-8. State the **6 dimensions of wellness**, the **5 components of physical fitness**, the **70% target heart rate formula** (verify with a 28-year-old at RHR 62 = **153 bpm**), the **5 NASEMSO fatigue guidelines**, and the **7-step safe glove removal sequence**.
 
----
+### Professional responsibilities and scene operations
+
+- **R01.** Describe the everyday injury-prevention measures and distinguish the EMT, AEMT and paramedic roles. What does a mixed-crew briefing establish?
+- **R02.** At a suspected hazardous-materials incident, reconstruct the safe recognition and response sequence. What information should be reported when a patient is exposed?
+- **R03.** Recall the major historical hazmat placard categories and their class numbers where specified. Why should the ERG still be consulted?
+- **R04.** Identify major rescue hazards and match them to appropriate resources or protective measures. What limitations apply to roadway apparel and confined-space PPE?
+- **R05.** What situations call for law enforcement before entry, and what special considerations apply to clandestine drug labs, chemical suicides, civil unrest and possible crime scenes?
+- **R06.** After clearance at a pediatric chest-trauma scene, what findings should the EMT assess and communicate, and why is ALS intervention not automatic?
+- **R07.** During patient movement with advanced equipment, how should a mixed crew coordinate responsibilities?
+
+### Infection prevention and occupational exposure
+
+- **R08.** Classify the five pathogen groups and give a distinguishing reproductive or transmission feature and example of each.
+- **R09.** Distinguish infectious from communicable disease and explain direct, indirect and respiratory transmission. Give an example of an infectious disease not ordinarily spread person to person.
+- **R10.** Compare the transmission concerns for HIV/HBV/HCV, pulmonary TB, influenza, varicella, Ebola and Zika. Which source table limitations are particularly important?
+- **R11.** Recall the historical incubation estimates for influenza, varicella, bacterial meningitis, pertussis, SARS/COVID-19, Ebola and Zika. How should these be interpreted?
+- **R12.** What must employers and employees do under the chapter’s OSHA exposure-control framework?
+- **R13.** Reconstruct the handwashing sequence, including the scrub duration and source alcohol concentration. When is soap and water necessary, and when is hand rub preferred?
+- **R14.** Match eye protection, gloves, gowns, surgical masks and respirators to their protective roles. What distinguishes fit testing from a seal check?
+- **R15.** Describe how to remove contaminated gloves without transferring contaminants to bare skin. What should happen if a glove tears?
+- **R16.** Compare cleaning, disinfection and sterilization. Apply the distinction to a reusable BP cuff, a reusable laryngoscope blade and a critical vascular device.
+- **R17.** How should used sharps, disposable supplies, contaminated laundry and spills be handled? Why is diagnosis alone insufficient to determine waste containment?
+- **R18.** Recall the occupational screening and vaccination recommendations, including hepatitis B series and offer deadline, tetanus boosters and TB testing limitations.
+- **R19.** Reconstruct the response to a needlestick and compare it with the formal airborne and bloodborne notification pathways. Which time limits matter?
+
+### Emotional care and clinical teamwork
+
+- **R20.** Name and explain the five traditional grief responses. Why is their order not a clinical rule?
+- **R21.** How can an EMT maintain dignity and support family during a critical illness or death without misleading anyone or interrupting necessary care?
+- **R22.** What changes in family support and body handling when a death may involve a crime scene? How are resuscitation limits and pronouncement handled?
+
+### Stress, recovery and long-term wellness
+
+- **R23.** Identify common occupational stressors, especially stressful calls, and the five general categories of stress findings.
+- **R24.** Distinguish acute, delayed and cumulative stress by timing, manifestations and impact. Which symptoms should trigger medical evaluation rather than being attributed to stress?
+- **R25.** Describe personal, family and workplace strategies for reducing stress, including the role of professional support.
+- **R26.** Compare traditional CISD and defusing, including timing, participation and duration. Recall the seven CISD phases and explain the evidence limitation.
+- **R27.** What other components make a CISM program broader than a debriefing session?
+- **R28.** Name the six wellness dimensions and five fitness components. Explain why strength, endurance and flexibility are different requirements for safe patient movement.
+- **R29.** Reconstruct the source’s target-heart-rate formula using a 28-year-old with a resting heart rate of 62 bpm. What exercise duration and frequency does the source describe, and what limitation applies?
+- **R30.** Explain how shift work affects circadian rhythms and recall the five evidence-based EMS fatigue recommendations. How do the source’s sleep-duration figures differ from the clarification?
+- **R31.** How do nutrition, exercise, relaxation, smoking cessation and avoiding substance-based coping contribute to wellness?
+- **R32.** Define resilience as used in the chapter. What are the limits of resilience as a suicide-prevention strategy, and what crisis resources are identified?
 
 ## Review
-- **Rapid Number & Threshold Audit:**
-  - **20 seconds:** Minimum CDC soap-and-water scrub (10–15 seconds vigorous lathering removes most contaminants per U.S. Public Health Service)
-  - **>=60%:** Minimum alcohol concentration for field hand sanitizer
-  - **25 minutes:** Minimum hot soapy wash time for contaminated uniforms
-  - **10 days / 10 years / 1957:** OSHA free Hepatitis B vaccine offer window (10 days), tetanus booster interval (10 years), and MMR birth-year cutoff (1957)
-  - **24 hours / 48 hours:** Facility notification to designated officer for airborne (24h) vs. bloodborne (48h) exposures
-  - **8 hours (30–45 min) / 24–72 hours (7 phases):** Defusing vs. CISD timing and structure
-  - **`<25 mph` vs. `>=25 mph`:** ANSI/ISEA 107 Class 1 vs. Class 2/3 roadway speed thresholds
-  - **30–40 min, `>=3 days/week` at 70% intensity:** Cardiovascular endurance standard
-  - **8–10 hours / `<6 hours` / `<24 hours`:** Daily sleep target (8–10h), average EMS provider reality (`<6h`), and NASEMSO maximum shift length (`<24h`)
-  - **`>30%` / `6x` / `1-800-273-8255`:** First responders with a formal mental health diagnosis (`>30%`), suicide rate multiplier with PTSD (`6x`), and 24/7 National Suicide Hotline
+
+### Guiding questions
+
+**Q01.** An uncontrolled hazard can injure the crew, create additional patients and prevent effective care. Scene control, appropriate resources, PPE and reassessment establish conditions for safe treatment; clinical urgency and ALS capability do not authorize unsafe entry.
+
+**Q02.** Legal scope limits possible actions; credentialing determines individual permissions; protocols specify approved care; medical direction provides oversight. Each level contributes authorized skills, while shared assessment, communication and basic care support the team.
+
+**Q03.** Exposure routes determine which additional barriers and transmission-based precautions are needed. Standard Precautions address possible exposure before an infection is recognized; gloves alone do not protect every route or replace hand hygiene.
+
+**Q04.** Prevention reduces exposure probability. Once exposure occurs, first aid, reporting and urgent evaluation address time-sensitive risk; formal notification and follow-up supply additional information but must not delay evaluation.
+
+**Q05.** Dignity, honest communication, safe family presence and respect for patient wishes can coexist with essential interventions. Local rules govern resuscitation decisions, pronouncement and evidence preservation; emotional support must not obstruct necessary care.
+
+**Q06.** Timing, patterns and functional effects help identify stress, but concerning physical symptoms require medical evaluation. Reactions vary; voluntary support, practical assistance, professional care and follow-up are preferable to compelled emotional disclosure.
+
+**Q07.** Fitness supports lifting and endurance; sleep supports attention and coordination; coping and social support reduce the burden of occupational stress. Safe staffing and supportive leadership complement individual wellness habits and reduce risks to both clinicians and patients.
+
+### Reflection feedback
+
+**F01.** The clinician may be able to provide advanced treatment, but cannot neutralize the uncontrolled threat. The crew stages, coordinates with dispatch and incident command, and prepares for care after clearance. The patient’s need informs preparation and resource requests, not unauthorized entry.
+
+**F02.** Pulse oximetry estimates oxygenation, not adequacy of ventilation. Supplemental oxygen can preserve saturation despite inadequate ventilation. The team assesses respiratory effort, chest rise, mental status and trends; capnography can add ventilation information when available, with limitations from perfusion, leaks and equipment.
+
+**F03.** Offer voluntary peer support, practical assistance, confidential professional resources and follow-up. A factual operational review can address care and safety without requiring emotional disclosure; declining to recount feelings does not establish weakness or absence of distress.
+
+### Retrieval feedback
+
+**R01.** Use restraints, safe lifting, adequate sleep, fitness, nutrition and Standard Precautions. EMT care includes basic assessment, ventilation, hemorrhage control and CPR/AED; AEMT adds selected advanced skills; paramedic has broader advanced capabilities, all locally authorized. Brief on assessment lead, history/vitals, equipment/transport and communications; all speak up about hazards.
+
+**R02.** Recognize from a safe distance using signs/placards and the ERG; request trained hazmat responders, who use specialized suits and SCBAs. Wait for scene control and required decontamination. Report substance if known, route, symptoms, number exposed and decontamination status. Do not bring contamination into the ambulance outside a specialized plan.
+
+**R03.** Class 1 explosives/blasting agents; class 2 gases (poison, flammable, nonflammable, chlorine, oxygen); class 3 flammable/combustible; flammable solids and dangerous-when-wet markings; class 5.1 oxidizers, 5.2 organic peroxides; class 6 poison; radioactive; class 8 corrosive; miscellaneous dangerous markings in the source. These historical examples do not replace current identification and response guidance.
+
+**R04.** Electrical lines, fire, explosions, chemicals, collapse, oxygen-deficient confined spaces, trenches, weapons-related hazards and traffic require specialized control. Request power/fire/rescue teams or law enforcement for traffic; use hazard-specific PPE within authorized roles. Dust respirators do not make oxygen-deficient spaces safe. Historical apparel Class 1 uses under 25 mph, Class 2 at least 25 mph or diverted attention, Class 3 serious traffic risk; current adopted standards and agency policy control, not this shorthand.
+
+**R05.** Potential violence, weapons, hostile behavior, domestic disputes, fights, suicidal emergencies and crime scenes warrant clearance. Drug labs and chemical suicides may introduce chemical hazards; civil unrest requires route coordination and alternatives. Know armor limitations. Preserve evidence unless disturbance is necessary for care; document actions.
+
+**R06.** Assess airway, breathing, perfusion, mental status and external hemorrhage; obtain age-appropriate vitals when feasible, prevent heat loss and reassess. Report trends, mechanism, findings, interventions and response. Preserved blood pressure does not exclude shock; ALS options depend on findings and protocol, and must not unnecessarily delay definitive care.
+
+**R07.** Assign control of the patient, airway, monitor, oxygen and vascular lines; secure equipment, obtain adequate personnel, communicate changes and reassess after movement. The authorized clinician verifies advanced-device placement/function. Do not risk unsafe lifting or technical rescue to preserve a device.
+
+**R08.** Bacteria are single-celled and can reproduce independently in favorable conditions (e.g., bacterial pneumonia); viruses require host cells and antibiotics do not treat them (e.g., HIV); fungi can cause opportunistic infection; protozoa are single-celled, with fecal-oral or vector routes (e.g., malaria); helminths are parasitic worms entering through ingestion or skin (e.g., hookworm, which can cause blood loss and anemia). These are introductory generalizations.
+
+**R09.** Infectious disease follows pathogen transmission; communicable disease spreads between people. Direct exposure includes blood, tissue and mucosa; indirect exposure includes contaminated objects or needles; respiratory particles can reach another respiratory tract. Malaria is typically mosquito-borne. Droplet and airborne precautions are distinct categories.
+
+**R10.** Bloodborne exposure is central for HIV/HBV/HCV; TB is airborne; influenza involves respiratory particles; varicella needs airborne, contact and standard precautions; Ebola involves body fluids and specialized PPE/transport; Zika can spread via mosquitoes, pregnancy and sexual contact. The historical table is not a current PPE protocol; incubation and precautions may vary, particularly for pneumonia, HIV and respiratory viruses.
+
+**R11.** The source lists influenza 1–3 days, varicella 11–21, bacterial meningitis 2–10, pertussis 6–20, SARS 10, COVID-19 3–7, Ebola 2–21 (average 8–10), Zika 3–12. They are source estimates, not current universal diagnostic or isolation criteria. Use disease-specific guidance.
+
+**R12.** Employers establish written exposure-control policies, train workers, offer required immunizations and provide PPE. Employees complete training, follow the plan and document exposures. Agency policy may include baseline and follow-up testing.
+
+**R13.** Remove jewelry; wet, apply soap, lather all surfaces, scrub at least 20 seconds, rinse and dry. The source lists at least 60% alcohol; clinical guidance prefers alcohol-based hand rub in most situations when hands are not visibly soiled. Use soap and water when visibly dirty and in specified circumstances; follow pathogen-specific policy. The historical 10–15-second estimate is not a reason to shorten washing.
+
+**R14.** Eye/face protection limits splash exposure; gloves protect hands; gowns protect clothing and skin from significant fluid contact; surgical masks protect against splashes and can serve as patient source control. Appropriate respirators protect against specified inhalation hazards. Tight-fitting respirators require fit testing before use and at least annually, and a seal check every donning; facial hair must not interfere with the seal or valves.
+
+**R15.** Grasp the contaminated outer cuff with the gloved hand, peel the first glove inside out, hold it in the gloved hand, slip bare fingers beneath the clean inside of the second cuff and peel it over the first. Discard appropriately and clean hands. If torn, remove as soon as safe, clean hands, replace and follow exposure procedures if indicated.
+
+**R16.** Cleaning removes soil mechanically; disinfection kills many microorganisms; sterilization eliminates all microorganisms. A BP cuff is noncritical and needs cleaning/disinfection; a laryngoscope blade is semicritical and needs at least high-level disinfection, or sterilization when required; a critical device entering sterile tissue or blood must be sterile. Follow manufacturer instructions and policy.
+
+**R17.** Dispose of sharps immediately in a rigid puncture-resistant container; never recap. Do not reuse disposables. Use labeled containment and secondary containment when necessary based on contamination and leakage risk, not diagnosis alone. Handle laundry through employer procedures, not at home; clean spills with approved procedures and compatible disinfectants rather than improvised mixtures.
+
+**R18.** Initial TB risk/symptom assessment and IGRA or skin testing, with routine annual testing generally not recommended absent exposure or ongoing transmission; prior positives managed differently. Source lists COVID-19, annual influenza, Tdap then Td/Tdap every 10 years (Tdap each pregnancy), hepatitis B 2- or 3-dose series offered at no cost within 10 working days of initial exposure assignment subject to exceptions, MMR and varicella as indicated. For personnel born during/after 1957, source lists 2 measles, 2 mumps and at least 1 rubella dose; use current schedules and occupational health.
+
+**R19.** Wash skin or flush mucosa, promptly report and document date/time, fluid and circumstances, obtain urgent evaluation without waiting for source testing. Airborne notification goes from facility to designated officer to worker, with federal outer limit 48 hours after facility determination, not the historical 24. Bloodborne notification involves officer investigation/request and facility response (source describes 48 hours). HIV PEP, when indicated, should start as soon as possible and within 72 hours; later unusually high-risk cases require specialist consultation.
+
+**R20.** Denial buffers shock; anger expresses distress; bargaining seeks postponement; depression involves sadness or withdrawal; acceptance reflects coming to terms with loss. Individuals may respond differently, experience stages out of order or not show them; the model is not diagnostic and does not exclude medical causes.
+
+**R21.** Speak respectfully even to unresponsive patients, explain procedures and known facts, listen empathetically, acknowledge uncertainty, allow safe expressions of grief and family presence when feasible, and respect privacy and preferences. Avoid false assurances and keep essential care moving.
+
+**R22.** Do not clean or disturb evidence unnecessarily or permit contact until authorized; document necessary disturbances. Otherwise, family contact and body care depend on protocol. Report possible DNR/portable orders to the team lead; verify validity according to local rules, and do not assume certification or apparent fatal injury authorizes pronouncement. Follow medical direction and applicable resuscitation policies.
+
+**R23.** Stressors include shifts, long hours, boredom, limited recognition, urgent decisions, error fears, responsibility for lives and death/grief. High-stress calls include MCIs, abuse, pediatric emergencies, coworker injury/death and severe trauma. Findings can involve thinking, psychological, physical, behavioral and social functions; examples include impaired judgment, irritability, exhaustion, substance use and interpersonal conflict.
+
+**R24.** Acute reactions occur during or shortly after an incident and may include tremor, sweating or difficulty concentrating; delayed reactions may emerge days to years later, with nightmares, flashbacks or interpersonal difficulties; cumulative stress builds with repeated exposure and can cause burnout and impaired function. Chest pain, breathing difficulty or syncope require prompt evaluation; absence of acute symptoms does not prove superior coping.
+
+**R25.** Prioritize activities, share concerns, accept mistakes and use exercise, relaxation and hobbies. Discuss shift realities and safety with loved ones and prioritize shared time. Use a buddy system, supportive communication, breaks, shift changes or duty rotation. Seek EAP or professional help when needed; substance-based coping is a warning sign.
+
+**R26.** CISD is traditionally held within 24–72 hours with involved personnel: facts, feelings, symptoms, processing feelings with a professional, coping suggestions, return-to-work plan and follow-up. Defusing is less structured, within 8 hours, 30–45 minutes, with those most directly involved. Neither timing nor phases establish effectiveness; NICE/WHO advise against psychologically focused debriefing for PTSD prevention. Voluntary support and operational review are distinct.
+
+**R27.** Preincident education, on-scene and one-on-one peer support, disaster services, defusing/CISD as historically described, follow-up, family support, community outreach and health/welfare programs. Favor voluntary practical support and access to clinical evaluation; do not compel disclosure.
+
+**R28.** Wellness: physical, intellectual, emotional, social, environmental, spiritual. Fitness: cardiovascular endurance, muscular strength, muscular endurance, flexibility and body composition. Strength produces force for a lift; muscular endurance sustains repeated work; flexibility allows joint range of motion for safe movement.
+
+**R29.** Estimated maximum = 220 − 28 = 192 bpm. Target = (192 − 62) × 0.70 + 62 = 153 bpm. Source target is 30–40 minutes at least three days weekly. This is an estimated textbook exercise example, not an individualized prescription.
+
+**R30.** Shift work disrupts natural timing, impairing coordination and thought. Use valid fatigue surveys, shifts shorter than 24 hours, access to caffeine, opportunities for on-duty naps, and fatigue education. Source reports 8–10 hours and half of EMS workers under 6 hours; CDC clarification generally recommends at least 7 hours for adults 18–60, with age-specific guidance. The prevalence estimate is not independently verified.
+
+**R31.** Source suggests general dietary changes, exercise for fitness and emotional outlet, relaxation and enjoyable diversions. Smoking raises cardiovascular, pulmonary and cancer risk. Alcohol or drugs used to cope can impair function and compound stress; seek assistance rather than rely on them. Dietary and exercise examples are not individual prescriptions.
+
+**R32.** NAEMT definition describes coping with adversity without lasting physical or psychological harm. Sleep, nutrition, activity and social interaction may contribute; resilience cannot replace clinical care, safe staffing, leadership and timely intervention. Source identifies 988 call/text in the U.S., 911 for immediate life-threatening emergencies. The reported over-30% diagnosis prevalence and sixfold suicide-risk figures lack specific study attribution in the supplied material and should not be generalized.
+
+### High-consequence distinctions
+
+| Distinction | Why it matters |
+| --- | --- |
+| Scene clearance vs. clinical urgency | Medical need cannot eliminate an uncontrolled hazard. |
+| Source control vs. respiratory protection | A surgical mask on a patient is not a clinician's fit-tested respirator. |
+| Notification vs. immediate exposure care | Do not wait for formal notification or source testing to seek evaluation. |
+| Historical examples vs. applicable guidance | PPE tables, apparel shorthand and textbook timing estimates retain educational context but do not override current requirements. |
+| Grief/stress vs. physiological illness | Emotional explanations do not rule out acute medical problems. |
+| Voluntary support vs. compulsory debriefing | Supportive contact is distinct from required recounting of trauma. |
+
+## Synthesize
+
+### One continuous safety system
+
+The chapter is best understood as a system that protects the capacity to provide care, rather than a collection of unrelated precautions. The EMT arrives with a level of physical and mental readiness; scene assessment establishes whether and how patient contact can occur; appropriate infection barriers protect both clinician and patient; scope and teamwork govern what treatment can safely be performed. Communication and reassessment keep this system responsive to changes. Compassionate care preserves dignity even when clinical outcomes are uncertain. After the encounter, decontamination, exposure follow-up and recovery prepare the crew for future work.
+
+```mermaid
+flowchart TD
+    A[Readiness: sleep, fitness, wellness] --> B[Scene assessment and hazard control]
+    B --> C{Safe and authorized contact?}
+    C -->|No| D[Stage and coordinate specialized resources]
+    D --> B
+    C -->|Yes| E[Precautions and role assignment]
+    E --> F[Assessment and authorized BLS or ALS care]
+    F --> G[Reassessment and compassionate communication]
+    G --> H[Safe transport, handoff and documentation]
+    H --> I[Equipment turnover and exposure follow-up]
+    I --> J[Crew recovery and support]
+    J --> A
+    G -->|New hazard| B
+```
+
+### Apply the model across a representative call
+
+Consider a hypothetical call combining several chapter concepts: an injured patient at a busy roadway, with blood exposure risk and a distressed family. Before treatment, the crew coordinates traffic control and uses agency-approved high-visibility apparel. Once safe, each clinician performs authorized tasks, protects against anticipated exposure, and communicates assessment findings and trends. The EMT continues essential basic care while the advanced clinician considers additional treatment according to the patient's condition. The family receives truthful, respectful communication without delaying urgent care. If a sharp or body-fluid exposure occurs, the affected clinician follows immediate first-aid, reporting and evaluation procedures rather than waiting for formal notification. After handoff, the crew reprocesses equipment, documents relevant events and addresses fatigue or distress before returning to service.
+
+The same framework applies whether the immediate threat is electrical, infectious, violent or related to impaired clinician performance. The specific controls change; the underlying reasoning remains consistent: **recognize risk, establish safe conditions, act within authorization, reassess, communicate and restore readiness.** BLS and ALS are complementary parts of that system, not competing standards of care. Individual responsibility is reinforced by agency policies, medical direction, occupational health and supportive leadership.
+
+## References
+
+These references accompany the source’s supplemental material and current-practice clarifications. The original document reports checking its sources on November 26, 2026; the inherited references and historical claims have not been independently reverified. National guidance is educational context, not a substitute for medical direction or state/agency policy. Some CDC pages are maintained online and may change. Historical statistics and source-specific claims should not be interpreted as independently verified current estimates.
+
+- [NHTSA — National EMS Scope of Practice Model, 2019, including change notices 1 and 2 (August 2021).][scope]
+- [NHTSA — National EMS Education Standards (2021).][education]
+- [NASEMSO — National Model EMS Clinical Guidelines, version 3.0 (March 2022), listed on the official guideline index.][model]
+- [American Heart Association — Adult Advanced Life Support, 2025 CPR/ECC Guidelines, Part 9.][aha]
+- [American Heart Association — Ethics, 2025 CPR/ECC Guidelines, Part 3.][ethics]
+- [AHA/AAP — Pediatric Advanced Life Support, 2025 CPR/ECC Guidelines, Part 8.][pals]
+- [NAEMSP — Optimizing Physiology During Prehospital Airway Management: Position Statement and Resource Document (2022).][airway]
+- [NAEMSP et al. — Clinical Care and Restraint of Agitated or Combative Patients by EMS Practitioners (2021), DOI 10.1080/10903127.2021.1917736.][restraint]
+- [NAEMSP — Prehospital Trauma Compendium: Pediatric Severe and Inflicted Trauma (2025), DOI 10.1080/10903127.2025.2457141.][pediatric]
+- [NICE — Post-traumatic stress disorder, NG116 (2018).][nice]
+- [WHO — Psychological debriefing in people exposed to a recent traumatic event (2012).][who]
+- [CDC — Standard Precautions for All Patient Care (maintained guidance).][standard]
+- [CDC — Isolation Precautions, Appendix A (2007 guideline, maintained updates).][isolation]
+- [CDC — Empiric Transmission-Based Precautions, Appendix A Table 2 (maintained guidance).][empiric]
+- [CDC — Interim EMS guidance for selected viral hemorrhagic fevers (2024, maintained guidance).][vhf]
+- [CDC — PPE guidance for viral hemorrhagic fevers (maintained guidance).][vhfppe]
+- [OSHA — 29 CFR 1910.1030, Bloodborne Pathogens (current regulatory text).][osha]
+- [OSHA — 29 CFR 1910.134, Respiratory Protection (current regulatory text).][resp]
+- [US Public Health Service — Occupational HIV exposure and post-exposure prophylaxis guidelines (2025).][pep]
+- [42 USC § 300ff–132 — Routine notifications with respect to airborne infectious diseases.][ryanlaw]
+- [CDC/NIOSH — Ryan White Act notification process (maintained guidance).][ryan]
+- [CDC — Clinical Safety: Hand Hygiene for Healthcare Workers (maintained guidance).][hands]
+- [CDC — Guideline for Disinfection and Sterilization in Healthcare Facilities, summary recommendations (2008 guideline, maintained updates).][disinfect]
+- [CDC — A Rational Approach to Disinfection and Sterilization (maintained guidance).][classification]
+- [NTCA/CDC — Tuberculosis Screening, Testing, and Treatment of U.S. Health Care Personnel (2019), MMWR 68:439–443.][tb]
+- [CDC — Healthcare professional immunization schedules (maintained schedule).][vaccines]
+- [PHMSA — Emergency Response Guidebook (2024 edition).][erg]
+- [FHWA — Manual on Uniform Traffic Control Devices, 11th edition (2023).][mutcd]
+- [Patterson et al. — Evidence-Based Guidelines for Fatigue Risk Management in EMS (2018).][fatigue]
+- [CDC — About Sleep (maintained guidance).][sleep]
+- [SAMHSA — Crisis Help and 988 Suicide & Crisis Lifeline (maintained guidance).][crisis]
+
+[scope]: https://www.ems.gov/assets/National_EMS_Scope_of_Practice_Model_2019_Change_Notices_1_and-_2_August_2021.pdf
+[education]: https://www.ems.gov/assets/EMS_Education-Standards_2021_FNL.pdf
+[model]: https://www.nasemso.clubexpress.com/content.aspx?club_id=157064&module_id=701974&page_id=22
+[aha]: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support/
+[ethics]: https://pmc.ncbi.nlm.nih.gov/articles/PMC13600561/
+[pals]: https://publications.aap.org/pediatrics/article/doi/10.1542/peds.2025-074351/205236
+[airway]: https://pubmed.ncbi.nlm.nih.gov/35001819/
+[restraint]: https://doi.org/10.1080/10903127.2021.1917736
+[pediatric]: https://pubmed.ncbi.nlm.nih.gov/39889234/
+[nice]: https://www.nice.org.uk/guidance/NG116/chapter/recommendations
+[who]: https://www.who.int/teams/mental-health-and-substance-use/treatment-care/mental-health-gap-action-programme/evidence-centre/other-significant-emotional-and-medical-unexplained-somatic-complaints/psychological-debriefing-in-people-exposed-to-a-recent-traumatic-event
+[standard]: https://www.cdc.gov/infection-control/hcp/basics/standard-precautions.html
+[isolation]: https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html
+[empiric]: https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-table-2.html
+[vhf]: https://www.cdc.gov/viral-hemorrhagic-fevers/hcp/emergency-guidance/ems-911.html
+[vhfppe]: https://www.cdc.gov/viral-hemorrhagic-fevers/hcp/guidance/index.html
+[osha]: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030
+[resp]: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134
+[pep]: https://pmc.ncbi.nlm.nih.gov/articles/PMC12616222/
+[ryanlaw]: https://uscode.house.gov/us/usc/119-124/t42/s300ff-132/
+[ryan]: https://www.cdc.gov/niosh/ryan-white/php/notification-process/index.html
+[hands]: https://www.cdc.gov/clean-hands/hcp/clinical-safety/
+[disinfect]: https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/summary-recommendations.html
+[classification]: https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/rational-approach.html
+[tb]: https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a3.htm
+[vaccines]: https://www.cdc.gov/vaccines/hcp/imz-schedules/
+[erg]: https://www.phmsa.dot.gov/news/usdot-announces-publication-2024-emergency-response-guidebook
+[mutcd]: https://mutcd.fhwa.dot.gov/pdfs/11th_Edition/mutcd11thedition.pdf
+[fatigue]: https://pubmed.ncbi.nlm.nih.gov/29324069/
+[sleep]: https://www.cdc.gov/sleep/about/
+[crisis]: https://www.samhsa.gov/find-support/in-crisis

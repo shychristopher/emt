@@ -1,165 +1,988 @@
 ---
+title: PQ4RS
+module_id: module-2
+view: pq4rs
+chapter_id: chapter-3
 ---
 
-# Chapter 3: Medical, Legal, and Ethical Issues — PQ4R Study Guide
+# Chapter 3: Medical, Legal, and Ethical Issues — PQ4RS
 
 ## Preview
-- **Core Premise:** EMTs routinely confront overlapping medical, legal, and ethical decisions—including off-duty emergencies, treating unaccompanied minors, honoring or questioning end-of-life directives, and managing patient refusals. Practicing within your **scope of practice**, meeting the **standard of care**, following protocols, and documenting thoroughly are your strongest legal protections.
-- **Key Terms (Grouped by Concept):**
-  - *Foundations & Duties:* scope of practice, standard of care, duty to act, Good Samaritan law
-  - *Consent & Refusal:* consent, informed consent, expressed consent, implied consent, minor consent, involuntary consent
-  - *Advance Directives:* advance directive, living will, durable power of attorney, do not resuscitate (DNR) order, physician orders for life-sustaining treatment (POLST), medical orders for life-sustaining treatment (MOLST)
-  - *Liability & Torts:* tort, negligence, proximate cause, intentional tort, abandonment, assault, battery, false imprisonment, defamation, slander, libel
-  - *Privacy & Federal Regulations:* Health Insurance Portability and Accountability Act (HIPAA), Consolidated Omnibus Budget Reconciliation Act (COBRA), Emergency Medical Treatment and Active Labor Act (EMTALA)
-- **Chapter Structure:**
-  1. **Professional Foundations:** Scope of practice vs. standard of care, duty to act (on duty, off duty, patient, self, partner, equipment), Good Samaritan laws (1959), sovereign immunity, statute of limitations, contributory negligence, medical direction, and ethics vs. morals (1978 NAEMT Code of Ethics).
-  2. **Consent, Advance Directives & Refusal:** The 5-step consent approach, 4 types of consent (expressed, implied, minor/emancipated minor, involuntary), advance directives (living will, durable power of attorney, DNR/DNRCC, POLST/MOLST), NASEMSO exclusion guidelines, capacity vs. competence, and the 7 steps for patient refusals.
-  3. **Liability, Negligence & Intentional Torts:** Criminal vs. civil liability, the 4 elements of negligence, simple vs. gross negligence, *res ipsa loquitur*, *negligence per se*, and the 5 EMS intentional torts (abandonment, assault, battery, false imprisonment, defamation/slander/libel).
-  4. **Confidentiality, HIPAA, COBRA & EMTALA:** Privacy rules, the 5 permitted legal disclosures without permission, HIPAA (1996) compliance, COBRA/EMTALA anti-patient-dumping rules, and the 5 interfacility transfer safeguards.
-  5. **Special Field Situations:** Organ donors, medical ID insignia and alert tattoos, presumptive vs. obvious signs of death, accidental hypothermia exception, the 2022 NASEMSO withholding-resuscitation protocol, medical examiner/coroner cases, crime-scene evidence preservation, special reporting duties, and Baby Safe-Haven laws (1999).
 
----
+Medical, legal, and ethical issues form the decision-making framework for EMS. Knowing how to perform a skill is not enough: the EMT must also determine whether the skill is authorized, clinically appropriate, consistent with the patient's wishes, and delivered safely.
+
+The chapter connects eight major subjects: professional authority and medical direction; professional duties and ethics; liability and legal protections; consent and refusal; advance directives; transport and continuity of care; privacy; and special medicolegal situations. Together, these subjects explain how to protect patient welfare while respecting autonomy, maintaining professional accountability, and coordinating BLS and ALS care.
+
+```mermaid
+flowchart TD
+    A[Patient welfare] --> B[Legal and professional authority]
+    A --> C[Consent and treatment goals]
+    B --> D[Appropriate clinical care]
+    C --> D
+    D --> E[Safe transport and handoff]
+    D --> F[Special situations and safeguards]
+    E --> G[Documentation and accountability]
+    F --> G
+    H[Medical direction] --> B
+    H --> D
+    I[Confidentiality] --> G
+```
+
+National educational models and clinical guidelines support this framework, but applicable laws, credentialing, medical direction and local protocols determine what an individual clinician may actually do.
 
 ## Question
-- How does **scope of practice** differ from **standard of care**, and what sources define each?
-- When does an off-duty EMT create a legal **duty to act**, and what are the EMT's duties to the patient, self, partner, and equipment?
-- What do **Good Samaritan laws** protect against, what is **gross negligence**, and why are private EMS agencies excluded from **sovereign immunity**?
-- How do **ethics**, **morals**, and a **code of ethics** differ, and how should an EMT resolve conflicts between legal, ethical, and moral duties?
-- What are the 4 types of **consent**, what 6 conditions justify implied consent for an emergent minor, and what defines an **emancipated minor**?
-- How do a **living will**, **durable power of attorney**, **DNR/DNRCC order**, and **POLST/MOLST** differ in physician signature requirements, timing, and field execution?
-- What is the difference between medical **capacity** and legal **competence**, and what are the 7 steps to protect yourself during a patient refusal?
-- What are the 4 elements a plaintiff must prove to win a **negligence** lawsuit, and how do **abandonment, assault, battery, false imprisonment, slander, and libel** occur in EMS?
-- Under **HIPAA**, what are the 5 situations where confidential patient information may be released without patient/guardian consent?
-- How do **COBRA** and **EMTALA** govern hospital transfers, and what are the 5 safeguards for interfacility transfers?
-- What are the **5 presumptive signs of death**, the **4 obvious signs of death**, the **8 biological exclusion criteria** in the 2022 NASEMSO protocol, the **crime-scene evidence preservation rules**, and the **Baby Safe-Haven law** parameters?
 
----
+- **Q01.** How do scope of practice, standard of care, credentialing and medical direction jointly determine what an EMT may and should do?
+- **Q02.** How do professional duties and ethical principles protect patients, and when can failure to meet those duties result in liability?
+- **Q03.** How can EMS respect a patient's autonomy while managing emergencies in which capacity, consent or refusal is uncertain?
+- **Q04.** How do advance directives and portable medical orders influence resuscitation, treatment before arrest and comfort-focused care?
+- **Q05.** What makes transport and transfer of responsibility safe, lawful and clinically appropriate across different provider levels?
+- **Q06.** How can EMS protect confidential information while communicating necessary clinical information and meeting reporting obligations?
+- **Q07.** How do EMS priorities change in suspected death, organ donation, crime scenes, suspected abuse and safe-haven surrender, and which principles remain constant?
 
 ## Read
 
-### 1. Professional Foundations: Scope, Standards, Duties & Ethics
-- **Scope of Practice vs. Standard of Care:**
-  - *Scope of Practice:* Defined typically by state laws (guided by NHTSA's *National EMS Scope of Practice Model* and *National EMS Education Standards*) as the actions and care an EMT is **legally allowed** to perform. Answers: *Was the EMT allowed by law to do what was done?* (e.g., giving oxygen is legal; suturing is illegal even if you know how). Defines boundaries, not protocols or standard of care.
-  - *Standard of Care:* The care expected from a reasonably prudent EMT with similar training in a similar situation ("reasonable person standard"). Evaluates (1) whether you provided the right assessment/care and (2) whether you performed it properly. Defined by EMT textbooks, regional peers, local/state protocols, NHTSA standards, and system SOPs. Falling below it constitutes **negligence**.
-- **Duty to Act:**
-  - *On Duty:* Legal obligation to respond and provide care to any patient who requires and consents to care, regardless of whether you think they need an ambulance.
-  - *Off Duty:* Most states impose no legal obligation unless state law requires aid; however, if you are off duty (paid or volunteer) and publicly respond to a page or stop at a scene, you create a **duty to act** (because others may assume the call is covered, and leaving after starting care can worsen the patient's position). Once created, you cannot leave until equal or higher training takes over, and you are legally responsible for any patient property you pick up.
-  - *Duty to Patients:* Advocate for patient, protect privacy/confidentiality, lessen suffering, provide complete physical and emotional care, and do no further harm.
-  - *Duty to Self:* Obtain/maintain current credentials and licensure, maintain skill proficiency, and remain physically and mentally fit.
-  - *Duty to Partner:* Ensure partner is physically and mentally fit; report to your supervisor if your partner arrives under the influence of alcohol or drugs.
-  - *Duty Regarding Equipment:* Ensure all equipment works properly at shift start; malfunction from improper maintenance or missing required equipment constitutes negligence.
-- **Good Samaritan Laws & Legal Protections:**
-  - *Good Samaritan Laws:* First enacted in California in **1959**; protects unpaid individuals acting in good faith at emergency scenes from civil damages unless acts constitute **gross negligence** (care markedly below standard of care, often with willful or wanton intent to harm). Many states grant partial immunity to EMTs and medical direction staff. Does **not** prevent being sued, though it protects against losing if you met the EMT standard of care.
-  - *Sovereign (Governmental) Immunity:* Protects government-operated EMS systems from civil liability lawsuits; private EMS companies are **not** protected.
-  - *Statute of Limitations:* State time limit (usually measured in years) to file a negligence claim after injury or discovery.
-  - *Contributory Negligence:* Exists when a patient contributed through their own negligence to the injury/damage claimed.
-- **Medical Direction:**
-  - Your legal right to practice prehospital depends on **medical direction**; follow standing orders/protocols, communicate clearly via phone/video/radio, follow orders, and consult whenever scope or direction is uncertain (noting law enforcement and EMS body cameras often record interactions).
-- **Ethical Responsibilities:**
-  - *Ethics* (branch of philosophy studying morality) vs. *Morals* (concepts of "right and wrong") vs. *Code of Ethics* (rules of ideal conduct; NAEMT issued an EMT Code of Ethics in **1978**).
-  - Core duties: serve all patients with human dignity regardless of nationality, race, gender, creed, or status; maintain skill mastery; stay current; review performance; report honestly; maintain confidentiality; collaborate harmoniously with health care teams.
-  - When legal, ethical, and moral obligations conflict (e.g., terminally ill patient refusing care with an expired DNR, mass-casualty triage rationing, wilderness cardiac arrest), follow local protocols/laws and contact medical direction.
+### Professional authority, scope of practice, and standards of care
 
-### 2. Patient Consent, Advance Directives & Refusal of Care
-- **General Principles of Consent:**
-  - Conscious adults with capacity have the legal right to accept or refuse care. Obtain **consent** (permission) before assessing/treating and explain care, risks, and consequences for **informed consent**.
-  - *5-Step Standard Approach:* (1) Introduce yourself → (2) state intent to assess, treat, and transport → (3) ask if patient understands and has questions → (4) request explicit permission before proceeding (even if patient called 911; extra caution for unproven research) → (5) listen carefully without assuming blanket consent.
-  - Touching body/clothing or treating without specific consent can constitute **battery**.
-- **Four Types of Consent:**
-  1. *Expressed Consent:* Required from conscious, legal-age adults with rational capacity after understandable explanation of procedures and risks; verbal confirmation preferred (nodding acceptable); document approval.
-  2. *Implied Consent (Emergency Doctrine):* Assumed in true emergencies posing significant risk of death, disability, or deterioration when a patient is unresponsive, irrational (e.g., head injury), or becomes incapacitated after initial refusal.
-  3. *Minor Consent:* Required from parent, legal guardian, or authorized caregiver (minor = under **18** or **21** per state law).
-     - **6 Conditions for Emergent Minor Implied Consent (Parent/Guardian Unavailable):** (1) Emergent condition endangering life/health; (2) legal guardian unavailable/unable; (3) care/transport cannot be safely delayed; (4) administer only treatment for immediate threats; (5) when authority is in doubt, act in minor's best interest; (6) contact medical direction if needed.
-     - **Emancipated Minor:** Married, pregnant, parent, armed forces, financially independent living away from home, or court decree → parent/guardian consent not required.
-  4. *Involuntary Consent:* Applies to mentally incompetent adults or individuals in law enforcement custody/incarcerated; obtained from a third party with legal authority (legal guardian, law enforcement officer, officer of the court).
-- **End-of-Life Care Advance Directives:**
-  - *Advance Directives:* Written instructions made in advance (*Patient Self-Determination Act*) predetermining medical decisions and decision-makers; vary by state.
-  - *Living Will:* Directs end-of-life care when terminally ill or permanently comatose; requires **two physicians** to confirm incapacity and terminal/comatose state; may still permit insulin, antibiotics, food, or pain meds; can be rescinded anytime.
-  - *Durable Power of Attorney (Medical Power of Attorney / Health Care Proxy):* Names a proxy (agent) to make health care decisions if patient loses capacity; requires **physician** certification of incapacity; ends if patient regains capacity.
-  - *Do Not Resuscitate (DNR) Orders:* Standardized form signed by physician and patient prohibiting resuscitation once pulseless and apneic. **DNR Comfort Care (DNRCC)** permits comfort measures (oxygen, bleeding control, pain meds) without resuscitation upon arrest. A DNR cannot be acted upon until cardiac arrest (provide standard/comfort care if a pulse is present). Must confirm a valid physical DNR (form, wallet card, bracelet)—never rely solely on family/staff word; if unavailable or questionable, start resuscitation and clarify with medical direction.
-  - *POLST (MOLST / MOST / POST / TPOPP):* For serious/terminal illness with life expectancy **<=1 year**; specifies pre-arrest treatment limits (e.g., meds allowed, no advanced airway or defibrillation); voluntary; signed by physician (or PA/NP in some states) with valid dates and contact info.
-  - *Field Challenges & NASEMSO Guidelines:* Instructions must be unambiguous on professional letterhead (vague phrases like *"no heroics"* are invalid); do not waste resuscitative time reading living wills; when validity or family conflict arises, initiate care immediately, contact medical direction, and continue care until resolved. Per NASEMSO, verify state form/construction/intactness and patient/physician ID; provide comfort/non-prohibited care when signs of life exist; stop CPR if valid exclusion is verified and permitted by protocol/medical direction.
-- **Refusing Treatment & Protecting Yourself:**
-  - *Capacity* (medical ability to understand and decide rationally) vs. *Competence* (legal court status; lacking capacity without court ruling = *de facto incompetent*). Altered mental status, mental illness, intoxication, impairment, or suicidal intent impairs capacity → use implied consent/protective care and consult medical direction.
-  - *7 Steps During a Refusal:* (1) Perform thorough physical, vital, neuro, and mental assessment (or document declined assessment) → (2) re-persuade patient/family in plain language and have patient read back report → (3) confirm capacity (not suicidal/impaired) → (4) consult medical direction per protocol → (5) stay safe (call police if needed; balance avoiding abandonment vs. forcing care) → (6) advise specific warning symptoms to call back for → (7) document thoroughly and obtain signed release + witness signature (or document witnessed refusal to sign).
+Prehospital emergency care has changed significantly since its early days, including major improvements in the training of emergency medical personnel. The public and health care profession expect a competent EMT who understands and accepts legal and ethical responsibilities to the patient, medical director, and public. Medical, legal, and ethical considerations apply throughout emergency care.
 
-### 3. Liability, Negligence & Intentional Torts
-- **Criminal vs. Civil Liability:**
-  - *Criminal Liability:* Government brings action on behalf of the public → fine or incarceration.
-  - *Civil Liability:* Individual (**plaintiff**) sues EMT, agency, supervisor, or medical director (**defendants**) for a **tort** (wrongful act, injury, or damage) seeking monetary compensation.
-- **Negligence (All 4 Elements Required):**
-  - Tort with *no intent to harm* where breach of duty occurred:
-    1. **Duty to Act:** Legal obligation existed (once patient contact begins with intent to treat, relationship cannot end without consent).
-    2. **Breach of Duty to Act:** Deviated from standard of care (*simple negligence* = mistake/omission; *gross negligence* = willful, wanton, reckless care—may trigger criminal charges).
-    3. **Damages:** Real, demonstrable, legally recognizable injury occurred.
-    4. **Proximate Cause (Causation):** Injury resulted directly from EMT's negligence rather than trauma or underlying disease.
-  - *Res ipsa loquitur* ("the thing speaks for itself") applies when inappropriate actions obviously caused harm; *negligence per se* applies when violating a statute, regulation, protocol, or scope of practice.
-- **Five Common EMS Intentional Torts (Knowingly Committed Civil Wrongs):**
-  1. *Abandonment:* Stopping care without transferring to an equal/higher trained professional; leaving a patient in an ED with only a clerk/secretary without an oral handoff to a qualified clinician; downgrading an ALS patient to BLS inappropriately.
-  2. *Assault:* Willful threat to inflict harm creating apprehension of bodily harm without physical contact (e.g., threatening to stick a patient with an epinephrine auto-injector).
-  3. *Battery:* Unlawfully touching a patient or providing care without consent (even with good intentions).
-  4. *False Imprisonment (Kidnapping):* Transporting or failing to allow a patient with rational capacity to refuse or withdraw from care/transport (physical restraint not required).
-  5. *Defamation:* Releasing damaging written or spoken statements publicly (*Slander* = spoken; *Libel* = written or mass media).
-  - *Best Lawsuit Defense:* Render care to the best of your ability within your scope of practice and standard of care.
+The National EMS Education Standards place medical, legal, and ethical issues within the Preparatory content area, alongside knowledge of the EMS system and EMT safety and well-being.
 
-### 4. Confidentiality, HIPAA, COBRA & EMTALA
-- **Confidentiality & HIPAA (1996):**
-  - Hold patient history, exam, and treatment strictly confidential across all call types; deliberate breach risks loss of certification/licensure and legal action. Requires signed written release from patient or verified legal guardian unless permitted by law.
-  - *5 Permitted Disclosures Without Permission:* (1) Continuing care by another health care provider; (2) mandatory public health/government reporting (rape, child/elder abuse, neglect, domestic violence, communicable diseases, gunshots, stabbings, animal bites, suspicious burns); (3) police criminal investigation request; (4) third-party billing; (5) court subpoena.
-  - *HIPAA:* Federal privacy law giving patients control over health information; never discuss patient details in public areas (like an ambulance bay); obtain signed privacy acknowledgment; consult your agency **Privacy Officer** for inadvertent breaches or third-party requests.
-- **COBRA, EMTALA & Transport Protections:**
-  - *COBRA & EMTALA ("anti-patient-dumping statute"):* Ensure public access to emergency care regardless of ability to pay. Transferring facilities must stabilize patients and ensure the EMS crew has the scope/capability for transfer (e.g., EMTs cannot perform transfers requiring continuous ECG or IV drug infusion monitoring). Hospital-based ambulances cannot bypass the closest appropriate hospital due to lack of insurance.
-  - *Emergency Transport:* Never choose destination by ability to pay or broadcast insurance status over radio; document any protocol, medical-direction, or patient-requested bypass.
-  - *5 Interfacility Transfer Safeguards:* (1) Full condition report → (2) confirm care is within scope/capability → (3) signed informed transfer consent → (4) written certification of transfer (transferring physician name/address, receiving facility, reason) → (5) know and take quickest route.
+National models and clinical guidelines inform education and practice but do not independently grant legal authority. Actual practice depends on state law, licensure, credentialing, agency policy, and medical direction.
 
-### 5. Special Legal & Field Situations
-- **Organ Donors & Medical Identification:**
-  - *Organ Donors:* Requires legal signed document (donor card, driver's license indicator); treat **patient first, organ donor last**; (1) identify potential donors, (2) notify medical direction and receiving ED, (3) provide supportive care (e.g., CPR) to maintain organs if harvesting is attempted.
-  - *Medical ID Insignia & Alert Tattoos:* Check for ID cards, necklaces, bracelets, or fitness wristbands (allergies, diabetes, epilepsy) and inspect wrists, arms, ankles, neckline, and chest for non-standardized medical alert tattoos (noting infection/healing risks in diabetics).
-- **Recognizing Death in the Field & NASEMSO Protocol (2022):**
-  - Begin resuscitation if the patient is warm without obvious signs of death, except in **accidental hypothermia** (cold, rigid patients can survive prolonged arrest and must not be considered dead until rewarmed).
-  - *5 Presumptive Signs of Death:* (1) Absence of pulse, breathing, and breath sounds; (2) complete unresponsiveness to stimuli; (3) no eye movement or pupil response; (4) absence of BP; (5) no reflexes.
-  - *4 Obvious Signs of Death:* (1) Decapitation; (2) rigor mortis (**2–12 hours**); (3) decomposition; (4) dependent lividity.
-  - *NASEMSO Withholding Resuscitation Exclusions (excludes lightning, drowning, hypothermia):*
-    - **8 Biological Conditions:** (1) Decapitation; (2) decomposition/putrefaction (`>=24 hours` prior); (3) torso transection; (4) incineration (**90% BSA** full-thickness burns/ash/charred skin); (5) injuries incompatible with life (massive crush, complete exsanguination, severe brain matter displacement); (6) futile/inhumane per protocol; (7) blunt/penetrating trauma apneic, pulseless, and no signs of life on arrival; (8) nontraumatic arrest with dependent lividity or rigor mortis.
-    - **OR Valid Actionable Order:** Intact, state-compliant DNR or POLST/MOLST displaying patient name (and required physician name).
-    - When status is unclear, start CPR immediately and contact medical direction.
-  - *Medical Examiner / Coroner Cases:* Homicides, suicides, violent deaths (suspected child/elder abuse), crash deaths (auto, motorcycle, ATV, snowmobile), unusual scenes (burns, electrocution), SIDS, and DOA per local protocol.
-- **Crime Scenes & Evidence Preservation:**
-  - Dispatch police for suspected crimes (suicide, homicide, overdose, domestic dispute, rape, abuse, hit-and-run, riot, robbery, gunfire, weapons); stage until police clear scene.
-  - *Evidence Rules:* Use one path in/out; touch only what is necessary and report moved/touched items to police; do not use a crime-scene phone without police permission; move patient without permission only for danger/care; avoid cutting through bullet/stab holes; cut away from knots in ropes/ties; do not cover body with a sheet; in rape cases, advise against washing, changing clothes, using bathroom, or eating/drinking.
-- **Special Reporting & Baby Safe-Haven Laws:**
-  - *Special Reporting:* Child/elder/spousal abuse or neglect (good-faith reports carry defamation immunity), gunshots, knife wounds, suspicious burns, poisonings, sexual assault, drug-related injuries (addiction is an illness per U.S. Supreme Court, not a crime), infectious exposures, involuntary restraints, mental incompetence/intoxication, attempted suicides, and dog bites.
-  - *Baby Safe-Haven Laws:* Originated in Texas (**1999**), active in all 50 states + D.C.; allow parents to safely relinquish unharmed infants to designated locations (hospitals, police, fire, or EMS depending on state) within state age limits (**3 days** up to **1 year** in North Dakota).
+#### Scope of practice versus standard of care
 
----
+Scope of practice defines the actions and care EMTs are legally permitted to perform in the jurisdiction where they practice. It establishes boundaries among professions and identifies activities that would be illegal without appropriate licensure or certification. Providing oxygen under appropriate circumstances is an EMT skill; suturing a laceration is outside the ordinary EMT scope described in the chapter, even if an EMT knows how to do it.
+
+Sources informing scope of practice include:
+
+- NHTSA's [National EMS Scope of Practice Model][scope].
+- [National EMS Education Standards][education], which establish national entry-level educational expectations.
+- State laws, regulations, and policies.
+
+Standard of care concerns the care expected of a reasonably prudent EMT with similar training managing a patient in similar circumstances. It addresses both whether the appropriate assessment and care were selected and whether they were performed properly.
+
+Sources informing the standard of care include recognized EMT textbooks, expected practice among EMTs in the community or region, local and state protocols, the National EMS Education Standards, and the EMS system's operating policies and procedures.
+
+| Scope of practice | Standard of care |
+| --- | --- |
+| Was the clinician legally authorized to perform the action? | Was the care appropriate and performed properly? |
+| Establishes legal boundaries of practice. | Establishes the expected level of performance. |
+| Is not itself a clinical protocol or practice guideline. | May be informed by protocols, education, and accepted professional practice. |
+
+> [!IMPORTANT]
+> Falling below the standard of care may establish a breach of duty. A successful civil negligence claim additionally requires the other legally required elements, including injury and causation. The scope of practice does not itself define the standard of care.
+
+#### ALS Connection: Legal scope, clinical capability, and individual authorization
+
+The national model describes four licensure levels (EMR, EMT, AEMT and paramedic). Its categories are a starting point, not permission to perform a procedure. The care a patient needs determines which capabilities are appropriate; the law and EMS system determine who may provide them.
+
+| Level | Typical capabilities in the national framework |
+| --- | --- |
+| EMT | Foundational assessment, airway and ventilation support, bleeding control, CPR/AED, transport and selected medications. |
+| AEMT | EMT foundations plus a limited set of advanced interventions, such as vascular access, selected IV fluids and medications and specified airway capabilities. |
+| Paramedic | Broader advanced assessment and treatment, including ECG interpretation, manual electrical therapy, advanced pharmacology and airway management. |
+
+**Authorization chain:** Education develops competence; certification verifies specified competencies; state licensure grants legal authority; credentialing establishes what a particular clinician can perform in their EMS system. Local restrictions can narrow the national model's examples.
+
+> [!CAUTION]
+> **ALS Connection — Assisting is not the same as performing.** An EMT may retrieve sealed vascular-access supplies, position the patient or report serial blood pressures while an AEMT or paramedic performs an authorized intervention. Starting an IV, administering an IV medication or independently interpreting an ECG is different. Even apparently simple tasks such as applying ECG electrodes, operating a pump or adjusting a device require authorization appropriate to the task. Never assume the paramedic's request expands your scope.
+
+**Application:** A patient with chest discomfort can need rapid transport, serial BLS assessments and a paramedic's ECG assessment. Acquisition records electrical activity; interpretation assesses its clinical meaning. A normal initial tracing does not replace reassessment. Communicate symptoms, onset, changes, vital signs and relevant history without waiting for the tracing to complete basic care.
+
+Sources: [NHTSA national scope model and updates][scope], [National EMS Education Standards][education], [AHA adult ALS][ahaals].
+
+#### Medical direction
+
+- An EMT’s authority to function in the prehospital setting is contingent on medical direction, which provides medical oversight throughout the EMS system.
+- **Required Practices:**
+  - Follow standing orders and protocols as approved by medical direction.
+  - Establish cell phone, video chat, telephone, and radio communications with medical direction when appropriate.
+  - Communicate clearly and completely with medical direction, and follow orders given in response.
+  - Consult medical direction any time there is a question about the scope or direction of care.
+- **Interagency Cooperation & Body Cameras:** Most areas have protocols for cooperation between EMS and other public safety services. Body cameras used by law enforcement and some EMS systems often record these interactions and can be reviewed later if issues occur.
+
+#### ALS Connection: Medical direction in a mixed-level crew
+
+- **Offline medical direction:** approved protocols, training, credentialing, equipment standards and quality review establish the system in which clinicians work.
+- **Online medical direction:** real-time physician consultation or orders address individual situations, such as a disputed refusal, uncertainty about a treatment limitation, or a proposed change in transport level.
+- **Crew clinical leadership:** the designated clinician coordinates care and delegates only authorized tasks. Clinical leadership is not the same as the statutory authority of medical direction.
+
+When an unusual order or conflicting instruction is received, clarify what is being requested, identify who is authorized to perform it, use read-back when applicable, and follow the escalation policy. Do not perform a prohibited skill simply because an order was given. Record the clinician contacted, the time, the order or advice, and the resulting care. If communications fail, follow the applicable contingency protocol and continue appropriate BLS care.
+
+Sources: [NHTSA national scope model][scope], [NAEMSP physician oversight statement (2017)][oversight], [NASEMSO model guidelines][model].
+
+### Professional duties and ethics
+
+#### Duty to act
+
+Duty to act is the legal obligation to provide service, regardless of whether the EMT personally believes an ambulance is necessary.
+
+- **On Duty:** Legally obligated to care for a patient who requires and consents to it, rendering necessary emergency care to the best of your ability and training.
+- **Off Duty:**
+  - In most states, if not functioning in an EMS capacity, you have no more legal obligation to act than any other citizen. In these states, you may legally:
+    - Stop and help the accident victim at the scene.
+    - Pass the scene and call for help.
+    - Pass the scene and make no attempt to call for help.
+  - *Exception:* Some states **do** require EMTs to stop and render aid even when off duty.
+- **Assumed Duty to Act:**
+  - If off duty (paid or volunteer) and you publicly respond to a page for assistance, or stop at a scene to provide emergency care, you **create a duty to act**.
+  - *Reason:* Others may not respond because they assume your response covers the call adequately; leaving after starting care could place the patient in a worse situation than if you had not responded.
+  - *Resulting Legal Responsibilities:*
+    - Cannot leave until someone with appropriate expertise (typically an **equal or higher level of training**) takes over care.
+    - Legally responsible for any of the patient's **personal property** that you pick up.
+- **Specific Areas of Duty:**
+  - **Duty to the Patient:** Respect and protect patient rights as an advocate; maintain privacy and confidentiality of medical status, history, and records; lessen suffering; provide complete and competent care for both physical injuries/illness and emotional needs; do no further harm.
+  - **Duty to Self:** Obtain and keep current the necessary certifications, licensure, and credentials to practice as an EMT, maintain skills to a level of proficiency, maintain mental health, and remain physically able to perform job duties.
+  - **Duty to Your Partner:** Ensure your partner is physically and mentally fit to provide emergency medical care and job responsibilities. If your partner reports for work under the influence of alcohol or drugs, you have a **duty to report** the situation to your supervisor (protects you and the public).
+  - **Duty Regarding Equipment:** Legal responsibility to ensure equipment is in proper working order at the **beginning of each shift**. If equipment malfunctions due to improper maintenance, or if you lack necessary equipment to treat a patient, this may constitute a breach of the standard of care.
+
+> [!NOTE]
+> **ALS teamwork — Shared duty during a mixed-level shift.** Check BLS oxygen, suction, bag-mask equipment, AED access and other assigned equipment; coordinate with your partner on monitor readiness, batteries, advanced supplies and medication security according to agency policy. Know where backup equipment is located. A paramedic's presence does not excuse an EMT's missed assessment or failed equipment check. During an emergency, report failures early, use authorized backups, and document actual limitations instead of implying a procedure was completed.
+>
+> Source: [Joint essential ambulance equipment statement (2021)][equipment].
+
+> [!CAUTION]
+> **Current-practice clarification — Duty and liability.** Off-duty duties, the effect of volunteering, and protections depend on jurisdiction. Do not treat the national scope model as a liability statute.
+
+#### Ethical responsibilities
+
+Ethics is the branch of philosophy concerned with morality; morals are concepts of right and wrong. A code of ethics expresses rules of ideal conduct. The National Association of Emergency Medical Technicians (NAEMT) issued the Code of Ethics for EMTs in 1978. Placing the patient's welfare first is a central guide to ethical care.
+
+EMT ethical responsibilities include:
+
+- Serve the needs of the patient with respect for human dignity, without regard to nationality, race, gender, creed, or status.
+- Maintain skill mastery; demonstrate respect for the competence of other medical professionals.
+- Keep abreast of changes in EMS that affect patient care; assume responsibility in defining and upholding professional standards.
+- Critically review performances, seeking ways to improve response time, patient outcome, and communication; assume responsibility for individual professional actions and judgment.
+- Report with honesty; hold in confidence all information obtained in the course of professional work unless required by law to divulge it.
+- Work harmoniously with other EMTs, nurses, physicians, and other members of the health care team.
+
+- **Ethical and Moral Conflicts:**
+  - *Expired DNR Example:* Responding to a terminally ill patient requesting no treatment, but the presented **do not resuscitate (DNR)** orders have expired -> creates a conflict between **legal obligation** (provide care), **ethical obligation** (honor patient's wishes), and **moral obligation** (preserve life under any circumstances).
+  - *Other Examples:* Mass casualty events where medical care is rationed during triage; cardiac arrest in the wilderness with limited resources and extended transport time to definitive care.
+  - *Resolution:* Always follow **local protocols and applicable laws**, and contact **medical direction** at any time to assist with decisions.
+
+> [!NOTE]
+> **ALS Connection — Ethics of advanced intervention.** Autonomy (respecting informed patient choices), beneficence (acting for patient benefit), nonmaleficence (avoiding unnecessary harm), and justice (fair allocation of care) help explain why a clinician might choose not to perform an available invasive procedure. For example, effective basic ventilation may be the priority during CPR when advanced airway placement would interrupt compressions. More intervention is not necessarily more benefit. Discuss the patient's goals, the expected benefit, burdens and alternatives rather than assuming ALS means maximal treatment. Follow actual orders and applicable law rather than treating the expired-DNR example as universal.
+>
+> Sources: [AHA ethics guidelines (2025)][ahaethics], [AHA adult ALS guidelines (2025)][ahaals].
+
+### Legal liability and professional protections
+
+#### Criminal liability, civil liability, and negligence
+
+- **Liability:** Breaching a legal duty creates liability. Two types:
+  - **Criminal liability:** The government, on behalf of the public, brings legal action against the EMT; may result in a fine or incarceration.
+  - **Civil action:** An individual (**plaintiff**) files a lawsuit against an individual EMT, the EMS agency/company, or others indirectly involved (e.g., supervisor, medical director) — known as the **defendants**.
+- **Tort:** A wrongful act, injury, or damage. In civil/tort cases, the plaintiff usually seeks monetary compensation.
+- **Negligence:** A tort in which there is **no intent to do harm** to the patient, but a **breach in the duty to act** occurred (most common basis for lawsuits against EMS).
+- **Four Elements the Plaintiff Must Prove (all four required, or the suit fails):**
+  1. **Duty to Act:** The EMT had a legal obligation to respond to the scene and provide emergency care. Once a patient relationship is established (simply by contacting the patient with intent to provide emergency care), it cannot be terminated without the patient's consent.
+  2. **Breach of Duty to Act:** The EMT deviated from the standard of care.
+     - *Simple negligence:* Failing to perform care or making a mistake in treatment.
+     - *Gross negligence:* Willful, wanton, or extremely reckless patient care far beyond being negligent or careless; construed as dangerous to the patient. The original text also associates intentionally caused harm with gross negligence and possible criminal charges; intentional wrongdoing and gross negligence are distinct legal categories whose definitions and consequences depend on jurisdiction.
+  3. **Damages:** The patient suffered real, demonstrable injuries/harm recognized by law as a compensable injury (cannot be trivial or minor).
+  4. **Proximate Cause (Causation):** The injuries were the direct result of the EMT's breach of duty (as opposed to resulting from the traumatic event or underlying disease).
+- **Two Common Legal Principles in EMS Negligence Claims:**
+  - ***Res ipsa loquitur*** ("the thing speaks for itself"): Used when a caregiver's inappropriate actions are obviously the cause of patient harm.
+  - ***Negligence per se***: An act is considered negligent simply because it violates a statute or regulation (e.g., written EMS protocols or approved scope of practice).
+
+> [!NOTE]
+> **ALS Connection — Individual accountability and the care record.** A shared call does not make all actions interchangeable. If an ALS intervention is performed, the EMT can still be responsible for assigned observations and timely reporting. For example, an EMT who notices a new breathing change after an advanced medication should communicate it promptly and provide authorized support. Document what you observed, performed, reported and when; distinguish your actions from the partner's. A complication is not by itself proof of negligence. The legal elements remain separate; the exact definitions of gross negligence, intentional wrongdoing and negligence per se vary by jurisdiction. A protocol deviation is not automatically a complete negligence claim.
+
+#### Intentional torts
+
+- **Definition:** An action **knowingly committed** by an individual that is considered civilly wrong according to the law.
+- **Difference from Negligence:** Negligence is a failure to meet the standard of care; an intentional tort is knowingly committed.
+- **Best Defense:** Provide emergency care to the best of your ability and clearly understand your scope of practice and expected standard of care.
+
+##### Common intentional torts in EMS
+
+1. **Abandonment:**
+   - Stopping treatment without transferring care to another competent professional of an **equal or higher level** of training and certification/licensure.
+   - *ED Example:* Placing a patient in an ED room, notifying the unit clerk/secretary, and leaving = abandonment. Moving the patient from stretcher to hospital bed does **not** constitute transfer of care; you must give an **oral report** to a qualified physician, nurse, or health care worker.
+   - Transfer to an appropriately qualified flight crew is another example of maintaining continuity of care.
+   - *Appropriate Transfer Rules:* An EMT can assume care from a paramedic/AEMT at the scene **only** if the condition can be managed by an EMT and no ALS skills are needed. Conversely, transferring a multisystem trauma patient to a dermatologist (a physician not qualified to manage multisystem trauma) is potentially abandonment.
+2. **Assault:**
+   - A willful **threat** to inflict harm on a patient; can occur **without actually touching** the patient.
+   - Requires the patient to have apprehension of bodily harm and the EMT to have the ability to do so (e.g., threatening to stick a patient with an epinephrine auto-injector while holding it up in front of them).
+3. **Battery:**
+   - The act of **touching a patient unlawfully without consent**.
+   - Even with good intentions, providing emergency care without seeking and obtaining consent can be construed as battery.
+4. **False Imprisonment or Kidnapping:**
+   - Intentionally transporting a patient who has the capacity to make a rational decision **against their wishes / without consent**.
+   - Does not require physical restraint—simply not allowing a patient with capacity to withdraw from treatment and transport when they desire to do so.
+5. **Defamation:**
+   - Releasing information to the public (written or spoken) construed as damaging to a person's character, reputation, or standing in the community.
+   - **Slander:** Spoken form of defamation (always discuss patient, partner, and emergency issues privately, never in public).
+   - **Libel:** Putting a false or damaging statement in written form or via mass media.
+
+#### Good Samaritan laws
+
+- **Origin:** First enacted in **1959 in California** to protect from liability *"persons licensed (such as a physician or surgeon) who in good faith render emergency care at the scene of the emergency . . . for civil damages as a result of any acts or omissions."*
+- **General Protection:** Protects a person who is **not being paid** for their services from liability for acts performed in **good faith**, unless those acts constitute **gross negligence**.
+  - The person suing must prove care was markedly below the standard of care and, in some cases, involved willful or wanton intent to harm the patient.
+- **State Authorizations & Immunities:** Most states have laws authorizing EMTs to perform prehospital emergency procedures without a medical license, and provide some immunity to nurses, physicians, supervisors, and other personnel giving directions to EMTs by cell phone, telephone, or radio (laws vary for private vs. public providers—learn local laws).
+- **Limitations & Best Defense:**
+  - A Good Samaritan law **does not prevent you from being sued**, though it may help protect against losing if you performed within the standard of care.
+  - *Best Defense (Prevention):* Render care to the best of your ability, work within your scope of practice and standard of care, behave professionally, keep the patient's best interests in mind, and maintain adequate liability insurance or other protection (e.g., sovereign immunity).
+
+#### Other legal protections
+
+- **Sovereign immunity (governmental immunity):** The original text describes protection from civil liability claims against government-operated EMS systems and distinguishes private EMS companies from government agencies. This protection is qualified by jurisdiction-specific exceptions and waivers; private providers may have other protections.
+- **Statute of Limitations:** State-determined time limit (typically measured in **years**) within which a patient must file a negligence claim following either the event causing the injury/illness or the point of discovering the problem existed.
+- **Contributory Negligence:** Exists when a finding determines that the patient, through their own negligence, caused or contributed to the damage done to them.
+
+> [!CAUTION]
+> **Current-practice clarification — Immunity is not blanket protection.** Good Samaritan coverage, governmental immunity, limitations periods, and comparative or contributory fault are jurisdiction-specific. Public agencies and employees may have qualified protections, statutory waivers or exceptions; private providers may have other protections. A patient's contribution to harm does not necessarily eliminate a claim. Neither an ALS license nor a physician's order guarantees immunity. The liability statutes of individual states were not independently verified in the supplied material.
+
+### Consent, decision-making capacity, and refusal of care
+
+#### Consent and patient autonomy
+
+- **Core Legal Principle:** A conscious patient with the capacity to understand and make an informed, rational decision has the right to accept or refuse emergency medical care.
+- **Consent:** Permission obtained before providing emergency medical care.
+- **Informed Consent:** Consent obtained *after* the patient is informed of the care to be provided and the associated risks and consequences.
+  - *Procedure:* Introduce yourself -> explain that you want to perform an assessment, provide emergency care, and transport to a medical facility -> ask if the patient understands and has questions -> ask for **explicit permission** before proceeding (even if the patient called 911).
+  - *Research Programs:* Particularly important if the recommended assessment or treatment is part of a research program with unproven interventions.
+  - *Warning:* Never assume a patient consents to all aspects of care/transport. Touching a patient's body or clothing without proper consent can result in a charge of **battery** (unlawful touching).
+
+##### Forms of consent
+
+1. **Expressed Consent:**
+   - Must be obtained from every conscious adult with the capacity to make a rational decision before treatment starts.
+   - *Requirements:* Legal age, capacity to understand/make a rational decision, and informed (in understandable terms) of all assessment/procedures and related risks that would affect a reasonable person's decision.
+   - *Confirmation:* Verbal confirmation is preferable; nonverbal cues (e.g., nodding) are acceptable. Document the patient's approval.
+2. **Implied Consent (Emergency Doctrine):**
+   - Assumes that an unresponsive patient or one unable to make a rational decision (e.g., disoriented from a head injury) would consent to emergency care if able.
+   - Also applies to a patient who initially refuses care but then becomes unresponsive, incapacitated, or irrational due to illness or injury.
+   - Applies in a true emergency where the patient is at significant risk of death, disability, or deterioration of condition.
+3. **Minor Consent:**
+   - Must be obtained from a parent, legal guardian, or person granted limited decision-making rights by the parent/guardian (e.g., teacher, stepparent, authorized caregiver).
+   - *Definition of Minor:* Usually under age **18 or 21** depending on state law; not considered legally competent to accept or refuse emergency care.
+   - *Parent/Guardian Unavailable:* Use **implied consent (emergency doctrine)**, assuming the parent/guardian would consent if present. Clearly document the circumstances.
+   - *Emancipated Minor (no parental/guardian consent needed):* Usually defined as a minor who is married, pregnant, a parent, a member of the armed forces, financially independent and living away from home, or declared emancipated by court decree.
+4. **Involuntary consent:**
+   - The original text discusses adults lacking legal decision-making authority and individuals in law enforcement custody or incarceration in this category. Custody alone does not remove the right to consent or refuse.
+   - Where the patient cannot legally determine their own care, consent may come from a third party with actual legal authority, such as a legal guardian or, where law authorizes it, an officer of the court or law enforcement officer.
+
+#### ALS Connection: Consent follows the intervention
+
+Agreement to a BLS examination is not necessarily agreement to an IV, medication, advanced airway, or transport. If the patient can decide, explain proposed additional care at an understandable level; the treating clinician should address meaningful benefits, risks and alternatives. Patients may accept some care and decline other care. Emergency implied consent applies only when its legal conditions are met; reassess the patient's ability to participate as their condition changes.
+
+> [!CAUTION]
+> **Current-practice clarification — Custody is not automatic medical incapacity.** The original involuntary-consent wording is too broad: being arrested or incarcerated alone does not ordinarily remove an adult's decision-making rights. Law enforcement custody, authority to order psychiatric detention, and authority to consent to medical treatment are distinct. Verify legal authority and consult medical direction rather than assuming an officer can consent for every detainee. Guardianship, minor status, emancipation, and emergency exceptions are likewise governed by applicable law; pregnancy or other listed circumstances do not automatically emancipate a minor in every state.
+>
+> Sources: [ACEP-associated custody best-practice guidance (2024; ED-focused)][custody], [NASEMSO model guidelines][model], [High-risk prehospital refusals review (2025)][refusal].
+
+**ALS teamwork:** Tell the receiving ALS clinician what the patient actually agreed to, what they declined, whether a surrogate was identified, and whether communication barriers exist. Avoid labeling a patient uncooperative when their actions may represent fear, pain, confusion or a legitimate refusal.
+
+##### Emergency exception for minors
+
+The following conditions are described in the NASEMSO National Model EMS Clinical Guidelines (2022) for emergency treatment or transport under implied consent when a guardian cannot provide permission:
+
+1. The child is suffering from an emergent condition placing life or health in danger.
+2. The child's legal guardian is unavailable or unable to provide consent for treatment or transport.
+3. Treatment or transport cannot be safely delayed until consent can be obtained.
+4. The EMS clinician administers only treatment for emergency conditions posing an immediate threat to the child.
+5. When authority to act is in doubt, always do what you believe is in the best interest of the minor.
+6. If a minor is injured/ill and no parent contact is possible, contact medical direction for additional instructions.
+
+Source: [NASEMSO National Model EMS Clinical Guidelines, version 3 (March 2022)][model].
+
+#### Capacity, competence, and informed refusal
+
+- **Right to Refuse:** Courts have ruled a patient has the right to refuse care even if it results in death, provided they have the **capacity** to do so.
+- **Capacity vs. Competence:**
+  - **Capacity:** Determined by a **medical authority** (lucid, understands treatment options, able to make a rational and informed decision).
+  - **Competence:** A **legal definition** determined by a **court**.
+  - **De facto incompetent:** A patient determined to lack capacity to make a rational decision (in fact incompetent, though not legally declared so by a court).
+- **Assessing Lucidity:** Orientation to **"person, place, time, and event."** Altered mental status, mental illness, or drug/alcohol intoxication may indicate lack of capacity.
+- **How Refusal Is Expressed:** Verbally, or by pulling away, shaking head, gesturing away, or pushing away; patients may also withdraw from treatment after it starts.
+- **Informed Refusal:** Patient must be informed of and fully understand the treatment and all potential risks/consequences of refusal (including death). Have the patient **explain the consequences back to you**. If they do not understand, they lack capacity and are treated under **implied consent**.
+- **Documentation:** Attempt to get a signed official **"release from liability" form** signed by the patient and **at least one witness (other than your partner)**. Document what you told the patient, the consequences explained, and the patient's response (or witnessed refusal to sign).
+
+##### ALS Connection: Capacity is a clinical assessment, not just orientation
+
+A contemporary prehospital review describes four abilities needed for medical decision-making:
+
+1. **Understanding:** Can the patient explain the problem, proposed care, alternatives and important risks?
+2. **Appreciation:** Do they recognize how the information applies to their own situation?
+3. **Reasoning:** Can they compare choices and consequences in a meaningful way?
+4. **Communicating a choice:** Can they express a decision clearly and consistently enough to act on it?
+
+Orientation to person, place, time and event is helpful but insufficient by itself. Capacity is specific to the decision and may change over time. An unconventional or risky decision is not in itself evidence of incapacity. Mental illness, dementia, intoxication and disabilities warrant careful assessment rather than automatic conclusions. Suicidal intent is a serious safety concern requiring appropriate emergency evaluation, medical direction and applicable legal authority; follow your system's behavioral emergency and involuntary-transport rules.
+
+**Why ALS may help:** Hypoglycemia reduces glucose available to the brain; hypoxia or hypoperfusion can impair cognition; intoxication, head injury and other medical conditions can alter reasoning. An EMT obtains available history, vital signs, neurologic findings, glucose if authorized, and time of onset. ALS may pursue additional assessment or authorized treatment of reversible causes. AEMTs and paramedics may have different glucose-treatment options; no advanced intervention is automatically required. If cognition improves, reassess the patient's capacity and consent before additional nonemergent care.
+
+Sources: [High-risk prehospital refusals review (2025)][refusal], [NASEMSO model guidelines][model], [NHTSA scope framework][scope].
+
+##### Assessment and documentation of refusal
+
+1. **Complete a thorough physical assessment** (demonstrates you gave enough information for an informed decision; if a patient with capacity refuses assessment, thoroughly document the refusal).
+2. **Try again to persuade the patient** to accept treatment/transport; clearly explain why it is essential and the possible consequences of refusal. Involve family members at the scene if helpful.
+   - A digital refusal form may include the patient’s name and birth date. Having a patient read aloud from the report can help check understanding, when appropriate; understanding the consequences is the goal, not merely reading the form.
+3. **Verify capacity:** Ensure patient is not emotionally, intellectually, or physically impaired, not suicidal, and not under the influence of drugs/alcohol.
+4. **Consult medical direction** as needed or required by local protocol.
+5. **Document and obtain signatures:** Clearly document what was told, patient's response, and get refusal form signed (or signed witness statements if patient refuses to sign).
+6. **Encourage seeking help later:** Before leaving, give specific, non-technical warning signs (e.g., *"If you have a burning pain in your stomach"* or *"If you start seeing double"*) and document that you did so.
+7. **When unsure about capacity:** Contact medical direction for a consultation on whether to treat and transport.
+
+##### National model clinical guidance for patient refusals
+
+*(Adapted from NASEMSO National Model EMS Clinical Guidelines 2022)*
+- **Aliases:** Against medical advice, Refusal of treatment, Refusal of transport.
+
+**Assessment (decision-making capacity)**
+1. Individual must be alert, oriented, and able to understand illness/impairment circumstances and risks of refusing treatment/transport.
+2. Judgment must not be significantly impaired by illness, injury, or drug/alcohol intoxication. Individuals who attempted suicide, verbalized suicidal intent, or show suspected suicidal intent **do not** have decision-making capacity and **may not** decline transport.
+
+**Treatment and interventions**
+1. Obtain a complete set of vital signs and complete an initial assessment (focusing on neurologic and mental status).
+2. Determine decision-making capacity; if in doubt or patient lacks capacity, contact medical direction.
+3. If patient has capacity, clearly explain risks/concerns of refusal and that they may reengage EMS if needed.
+4. Perform appropriate medical care with consent.
+5. Document initial assessment findings and all discussions regarding consequences of refusal on the PCR.
+
+**Key considerations**
+- Adults or emancipated minors with capacity have the right to refuse care after being advised of risks.
+- Patients lacking capacity (mental illness, drugs/alcohol, impairment, suicidal intent) must not be allowed to refuse AMA or be released at the scene.
+- Communication barriers or cultural differences may challenge capacity determination.
+- Never put yourself in danger trying to treat/transport a refusing patient—request **law enforcement** if needed.
+
+> [!CAUTION]
+> The categorical statements in the preceding model-guideline extract about suicide, impairment, and refusal must be interpreted with the decision-specific capacity and legal-authority qualifications described above. Diagnosis, intoxication, orientation, or a signature alone does not settle capacity. Suicidal intent requires urgent safety evaluation and appropriate escalation under applicable behavioral emergency and involuntary-transport rules.
+
+Source: [NASEMSO National Model EMS Clinical Guidelines, version 3 (March 2022)][model].
+
+##### ALS Connection: High-risk refusals and the limits of a signature
+
+**Educational example:** A patient with chest discomfort feels better and wants to remain home. A reassuring appearance or single set of vital signs cannot rule out a time-sensitive emergency. A paramedic might obtain and interpret an ECG, consider other causes and consult medical direction. Neither a normal ECG nor symptom relief establishes safety. Explain uncertainty and the risk of delayed diagnosis; respect a capable patient's informed decision subject to applicable law.
+
+- **EMT:** Collect the history and trends the patient permits; identify specific concerning symptoms, communicate what was refused, encourage appropriate evaluation and explain when to call EMS again.
+- **ALS clinician:** Integrate additional permitted findings, explain remaining risks, and escalate high-risk or uncertain refusals to medical direction as required.
+- **Both:** Document capacity reasoning, relevant findings, risks, alternatives, teach-back, consultation, the patient's decision and safety instructions. Do not coerce, threaten or falsely document consent. A signature is documentation, not a substitute for a valid refusal or automatic release from liability.
+
+> [!WARNING]
+> **ALS Connection — Restraint and medical risk.** When a patient presents a genuine immediate safety threat, use de-escalation and authorized assistance whenever feasible. Any medical restraint or sedation requires lawful authority and a clinical indication; it must not be used for punishment or police convenience. A restrained or sedated patient may develop airway obstruction, inadequate ventilation or circulatory deterioration. Maintain close observation, airway access, serial vital signs and authorized monitoring. ALS may use capnography to assess exhaled CO₂ trends; pulse oximetry assesses oxygen saturation and does not establish adequate ventilation. Avoid positions that compromise breathing; never leave a restrained patient unattended. EMTs report changes immediately and provide authorized airway support. Do not attempt restraint or forced transport alone or outside policy.
+>
+> Sources: [NAEMSP joint restraint position statement (2021)][restraint], [High-risk refusals review][refusal], [NASEMSO model guidelines][model].
+
+**Evidence context:** A 2025 review recommends structured high-risk refusal procedures and quality review. A separate 2025 analysis found variation in statewide refusal protocols. Neither establishes a single legally binding national refusal procedure. The original NASEMSO-based material is a model, not automatically an enforceable local protocol. [Statewide refusal protocol analysis (2025)][refusalstudy].
+
+#### Clinical applications of consent and refusal
+
+**Withdrawal of consent:** In the original illustrative scenario, a 34-year-old woman is alert, lying in bed holding her abdomen, with severe abdominal pain beginning approximately one hour before she called 911. She has been assessed and placed on oxygen and is being prepared for transport when she says she does not want to go to the hospital. This illustrates that consent to assessment or an intervention does not automatically extend to transport; a patient may withdraw consent after care begins. The oxygen administration is a case detail, not a universal indication for oxygen in abdominal pain. Capacity, informed refusal, and the legal risks of proceeding without consent are addressed by the preceding principles.
+
+**Altered cognition and vulnerable adults — the Schuman case:**
+
+An elderly man estimated to be in his mid-80s is conscious but disoriented and has abdominal pain. The house is cluttered and very cool. His wife is alert but confused, repeatedly changes the subject, and mistakes an EMT for her daughter.
+
+- On primary assessment, the patient responds with unintelligible mumbled words. His airway is open, breathing and circulation appear normal, and he does not appear to be in acute distress.
+- A coherent history cannot be obtained from either spouse, so the EMTs perform a rapid head-to-toe assessment. During abdominal palpation, the patient tries to push the EMT's hand away. The original scenario describes continuing care because the patient is disoriented; the capacity qualification below is essential.
+- Baseline findings are recorded, including respiratory rate, pulse, pupils, skin color, temperature and condition, and blood pressure. The EMTs prepare him for transport, help his wife find a coat, and reassess during transport; no change is noted.
+- After hospital handoff, the EMTs contact social services because of suspected elder neglect and concerns that the couple cannot safely care for themselves, despite no evidence of intentional abuse or neglect.
+- Two weeks later, a social worker reports that the man was diagnosed with a gastric ulcer and organic brain syndrome (the source's terminology), and his wife with Alzheimer's disease. Both now reside in an extended-care nursing home under 24-hour supervision.
+
+##### ALS Connection: Applying the case to a mixed-level crew
+
+*Clinical interpretation, not additional case findings.* Disorientation, inability to provide a coherent history, abdominal pain and an unreliable collateral historian create uncertainty even when airway, breathing and circulation initially look adequate.
+
+- **EMT assessment:** Report exact responses, baseline orientation if known, abdominal findings, serial vital signs, medications if available, and environmental observations. Avoid assuming chronic dementia from age or confusion alone.
+- **Potential ALS assessment:** Evaluate whether reversible metabolic, circulatory or other acute conditions could explain altered cognition. Glucose testing (where authorized) may identify a treatable cause. Additional cardiac assessment or vascular access may be appropriate depending on findings and protocol. Vascular access does not imply automatic fluid or medication administration.
+- **Care and reassessment:** Provide necessary BLS support, reassess mental status and perfusion, and promptly report changes. Pain treatment, if authorized and appropriate, requires monitoring of respiratory status and alertness. A painful response to palpation should trigger reassessment and explanation, not automatically be disregarded.
+- **Legal/ethical reasoning:** Evaluate capacity for the specific decision; if absent and emergency care cannot wait, use the legally applicable emergency-consent process. Involve medical direction if uncertain. The wife's confusion raises concern about her safety and ability to act as a surrogate, but does not itself establish incapacity or intentional neglect. Arrange appropriate assistance and mandated reporting as applicable.
+
+Sources: [High-risk refusal review][refusal], [NASEMSO model guidelines][model], [NHTSA scope framework][scope].
+
+### Advance directives and end-of-life treatment
+
+#### Legal basis and types of advance directives
+
+- **Legal Basis:** Due in part to the federal **Patient Self-Determination Act**, patients have the right to refuse resuscitative efforts.
+- **Advance Directive:** A legally recognized, signed document (instructions written in advance) that predetermines how medical decisions are made and who makes them if the patient becomes incapacitated. Varies by state—learn your state's specific laws and forms.
+
+##### Common directives and medical orders
+
+1. **Living Will:**
+   - Legal document dictating future health care decisions *only* when a person becomes unable to make their own decisions at the end of life (terminally ill or permanently comatose).
+   - Dictates under what conditions life-prolonging attempts should be started or stopped.
+   - *Verification Requirement:* **Two physicians** must confirm the patient cannot make medical decisions and is in a state-specified terminal illness or permanently comatose condition.
+   - Does **not** mean refusing all medical care (patient can still receive insulin, antibiotics, food, pain medications, or other predetermined treatments).
+   - Can include a DNR order; can be ended or rescinded at any time.
+   - *Prehospital Limitation:* More useful in institutional settings (hospitals, nursing homes) where providers know the signing doctor; requiring two physicians is difficult in the field, and scrutinizing it can delay resuscitation.
+2. **Durable Power of Attorney for Health Care (Medical Power of Attorney):**
+   - Legal document naming a **proxy (agent)** to make all health care decisions if the patient becomes unable to do so.
+   - If a situation arises that the patient did not express wishes for, the proxy decides based on what they think the patient would want.
+   - *Verification Requirement:* The patient's physician must certify the patient cannot make their own decisions. If the patient regains decision-making ability, the proxy's authority ends. Varies by state.
+3. **Do Not Resuscitate (DNR) Order:**
+   - Most commonly encountered advance directive in the prehospital setting.
+   - Standardized form typically signed by the physician and patient instructing **not** to attempt resuscitation once the patient has **no pulse and no respirations**.
+   - **DNR Comfort Care (DNRCC):** Modified support allowed in many states (e.g., oxygen administration, bleeding control, pain medication).
+   - **Prehospital ethical/legal dilemma:** The original text describes a DNR as actionable only in cardiac arrest (no breathing, no pulse), with typical emergency care or authorized comfort treatment provided while a pulse persists. This is not universal: orders such as Ohio DNR Comfort Care may apply before arrest.
+   - *Confirmation Rule:* A legally valid DNR/DNRCC (actual form, wallet card, or hospital-type bracelet) must be **physically presented** upon arrival—**never** take the word of family, nursing staff, or bystanders. If not immediately available, begin full normal emergency care. If subsequently provided, some protocols allow stopping resuscitation. When in doubt about validity, **err on the side of resuscitation**.
+   - **Ohio identification examples:** The chapter illustrates an official EMS DNR identification form, wallet card, hospital bracelet, and state protocol.
+     - *(a) DNR Wallet Card:* Front has "DNR Comfort Care," checkboxes for "DNR Comfort Care" and "DNR Comfort Care Arrest," blanks for name/birthdate, gender checkboxes. Back has blanks for physician name, physician phone, and other emergency phone, plus text: *"the person named on the front of this card may revoke DNR Comfort Care status by destroying this card."*
+     - *(b) DNR Hospital Bracelet:* Lists "DNR Comfort Care," blanks for name, gender, physician's name/phone, and checkboxes for "DNRC" and "DNRCC, Arrest."
+4. **Physician Orders for Life-Sustaining Treatment (POLST):**
+   - Also known as **MOLST** (medical orders for life-sustaining treatment), **MOST** (medical orders on scope of treatment), **POST** (physician's orders on scope of treatment), or **TPOPP** (transportable physician orders for patient preferences).
+   - Used for patients with serious or terminal illness not expected to survive longer than **1 year**.
+   - *Difference from DNR:* Allows the patient to choose the level of treatment desired during deterioration *prior* to needing resuscitation (implies continuation of life-sustaining treatment with potential limitations, e.g., accepting medications while refusing advanced airway procedures or defibrillation).
+   - Voluntary (not mandatory); found in nursing homes, long-term care facilities, or homes (commonly posted on the **refrigerator**).
+   - *Validity Requirements:* Must be signed by a physician (or in some states a PA or NP), include valid dates, and include physician contact information.
+
+> [!CAUTION]
+> **Current-practice clarification — DNR, DNI, POLST and living wills.** DNR generally limits resuscitation; do-not-intubate (DNI) orders limit a specified airway intervention. POLST/MOLST is a portable medical order, distinct from a conventional advance directive, and can address treatment before arrest. It is intended for people with serious illness or advanced frailty; a universal one-year eligibility cutoff, physician-count requirement, signature rule, expiration rule, or physical-original requirement should not be inferred from the chapter. Verify accepted documentation and surrogate authority under state law.
+>
+> Ohio, the example used in the original chapter, distinguishes DNR Comfort Care (activated immediately) from DNR Comfort Care–Arrest (activated at cardiac or respiratory arrest). Therefore the statement that DNR can *only* be acted on in pulseless apnea is not universally correct. The actual order and local rules control.
+>
+> Sources: [Ohio Department of Health DNR program][ohio], [National POLST: forms][polst], [National POLST: advance care planning][polstacp].
+
+#### Field verification and management of treatment limitations
+
+- **Clear instructions:** Orders must be clear, concise, and unambiguous. The original text describes instructions typed or written on professional letterhead; actual accepted formats depend on jurisdiction. Vague phrases like *"no heroics"* or *"no extraordinary treatment"* do **not** meet legal requirements.
+- **Comfort measures:** The original text describes oxygen as a standard comfort measure for DNR and modified-support patients. Oxygen is not automatically required; consider symptoms, oxygenation, the actual order, and local protocol.
+- **If Validity, Interpretation, or Family Conflict Arises:**
+  1. Consider initiating treatment immediately (avoids negligence for withholding/delaying care).
+  2. Contact **medical direction** for instructions.
+  3. Continue treatment until the problem is resolved.
+- **Golden Rule:** Always err by **providing treatment** rather than withholding it.
+
+##### National model clinical guidance: DNR, advance directives, and health care power of attorney
+
+*(Adapted from NASEMSO National Model EMS Clinical Guidelines 2022)*
+
+**Inclusion and exclusion criteria**
+- Patient must have one of the following immediately available (or valid alternative like ID bracelet):
+  1. **POLST / MOLST:** Explicitly describes acceptable interventions as medical orders; signed by physician or empowered clinician.
+  2. **DNR order:** Identifies CPR and intubation are not to be initiated in arrest or peri-arrest.
+  3. **Advance directives:** Describes acceptable treatments (cardiac arrest, artificial nutrition, organ donation, dialysis, etc.); frequently do not apply to emergent or potentially transient medical conditions.
+  4. **Power of attorney / health care proxy:** As specified by state, in the absence of formal written directions, may prescribe limits of treatment if present.
+- **Validity Criteria (must meet all):**
+  1. Conforms to state specifications for color and construction.
+  2. Is intact (not cut, broken, or showing signs of repair).
+  3. Displays patient's name and (if required by state) physician's name.
+  4. If validity is questioned, proceed with resuscitation until clarified.
+  5. A valid document is termed a **"valid exclusion to resuscitation."**
+
+**Patient management (assessment and treatment)**
+- **If valid exclusion to resuscitation (no signs of life):** Do not attempt CPR or airway management; comfort measures (including pain medications) are *not* excluded.
+- **If CPR was started and valid exclusion is later verified:** CPR may be discontinued; contact medical direction as needed.
+- **If valid exclusion to resuscitation WITH signs of life (pulse and respirations):**
+  - Provide standard appropriate treatment under existing protocols.
+  - Follow MOLST/POLST specific guidance as closely as possible; contact medical direction as needed.
+  - Provide full treatment except interventions specifically prohibited.
+  - Contact medical direction if considering a prohibited intervention.
+
+**Patient safety and special considerations**
+- **Safety:** If status is unclear or withholding resuscitation is questioned, initiate CPR immediately and contact medical direction.
+- **On-Scene Clinicians:** A personal physician with an ongoing relationship with the patient—or an authorized RN from home health/hospice operating under the private physician's orders—may decide if resuscitation is to be initiated (if initiated, follow usual medical direction procedures).
+- **Special consideration:** The supplied model describes circumstances involving scene safety and/or family wishes in which CPR may be implemented despite death criteria. Family distress alone does not override a valid treatment-limitation order; follow applicable law and medical direction.
+
+#### ALS Connection: Treatment limitations and comfort-focused care
+
+| Situation | BLS/ALS relationship |
+| --- | --- |
+| Valid order limiting CPR, patient has a pulse | Assess symptoms and provide allowed care. Verify whether other interventions are limited. |
+| Valid order excludes resuscitation, patient in arrest | Follow withholding or discontinuation protocol; provide appropriate support to family. |
+| Order missing, contradictory or uncertain | Initiate appropriate care when indicated, seek clarification promptly, and follow medical direction/local law. |
+| Serious illness with pain or dyspnea | BLS comfort measures and positioning when appropriate; authorized ALS may assess whether medication or additional respiratory support fits the patient's goals. |
+
+**Clinical rationale:** Opioid analgesics, such as fentanyl (generally paramedic-level, with local variation), act at opioid receptors and may decrease severe pain and distress in selected patients under ALS protocols; opioid-related respiratory depression, sedation and hypotension are important hazards. They are not a routine response to a DNR order. EMTs can communicate baseline alertness, airway patency, respiratory rate and quality, oxygen saturation when available, pulse, blood pressure, pain and adverse changes after treatment; maintain authorized supportive care. The order determines which interventions are appropriate, not the availability of a medication.
+
+> [!IMPORTANT]
+> **ALS Connection — DNR is not do not treat.** Do not equate palliative care with abandonment. Continue care consistent with the patient's goals and authorized orders. Oxygen is not automatically required for every comfort-care patient; consider symptoms, oxygenation, the order and protocol. Where the chapter describes CPR despite family wishes or otherwise valid exclusions, do not infer that family distress alone overrides valid orders. Escalate conflict through medical direction and applicable law.
+
+Sources: [NASEMSO model guidelines][model], [AHA ethics guidelines][ahaethics], [National POLST][polst], [Ohio DNR program][ohio], [Evidence-based prehospital pain recommendations (2023)][pain].
+
+### Transport, transfer, and continuity of care
+
+#### COBRA and EMTALA
+
+- **COBRA (Consolidated Omnibus Budget Reconciliation Act)** and **EMTALA (Emergency Medical Treatment and Active Labor Act):**
+  - Federal regulations ensuring public access to emergency health care **regardless of ability to pay** and eliminating discrimination.
+  - Prevent **"patient dumping"** (turning a patient away or transferring to a public hospital due to inability to pay). EMTALA is also known as the **"anti-patient-dumping statute."**
+- **EMS Involvement in Interfacility Transfers:**
+  - Transferring facility must stabilize the patient to the best of its ability prior to transfer and ensure the ambulance crew is **qualified and capable** of managing the patient's condition.
+  - *Scope of Practice Example:* An EMT crew cannot transfer a patient requiring continuous ECG monitoring and IV infusion/drug therapy. The EMT must notify a supervisor or follow policy to refuse the transfer; performing it could be an EMTALA violation.
+  - If stability/capability is in question, have your EMS medical director contact the transferring physician **prior** to loading the patient and initiating transfer.
+- **Hospital-Based Ambulances:** Bypassing your own hospital (when it is the closest appropriate facility) to take an uninsured/unable-to-pay patient elsewhere is considered **"patient dumping"** under EMTALA—unless there is a specific patient request or the receiving facility has more appropriate capabilities.
+
+#### ALS Connection: EMTALA and transport capability
+
+EMTALA primarily imposes screening, stabilization and appropriate-transfer duties on covered hospitals. The federal statute requires suitable transfer personnel, equipment and medically appropriate life support, along with other requirements. It does not universally make an independent ambulance or individual EMT directly liable under EMTALA merely for accepting a transfer. State law, scope, contracts, agency policy and professional duties still matter. Rules for hospital-owned ambulances and community-wide destination protocols contain specific qualifications; do not treat the original bypass example as a universal legal rule.
+
+**Clinical application:** A patient on a continuous infusion may require pump management, medication titration, ECG monitoring or repeated advanced assessment. An AEMT may be authorized for selected IV therapies but not for every infusion; a paramedic may also lack critical-care transport credentialing. Match the actual needs to the crew, available equipment, and the anticipated journey, not merely the label ALS.
+
+Sources: [CMS EMTALA overview][cms], [42 USC §1395dd][emtala], [NHTSA scope framework][scope].
+
+#### Emergency transport and interfacility transfer
+
+- **Emergency Transport:**
+  - Never base destination decisions on ability to pay, and never report payment/insurance info over the radio.
+  - Do not bypass an appropriate facility unless directed by medical direction, the patient, or predetermined protocol; clearly document the reason for any bypass.
+- **Interfacility transfer procedure:**
+  1. Get a full and clear report about the patient's condition.
+  2. Ensure you can provide the necessary level of care within your scope of practice.
+  3. Obtain the **informed consent form** signed by the patient or legal guardian allowing the transfer.
+  4. Obtain the **written certification of transfer** (transferring physician's name/address, receiving facility, reason for transfer).
+  5. Know where you are going and take the quickest possible route.
+
+#### ALS Connection: Handoff as a continuous clinical process
+
+Use the locally approved structured report. One practical sequence is:
+
+1. Patient identity, chief concern and onset; pertinent history, allergies and medications.
+2. Initial and current assessment, vital sign trends, important positive and negative findings.
+3. Care given by each provider, timing, response, and relevant adverse effects.
+4. Outstanding risks, consent/refusal, code status, advanced devices or medications still in use, and what must continue during transport.
+5. Receiving clinician acknowledges transfer; document the name/role, time and relevant records according to policy.
+
+**ALS teamwork:** Maintain oxygen delivery and authorized support throughout stretcher transfers. Communicate when monitoring is temporarily interrupted or a line/device is displaced. Do not adjust an infusion or ventilator unless authorized; summon the appropriate clinician if equipment malfunctions. An EMT should not accept sole care of a patient whose ongoing advanced care cannot be safely delivered. For interfacility paperwork, the specific written consent or physician certification requirements depend on the circumstances of transfer under EMTALA and local policy; the original checklist is not a complete legal test.
+
+Sources: [Joint transfer-of-care position statement][handoff], [Federal EMTALA statute][emtala], [NHTSA scope framework][scope].
+
+#### ALS Connection: Escalation, delegation and transfer to a lower level
+
+A safe handoff requires an appropriate clinician to accept responsibility and be capable of delivering the care still needed. An EMT can continue to contribute after ALS assumes clinical leadership, but cannot take sole responsibility for monitoring or treatment outside the EMT's authority.
+
+**Before an ALS-to-BLS transition, clarify:**
+
+- Current and recent patient condition, including vital sign trends and potential deterioration.
+- What advanced assessment or intervention occurred, its response and whether ongoing advanced monitoring or treatment is necessary.
+- Whether the receiving EMT is trained, credentialed, equipped and permitted to manage the remaining needs.
+- Whether downgrade criteria, required medical direction and documented acceptance have been satisfied.
+- Contingency plan if the patient's condition changes.
+
+> [!CAUTION]
+> **ALS teamwork — A stable snapshot is not enough.** A patient who recently required an advanced medication or continues to require ECG interpretation or an infusion may still need advanced observation even if their latest blood pressure is normal. The decision is protocol-dependent. Do not accept an unsafe transfer to free up ALS resources; escalate concerns through the designated clinician, supervisor or medical direction. Equal or higher certification alone does not ensure appropriate competence for the patient's particular needs.
+
+Sources: [Joint transfer-of-care statement (2014)][handoff], [NASEMSO model guidelines][model], [NHTSA scope framework][scope].
+
+### Confidentiality, privacy, and patient information
+
+#### Confidentiality
+
+- Information obtained during patient history, physical assessment, and treatment must be kept **strictly confidential** (applies to physical injuries, infectious diseases, illnesses, and emotional/psychological emergencies).
+- Deliberate invasion of privacy can lead to **loss of certification or licensure** and other legal actions.
+- **Rules:** Do not speak to the press, family, friends, or public about details of care (what the patient said, who they were with, unusual behavior/appearance, or anything identifying). Same rules apply to information received from another EMS member.
+- **Release Requirement:** Requires a **written release form** signed by the patient or a verified legal guardian.
+- **Exceptions (When Confidential Info May Be Released Without Permission):**
+  1. Another health care provider needs the information to continue medical care.
+  2. Mandatory reporting required by an official public health or governmental agency (e.g., rape, child abuse, elder abuse, neglect, domestic violence, certain communicable diseases, gunshots, stab wounds, animal bites, suspicious burns, certain crimes/conditions).
+  3. Requested by police as part of a potential criminal investigation.
+  4. Required by a third-party billing form.
+  5. Required by **legal subpoena** to provide the information in court.
+
+> [!CAUTION]
+> **Current-practice clarification — Confidentiality exceptions are conditional.** A police request alone is not blanket authority to disclose a PCR or medical history. HIPAA permits specific law-enforcement disclosures subject to legal conditions and applicable limits; some are mandatory under other law and others merely permitted. Subpoenas and third-party requests require proper handling. Patients may also permit sharing with persons involved in their care under applicable privacy rules. Follow agency policy and refer nonroutine requests to the privacy officer. Treatment handoffs may occur without a separate written release.
+>
+> Sources: [HHS law-enforcement disclosure guidance][hhslaw], [HHS ambulance handoff FAQ][hhstransfer], [HHS Privacy Rule summary][hhsprivacy].
+
+#### Health Insurance Portability and Accountability Act (HIPAA)
+
+- **HIPAA of 1996:** Federal law protecting the privacy of patient health care information and giving the patient control over how it is distributed and used.
+- Requires strict adherence to policies/procedures for record keeping, storage, access, release, and discussion of patient medical records.
+- **What EMTs Need to Know to Adhere to HIPAA:**
+  - Discuss patient-specific information **only** with individuals for whom it is **medically necessary** (e.g., discussing a previous patient in the ambulance bay is a HIPAA violation).
+  - Complete agency-specific privacy policy/procedure training.
+  - Provide patient privacy policies/procedures to the patient and obtain the **patient's signature** acknowledging receipt (often included with the insurance release form).
+  - Contact your EMS agency's designated **Privacy Officer** for questions, inadvertent disclosures, or third-party requests for confidential information.
+
+> [!NOTE]
+> **ALS teamwork — Privacy and shared documentation.** Use approved communications for the relevant history, assessments, ECG findings, interventions and responses. A treatment handoff is permitted without separate HIPAA authorization; the minimum-necessary rule generally does not apply to provider-to-provider treatment disclosures, although reasonable safeguards still apply. Avoid personal photos, unapproved cloud storage and public discussion of identifiable patient details. Recordings and monitor downloads should follow agency access and retention policies.
+>
+> **Current-practice clarification:** A privacy notice acknowledgement is not consent to medical care. In an emergency, HHS permits notice delivery once practical after the emergency ends and does not require the usual good-faith effort to obtain written acknowledgement when notice was delayed for emergency treatment. Do not delay urgent care for paperwork.
+>
+> Sources: [HHS Privacy Rule summary][hhsprivacy], [HHS emergency privacy notice FAQ][hhsnotice], [HHS ambulance handoff FAQ][hhstransfer].
+
+### Special clinical and medicolegal situations
+
+#### Organ donation
+
+- Requires a **legal signed document** giving permission (a signed donor card is a legal document; a driver's license sticker or printed "organ donor" specification indicates intent).
+- **Core Rule:** Individual is a **patient first, organ donor last**—treat no differently than any other patient.
+- **How EMTs Assist:**
+  - Identify potential donors (patients about to die or who have died within hours); hospital staff and family make the ultimate decision.
+  - Communicate with medical direction / alert receiving ED staff regarding potential organ donation.
+  - Provide emergency care (e.g., CPR) to maintain vital organs.
+
+> [!NOTE]
+> **ALS Connection — Organ donation does not change the resuscitation goal.** Both provider levels treat the patient according to clinical indications and valid limitations of care, not potential organ suitability. CPR, ventilation and authorized advanced support are provided for the patient's benefit when indicated. Do not begin, prolong or withhold resuscitation solely because donor status is suspected. Notify the appropriate receiving facility or designated process. Donor registration may itself constitute legally effective authorization under applicable law; family involvement does not necessarily mean the family can override it. Donation eligibility and authorization are handled by the appropriate hospital and organ procurement organization.
+>
+> Sources: [HRSA deceased donation overview][donation], [HRSA ethics of donor recovery][donorethics], [AHA ethics guidelines][ahaethics].
+
+#### Medical identification insignia and alert tattoos
+
+- Look for medical ID tags (card, necklace, bracelet, fitness wristband) for conditions like allergies, diabetes, or epilepsy; may include a phone number for treatment/medication info.
+- **Medical Alert Tattoos:** Non-standard in insignia, lettering, or colors (easily overlooked as body art); carry infection/wound-healing risks for diabetics. Inspect wrists, arms, ankles, neckline, chest, and other areas on altered mental status patients.
+
+> [!NOTE]
+> **ALS teamwork — Medical identification as an assessment clue.** An insulin-dependent diabetes identifier may prompt attention to blood glucose and medication history; an anticoagulant identifier may raise concern after trauma. Communicate the exact wording and source of the information, but confirm the patient's current findings independently. An alert tattoo alone does not establish a diagnosis or necessarily satisfy legal requirements for a portable resuscitation order. Follow authorized assessment and verification procedures. [NASEMSO model guidelines][model]; [National POLST][polst].
+
+#### Recognizing death in the field
+
+- Ultimate responsibility for determining time and cause of death belongs to a **physician**.
+- **General Rule:** If the patient is still warm and has no obvious signs of death, begin resuscitation.
+- **Hypothermia exception:** Patients with accidental hypothermia (extremely cold, rigid body) have survived prolonged cardiac arrests. The traditional instruction that a patient cannot be considered dead until rewarmed is a caution against premature declaration, not an absolute rule; follow special-circumstance protocols and the qualifications below.
+- **Presumptive Signs of Death** (used with DNR orders or terminal illness):
+  - Absence of pulse, breathing, and breath sounds
+  - Complete unresponsiveness to any stimuli
+  - No eye movement or pupil response
+  - Absence of blood pressure
+  - No reflexes
+- **Obvious Signs of Death** (resuscitative efforts not necessary):
+  - Decapitation
+  - **Rigor mortis** (the source describes stiffening within **2–12 hours**; this interval is not a stand-alone determination of time of death)
+  - Decomposition of the body
+  - **Dependent lividity** (skin discoloration from gravity-affected blood pooling)
+
+##### National model clinical guidance: determination of death and withholding resuscitation
+
+*(Adapted from NASEMSO National Model EMS Clinical Guidelines 2022)*
+
+- **Patient Presentation:** Clinically dead = unresponsive, without respirations, and without a palpable carotid pulse.
+- **Inclusion/Exclusion Criteria:** Start resuscitation on all apneic, pulseless patients **unless** one of the following exists *(does NOT apply to lightning strikes, drowning, or hypothermia)*:
+  - **Condition A — Biological Death (Irreversible Brain Death), limited to:**
+    1. **Decapitation:** Complete severing of head from body.
+    2. **Decomposition or putrefaction:** Skin bloated or ruptured, with or without soft tissue sloughing (the source describes this as indicating death at least **24 hours** previously; the time estimate is not independently verified and is not a stand-alone criterion for estimating time of death).
+    3. **Transection of the torso:** Body completely cut across below shoulders and above hips through all major organs/vessels (spinal column may or may not be severed).
+    4. **Incineration:** **90%** of body surface area with full-thickness burns (ash rather than clothing, complete absence of body hair, charred skin).
+    5. **Injuries incompatible with life:** Massive crush injury, complete exsanguination, severe displacement of brain matter.
+    6. **Futile and inhumane attempts** per agency policy/protocol ("compelling reasons").
+    7. **Blunt and penetrating trauma:** Apneic, pulseless, and without other signs of life upon EMS arrival (spontaneous movement, EKG activity, pupillary response).
+    8. **Nontraumatic arrest** with obvious signs of death (dependent lividity or rigor mortis).
+  - **OR Condition B — Valid DNR / POLST / MOLST Order** that:
+    1. Conforms to state specifications for color and construction.
+    2. Is intact (not cut, broken, or repaired).
+    3. Displays patient's name and (if required by state) physician's name.
+- **Patient Management:**
+  - Confirm dependent lividity with rigor mortis and/or other inclusion criteria -> no CPR required (if already started and subsequently confirmed, discontinue CPR and contact medical direction as needed).
+  - If findings differ -> clinical death not confirmed -> initiate/continue resuscitation and implement *Termination of Resuscitative Efforts* protocol.
+  - **DNR/MOLST/POLST with signs of life (pulse and respirations):** Provide standard appropriate treatment; contact medical direction to request withholding any treatment. For DNI/MOLST/POLST, provide full treatment except specifically prohibited interventions (contact medical direction if considering a prohibited intervention).
+- **Safety & Key Considerations:**
+  - If status/withholding is unclear or questioned -> initiate CPR immediately and contact medical direction.
+  - The supplied model includes scene safety and/or family wishes as considerations when deciding whether to implement CPR despite death criteria; family distress alone is not authority to override valid orders.
+  - At a likely crime scene, disturb as little potential evidence as possible.
+
+##### ALS Connection: Withholding versus termination of resuscitation
+
+- **Withholding:** deciding not to start because a valid exclusion applies, such as a recognized order or unequivocal irreversible death under protocol.
+- **Termination (TOR):** deciding whether to stop efforts already begun using approved criteria and medical direction where required.
+- **Pronouncement:** formal recognition of death by a legally authorized person under applicable rules; determination of cause and manner of death is a separate medicolegal process.
+
+Pulselessness and apnea indicate arrest, not by themselves irreversible death. A paramedic may integrate rhythm information, response to resuscitation, possible reversible causes and authorized TOR criteria. AEMTs may have fewer rhythm interpretation and electrical therapy capabilities. High-quality BLS CPR and effective ventilation remain essential during advanced resuscitation; an advanced airway must not unnecessarily interrupt compressions or delay defibrillation.
+
+**Monitoring concepts:** ECG depicts electrical activity, not necessarily mechanical circulation (pulseless electrical activity is an example). Waveform capnography reflects exhaled CO₂ and can help assess ventilation, airway placement and changes in blood flow during CPR; it is affected by multiple factors. A single value or rhythm cannot establish futility. The 2025 AHA guidelines distinguish BLS, ALS and universal TOR rules and advise against using end-tidal CO₂ alone to terminate resuscitation.
+
+> [!WARNING]
+> **Current-practice clarification — Special circumstances.** Hypothermia, drowning, toxic exposures and other special causes can alter resuscitation decisions. Do not apply routine TOR criteria indiscriminately. The chapter's phrase about rewarming is a useful caution against premature declaration, not an absolute rule requiring resuscitation in every cold patient regardless of obvious lethal injury or valid limitations of care. Follow special-circumstance protocols and medical direction. The chapter's use of “brain death” for obvious irreversible injuries should not be confused with formal determination of death by neurologic criteria, which is a distinct medical process. Field authority to pronounce death and death reporting vary by jurisdiction.
+
+**ALS teamwork:** Maintain the assigned resuscitation role until a valid decision is communicated. Record objective findings, times, intervention response, medical direction and the actual decision-maker. Do not independently declare futility based on a monitor reading.
+
+Sources: [AHA adult ALS (2025)][ahaals], [AHA special circumstances (2025)][ahaspecial], [AHA ethics (2025)][ahaethics], [NASEMSO model guidelines][model].
+
+#### Medical examiner and coroner notification
+
+- Usually called for violent, unusual, or suspicious causes of death:
+  - Homicides
+  - Suicides
+  - Violent deaths (including suspected child or elder abuse)
+  - Crash-related deaths (auto, motorcycle, ATV, snowmobile)
+  - Unusual scene characteristics (e.g., burns, electrocution)
+  - Sudden infant death syndrome (SIDS)
+  - Dead on arrival (depending on local protocol)
+- *Rule:* When in doubt, err to benefit the patient and begin resuscitation.
+
+#### Crime scenes and evidence preservation
+
+- **Recognition:** High index of suspicion; any scene potentially requiring police support (suicide, homicide, drug overdose, domestic dispute, rape, abuse, hit-and-run, riot, robbery, gunfire, weapons).
+- **Safety First:** Do not provide care if a crime is in progress or a criminal is active; wait until police declare the scene safe (stay alert even after cleared).
+- **Preserving evidence while providing care:** Maintain the chain of evidence and minimize unnecessary changes to the scene.
+  - Take **one way in and out**.
+  - Touch only what you need to touch; tell a police officer if you move or touch anything.
+  - Move only what is needed to protect the patient and provide care.
+  - Do **not** use a crime scene telephone without police permission.
+  - Without police permission, move the patient only if in danger or necessary for care.
+  - Observe and document anything unusual.
+  - Do **not** cut through holes in clothing possibly caused by bullets or stabbing.
+  - Do **not** cut through any knot in a rope or tie (cut away from the knot). Do **not** cover the patient with a sheet.
+  - **Rape cases:** Do not wash the patient or allow them to wash; ask them not to change clothing, use the bathroom, or take anything by mouth (explain why to encourage cooperation).
+
+> [!IMPORTANT]
+> **ALS Connection — Patient care takes priority over evidence.** Both BLS and ALS personnel preserve evidence where feasible, but do not delay urgent ventilation, hemorrhage control, necessary exposure or transport to protect evidence. Maintain patient dignity and prevent heat loss when clinically necessary, notwithstanding the original blanket wording about sheets. For sexual assault, explain evidence-preservation options without coercion; a capable patient may decline them. Necessary medical care and basic needs are not contingent on preserving evidence. Document objective findings, consent, necessary scene alterations and transfer of relevant evidence according to policy; avoid independent investigative procedures.
+>
+> Sources: [US DOJ sexual assault forensic examination information and 2024 protocol][safe], [NASEMSO model guidelines][model].
+
+#### Mandatory reporting and safeguarding
+
+*Familiarize yourself with state laws; if not legally required to report, still alert receiving medical staff:*
+- **Abuse:** Suspected child abuse (most states require reporting and grant good-faith immunity from libel/slander/defamation); elder abuse and spousal abuse in some states.
+- **Crime:** Injuries resulting from a crime (gunshot wounds, knife wounds, suspicious burns, poisonings, suspected sexual assault).
+- **Drug-related injuries:** Required in some states *(Note: U.S. Supreme Court ruled drug **addiction**—not drug possession—is an illness, not a crime)*.
+- **Other common reportable situations:** Suspected infectious disease exposure, use of patient restraints against a patient's will, mentally incompetent or intoxicated patients, attempted suicides, and dog bites.
+
+> [!CAUTION]
+> **ALS teamwork — Reporting and privacy.** Share objective findings and exact relevant statements with the clinical team; avoid speculative accusations. Ensure the report is made to the legally designated authority when required, not merely to an ALS partner or hospital, and record the reporting steps under agency policy. Mandatory reporting requirements differ by state, patient age and type of suspected harm; the chapter's examples are not a nationwide reporting mandate. [HHS Privacy Rule summary][hhsprivacy]; [HHS law-enforcement disclosure guidance][hhslaw].
+
+#### Baby safe-haven laws (infant abandonment laws)
+
+- **History:** Following a 1990s surge in infant abandonments/deaths, **Texas** enacted the first baby safe-haven law in **1999** allowing parents to relinquish custody of an unharmed infant to a proper authority without criminal prosecution. Now enacted in **all states and the District of Columbia**.
+- **State Variations:**
+  - *Safe-surrender locations:* Range from designated hospitals only (e.g., California) to hospitals, law enforcement agencies, fire stations, or EMS agencies/stations.
+  - *Maximum infant age:* Ranges from **3 days** in some states to **1 year** in **North Dakota**.
+- **EMT Responsibility:** Know your state's law, whether your EMS station is a designated safe-haven location, and required actions if an infant is surrendered.
+
+> [!NOTE]
+> **ALS Connection — Safe-haven surrender.** If an infant is surrendered at an authorized site, follow the state's surrender and EMS assessment procedures. BLS evaluates warmth, breathing, color, responsiveness and evidence of illness or injury. ALS or neonatal resources may be needed if the infant is unstable; maintain appropriate BLS care and timely transport. Do not assume surrender itself implies illness or permission for unnecessary invasive treatment. The chapter's historical age and location examples have not been independently checked against current state statutes; verify the actual safe-haven law before operational use. [NASEMSO model guidelines][model].
 
 ## Reflect
-- **Scope vs. Standard:** Why is it legally possible for an EMT to act *within* their scope of practice (e.g., administering oxygen or splinting) and still be found guilty of *negligence*?
-- **Off-Duty Duty to Act:** You are off duty driving home in your personal car, see a minor fender-bender, and stop in uniform to check on the driver. Why can you no longer drive away before another EMT, paramedic, nurse, or physician arrives?
-- **DNR vs. POLST in Action:** You respond to a terminal cancer patient who is short of breath with a pulse of 110 bpm and presents a valid DNR order vs. a valid POLST order. How does your care differ on each?
-- **Refusal vs. False Imprisonment:** An intoxicated, head-injured patient insists on walking home and tries to push you away. Why does continuing care protect you from *abandonment* without making you liable for *battery* or *false imprisonment*?
-- **Crime Scene Priorities:** How do you balance immediate life-saving trauma care on a gunshot victim with preserving clothing holes, knots, and trace evidence for police?
 
----
+### Authority, competence and patient benefit are separate questions
+
+The following connections are educational interpretations of the Read material, rather than additional clinical rules. A clinician can know how to perform a procedure without being legally authorized to perform it. An authorized procedure may still be inappropriate for a particular patient, and appropriate care can still be delivered incorrectly. This explains why scope, standard of care and individual credentialing must be considered separately. Medical direction helps clinicians resolve uncertainty but does not automatically expand legal authority.
+
+A similar distinction applies to liability: an adverse outcome warrants clinical review, but it is not proof that the clinician breached a duty or caused the harm. A complete negligence analysis requires all four elements rather than a judgment based on outcome alone.
+
+### Autonomy depends on a valid decision, not simply a signed document
+
+A patient's preferences are meaningful throughout the encounter. Capacity is specific to the decision, can change, and is not established solely by orientation or agreement with EMS recommendations. An informed refusal can be valid despite substantial medical risk. Conversely, a signature cannot compensate for inadequate assessment, misunderstanding, coercion or lack of capacity. A treatment-limitation order raises a related but distinct question: which interventions does the applicable order actually permit or prohibit?
+
+### Continuity connects clinical care and professional responsibility
+
+Handoff is not merely movement between stretchers or vehicles. The incoming clinician must understand the patient's condition, accept responsibility, and be authorized and equipped for the care still required. BLS observations remain important during ALS interventions because changing symptoms and vital signs may influence further assessment, treatment or transfer decisions. Accurate documentation supports continuity, professional accountability and subsequent review.
+
+### Reason through the relationships
+
+- **F01.** An EMT recognizes an intervention that might benefit a patient, but the intervention is outside the EMT's authorized scope. Explain how the EMT can still contribute to the patient's care without exceeding authority.
+- **F02.** Compare the chapter's chest-discomfort refusal example with the Schuman case. Why does a patient's wish to decline care require different reasoning in each situation, and why is neither apparent clinical stability nor confusion alone decisive?
+- **F03.** A patient has a valid order limiting CPR but is breathing and has severe pain. Explain why respecting that order does not necessarily mean withholding assessment, comfort care or all ALS treatment.
+- **F04.** Why can appropriate disclosure to a receiving nurse and inappropriate disclosure to a curious bystander involve the same information but produce very different ethical and legal consequences?
 
 ## Recite
-1. Contrast **scope of practice** and **standard of care**, and list the **5 duties** of an EMT (on/off duty, patient, self, partner, equipment).
-2. State the **4 elements of negligence** in order, and define **simple negligence, gross negligence, res ipsa loquitur, and negligence per se**.
-3. Define all **5 EMS intentional torts** (**abandonment, assault, battery, false imprisonment, defamation**) and distinguish **slander** from **libel**.
-4. Compare **expressed, implied, minor (plus 6 emergent conditions & emancipated minor criteria), and involuntary consent**.
-5. Differentiate **living will** (2 physicians), **durable power of attorney** (1 physician), **DNR/DNRCC**, and **POLST/MOLST** (`<=1 year` prognosis), and recite the **7 steps for patient refusal**.
-6. List the **5 permitted disclosures** under HIPAA without patient permission and the **5 interfacility transfer safeguards** under COBRA/EMTALA.
-7. Recite the **5 presumptive signs of death**, **4 obvious signs of death**, **accidental hypothermia exception**, **8 biological exclusion criteria** (2022 NASEMSO), **crime-scene preservation rules**, and **Baby Safe-Haven law** parameters.
 
----
+Answer from memory before consulting Review. The following are generated retrieval exercises based on the chapter; the source does not present a separate original review-question bank.
+
+### Professional authority, duties and liability
+
+- **R01.** Distinguish scope of practice from standard of care, identify their sources, and reconstruct the education–certification–licensure–credentialing chain.
+- **R02.** Name the four national EMS licensure levels. Contrast the typical capabilities of EMT, AEMT and paramedic, including the limits of assisting with an ALS intervention.
+- **R03.** Compare online and offline medical direction with crew leadership. What should you do with a conflicting order or failed communication?
+- **R04.** Explain on-duty, off-duty and assumed duty to act, including when an off-duty responder may leave and responsibility for property.
+- **R05.** Describe the EMT’s duties toward patient, self, partner and equipment. Apply them to an impaired partner or malfunctioning equipment.
+- **R06.** Distinguish ethics, morals and codes of ethics. Identify the year of the NAEMT code and explain the four ethical principles in the ALS supplement.
+- **R07.** Contrast criminal liability, civil action and torts. Name the four required negligence elements and explain simple versus gross negligence and the two negligence doctrines.
+- **R08.** Identify the five common intentional tort categories in the chapter and give an EMS example or distinguishing feature of each.
+- **R09.** Recall the origin and general purpose of Good Samaritan laws. Compare them with sovereign immunity, statutes of limitations and contributory negligence.
+
+### Consent, capacity and refusal
+
+- **R10.** Describe how to obtain informed consent and distinguish it from expressed and implied consent. Does calling 911 or accepting assessment authorize every intervention?
+- **R11.** Explain minor consent, emancipation and third-party consent. Why is custody alone not equivalent to authority to consent?
+- **R12.** Reconstruct the six conditions or actions in the 2022 NASEMSO guidance for emergency treatment or transport of a minor without available guardian consent.
+- **R13.** Differentiate clinical capacity and legal competence. Recall the four abilities used to assess capacity and explain the limits of orientation.
+- **R14.** Reconstruct the assessment, communication, consultation, documentation and safety-netting sequence for informed refusal. What does a witness or signature establish?
+- **R15.** Why may hypoglycemia, hypoxia or hypoperfusion complicate refusal? Explain the roles of BLS and ALS and what happens if cognition improves.
+- **R16.** Explain the source’s qualifications concerning suicidal intent, restraint and involuntary transport. Contrast pulse oximetry and capnography during restrained or sedated patient care.
+- **R17.** Recall the significant findings and outcome of the Schuman case and identify the distinction between its observed findings and possible ALS interpretations.
+
+### Advance directives, transport and continuity
+
+- **R18.** Compare a living will, durable power of attorney for health care, DNR, DNI and POLST/MOLST. What other POLST names appear in the chapter?
+- **R19.** Contrast Ohio DNR Comfort Care and DNR Comfort Care–Arrest. Explain how to manage a missing, uncertain or subsequently verified order.
+- **R20.** Describe the model guidance for a verified resuscitation exclusion with and without signs of life. Explain why oxygen or fentanyl is not automatically indicated.
+- **R21.** Expand COBRA and EMTALA and explain the anti-patient-dumping principle and its limitations in the EMS context.
+- **R22.** Reconstruct the chapter’s five interfacility transfer steps and explain how to respond to a continuous infusion outside the crew’s capabilities.
+- **R23.** Reconstruct the structured handoff and the checks required for an ALS-to-BLS transition.
+
+### Privacy and special medicolegal situations
+
+- **R24.** Explain confidentiality, the chapter’s disclosure categories and why a police request alone is insufficient.
+- **R25.** Recall the year of HIPAA and explain privacy notice acknowledgment, treatment handoff and the minimum-necessary qualification.
+- **R26.** Describe EMS responsibilities toward a potential organ donor and the significance and limitations of medical alert identification or tattoos.
+- **R27.** Contrast presumptive and obvious signs of death. Recall the source’s rigor mortis interval and explain the limits of using it or decomposition to estimate time of death.
+- **R28.** Recall the two categories of withholding criteria in the model guidance, including the listed irreversible injury criteria and special-circumstance exceptions.
+- **R29.** Distinguish withholding, termination of resuscitation, pronouncement and cause/manner determination. Why can neither ECG nor end-tidal CO₂ alone establish futility?
+- **R30.** List the kinds of deaths that may require medical examiner or coroner notification and explain the response when death status is uncertain.
+- **R31.** Describe crime-scene safety and evidence-preservation practices, including the qualifications for care of a sexual assault patient.
+- **R32.** Identify the chapter’s examples of mandatory reporting and explain how the duty interacts with privacy and suspected elder neglect.
+- **R33.** Recall the origin, purpose and state variations of safe-haven laws. What is the EMS role if an infant is surrendered?
 
 ## Review
-- **High-Yield Dates, Numbers & Thresholds:**
-  - **1959 / 1978 / 1996 / 1999 / 2022:** First Good Samaritan law in CA (1959); NAEMT Code of Ethics (1978); HIPAA enacted (1996); first Baby Safe-Haven law in TX (1999); NASEMSO Death/Withholding Resuscitation Protocol (2022).
-  - **18 or 21 years:** Legal age of majority (varies by state).
-  - **2 physicians vs. 1 physician:** Confirming terminal/comatose incapacity for a **living will** (2 physicians) vs. certifying incapacity for a **durable power of attorney** (1 physician).
-  - **`<=1 year`:** Life-expectancy threshold for **POLST/MOLST** candidates.
-  - **2–12 hours / `>=24 hours` / 90% BSA:** Onset window for **rigor mortis** (2–12h); minimum time since death for **decomposition/putrefaction** (`>=24h`); burn surface area threshold for **incineration** (90% BSA).
-  - **3 days to 1 year:** State age limits for **Baby Safe-Haven** infant relinquishment (up to 1 year in North Dakota).
-  - **4 Elements of Negligence:** Duty to act + Breach of duty + Damages + Proximate cause (all 4 required).
+
+### Consolidated answer key
+
+#### Guiding questions and reflection prompts
+
+- **Q01.** Scope determines legal permission; the standard of care determines appropriate performance. Education and certification develop and verify competence, while licensure, credentialing and medical direction establish actual authority. A clinically desirable intervention is not necessarily authorized for every clinician.
+- **Q02.** Duties protect the patient, clinician, partner and readiness of equipment. Ethics places patient welfare, autonomy, fairness and avoidance of harm at the center. A civil negligence claim requires duty, breach, damages and causation; an adverse outcome alone does not establish liability.
+- **Q03.** Obtain informed consent for proposed care, assess decision-specific capacity and respect valid refusal, even when risky. Emergency implied consent is conditional. Treat reversible causes when authorized, reassess and consult medical direction when uncertain; document the reasoning and actual choices.
+- **Q04.** Identify the actual order, its validity, activation conditions and prohibited interventions. DNR generally limits resuscitation, while other orders can govern care before arrest. Continue allowed treatment and comfort measures; seek clarification and provide indicated emergency care when withholding is uncertain.
+- **Q05.** Match the patient’s current and anticipated needs to authorized personnel, equipment and destination. Confirm continuity through a structured report, explicit acceptance, and documentation. Neither a higher certification label nor a stable snapshot guarantees a safe transfer.
+- **Q06.** Protect identifiable health information with approved communication and storage. Share information for treatment and legally permitted or required purposes, subject to their conditions; refer uncertain nonroutine disclosures to the privacy officer. Report to the proper authority when required.
+- **Q07.** The scene, patient condition, lawful treatment limitations and reporting duties shape the response. Safety, patient welfare, authorized care, autonomy, confidentiality and accurate documentation remain the foundation. Evidence preservation and donor interests do not supersede necessary patient care.
+- **F01.** Provide authorized assessment and supportive care, obtain serial findings, summon the appropriate resource, gather supplies or assist within permission, and communicate patient changes. Medical direction can clarify uncertain care but does not automatically legalize a prohibited procedure.
+- **F02.** In the chest-discomfort example, symptom relief or a normal tracing cannot establish medical safety; a patient with capacity may nevertheless refuse after understanding residual risk. In the Schuman case, disorientation and unreliable history raise concern about decision-specific capacity and reversible illness, but do not prove incapacity. Assess understanding, appreciation, reasoning and choice, and follow lawful emergency-consent procedures if indicated.
+- **F03.** A CPR limitation does not necessarily prohibit care while circulation persists. Verify the specific order and activation conditions, then provide permitted assessment and comfort measures. Authorized ALS analgesia may be appropriate when indicated, but risks and monitoring must be considered. Oxygen is not automatic and Ohio’s different activation rules illustrate why wording matters.
+- **F04.** Purpose and legal authority matter. Treatment handoff supports ongoing care and can occur without separate written HIPAA authorization, with reasonable safeguards. Curiosity does not itself authorize disclosure; public discussion may violate confidentiality and harm dignity. Other disclosure exceptions have their own legal conditions.
+
+#### Professional authority, duties and liability
+
+- **R01.** Scope defines legally permitted activities; national scope and education models inform it, but state law, regulation and policy govern. Standard of care concerns the reasonably prudent similarly trained clinician under comparable circumstances and includes selection and execution of care; textbooks, accepted practice, protocols, standards and operating policies inform it. Education develops competence, certification verifies competencies, licensure confers legal authority, and credentialing establishes individual system permissions.
+- **R02.** EMR, EMT, AEMT and paramedic. EMTs provide foundational assessment, airway/ventilation, hemorrhage control, CPR/AED, transport and selected medications. AEMTs add limited advanced skills such as vascular access, selected IV therapies and specified airway capabilities; paramedics have broader advanced assessment, pharmacology, ECG interpretation and electrical and airway therapies. Assistance, such as gathering supplies and reporting vitals, is not authorization to perform the skill. Even device operation or electrode application depends on actual authorization.
+- **R03.** Offline direction establishes protocols, training, credentialing, equipment and quality review; online direction supplies real-time physician advice or orders. Crew leadership coordinates care and authorized delegation, not statutory medical authority. Clarify the order and authorization, read back as applicable, escalate and document clinician, time, advice and care. Do not perform prohibited skills; use contingency protocols and continue appropriate BLS care if communications fail.
+- **R04.** On-duty clinicians must provide required, consented care to their level of training. Off-duty obligations vary; in many states they are no greater than those of other citizens. Publicly responding or starting care may assume a duty, because others may rely on that response. Do not abandon the patient; arrange appropriate transfer and account for patient property taken into your custody. Local law controls.
+- **R05.** Protect rights, privacy, dignity and physical/emotional welfare; maintain licensure, credentials, skills and physical/mental fitness; report an impaired partner to a supervisor; check equipment at the beginning of the shift. Coordinate checks in mixed-level crews, report failures promptly, use authorized backups and document actual limitations.
+- **R06.** Ethics concerns morality, morals concern right and wrong, and codes describe ideal conduct. The NAEMT code was issued in 1978. Autonomy respects informed choices; beneficence seeks benefit; nonmaleficence avoids harm; justice concerns fair care. Patient welfare, nondiscrimination, competence, truthful reporting, confidentiality, improvement and cooperation guide practice. Resolve conflicts through applicable law, protocol and medical direction.
+- **R07.** Government brings criminal proceedings; a plaintiff brings civil claims against defendants, often seeking compensation for a tort. Negligence requires duty, breach of standard of care, compensable damages and causation linking breach to harm. Simple negligence involves failure or error; gross negligence is extreme recklessness, with jurisdiction-specific definitions distinct from intentional wrongdoing. Res ipsa loquitur concerns circumstances in which negligence may be inferred from the event; negligence per se concerns statutory/regulatory violations under applicable rules. Neither doctrine automatically proves every element.
+- **R08.** Abandonment: stopping without appropriate transfer, such as leaving an ED patient after notifying only a clerk. Assault: a threat producing apprehension of harm without necessarily touching. Battery: unlawful touching without consent. False imprisonment/kidnapping: intentionally detaining or transporting a capable patient against their wishes without legal authority. Defamation: damaging statements meeting legal requirements; slander is spoken and libel written or published.
+- **R09.** California first enacted the described Good Samaritan protection in 1959; such laws generally protect qualifying good-faith aid, with important limits such as gross negligence. They do not prevent lawsuits. Governmental immunity may protect public agencies/personnel subject to waivers and exceptions; limitations statutes establish filing deadlines, typically years; contributory fault concerns the patient’s contribution to harm. All are jurisdiction-dependent; appropriate care and liability protection remain important.
+
+#### Consent, capacity and refusal
+
+- **R10.** Introduce yourself, explain assessment, treatment and transport, including meaningful risks, confirm understanding and questions, then obtain permission. Expressed consent may be verbal or nonverbal from a legally eligible capable patient; implied consent applies to qualifying emergencies when a patient cannot decide. Calling 911 or agreeing to an exam does not authorize all interventions or transport; consent may be withdrawn. Research interventions require particular attention to informed consent.
+- **R11.** Ordinarily obtain permission from a parent, guardian or legally authorized surrogate. The source lists ages under 18 or 21 and potential emancipation circumstances such as marriage, parenthood, military service or court order, but actual rules vary. Pregnancy does not automatically emancipate a minor in every state. Guardianship, detention and medical decision-making authority are distinct; an officer cannot automatically consent for a detainee. Verify actual legal authority.
+- **R12.** An emergent condition endangers life/health; guardian is unavailable or unable to consent; delay is unsafe; limit care to immediate emergency threats; act in the child’s best interests when authority is uncertain; contact medical direction when no parent contact is possible. Apply state law and local protocols.
+- **R13.** Capacity is clinical and decision-specific; competence is a legal determination. The source describes de facto incompetence as lacking capacity without court declaration. Assess understanding, appreciation, reasoning and communication of a choice. Orientation to person, place, time and event helps but is insufficient. Intoxication, illness, disability or a risky decision does not automatically establish incapacity.
+- **R14.** Obtain permitted assessment, neurologic/mental findings and vital signs; identify capacity and communication barriers; explain recommended care, alternatives and consequences including death, use teach-back and encourage evaluation. Consult medical direction as required or if uncertain; document findings, reasoning, refusals, consultation, exact responses, specific warning signs and reaccess instructions. Seek signatures or witness statements according to policy (source suggests a witness other than the partner). Signatures document the process, not legal validity or blanket immunity.
+- **R15.** Insufficient glucose, oxygen or perfusion can impair cognition. BLS obtains history, onset, vitals, neurologic observations and authorized glucose testing; ALS can assess and treat reversible causes within its permissions. Reassess capacity and consent after improvement before additional nonemergent care. A normal initial ECG or symptom relief cannot rule out a time-sensitive illness.
+- **R16.** Suicidal intent requires urgent safety evaluation, appropriate escalation and applicable legal authority; model guideline wording must be read with decision-specific capacity and local law. De-escalate and seek authorized assistance; restraint or sedation requires lawful authority and clinical indication, never punishment or police convenience. Observe airway, breathing and circulation, use serial vitals and authorized monitoring, avoid breathing-compromising positions and never leave a restrained patient unattended. Pulse oximetry measures oxygen saturation; capnography reflects exhaled CO₂ trends and can inform ventilation assessment.
+- **R17.** An elderly disoriented man had abdominal pain, initially adequate ABCs and unintelligible responses; his wife was confused and the home cluttered and cold. History was unreliable; assessment, baseline vitals, transport/reassessment and social services referral followed. Two weeks later the reported diagnoses were gastric ulcer and organic brain syndrome for him and Alzheimer’s disease for his wife; both entered supervised care. Potential reversible metabolic or circulatory causes and advanced tests are interpretations, not observed case findings. Capacity must be assessed rather than assumed from age or confusion; wife’s confusion raises safety and surrogate concerns without proving intentional neglect.
+
+#### Advance directives, transport and continuity
+
+- **R18.** A living will specifies future wishes; a health care power of attorney names a proxy whose authority depends on law and capacity. DNR generally limits resuscitation; DNI limits a specified airway intervention. POLST/MOLST is a portable medical order addressing treatment goals and limitations, including before arrest. Other names include MOST, POST and TPOPP. The source’s two-physician living-will requirement, one-year POLST example and signature rules are not universal.
+- **R19.** Ohio DNR Comfort Care activates immediately; Comfort Care–Arrest activates at cardiac or respiratory arrest. Check actual order, accepted identity/document format and state requirements. If withholding is uncertain, initiate indicated care and seek medical direction; if valid exclusion is later confirmed, discontinuation may be allowed by protocol. Provide permitted care, and do not assume family distress overrides valid orders.
+- **R20.** With no signs of life and a valid exclusion, withhold prohibited CPR/airway measures; if already begun, follow protocol for discontinuation. With signs of life, provide appropriate permitted care and follow specific limitations; consult medical direction if uncertain. Oxygen depends on symptoms, oxygenation, orders and protocol. Authorized fentanyl may reduce severe pain but can depress respiration, sedate and lower blood pressure; use clinical indication and monitor rather than treating DNR as a medication indication.
+- **R21.** COBRA is the Consolidated Omnibus Budget Reconciliation Act; EMTALA is the Emergency Medical Treatment and Active Labor Act. Covered hospitals have screening, stabilization and appropriate-transfer obligations irrespective of ability to pay. The source emphasizes qualified transport and avoiding discriminatory destination selection. Independent EMT liability under EMTALA and hospital-owned ambulance rules are not universal; specific law, transfer circumstances, local policy and scope matter.
+- **R22.** Obtain a complete report; confirm the crew can provide necessary care; obtain applicable signed consent and written physician transfer certification as required; confirm destination and quickest appropriate route. If infusion management, titration, ECG interpretation or other necessary care exceeds authorization or equipment, escalate before loading and arrange a suitably capable crew. The checklist is not a complete federal legal test.
+- **R23.** Report identity, concern/onset, history/allergies/medications; initial/current findings and trends; care by each provider, timing, response and adverse effects; continuing risks, consent/refusal, code status, devices and medications; obtain acknowledgment and document receiving clinician/time. For downgrade, assess trends and deterioration risk, prior advanced care and ongoing needs, EMT authorization/equipment, protocol criteria, medical direction and acceptance, plus contingency planning. A normal snapshot is insufficient.
+
+#### Privacy and special medicolegal situations
+
+- **R24.** Protect information from history, assessment and care, including information from colleagues. Disclosure may be allowed or required for treatment, legally mandated reporting, certain law-enforcement purposes, billing and properly handled legal process; authorization may also permit sharing. These categories have conditions. A police request alone is not blanket access; refer nonroutine requests to the privacy officer and follow applicable policy/law.
+- **R25.** HIPAA dates to 1996. Use approved record handling, training, communications and safeguards, and contact the privacy officer about concerns. Notice acknowledgment is not consent to care; emergency treatment takes priority and notice may be delayed until practical without the usual good-faith effort to obtain acknowledgment. Provider-to-provider treatment handoffs do not require separate authorization and generally are not subject to the minimum-necessary rule, though safeguards still apply.
+- **R26.** Treat the patient first; provide indicated care within valid limitations, communicate possible donor status through the appropriate process and leave authorization/eligibility decisions to the appropriate organizations. Registration may itself be legally effective. Never change resuscitation solely for donation. Medical IDs can guide assessment and medication history, but verify findings; tattoos are nonstandard and do not alone establish diagnoses or valid treatment-limitation orders.
+- **R27.** Presumptive signs include absent pulse, respirations/breath sounds, responsiveness, pupil response, blood pressure and reflexes. Obvious signs include decapitation, decomposition, rigor mortis and dependent lividity. The chapter gives 2–12 hours for rigor mortis and a model example of at least 24 hours for decomposition, neither a stand-alone reliable time-of-death estimate. Arrest itself is not irreversible death; follow actual criteria and authority.
+- **R28.** Condition A includes decapitation, decomposition, torso transection, incineration (source threshold: 90% full-thickness burns), injuries incompatible with life, protocol-defined compelling reasons, specified traumatic arrest without signs of life, and nontraumatic arrest with obvious death signs. Condition B is a valid DNR/POLST/MOLST exclusion. The source lists lightning, drowning and hypothermia exceptions; special-circumstance protocols control and the criteria are not universal legal or clinical rules.
+- **R29.** Withholding means not initiating under valid criteria; TOR stops efforts under authorized rules; pronouncement formally recognizes death by an authorized person; cause/manner determination is a distinct medicolegal process. Electrical activity may occur without mechanical circulation, and exhaled CO₂ depends on multiple factors. AHA 2025 guidance advises against ETCO₂ alone for TOR. Continue assigned BLS roles until an authorized decision and document objective findings, timing and decision-maker.
+- **R30.** Violent, suspicious or unusual deaths, homicide, suicide, suspected abuse, crashes, burns/electrocution, sudden infant death and some dead-on-arrival cases may require notification. Follow local rules; when withholding is unclear, start indicated resuscitation and consult medical direction. Preserve evidence without compromising necessary care.
+- **R31.** Wait for scene clearance and remain alert. Minimize unnecessary movement, use one path, avoid disturbing possible evidence or cutting through clothing defects or knots, report necessary alterations and document observations. Do not delay urgent care, exposure, warmth or transport to preserve evidence. Explain evidence-preservation options to sexual assault patients without coercion; capable patients may decline. Maintain dignity and necessary care regardless of cooperation; follow evidence transfer policy.
+- **R32.** Examples include suspected child, elder or spousal abuse, crime-related injuries, certain infections, drug-related injuries, involuntary restraints, suicide attempts and animal bites; actual obligations vary. Document objective findings and exact statements, report to the designated authority when required and share relevant care information appropriately. The Schuman case illustrates safeguarding concerns even without proof of intentional neglect.
+- **R33.** Texas enacted the first law in 1999 after a 1990s surge in abandonments/deaths; all states and DC have such laws. The source illustrates age limits from 3 days to 1 year (North Dakota) and varying designated sites; these historical examples are not independently verified. Know local eligibility, site designation and surrender procedure; assess warmth, breathing, color, responsiveness and illness/injury, provide indicated care and escalate for instability. Surrender alone does not justify invasive treatment.
+
+### Distinctions worth reinforcing
+
+| Avoid confusing | Correct distinction |
+| --- | --- |
+| National model with local authorization | Model guidance informs practice; state law, credentialing and local protocols control. |
+| Breach of duty with a complete negligence claim | Duty, breach, damages and causation must all be established. |
+| Orientation or a signature with capacity | Decision-specific understanding, appreciation, reasoning and communication matter. |
+| DNR with no treatment | The actual order determines the limitations; appropriate permitted care continues. |
+| Arrest with irreversible death | Use valid exclusions, special-circumstance guidance and authorized decisions. |
+| Physical transfer with transfer of care | Appropriate receiving personnel must accept responsibility and be able to meet ongoing needs. |
+| Privacy acknowledgment with medical consent | They have different purposes; emergency care must not be delayed for privacy paperwork. |
+| Police request with authorization to disclose or treat | Disclosure and third-party consent require their respective legal bases. |
+
+## Synthesize
+
+### An integrated EMS decision framework
+
+The chapter's central principle is that patient-centered emergency care is simultaneously a clinical, legal and ethical process. The clinician must establish a safe environment, assess what the patient needs, identify who is authorized to provide care, determine the patient's ability and authority to choose, and maintain continuity through the conclusion of the encounter. These responsibilities interact throughout a call rather than occurring only once.
+
+```mermaid
+flowchart TD
+    A[Scene safety and readiness] --> B[Assess patient and immediate needs]
+    B --> C[Determine authorized care and resources]
+    B --> D[Assess capacity and consent]
+    D --> E{Applicable treatment limitations?}
+    E -->|Yes or uncertain| F[Verify orders and consult as needed]
+    E -->|No identified limitation| G[Plan appropriate consented care]
+    F --> G
+    C --> G
+    G --> H[Provide indicated BLS and authorized ALS care]
+    H --> I[Reassess condition and decisions]
+    I -->|Condition or wishes change| B
+    I --> J[Arrange appropriate disposition]
+    J --> K[Qualified handoff or valid refusal process]
+    K --> L[Document care and decisions]
+    L --> M[Quality review and professional accountability]
+```
+
+The diagram is a conceptual integration, not an operational protocol or a requirement to delay urgent indicated care until every decision is resolved. Applicable emergency-consent rules, verified treatment limitations and medical direction govern care when capacity or authority is uncertain. Confidentiality, ethical conduct, safeguarding and scene safety apply across the entire process.
+
+### Apply the framework across clinical situations
+
+Consider the chapter's patient with chest discomfort who improves and wishes to stay home. The provider's duty is not finished simply because symptoms improve. BLS assessment and serial observations establish the patient's current condition; authorized ALS assessment may add useful information, but cannot guarantee safety from a normal initial ECG. The crew must distinguish clinical risk from decision-making capacity, explain the residual uncertainty, respect a legally valid informed refusal, and document the assessment, discussion, consultation and safety instructions. If an advanced intervention or continuing monitoring is necessary, any transfer must be matched to an appropriately capable and authorized clinician.
+
+Now compare the patient with a valid treatment limitation. The clinical question remains what the patient needs, but the acceptable treatment plan also depends on the verified order, the patient's condition and applicable rules. The goal may be symptom relief rather than resuscitation. Appropriate basic care and permitted advanced treatment can serve the same goal. When death is suspected, the distinction between arrest, withholding, termination and legally authorized pronouncement protects against premature or inappropriate decisions; donation and evidence preservation remain subordinate to indicated care and valid treatment limitations.
+
+These cases also show why documentation is not merely defensive paperwork. The record links the patient's findings, preferences, clinician authority, decisions, interventions, response and disposition. It supports the next clinician, demonstrates the reasoning behind the care, and allows the system to identify opportunities for improvement. Confidentiality safeguards the same information, while legally required reporting ensures that appropriate authorities can address threats to patient or public welfare.
+
+### The relationships that unify the chapter
+
+| Dimension | Governing question | Connection to the other dimensions |
+| --- | --- | --- |
+| Clinical care | What does this patient need now, and what could change? | Assessment and reassessment guide care, escalation and transport. |
+| Professional authority | Who is legally and individually authorized to provide that care? | Scope, credentialing and medical direction constrain interventions and delegation. |
+| Autonomy and ethics | What care is consented to, permitted by emergency authority or consistent with valid treatment limitations? | Capacity and preferences shape the plan, even when clinical options are available. |
+| Continuity | Who can safely assume or continue responsibility? | Handoff and disposition depend on actual patient needs and provider capability. |
+| Accountability and privacy | What happened, why, and who may appropriately receive the information? | The record supports care, review, legal accountability, confidentiality and required reporting. |
+
+The unifying idea is not to perform the greatest number of interventions or to avoid all risk. It is to deliver clinically appropriate, legally authorized and ethically defensible care that respects the patient, preserves safety and maintains responsibility until a lawful and clinically appropriate disposition is reached. BLS and ALS are complementary components of that responsibility.
+
+## References
+
+These references support the supplemental clinical and legal explanations and model-guideline material. National model guidance and professional position statements are not jurisdiction-specific protocols. Federal legal guidance addresses its own defined context; no comprehensive state-law audit was performed. The NASEMSO official listing identified version 3 (March 2022) as the latest published model found during verification. The AHA 2025 guidelines provide newer resuscitation guidance. Refusal and restraint sources include clinical review and professional consensus, not universal statutory requirements. The custody best-practice article is ED-focused and is used for its general autonomy principle, not as a field protocol.
+
+- NHTSA. [National EMS Scope of Practice Model (2019, August 2021 updates)][scope]. National consensus framework.
+- NHTSA. [National EMS Education Standards (2021; file updated February 2025)][education]. Entry-level educational standards.
+- NASEMSO. [National Model EMS Clinical Guidelines, version 3 (March 2022)][model]. Model clinical guidance and evidence-based guideline index.
+- AHA. [2025 CPR and ECC Guidelines, Part 3: Ethics][ahaethics].
+- AHA. [2025 CPR and ECC Guidelines, Part 9: Adult Advanced Life Support][ahaals].
+- AHA. [2025 CPR and ECC Guidelines, Part 10: Adult and Pediatric Special Circumstances][ahaspecial].
+- NAEMSP. [Physician Oversight of Emergency Medical Services (2017)][oversight]. DOI: 10.1080/10903127.2016.1229827.
+- Lyng et al. [Recommended Essential Equipment for BLS and ALS Ground Ambulances (2020 joint statement, published 2021)][equipment]. DOI: 10.1080/10903127.2021.1886382.
+- ACEP, ENA, NAEMSP, NAEMT and NASEMSO. [Transfer of Patient Care between EMS Providers and Receiving Facilities (2014)][handoff]. DOI: 10.3109/10903127.2014.883001.
+- [High-Risk Patient Refusals in the Prehospital Setting—Clinical and Legal Considerations (2025)][refusal]. JACEP Open. DOI: 10.1016/j.acepjo.2025.100083.
+- [Current EMS Systems Approaches to Refusal of Assessment, Treatment, or Transport: Examination of Statewide Protocols (2025)][refusalstudy]. Prehospital Emergency Care. Descriptive protocol study.
+- [Best Practice Guidelines for Evaluating Patients in Custody in the Emergency Department (2024)][custody]. JACEP Open. DOI: 10.1002/emp2.13143.
+- NAEMSP et al. [Clinical Care and Restraint of Agitated or Combative Patients by EMS Practitioners (2021)][restraint]. DOI: 10.1080/10903127.2021.1917736.
+- [Evidence-Based Guidelines for Prehospital Pain Management: Recommendations (online 2021; journal issue 2023)][pain]. DOI: 10.1080/10903127.2021.2018073.
+- Ohio Department of Health. [DNR program and comfort-care distinctions][ohio]. State-specific example, current program page.
+- National POLST. [Learn About POLST Forms][polst] and [POLST and Advance Care Planning][polstacp]. Current organizational guidance.
+- HHS Office for Civil Rights. [HIPAA Privacy Rule summary][hhsprivacy], [law-enforcement disclosure FAQ][hhslaw], [ambulance treatment handoff FAQ][hhstransfer], and [emergency privacy notice FAQ][hhsnotice]. Official federal guidance.
+- CMS. [Emergency Medical Treatment & Labor Act overview][cms]. Federal agency guidance.
+- US Congress. [42 USC §1395dd, 2024 US Code edition][emtala]. Federal statute.
+- HRSA. [Deceased donation][donation] and [Ethics of deceased organ donor recovery (2016)][donorethics].
+- US Department of Justice, Office on Violence Against Women. [Sexual Assault Medical Forensic Examination information and national protocols][safe]. Adult/adolescent protocol, third edition, 2024.
+
+**Evidence and jurisdictional limitations:** The supplied supplement reports checking source dates and versions on November 26, 2026, against official listings, web-accessible guidance and journal records. It did not independently verify every original textbook claim, numerical value, historical example or state-specific statute. This chapter is not an operational legal reference; verify current local rules before practice.
+
+[scope]: https://nasemso.org/content.aspx?club_id=157064&module_id=701418&page_id=22
+[education]: https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf
+[model]: https://nasemso.org/content.aspx?module_id=701974&page_id=22
+[ahaethics]: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/ethics
+[ahaals]: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support
+[ahaspecial]: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of%20resuscitation
+[oversight]: https://naemsp.org/position-statement/physician-oversight-of-emergency-medical-services/
+[equipment]: https://naemsp.org/position-statement/recommended-essential-equipment-for-basic-life-support-and-advanced-life-support-ground-ambulances-2020-a-joint-position-statement/
+[handoff]: https://naemsp.org/position-statement/transfer-of-patient-care-between-ems-providers-and-receiving-facilities/
+[refusal]: https://pmc.ncbi.nlm.nih.gov/articles/PMC11927591/
+[refusalstudy]: https://pubmed.ncbi.nlm.nih.gov/40699947/
+[custody]: https://onlinelibrary.wiley.com/doi/10.1002/emp2.13143
+[restraint]: https://naemsp.org/position-statement/clinical-care-and-restraint-of-agitated-or-combative-patients-by-emergency-medical-services-practitioners/
+[pain]: https://pubmed.ncbi.nlm.nih.gov/34928760/
+[ohio]: https://odh.ohio.gov/know-our-programs/do-not-resuscitate
+[polst]: https://polst.org/for-patients/about-polst-form/
+[polstacp]: https://polst.org/for-professionals/polst-acp/
+[hhsprivacy]: https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html
+[hhslaw]: https://www.hhs.gov/hipaa/for-professionals/faq/what-does-the-privacy-rule-allow-covered-entities-to-disclose-to-law-enforcement-officials/index.html
+[hhstransfer]: https://www.hhs.gov/hipaa/for-professionals/faq/when-an-ambulance-delivers-a-patient-can-it-report-its-treatment-without-authorization/index.html
+[hhsnotice]: https://www.hhs.gov/hipaa/for-professionals/faq/are-hospitals-required-to-provide-notices-to-patients-they-treat-in-an-emergency/index.html
+[cms]: https://www.cms.gov/medicare/regulations-guidance/legislation/emergency-medical-treatment-labor-act
+[emtala]: https://www.govinfo.gov/content/pkg/USCODE-2024-title42/html/USCODE-2024-title42-chap7-subchapXVIII-partE-sec1395dd.htm
+[donation]: https://www.hrsa.gov/optn/patients/organ-donation/deceased-donation
+[donorethics]: https://www.hrsa.gov/optn/professionals/resources/ethical-considerations/ethics-of-deceased-organ-donor-recovery
+[safe]: https://www.justice.gov/ovw/sexual-assault-medical-forensic-examination-safe-information

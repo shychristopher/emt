@@ -1,0 +1,9 @@
+- { id: study-guide, label: Study Guide }
+- { id: rapid-review, label: Rapid Review }
+- { id: pq4rs, label: PQ4RS }
+- { id: mindmap, label: Mind Map }
+- { id: concept-maps, label: Concept Maps }
+- { id: key-terms, label: Key Terms }
+- { id: flashcards, label: Flashcards }
+- { id: emt-notes, label: EMT Notes }
+- { id: als-connections, label: ALS Connections }

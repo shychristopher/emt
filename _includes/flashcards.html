@@ -1,0 +1,21 @@
+<div class="flashcards" id="flashcards" data-deck="{{ page.deck | relative_url }}">
+  <p id="deckStatus" role="status"></p>
+  <div id="deckControls" hidden>
+    <div class="deck-top">
+      <label for="cardNumber">Jump to card <input id="cardNumber" class="field" type="number" min="1" step="1"></label>
+      <button class="button" type="button" id="shuffleDeck" aria-pressed="false">Shuffle</button>
+    </div>
+    <div class="flashcard">
+      <p class="eyebrow" id="cardPosition"></p>
+      <p id="cardQuestion"></p>
+      <p id="cardAnswer" hidden></p>
+      <button class="button button-primary" type="button" id="revealCard" aria-expanded="false" aria-controls="cardAnswer">Show answer</button>
+      <p class="sr-only" id="cardAnnouncement" role="status"></p>
+    </div>
+    <div class="deck-nav">
+      <button class="button" type="button" id="prevCard">← Previous</button>
+      <button class="button" type="button" id="nextCard">Next →</button>
+    </div>
+  </div>
+  <a class="download-deck" href="{{ page.deck | relative_url }}" download>Download flashcards (TSV)</a>
+</div>

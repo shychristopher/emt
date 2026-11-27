@@ -1,299 +1,124 @@
 ---
 layout: default
 ---
-{%- assign all_docs = site.content | sort: "relative_path" -%}
-{%- assign parts = page.relative_path | split: "/" -%}
-{%- assign p1 = parts[1] | default: "" -%}
+{% assign module = site.data.course | where: 'id', page.module_id | first %}
+{% assign module_url = '/content/' | append: module.id | append: '/study-guide/' %}
+{% assign module_pages = site.content | where: 'module_id', page.module_id %}
+{% if page.chapter_id %}
+  {% assign chapter = module.chapters | where: 'id', page.chapter_id | first %}
+  {% assign related = module_pages | where: 'chapter_id', page.chapter_id %}
+{% else %}
+  {% assign related = module_pages | where_exp: 'doc', 'doc.chapter_id == nil' %}
+{% endif %}
+{% assign als = related | where: 'view', 'als-connections' | first %}
+{% assign bls = related | where: 'view', 'emt-notes' | first %}
+{% assign terms = related | where: 'view', 'key-terms' | first %}
+{% assign view = site.data.views | where: 'id', page.view | first %}
+{% assign subject = chapter.title | default: module.title %}
+{% assign can_link_terms = false %}
+{% if terms and page.view != 'key-terms' and page.view != 'flashcards' and page.view != 'mindmap' and page.view != 'concept-maps' %}
+  {% assign can_link_terms = true %}
+{% endif %}
 
-{%- assign is_course_view = false -%}
-{%- assign is_module_single_page = false -%}
-{%- if parts.size == 3 -%}
-  {%- if p1 == "overview" or p1 == "deep-dive" or p1 == "tldr" or p1 == "summary" -%}
-    {%- assign is_course_view = true -%}
-    {%- assign section_dir = p1 -%}
-    {%- assign filename = parts[2] | default: "" -%}
-  {%- else -%}
-    {%- assign is_module_single_page = true -%}
-    {%- assign mod_dir = p1 -%}
-    {%- assign filename = parts[2] | default: "" -%}
-  {%- endif -%}
-{%- else -%}
-  {%- assign mod_dir = p1 -%}
-  {%- assign chap_dir = parts[2] | default: "" -%}
-  {%- assign filename = parts[3] | default: "" -%}
-{%- endif -%}
-{%- assign slug = filename | replace: ".md", "" | downcase -%}
-
-{%- assign is_key_terms_list = false -%}
-{%- if slug == "key-terms" or slug == "keyterms" -%}
-  {%- assign is_key_terms_list = true -%}
-{%- endif -%}
-
-{%- assign is_key_terms_mindmap = false -%}
-{%- if slug == "key-terms-mindmap" or slug == "keyterms-mindmap" -%}
-  {%- assign is_key_terms_mindmap = true -%}
-{%- endif -%}
-
-{%- assign is_mindmap_page = false -%}
-{%- if slug == "mindmap" or is_key_terms_mindmap -%}
-  {%- assign is_mindmap_page = true -%}
-{%- endif -%}
-
-{%- assign is_study_guide_view = false -%}
-{%- if slug == "study-guide" or slug == "study_guide" or slug == "studyguide" -%}
-  {%- assign is_study_guide_view = true -%}
-{%- endif -%}
-
-{%- comment -%} Resolve breadcrumb + heading titles {%- endcomment -%}
-{%- if is_course_view -%}
-  {%- assign crumb_parent = "Course" -%}
-  {%- case section_dir -%}
-    {%- when "overview", "deep-dive" -%}
-      {%- assign crumb_child = "Full Overview" -%}
-      {%- assign page_heading = "Full Course Overview" -%}
-    {%- when "tldr", "summary" -%}
-      {%- assign crumb_child = "TL;DR" -%}
-      {%- assign page_heading = "Course TL;DR" -%}
-    {%- else -%}
-      {%- capture crumb_child -%}{% include humanize.html slug=section_dir %}{%- endcapture -%}
-      {%- assign page_heading = crumb_child -%}
-  {%- endcase -%}
-{%- else -%}
-  {%- capture mod_title -%}{% include humanize.html slug=mod_dir %}{%- endcapture -%}
-  {%- capture chap_title -%}{% include humanize.html slug=chap_dir %}{%- endcapture -%}
-  {%- for mod in site.data.course -%}
-    {%- if mod.folder == mod_dir -%}
-      {%- if mod.title and mod.title != "" -%}
-        {%- assign mod_title = mod.title -%}
-      {%- endif -%}
-      {%- unless is_module_single_page -%}
-        {%- for chap in mod.chapters -%}
-          {%- if chap.folder == chap_dir -%}
-            {%- if chap.title and chap.title != "" -%}
-              {%- assign chap_title = chap.title -%}
-            {%- endif -%}
-            {%- break -%}
-          {%- endif -%}
-        {%- endfor -%}
-      {%- endunless -%}
-      {%- break -%}
-    {%- endif -%}
-  {%- endfor -%}
-
-  {%- assign crumb_parent = mod_title -%}
-  {%- if is_module_single_page -%}
-    {%- case slug -%}
-      {%- when "key-terms", "keyterms", "key-terms-mindmap", "keyterms-mindmap" -%}{%- assign page_heading = "Key Terms" -%}
-      {%- when "study-guide", "studyguide" -%}{%- assign page_heading = "Study Guide" -%}
-      {%- else -%}{%- capture page_heading -%}{% include humanize.html slug=slug %}{%- endcapture -%}
-    {%- endcase -%}
-    {%- assign crumb_child = page_heading -%}
-  {%- else -%}
-    {%- case chap_dir -%}
-      {%- when "overview", "deep-dive" -%}{%- assign chap_title = "Full Overview" -%}
-      {%- when "tldr", "summary" -%}{%- assign chap_title = "TL;DR" -%}
-    {%- endcase -%}
-    {%- assign crumb_child = chap_title -%}
-    {%- assign page_heading = chap_title -%}
-  {%- endif -%}
-{%- endif -%}
-
-{%- comment -%} Find sibling study-guide.md and default view for multi-view folders (Course Overview/TL;DR, Module Overview/TL;DR, Chapters) {%- endcomment -%}
-{%- assign sibling_study_guide = nil -%}
-{%- assign sibling_default_doc = nil -%}
-{%- assign has_multi_view = false -%}
-{%- if is_course_view -%}
-  {%- assign has_multi_view = true -%}
-  {%- assign folder_prefix = "_content/" | append: section_dir | append: "/" -%}
-{%- elsif is_module_single_page == false -%}
-  {%- assign has_multi_view = true -%}
-  {%- assign folder_prefix = "_content/" | append: mod_dir | append: "/" | append: chap_dir | append: "/" -%}
-{%- endif -%}
-
-{%- if has_multi_view -%}
-  {%- for sibling in all_docs -%}
-    {%- if sibling.relative_path contains folder_prefix -%}
-      {%- assign sib_parts = sibling.relative_path | split: "/" -%}
-      {%- assign sib_slug = sib_parts | last | replace: ".md", "" | downcase -%}
-      {%- if sib_slug == "study-guide" or sib_slug == "study_guide" or sib_slug == "studyguide" -%}
-        {%- assign sibling_study_guide = sibling -%}
-      {%- elsif sib_slug == "outline" -%}
-        {%- assign sibling_default_doc = sibling -%}
-      {%- elsif sibling_default_doc == nil -%}
-        {%- assign sibling_default_doc = sibling -%}
-      {%- endif -%}
-    {%- endif -%}
-  {%- endfor -%}
-{%- endif -%}
-
-{%- comment -%} Find Key Terms docs for auto-linking (module's key-terms.md, or ALL modules' key-terms.md on course-wide views) {%- endcomment -%}
-{%- assign key_terms_doc = nil -%}
-{%- assign key_terms_mindmap_doc = nil -%}
-{%- assign combined_key_terms_html = "" -%}
-{%- if is_course_view -%}
-  {%- for mdoc in all_docs -%}
-    {%- assign mparts = mdoc.relative_path | split: "/" -%}
-    {%- if mparts.size == 3 -%}
-      {%- assign mslug = mparts[2] | replace: ".md", "" | downcase -%}
-      {%- if mslug == "key-terms" or mslug == "keyterms" -%}
-        {%- if key_terms_doc == nil -%}{%- assign key_terms_doc = mdoc -%}{%- endif -%}
-        {%- assign rendered_kt = mdoc.content | markdownify -%}
-        {%- assign combined_key_terms_html = combined_key_terms_html | append: rendered_kt -%}
-      {%- endif -%}
-    {%- endif -%}
-  {%- endfor -%}
-{%- else -%}
-  {%- for mdoc in all_docs -%}
-    {%- assign mparts = mdoc.relative_path | split: "/" -%}
-    {%- if mparts.size == 3 and mparts[1] == mod_dir -%}
-      {%- assign mslug = mparts[2] | replace: ".md", "" | downcase -%}
-      {%- if mslug == "key-terms" or mslug == "keyterms" -%}
-        {%- assign key_terms_doc = mdoc -%}
-        {%- assign combined_key_terms_html = mdoc.content | markdownify -%}
-      {%- elsif mslug == "key-terms-mindmap" or mslug == "keyterms-mindmap" -%}
-        {%- assign key_terms_mindmap_doc = mdoc -%}
-      {%- endif -%}
-    {%- endif -%}
-  {%- endfor -%}
-{%- endif -%}
-
-{%- assign dual_inline_mindmap = false -%}
-{%- if is_key_terms_list and key_terms_mindmap_doc == nil -%}
-  {%- assign dual_inline_mindmap = true -%}
-{%- endif -%}
-
-<article class="chapter-article{% if is_mindmap_page %} is-mindmap-page{% endif %}" id="chapterArticle">
-  <header class="chapter-header">
-    <div class="chapter-breadcrumb">
-      <span class="crumb-module">{{ crumb_parent }}</span>
-      <span class="crumb-sep" aria-hidden="true">/</span>
-      <span class="crumb-chapter">
-        {{- crumb_child -}}
-        {%- if is_key_terms_mindmap %} · Mind Map{% endif -%}
-        {%- if has_multi_view and is_study_guide_view %} · Study Guide{% endif -%}
-      </span>
-    </div>
-
-    <div class="chapter-title-row">
-      <h1 class="chapter-title">{{ page_heading }}</h1>
-
-      <div class="chapter-header-actions">
-        {%- if is_mindmap_page -%}
-          <button type="button" class="pill-toggle" id="mindmapViewToggle" data-mode="map">
-            View as Markdown
-          </button>
-        {%- elsif dual_inline_mindmap -%}
-          <button type="button" class="pill-toggle pill-toggle-accent" id="mindmapViewToggle" data-mode="prose">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-            <span>View as Mind Map</span>
-          </button>
-        {%- endif -%}
-
-        {%- if has_multi_view -%}
-          {%- if is_study_guide_view -%}
-            {%- if sibling_default_doc -%}
-              <a href="{{ sibling_default_doc.url | relative_url }}" class="pill-toggle pill-toggle-accent">
-                &larr; Back
-              </a>
-            {%- endif -%}
-          {%- elsif sibling_study_guide -%}
-            <a href="{{ sibling_study_guide.url | relative_url }}" class="pill-toggle pill-toggle-accent">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
-              <span>Study Guide</span>
-            </a>
-          {%- endif -%}
-        {%- endif -%}
-      </div>
-    </div>
-  </header>
-
-  {% if is_key_terms_list %}
-  <div class="term-search-wrap" id="termSearchWrap">
-    <svg class="term-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
-    </svg>
-    <input type="search" class="term-search-input" id="termSearchInput" placeholder="Filter key terms or definitions…" autocomplete="off">
-    <span class="term-search-count" id="termSearchCount"></span>
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="{{ '/' | relative_url }}">Course library</a>
+  {% if chapter %}<span aria-hidden="true">/</span><a href="{{ module_url | relative_url }}">Module {{ module.number }}</a>{% endif %}
+</nav>
+<header class="resource-header">
+  <div>
+    <p class="eyebrow">{% if chapter %}Chapter {{ chapter.number }}{% else %}Module {{ module.number }}{% endif %}</p>
+    <h1>{{ subject | escape }}</h1>
   </div>
-  {% endif %}
-
-  {% if is_mindmap_page or dual_inline_mindmap %}
-  <div class="mindmap-stage{% if dual_inline_mindmap %} is-hidden{% endif %}" id="mindmapStage" data-lazy="{% if dual_inline_mindmap %}true{% else %}false{% endif %}">
-    <div class="mindmap-toolbar" role="toolbar" aria-label="Mind map controls">
-      <button type="button" class="mm-btn" id="mmZoomOut" title="Zoom out">&minus;</button>
-      <button type="button" class="mm-btn" id="mmZoomIn" title="Zoom in">+</button>
-      <button type="button" class="mm-btn" id="mmFit" title="Fit to view">Fit</button>
-      <button type="button" class="mm-btn" id="mmExpandAll" title="Expand all branches">Expand</button>
-      <button type="button" class="mm-btn" id="mmCollapse" title="Reset collapse level">Collapse</button>
-      <button type="button" class="mm-btn" id="mmFullscreen" title="Toggle fullscreen">Full</button>
-    </div>
-    <div class="mindmap-status" id="mindmapStatus">Loading mind map…</div>
-    <svg class="mindmap-svg" id="mindmapSvg"></svg>
-  </div>
-  <script type="application/json" id="mindmapOptionsData">{{ page.markmap | jsonify | replace: "</", "<\/" }}</script>
-  <div class="prose{% if is_mindmap_page %} is-hidden{% endif %}" id="mindmapProse"{% unless is_key_terms_list or is_key_terms_mindmap %} data-autolink-terms="true"{% endunless %}>
-    {{ content }}
-  </div>
-  {% else %}
-  <div class="prose" data-autolink-terms="true">
-    {{ content }}
-  </div>
-  {% endif %}
-</article>
-
-{%- if combined_key_terms_html != "" and is_key_terms_list == false and is_key_terms_mindmap == false -%}
-<script type="application/json" id="moduleKeyTermsData">
-{
-  "url": {{ key_terms_doc.url | relative_url | jsonify }},
-  "html": {{ combined_key_terms_html | jsonify | replace: "</", "<\/" }}
-}
-</script>
-<dialog class="term-dialog" id="termDialog" aria-labelledby="termDialogTitle">
-  <div class="term-dialog-header">
-    <span class="term-dialog-badge">Key Term</span>
-    <button type="button" class="icon-btn" id="termDialogClose" aria-label="Close definition">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M18 6 6 18M6 6l12 12"/>
-      </svg>
+  {% if page.view == 'als-connections' or page.view == 'emt-notes' %}
+    {% if page.view == 'als-connections' %}
+      {% assign toggle_url = bls.url %}
+      {% assign toggle_state = 'on' %}
+      {% assign toggle_label = 'Turn off ALS Connections and return to EMT Notes' %}
+    {% else %}
+      {% assign toggle_url = als.url %}
+      {% assign toggle_state = 'off' %}
+      {% assign toggle_label = 'Turn on ALS Connections and open annotated EMT Notes' %}
+    {% endif %}
+    {% if als and bls %}
+      <a class="als-toggle" data-state="{{ toggle_state }}" href="{{ toggle_url | relative_url }}" aria-label="{{ toggle_label }}">
+        <span class="als-switch" aria-hidden="true"></span>
+        <span>ALS Connections <small>{{ toggle_state | capitalize }}</small></span>
+      </a>
+    {% endif %}
+  {% elsif page.view == 'study-guide' or page.view == 'rapid-review' or page.view == 'pq4rs' or page.view == 'mindmap' %}
+    <button class="als-toggle" type="button" role="switch" aria-checked="false" aria-label="ALS Connections" id="alsPreference" hidden>
+      <span class="als-switch" aria-hidden="true"></span>
+      <span>ALS Connections <small aria-hidden="true">Off</small></span>
     </button>
-  </div>
-  <h2 class="term-dialog-title" id="termDialogTitle"></h2>
-  <p class="term-dialog-body" id="termDialogBody"></p>
-  {%- unless is_course_view -%}
-  <div class="term-dialog-footer">
-    <a href="{{ key_terms_doc.url | relative_url }}" class="term-dialog-link" id="termDialogAllLink">
-      View all Module Key Terms &rarr;
-    </a>
-  </div>
-  {%- endunless -%}
-</dialog>
-{%- endif -%}
+  {% endif %}
+</header>
 
-{%- if is_module_single_page -%}
-  {%- assign show_kt_bar = false -%}
-  {%- if is_key_terms_list or is_key_terms_mindmap -%}
-    {%- if key_terms_doc and key_terms_mindmap_doc -%}
-      {%- assign show_kt_bar = true -%}
-    {%- endif -%}
-  {%- endif -%}
-  {%- if show_kt_bar -%}
-  <nav class="bottom-bar-wrap" aria-label="Key Terms Views">
-    <div class="bottom-bar">
-      <a href="{{ key_terms_doc.url | relative_url }}" class="bottom-bar-btn{% if is_key_terms_list %} is-active{% endif %}"{% if is_key_terms_list %} aria-current="page"{% endif %}>
-        <span class="bottom-bar-icon" aria-hidden="true">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>
-        </span>
-        <span class="bottom-bar-label">Terms List</span>
-      </a>
-      <a href="{{ key_terms_mindmap_doc.url | relative_url }}" class="bottom-bar-btn{% if is_key_terms_mindmap %} is-active{% endif %}"{% if is_key_terms_mindmap %} aria-current="page"{% endif %}>
-        <span class="bottom-bar-icon" aria-hidden="true">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-        </span>
-        <span class="bottom-bar-label">Mind Map</span>
-      </a>
+<nav class="view-nav" aria-label="Study views">
+  {% for option in site.data.views %}
+    {% unless option.id == 'als-connections' %}
+      {% assign destination = related | where: 'view', option.id | first %}
+      {% if destination %}
+        {% assign active = false %}
+        {% if page.view == option.id %}{% assign active = true %}{% endif %}
+        {% if page.view == 'als-connections' and option.id == 'emt-notes' %}
+          {% assign destination = als %}
+          {% assign active = true %}
+        {% endif %}
+        <a href="{{ destination.url | relative_url }}"{% if active %} aria-current="page"{% endif %}{% if option.id == 'emt-notes' and als and bls %} data-als-notes="{{ als.url | relative_url }}" data-bls-notes="{{ bls.url | relative_url }}"{% endif %}>{{ option.label }}</a>
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+</nav>
+
+<div class="reader{% if page.view == 'mindmap' or page.view == 'concept-maps' %} reader-wide{% endif %}">
+  <article class="reading-card" id="chapterArticle">
+    <header class="reading-header">
+      <h2>{{ view.label }}</h2>
+      {% if page.view == 'emt-notes' %}<p>The BLS edition of this chapter’s EMT notes.</p>{% endif %}
+      {% if page.view == 'als-connections' %}<p>The EMT notes edition with supplemental Advanced Life Support annotations.</p>{% endif %}
+      {% if page.view == 'study-guide' and chapter == nil %}
+        <nav class="module-chapters" aria-label="Module chapters">
+          {% for item in module.chapters %}
+            {% assign url = '/content/' | append: module.id | append: '/' | append: item.id | append: '/study-guide/' %}
+            <a href="{{ url | relative_url }}">Ch. {{ item.number }} <span>{{ item.title | escape }}</span></a>
+          {% endfor %}
+        </nav>
+      {% endif %}
+    </header>
+
+    {% if page.view == 'flashcards' %}
+      {% include flashcards.html %}
+    {% else %}
+      {% if page.view == 'mindmap' %}{% include mindmap.html %}{% endif %}
+      {% if page.view == 'key-terms' %}
+        <div class="term-search" id="termSearchWrap" hidden>
+          <label for="termSearchInput">Search key terms</label>
+          <input class="field" id="termSearchInput" type="search" placeholder="Search terms and definitions" autocomplete="off">
+          <span id="termSearchCount" role="status"></span>
+        </div>
+      {% endif %}
+      <div class="prose" id="readingText"{% if can_link_terms %} data-autolink-terms="true"{% endif %}>
+        {{ content | replace_first: '<h1', '<h3' | replace_first: '</h1>', '</h3>' }}
+      </div>
+    {% endif %}
+  </article>
+  <aside class="page-index" id="pageIndex" hidden>
+    <details open>
+      <summary>On this page</summary>
+      <nav aria-label="On this page"><ol></ol></nav>
+    </details>
+  </aside>
+</div>
+
+{% if can_link_terms %}
+  <script type="application/json" id="moduleKeyTermsData">{{ terms.content | markdownify | jsonify | replace: '</', '<\/' }}</script>
+  <dialog class="dialog term-dialog" id="termDialog" aria-labelledby="termDialogTitle">
+    <div class="dialog-top">
+      <p class="eyebrow">Key term</p>
+      <button class="button" type="button" id="termDialogClose">Close</button>
     </div>
-  </nav>
-  {%- endif -%}
-{%- else -%}
-  {% include bottom_bar.html folder_prefix=folder_prefix %}
-{%- endif -%}
+    <h2 id="termDialogTitle"></h2>
+    <p id="termDialogBody"></p>
+    <a href="{{ terms.url | relative_url }}">All chapter key terms</a>
+  </dialog>
+{% endif %}

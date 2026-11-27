@@ -1,0 +1,54 @@
+---
+title: Key Terms
+module_id: module-1
+view: key-terms
+chapter_id: chapter-8
+---
+
+- **Aerobic Metabolism**: Chemical and physical changes that take place within the cells in the presence of oxygen.
+- **Afterload**: The force of contraction that the left ventricle must generate to overcome the resistance in the aorta to eject the blood.
+- **Airway Resistance**: The restriction of airflow that is related to the diameter of the airways.
+- **Alveolar Ventilation**: The amount of inspired air that reaches the alveoli of the lungs.
+- **Alveoli**: The air sacs of the lungs. Plural of alveolus.
+- **Anaerobic Metabolism**: Chemical and physical changes that take place within the cells without the presence of oxygen.
+- **Baroreceptors**: Stretch sensitive receptors located in the aortic arch and carotid bodies that constantly measure the blood pressure.
+- **Boyle’s Law**: The concept that at a constant temperature the volume of a gas is inversely proportionate to the pressure.
+- **Bronchi**: The two main branches leading from the trachea to the lungs, providing the passageway for air movement. Plural of bronchus.
+- **Bronchioles**: Small branches of the bronchi.
+- **Cardiac Output**: The volume of blood ejected from the left ventricle in one minute.
+- **Carina**: The point at which the trachea splits into the right and left mainstem bronchi.
+- **Central Chemoreceptors**: Receptors located in the medulla that are most sensitive to changes in carbon dioxide and the pH.
+- **Chemoreceptors**: Receptors that constantly monitor the arterial content of oxygen, carbon dioxide, and the blood pH and stimulate a change in the respiratory rate and depth.
+- **Compliance**: The measure of the capability of the chest wall and lungs to stretch, distend, and expand.
+- **Dead Air Space (VD)**: Anatomical areas in the respiratory tract (outside of the alveoli) which air collects during inhalation but no gas exchange occurs.
+- **Deoxyhemoglobin**: Hemoglobin that does not have any oxygen molecules attached to it.
+- **Dorsal Respiratory Group (DRG)**: Respiratory rhythm center located in the brainstem that controls the rate and depth of normal quiet respiration.
+- **Epiglottis**: A small, leaf-shaped flap of cartilaginous tissue, located immediately posterior to the root of the tongue, that covers the opening of the larynx to keep food and liquid from entering the trachea and lungs.
+- **Frank-Starling Law Of The Heart**: The concept that the stretch of the muscle fiber in the left ventricle at the end of the diastole determines the force necessary to eject the blood contained within it.
+- **Frequency of Ventilation (f)**: Number of ventilations in one minute.
+- **Glycolysis**: The breakdown of glucose into pyruvic acid in the cells.
+- **Hydrostatic Pressure**: The blood pressure or force exerted against the inside of vessel walls; the “push” effect that forces fluid out of a capillary.
+- **Irritant Receptors**: Receptors in the airways that are sensitive to irritating gases, aerosol, and particles and result in cough, bronchoconstriction, and increased ventilatory rate when stimulated.
+- **J-receptors**: Receptors that are found in the capillaries surrounding the alveoli and are sensitive to increases in the pressure in the capillary and cause rapid, shallow ventilation when stimulated.
+- **Laryngeal Spasm**: A contraction of the vocal cords that causes them to close and prevents air from passing through into the trachea. Also called a laryngospasm.
+- **Larynx**: Structure that houses the vocal cords and is located inferior to the pharynx and superior to the trachea.
+- **Microcirculation**: The flow of blood through the arterioles, capillaries, and venules that is the site of exchange of gasses, nutrients, and waste products with the cells.
+- **Minute Ventilation (Minute Volume)**: The amount of air moved in and out of the lungs in one minute.
+- **Nasopharynx**: The portion of the pharynx that extends from the posterior nasal cavity to the soft palate.
+- **Oropharynx**: The central portion of the pharynx lying between the soft palate and the epiglottis with the mouth as the opening.
+- **Oxyhemoglobin**: Hemoglobin that has at least one oxygen molecule attached to it.
+- **Patent Airway**: An airway that is open and clear of any obstructions.
+- **Perfusion**: The delivery of oxygen and other nutrients to the cells of all organ systems and the elimination of waste products from the cells, which result from the constant adequate circulation of blood through the capillaries.
+- **Peripheral Chemoreceptors**: Receptors located in the aortic arch and the carotid bodies that are somewhat sensitive to blood pressure and pH, but are most sensitive to the level of oxygen in the arterial blood.
+- **Plasma Oncotic Pressure**: The force created by the presence of large molecules that tends to keep fluid inside a capillary by exerting a “pull” effect. Also called colloid oncotic pressure or oncotic pressure.
+- **Pontine Respiratory Center**: Located in the pons of the brainstem, sends inhibitory impulses to the inspiratory neurons to halt inspiration and permit exhalation. Also known as the pneumotaxic center.
+- **Preload**: The pressure generated in the left ventricle at the end of diastole (resting phase of the cardiac cycle).
+- **Respiratory Control Centers**: Centers in the brainstem that regulate respiration, including the dorsal respiratory group (DRG) and the ventral respiratory group (VRG).
+- **Stretch Receptors**: Receptors found in the smooth muscle of the airways that monitor the size and volume of the lungs. These receptors stimulate a decrease in the rate and volume of ventilation when stretched by high tidal volumes to protect against lung overinflation.
+- **Stroke Volume**: The volume of blood ejected by the left ventricle with each contraction.
+- **Systemic Vascular Resistance (SVR)**: The resistance of blood flow through a vessel based on the diameter of the vessel.
+- **Tidal Volume (VT)**: The amount of air moved in and out of the lungs in one respiration.
+- **Trachea**: The tubelike structure that leads from the larynx to the lungs.
+- **Ventilation**: The mechanical process by which air is moved in and out of the lungs, primarily caused by changes in pressure inside the chest.
+- **Ventilation/Perfusion (V/Q) Ratio**: The dynamic relationship between the amount of ventilation the alveoli receive and the amount of perfusion through the capillary surrounding the alveoli.
+- **Ventral Respiratory Group (VRG)**: Respiratory rhythm center located in the brainstem that has both inspiratory and expiratory neurons. It becomes active and stimulates accessory muscles when an increase in ventilatory effort is necessary.
