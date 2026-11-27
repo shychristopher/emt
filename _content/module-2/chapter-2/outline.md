@@ -1,9 +1,9 @@
 ---
-title: Study Guide
+title: Outline
 module_id: module-2
-view: study-guide
+view: outline
 chapter_id: chapter-2
-redirect_from: ["/content/module-2/chapter-2/outline/"]
+redirect_from: ["/content/module-2/chapter-2/study-guide/"]
 ---
 
 # Chapter 2: Workforce Safety and Wellness of the EMT

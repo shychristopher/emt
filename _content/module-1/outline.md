@@ -1,8 +1,8 @@
 ---
-title: Study Guide
+title: Outline
 module_id: module-1
-view: study-guide
-redirect_from: ["/content/module-1/overview/outline/"]
+view: outline
+redirect_from: ["/content/module-1/study-guide/", "/content/module-1/overview/outline/"]
 ---
 
 # Human Anatomy, Physiology, and Pathophysiology

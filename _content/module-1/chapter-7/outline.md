@@ -1,9 +1,9 @@
 ---
-title: Study Guide
+title: Outline
 module_id: module-1
-view: study-guide
+view: outline
 chapter_id: chapter-7
-redirect_from: ["/content/module-1/chapter-7/outline/"]
+redirect_from: ["/content/module-1/chapter-7/study-guide/"]
 ---
 
 # Chapter 7: Anatomy, Physiology, and Medical Terminology

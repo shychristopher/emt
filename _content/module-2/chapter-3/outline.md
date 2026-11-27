@@ -1,9 +1,9 @@
 ---
-title: Study Guide
+title: Outline
 module_id: module-2
-view: study-guide
+view: outline
 chapter_id: chapter-3
-redirect_from: ["/content/module-2/chapter-3/outline/"]
+redirect_from: ["/content/module-2/chapter-3/study-guide/"]
 ---
 
 # Chapter 3: Medical, Legal, and Ethical Issues

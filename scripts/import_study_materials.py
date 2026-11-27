@@ -8,7 +8,7 @@ import sys
 
 REPO = Path(__file__).resolve().parents[1]
 VIEWS = {
-    "study": ("study-guide", "Study Guide"),
+    "outline": ("outline", "Outline"),
     "tldr": ("rapid-review", "Rapid Review"),
     "pq4rs": ("pq4rs", "PQ4RS"),
     "map": ("mindmap", "Mind Map"),
@@ -71,6 +71,8 @@ def collect_markdown(changes, source, prefix, module_id, chapter_id=None):
         views = {**VIEWS, "kterm": ("key-terms", "Key Terms")}
     for suffix, (view, title) in views.items():
         draft = source / f"{prefix}-{suffix}.md"
+        if suffix == "outline" and not draft.is_file():
+            draft = source / f"{prefix}-study.md"
         if draft.is_file():
             plan_page(changes, destination / f"{view}.md", module_id, view, title,
                       markdown_body(draft), chapter_id)

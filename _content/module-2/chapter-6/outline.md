@@ -1,9 +1,9 @@
 ---
-title: Study Guide
+title: Outline
 module_id: module-2
-view: study-guide
+view: outline
 chapter_id: chapter-6
-redirect_from: ["/content/module-2/chapter-6/outline/"]
+redirect_from: ["/content/module-2/chapter-6/study-guide/"]
 ---
 
 # Chapter 6: Lifting and Moving Patients

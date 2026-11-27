@@ -1,8 +1,8 @@
 ---
-title: Study Guide
+title: Outline
 module_id: module-2
-view: study-guide
-redirect_from: ["/content/module-2/overview/outline/"]
+view: outline
+redirect_from: ["/content/module-2/study-guide/", "/content/module-2/overview/outline/"]
 ---
 
 # EMS Foundations: Systems, Professional Practice, Safety and Patient Care

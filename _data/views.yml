@@ -1,4 +1,4 @@
-- { id: study-guide, label: Study Guide }
+- { id: outline, label: Outline }
 - { id: rapid-review, label: Rapid Review }
 - { id: pq4rs, label: PQ4RS }
 - { id: mindmap, label: Mind Map }

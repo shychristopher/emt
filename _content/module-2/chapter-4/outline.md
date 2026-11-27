@@ -1,9 +1,9 @@
 ---
-title: Study Guide
+title: Outline
 module_id: module-2
-view: study-guide
+view: outline
 chapter_id: chapter-4
-redirect_from: ["/content/module-2/chapter-4/outline/"]
+redirect_from: ["/content/module-2/chapter-4/study-guide/"]
 ---
 
 # Chapter 4: Documentation

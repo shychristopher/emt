@@ -31,25 +31,13 @@ layout: default
     <p class="eyebrow">{% if chapter %}Chapter {{ chapter.number }}{% else %}Module {{ module.number }}{% endif %}</p>
     <h1>{{ subject | escape }}</h1>
   </div>
-  {% if page.view == 'study-guide' or page.view == 'rapid-review' or page.view == 'pq4rs' or page.view == 'mindmap' %}
+  {% if page.view == 'outline' or page.view == 'rapid-review' or page.view == 'pq4rs' or page.view == 'mindmap' %}
     <button class="als-toggle" type="button" role="switch" aria-checked="false" aria-label="ALS Connections" id="alsPreference" hidden>
       <span class="als-switch" aria-hidden="true"></span>
       <span>ALS Connections <small aria-hidden="true">Off</small></span>
     </button>
   {% endif %}
 </header>
-
-<nav class="view-nav" aria-label="Study views">
-  {% for option in site.data.views %}
-    {% assign destination = related | where: 'view', option.id | first %}
-    {% if option.id == 'flashcards' and quizlet and quizlet != '' %}
-      <a class="quizlet-link" href="{{ quizlet | escape }}">Quizlet <span aria-hidden="true">↗</span></a>
-    {% endif %}
-    {% if destination %}
-      <a href="{{ destination.url | relative_url }}"{% if page.view == option.id %} aria-current="page"{% endif %}>{% if option.id == 'flashcards' and quizlet and quizlet != '' %}On-site Flashcards{% else %}{{ option.label }}{% endif %}</a>
-    {% endif %}
-  {% endfor %}
-</nav>
 
 <div class="reader{% if page.view == 'mindmap' or page.view == 'concept-maps' %} reader-wide{% endif %}">
   <article class="reading-card" id="chapterArticle">
@@ -106,6 +94,29 @@ layout: default
     </details>
   </aside>
 </div>
+
+{% assign view_count = related.size %}
+{% if quizlet and quizlet != '' %}{% assign view_count = view_count | plus: 1 %}{% endif %}
+{% if view_count > 1 %}
+  {% capture view_links %}
+    {% for option in site.data.views %}
+      {% assign destination = related | where: 'view', option.id | first %}
+      {% if option.id == 'flashcards' and quizlet and quizlet != '' %}
+        <a class="quizlet-link" href="{{ quizlet | escape }}">Quizlet <span aria-hidden="true">↗</span></a>
+      {% endif %}
+      {% if destination %}
+        <a href="{{ destination.url | relative_url }}"{% if page.view == option.id %} aria-current="page"{% endif %}>{% if option.id == 'flashcards' and quizlet and quizlet != '' %}On-site Flashcards{% else %}{{ option.label }}{% endif %}</a>
+      {% endif %}
+    {% endfor %}
+  {% endcapture %}
+  <nav class="view-switcher" aria-label="Study views">
+    <div class="view-nav view-nav-wide">{{ view_links }}</div>
+    <details class="view-picker">
+      <summary><span>Switch view</span><strong>{{ view.label }}</strong><span class="view-chevron" aria-hidden="true"></span></summary>
+      <div class="view-nav view-nav-menu">{{ view_links }}</div>
+    </details>
+  </nav>
+{% endif %}
 
 {% if can_link_terms %}
   <script type="application/json" id="moduleKeyTermsData">{{ terms.content | markdownify | jsonify | replace: '</', '<\/' }}</script>

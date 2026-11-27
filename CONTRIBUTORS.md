@@ -9,19 +9,19 @@ Use zero-padded numbers in source folder and file names. A chapter keeps its boo
 ```text
 Text Book/
 └── module-02/
-    ├── md-02-study.md
+    ├── md-02-outline.md
     ├── md-02-tldr.md
     └── chapter-01/
-        ├── ch-01-study.md
+        ├── ch-01-outline.md
         ├── ch-01-kterm.md
         └── 01.flashcards.tsv
 ```
 
-The same suffixes work for a module file such as `md-02-study.md` and a chapter file such as `ch-01-study.md`.
+If both outline source names exist, the importer uses `*-outline.md`. The same suffixes work for a module file such as `md-02-outline.md` and a chapter file such as `ch-01-outline.md`.
 
 | Source suffix | Published Markdown | View |
 | --- | --- | --- |
-| `study.md` | `study-guide.md` | Study Guide |
+| `outline.md` (or legacy `study.md`) | `outline.md` | Outline |
 | `tldr.md` | `rapid-review.md` | Rapid Review |
 | `pq4rs.md` | `pq4rs.md` | PQ4RS |
 | `map.md` | `mindmap.md` | Mind Map |
@@ -34,7 +34,7 @@ Keep raw `*-bls.md`, `*-als.md`, prompts, and other working notes outside the re
 
 ## 2. Format each file
 
-- **Study Guide, Rapid Review, and PQ4RS.** Use UTF-8 Markdown. Start with a single H1 for the source title, then use H2s for major sections and lower levels for subsections. H2s drive the reader’s on-page navigation. Standard Markdown lists and tables work.
+- **Outline, Rapid Review, and PQ4RS.** Use UTF-8 Markdown. Start with a single H1 for the source title, then use H2s for major sections and lower levels for subsections. H2s drive the reader’s on-page navigation. Standard Markdown lists and tables work.
 - **Mind Map.** Use headings and nested Markdown lists. Put one branch or point per list item and indent child items. The site builds the interactive map from that hierarchy and also provides an outline view.
 - **Concept Maps.** Use fenced `mermaid` blocks. Put a descriptive heading immediately above each diagram. Mermaid fences also work in the other Markdown views.
 - **Key Terms.** Use a top-level bullet per definition, formatted `- **Term (ACRONYM)**: Definition.` Keep alternate chapter definitions as separate entries. The site uses the glossary for search and chapter definition popups.
@@ -72,10 +72,10 @@ Source Markdown can start directly with the body or with an empty pair of `---` 
 
 ```markdown
 ---
-title: Study Guide
+title: Outline
 module_id: module-2
 chapter_id: chapter-1
-view: study-guide
+view: outline
 ---
 
 # Chapter 1: EMS Systems, Research, and Public Health
@@ -83,7 +83,7 @@ view: study-guide
 ## The EMS system
 ```
 
-Module pages omit `chapter_id`. Published paths use unpadded IDs such as `_content/module-2/chapter-1/study-guide.md`. Decks go to `assets/flashcards/module-2/chapter-1/flashcards.tsv`. Their chapter page uses `view: flashcards` and `deck: /assets/flashcards/module-2/chapter-1/flashcards.tsv`; the importer adds that page for you.
+Module pages omit `chapter_id`. Published paths use unpadded IDs such as `_content/module-2/chapter-1/outline.md`. Decks go to `assets/flashcards/module-2/chapter-1/flashcards.tsv`. Their chapter page uses `view: flashcards` and `deck: /assets/flashcards/module-2/chapter-1/flashcards.tsv`; the importer adds that page for you.
 
 When you add or rename a module or chapter, update [`_data/course.yml`](_data/course.yml) with the unpadded ID, quoted display number, title, and placement in the course. The site uses that file to label and order navigation. [`_data/views.yml`](_data/views.yml) defines view labels and tab order.
 
