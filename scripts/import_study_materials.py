@@ -96,12 +96,21 @@ def plan_import(source):
     for module_number, module in numbered_folders(source, "module"):
         module_id = f"module-{module_number}"
         collect_markdown(changes, module, f"md-{module_number:02}", module_id)
+        module_destination = REPO / "_content" / module_id
         for chapter_number, chapter in numbered_folders(module, "chapter"):
             chapter_id = f"chapter-{chapter_number}"
             collect_markdown(changes, chapter, f"ch-{chapter_number:02}", module_id, chapter_id)
             deck = chapter / f"{chapter_number:02}.flashcards.tsv"
             if deck.is_file():
                 collect_deck(changes, deck, module_id, chapter_id)
+        for view, title in (("key-terms", "Key Terms"), ("flashcards", "Flashcards")):
+            aggregate = module_destination / f"{view}.md"
+            has_chapter_view = any(
+                path.name == aggregate.name and path.parent.parent == module_destination
+                for path in changes
+            )
+            if has_chapter_view and not aggregate.exists():
+                plan_page(changes, aggregate, module_id, view, title)
     if not changes:
         raise ValueError(f"{source}: no publishable files matched the expected names")
     return changes

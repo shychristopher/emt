@@ -1,0 +1,11 @@
+{%- for resource_view in site.data.views -%}
+  {%- if resource_view.id == 'flashcards' and include.quizlet and include.quizlet != '' -%}
+    {{- include.quizlet | escape -}}
+    {%- break -%}
+  {%- endif -%}
+  {%- assign resource_candidate = include.pages | where: 'view', resource_view.id | first -%}
+  {%- if resource_candidate -%}
+    {{- resource_candidate.url | relative_url | escape -}}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}

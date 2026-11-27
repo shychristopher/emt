@@ -2,13 +2,17 @@
 layout: default
 ---
 {% assign module = site.data.course | where: 'id', page.module_id | first %}
-{% assign module_url = '/content/' | append: module.id | append: '/study-guide/' %}
 {% assign module_pages = site.content | where: 'module_id', page.module_id %}
+{% assign module_views = module_pages | where_exp: 'doc', 'doc.chapter_id == nil' %}
+{% capture module_url %}{% include resource-url.html pages=module_views %}{% endcapture %}
+{% if module_url == '' %}{% assign module_url = '/' | relative_url | append: '#' | append: module.id %}{% endif %}
 {% if page.chapter_id %}
   {% assign chapter = module.chapters | where: 'id', page.chapter_id | first %}
   {% assign related = module_pages | where: 'chapter_id', page.chapter_id %}
+  {% assign quizlet = chapter.quizlet %}
 {% else %}
-  {% assign related = module_pages | where_exp: 'doc', 'doc.chapter_id == nil' %}
+  {% assign related = module_views %}
+  {% assign quizlet = module.quizlet %}
 {% endif %}
 {% assign terms = related | where: 'view', 'key-terms' | first %}
 {% assign view = site.data.views | where: 'id', page.view | first %}
@@ -20,7 +24,7 @@ layout: default
 
 <nav class="breadcrumbs" aria-label="Breadcrumb">
   <a href="{{ '/' | relative_url }}">Course library</a>
-  {% if chapter %}<span aria-hidden="true">/</span><a href="{{ module_url | relative_url }}">Module {{ module.number }}</a>{% endif %}
+  {% if chapter %}<span aria-hidden="true">/</span><a href="{{ module_url }}">Module {{ module.number }}</a>{% endif %}
 </nav>
 <header class="resource-header">
   <div>
@@ -38,8 +42,11 @@ layout: default
 <nav class="view-nav" aria-label="Study views">
   {% for option in site.data.views %}
     {% assign destination = related | where: 'view', option.id | first %}
+    {% if option.id == 'flashcards' and quizlet and quizlet != '' %}
+      <a class="quizlet-link" href="{{ quizlet | escape }}">Quizlet <span aria-hidden="true">↗</span></a>
+    {% endif %}
     {% if destination %}
-      <a href="{{ destination.url | relative_url }}"{% if page.view == option.id %} aria-current="page"{% endif %}>{{ option.label }}</a>
+      <a href="{{ destination.url | relative_url }}"{% if page.view == option.id %} aria-current="page"{% endif %}>{% if option.id == 'flashcards' and quizlet and quizlet != '' %}On-site Flashcards{% else %}{{ option.label }}{% endif %}</a>
     {% endif %}
   {% endfor %}
 </nav>
@@ -48,13 +55,18 @@ layout: default
   <article class="reading-card" id="chapterArticle">
     <header class="reading-header">
       <h2>{{ view.label }}</h2>
-      {% if page.view == 'study-guide' and chapter == nil %}
-        <nav class="module-chapters" aria-label="Module chapters">
-          {% for item in module.chapters %}
-            {% assign url = '/content/' | append: module.id | append: '/' | append: item.id | append: '/study-guide/' %}
-            <a href="{{ url | relative_url }}">Ch. {{ item.number }} <span>{{ item.title | escape }}</span></a>
-          {% endfor %}
-        </nav>
+      {% if chapter == nil %}
+        {% capture module_chapters %}
+          {%- for item in module.chapters -%}
+            {%- assign chapter_views = module_pages | where: 'chapter_id', item.id -%}
+            {%- capture chapter_url -%}{% include resource-url.html pages=chapter_views quizlet=item.quizlet %}{%- endcapture -%}
+            {%- if chapter_url != '' -%}
+              <a href="{{ chapter_url }}">Ch. {{ item.number }} <span>{{ item.title | escape }}</span></a>
+            {%- endif -%}
+          {%- endfor -%}
+        {% endcapture %}
+        {% assign module_chapters = module_chapters | strip %}
+        {% if module_chapters != '' %}<nav class="module-chapters" aria-label="Module chapters">{{ module_chapters }}</nav>{% endif %}
       {% endif %}
     </header>
 

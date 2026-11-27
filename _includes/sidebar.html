@@ -2,24 +2,28 @@
   <a href="{{ '/' | relative_url }}" class="brand">
     <svg class="brand-mark" viewBox="0 0 32 32" width="34" height="34" aria-hidden="true">
       <rect width="32" height="32" rx="9" fill="currentColor"/>
-      <path d="M7 17h5l3-7 4 12 3-5h3" fill="none" stroke="#16372f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M7 17h5l3-7 4 12 3-5h3" fill="none" stroke="var(--brand-ink)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
     <span>EMT Course Notes</span>
   </a>
   <nav aria-label="Course library">
     <a href="{{ '/' | relative_url }}" class="library-link"{% unless page.module_id %} aria-current="page"{% endunless %}>Course library</a>
     {% for mod in site.data.course %}
-      {% assign module_url = '/content/' | append: mod.id | append: '/study-guide/' %}
+      {% assign nav_module_pages = site.content | where: 'module_id', mod.id %}
+      {% assign nav_module_views = nav_module_pages | where_exp: 'doc', 'doc.chapter_id == nil' %}
+      {% capture module_url %}{% include resource-url.html pages=nav_module_views quizlet=mod.quizlet %}{% endcapture %}
+      {% if module_url == '' %}{% assign module_url = '/' | relative_url | append: '#' | append: mod.id %}{% endif %}
       <div class="nav-module">
-        <a class="nav-module-title" href="{{ module_url | relative_url }}"{% if page.module_id == mod.id and page.chapter_id == nil %} aria-current="page"{% endif %}>
+        <a class="nav-module-title" href="{{ module_url }}"{% if page.module_id == mod.id and page.chapter_id == nil %} aria-current="page"{% endif %}>
           <span class="nav-index">{{ mod.number }}</span><span>{{ mod.title | escape }}</span>
         </a>
         <ul>
           {% for chap in mod.chapters %}
-            {% assign chapter_url = '/content/' | append: mod.id | append: '/' | append: chap.id | append: '/study-guide/' %}
-            <li><a class="nav-chapter" href="{{ chapter_url | relative_url }}"{% if page.module_id == mod.id and page.chapter_id == chap.id %} aria-current="page"{% endif %}>
+            {% assign nav_chapter_views = nav_module_pages | where: 'chapter_id', chap.id %}
+            {% capture chapter_url %}{% include resource-url.html pages=nav_chapter_views quizlet=chap.quizlet %}{% endcapture %}
+            {% if chapter_url != '' %}<li><a class="nav-chapter" href="{{ chapter_url }}"{% if page.module_id == mod.id and page.chapter_id == chap.id %} aria-current="page"{% endif %}>
               <span class="nav-index">{{ chap.number }}</span><span>{{ chap.title | escape }}</span>
-            </a></li>
+            </a></li>{% endif %}
           {% endfor %}
         </ul>
       </div>

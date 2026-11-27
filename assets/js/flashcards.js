@@ -1,5 +1,7 @@
 (() => {
   const deck = document.getElementById('flashcards');
+  if (!deck) return;
+  const sources = [...deck.querySelectorAll('[data-chapter-deck]')];
   const status = document.getElementById('deckStatus');
   const controls = document.getElementById('deckControls');
   const question = document.getElementById('cardQuestion');
@@ -71,7 +73,7 @@
 
   const download = document.getElementById('downloadModuleDeck');
   status.textContent = 'Loading flashcards…';
-  Promise.all([...deck.querySelectorAll('[data-chapter-deck]')].map(loadDeck)).then((decks) => {
+  Promise.all(sources.map(loadDeck)).then((decks) => {
     cards = decks.flat();
     if (!cards.length) throw new Error('Empty deck');
     order = cards.map((_, item) => item);

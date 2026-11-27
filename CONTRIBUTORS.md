@@ -28,7 +28,7 @@ The same suffixes work for a module file such as `md-02-study.md` and a chapter 
 | `concept.md` | `concept-maps.md` | Concept Maps |
 | `kterm.md` | `key-terms.md` | Chapter Key Terms |
 
-Chapter flashcards use `NN.flashcards.tsv`. Module Key Terms and Flashcards collect the chapter resources in course order, so add the underlying terms and cards at chapter level. For a new module, create its two aggregate page stubs once, using `_content/module-2/key-terms.md` and `_content/module-2/flashcards.md` as examples. Set the new `module_id` and omit any existing `redirect_from` entries.
+Chapter flashcards use `NN.flashcards.tsv`. Module Key Terms and Flashcards collect the chapter resources in course order, so add the underlying terms and cards at chapter level. The importer creates the relevant module tab when it sees the first chapter glossary or deck. If you are editing the repository by hand and want the aggregate tab, use the matching module page in `_content/module-2/` as a model, update `module_id`, and leave out its legacy redirects.
 
 Keep raw `*-bls.md`, `*-als.md`, prompts, and other working notes outside the repository. The importer reads only the publishable names listed above. Put ALS content you intend to publish inside the relevant study view.
 
@@ -87,7 +87,26 @@ Module pages omit `chapter_id`. Published paths use unpadded IDs such as `_conte
 
 When you add or rename a module or chapter, update [`_data/course.yml`](_data/course.yml) with the unpadded ID, quoted display number, title, and placement in the course. The site uses that file to label and order navigation. [`_data/views.yml`](_data/views.yml) defines view labels and tab order.
 
-## 4. Preview and review
+## 4. Publish a partial module or add Quizlet links
+
+Add the module and chapter entries to `_data/course.yml`, then import whichever files are ready. A chapter with only Key Terms opens directly to its glossary. Available views generate their own tabs, so new chapters can start with a single file. Keep the rest of your drafts in the source folder until they are ready.
+
+Paste an individual set URL under a chapter’s `quizlet` field. You can also set `quizlet` on the module if you have one set covering the whole module.
+
+```yaml
+- id: module-3
+  number: "03"
+  title: Example module
+  chapters:
+    - id: chapter-9
+      number: "09"
+      title: Example chapter
+      quizlet: "https://quizlet.com/123456789/example-chapter-flash-cards/"
+```
+
+A chapter with only a Quizlet link can appear in the library. On chapter pages with other resources, Quizlet appears alongside the study tabs. A module's Flashcards page also lists the Quizlet sets from its chapters. Existing TSVs can still power the on-site deck. If you only have Quizlet links and want a module Flashcards page to collect them, add the module's Flashcards stub as described above.
+
+## 5. Preview and review
 
 Use the Ruby and Bundler versions compatible with `Gemfile.lock`. This checkout has been tested with Ruby 3.4.1 and Bundler 4.1.0.
 

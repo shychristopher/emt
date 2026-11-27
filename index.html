@@ -13,7 +13,6 @@ redirect_from:
   <div class="hero-content">
     <h1>EMT Course Notes</h1>
     <p>Read the guides, trace connections in a map, or test what you remember with chapter flashcards.</p>
-    <a class="button hero-button" href="#modules">Browse the modules <span aria-hidden="true">↓</span></a>
   </div>
 </section>
 
@@ -21,22 +20,34 @@ redirect_from:
   <h2 id="modules-title">Course modules</h2>
   <div class="module-grid">
     {% for mod in site.data.course %}
-      {% assign module_root = '/content/' | append: mod.id %}
-      <article class="module-card">
+      {% assign home_module_pages = site.content | where: 'module_id', mod.id %}
+      {% assign home_module_views = home_module_pages | where_exp: 'doc', 'doc.chapter_id == nil' %}
+      {% capture module_url %}{% include resource-url.html pages=home_module_views quizlet=mod.quizlet %}{% endcapture %}
+      <article class="module-card" id="{{ mod.id }}">
         <div class="module-card-header">
           <span class="module-tag">Module {{ mod.number }}</span>
-          <h3><a href="{{ module_root | append: '/study-guide/' | relative_url }}">{{ mod.title | escape }}</a></h3>
+          <h3>{% if module_url != '' %}<a href="{{ module_url }}">{{ mod.title | escape }}</a>{% else %}{{ mod.title | escape }}{% endif %}</h3>
           <p>{{ mod.description | escape }}</p>
-          <div class="module-actions">
-            <a class="button button-primary" href="{{ module_root | append: '/study-guide/' | relative_url }}">Study guide <span aria-hidden="true">↗</span></a>
-            <a class="button" href="{{ module_root | append: '/rapid-review/' | relative_url }}">Rapid review</a>
-          </div>
+          {% if home_module_views.size > 0 or mod.quizlet %}
+            <div class="module-actions">
+              {% for option in site.data.views %}
+                {% assign resource = home_module_views | where: 'view', option.id | first %}
+                {% if option.id == 'flashcards' and mod.quizlet and mod.quizlet != '' %}
+                  <a class="button" href="{{ mod.quizlet | escape }}">Quizlet <span aria-hidden="true">↗</span></a>
+                {% elsif resource %}
+                  <a class="button" href="{{ resource.url | relative_url }}">{{ option.label }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
         <ul class="chapter-list" aria-label="Chapters">
           {% for chap in mod.chapters %}
-            <li><a href="{{ module_root | append: '/' | append: chap.id | append: '/study-guide/' | relative_url }}">
+            {% assign home_chapter_views = home_module_pages | where: 'chapter_id', chap.id %}
+            {% capture chapter_url %}{% include resource-url.html pages=home_chapter_views quizlet=chap.quizlet %}{% endcapture %}
+            {% if chapter_url != '' %}<li><a href="{{ chapter_url }}">
               <span class="chapter-number">{{ chap.number }}</span><span>{{ chap.title | escape }}</span><span aria-hidden="true">→</span>
-            </a></li>
+            </a></li>{% endif %}
           {% endfor %}
         </ul>
       </article>
