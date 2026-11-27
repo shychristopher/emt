@@ -1,4 +1,4 @@
-<div class="flashcards" id="flashcards" data-deck="{{ page.deck | relative_url }}">
+<div class="flashcards" id="flashcards">
   <p id="deckStatus" role="status"></p>
   <div id="deckControls" hidden>
     <div class="deck-top">
@@ -17,5 +17,21 @@
       <button class="button" type="button" id="nextCard">Next →</button>
     </div>
   </div>
-  <a class="download-deck" href="{{ page.deck | relative_url }}" download>Download flashcards (TSV)</a>
+  {% if include.chapter %}
+    <a class="download-deck" data-chapter-deck href="{{ page.deck | relative_url }}" download>Download flashcards (TSV)</a>
+  {% else %}
+    <a class="download-deck" id="downloadModuleDeck" download="{{ include.module.id }}-flashcards.tsv" hidden>Download module flashcards (TSV)</a>
+    <details class="chapter-decks">
+      <summary>Chapter downloads</summary>
+      <ul>
+        {% assign decks = include.module_pages | where: 'view', 'flashcards' %}
+        {% for item in include.module.chapters %}
+          {% assign deck = decks | where: 'chapter_id', item.id | first %}
+          {% if deck.deck %}
+            <li><a data-chapter-deck data-chapter-number="{{ item.number }}" href="{{ deck.deck | relative_url }}" download="{{ item.id }}-flashcards.tsv">Chapter {{ item.number }} · {{ item.title | escape }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </details>
+  {% endif %}
 </div>

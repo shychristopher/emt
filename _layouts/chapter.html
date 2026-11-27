@@ -14,7 +14,7 @@ layout: default
 {% assign view = site.data.views | where: 'id', page.view | first %}
 {% assign subject = chapter.title | default: module.title %}
 {% assign can_link_terms = false %}
-{% if terms and page.view != 'key-terms' and page.view != 'flashcards' and page.view != 'mindmap' and page.view != 'concept-maps' %}
+{% if chapter and terms and page.view != 'key-terms' and page.view != 'flashcards' and page.view != 'mindmap' and page.view != 'concept-maps' %}
   {% assign can_link_terms = true %}
 {% endif %}
 
@@ -59,7 +59,7 @@ layout: default
     </header>
 
     {% if page.view == 'flashcards' %}
-      {% include flashcards.html %}
+      {% include flashcards.html module=module chapter=chapter module_pages=module_pages %}
     {% else %}
       {% if page.view == 'mindmap' %}{% include mindmap.html %}{% endif %}
       {% if page.view == 'key-terms' %}
@@ -70,7 +70,20 @@ layout: default
         </div>
       {% endif %}
       <div class="prose" id="readingText"{% if can_link_terms %} data-autolink-terms="true"{% endif %}>
-        {{ content | replace_first: '<h1', '<h3' | replace_first: '</h1>', '</h3>' }}
+        {% if page.view == 'key-terms' and chapter == nil %}
+          {% assign chapter_glossaries = module_pages | where: 'view', 'key-terms' %}
+          {% for item in module.chapters %}
+            {% assign glossary = chapter_glossaries | where: 'chapter_id', item.id | first %}
+            {% if glossary %}
+              <section class="glossary-group">
+                <h3><a href="{{ glossary.url | relative_url }}">Chapter {{ item.number }} · {{ item.title | escape }}</a></h3>
+                {{ glossary.content | markdownify }}
+              </section>
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {{ content | replace_first: '<h1', '<h3' | replace_first: '</h1>', '</h3>' }}
+        {% endif %}
       </div>
     {% endif %}
   </article>

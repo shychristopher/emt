@@ -289,3 +289,8 @@ body.map-fullscreen { overflow: hidden; }
   .view-nav { gap: .1rem; padding: .24rem; }
   .view-nav a { padding: .36rem .5rem; font-size: .79rem; }
 }
+
+.glossary-group + .glossary-group { margin-top: 1.4rem; border-top: 1px solid var(--line); padding-top: .7rem; }
+.glossary-group h3 { margin-top: .5rem; }
+.chapter-decks { margin-top: .8rem; font-size: .87rem; }
+.chapter-decks summary { cursor: pointer; font-weight: 700; }

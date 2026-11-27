@@ -23,8 +23,8 @@
   }
 
   function showCard() {
-    const [front, back] = cards[order[index]];
-    const label = 'Card ' + (index + 1) + ' of ' + cards.length;
+    const { front, back, chapter } = cards[order[index]];
+    const label = 'Card ' + (index + 1) + ' of ' + cards.length + (chapter ? ' · Chapter ' + chapter : '');
     position.textContent = label;
     question.textContent = front;
     answer.textContent = back;
@@ -57,19 +57,36 @@
     showCard();
   });
 
-  status.textContent = 'Loading flashcards…';
-  fetch(deck.dataset.deck).then(async (response) => {
+  async function loadDeck(link) {
+    const response = await fetch(link.href);
     if (!response.ok) throw new Error('Flashcards unavailable');
-    cards = (await response.text()).replace(/^\uFEFF/, '').split(/\r?\n/)
+    const chapter = link.dataset.chapterNumber;
+    const entries = (await response.text()).replace(/^\uFEFF/, '').split(/\r?\n/)
       .map((line) => line.split('\t'))
-      .filter(([front, back]) => front?.trim() && back?.trim());
+      .filter(([front, back]) => front?.trim() && back?.trim())
+      .map(([front, back]) => ({ front, back, chapter }));
+    if (!entries.length) throw new Error('Empty deck');
+    return entries;
+  }
+
+  const download = document.getElementById('downloadModuleDeck');
+  status.textContent = 'Loading flashcards…';
+  Promise.all([...deck.querySelectorAll('[data-chapter-deck]')].map(loadDeck)).then((decks) => {
+    cards = decks.flat();
     if (!cards.length) throw new Error('Empty deck');
     order = cards.map((_, item) => item);
     jump.max = cards.length;
+    if (download) {
+      const tsv = cards.map(({ front, back }) => front + '\t' + back).join('\n') + '\n';
+      download.href = URL.createObjectURL(new Blob([tsv], { type: 'text/tab-separated-values;charset=utf-8' }));
+      download.hidden = false;
+    }
     status.textContent = '';
     controls.hidden = false;
     showCard();
   }).catch(() => {
-    status.textContent = 'The interactive deck could not load. You can still download the TSV.';
+    status.textContent = download
+      ? 'The module deck could not load. Chapter downloads are available below.'
+      : 'The interactive deck could not load. You can still download the TSV.';
   });
 })();

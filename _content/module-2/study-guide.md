@@ -2,7 +2,7 @@
 title: Study Guide
 module_id: module-2
 view: study-guide
-redirect_from: ["/content/module-2/overview/outline/", "/content/module-2/key-terms/", "/content/module-2/key-terms-mindmap/", "/emt-module2-keytermsanddefinitions-mindmap.html"]
+redirect_from: ["/content/module-2/overview/outline/"]
 ---
 
 # EMS Foundations: Systems, Professional Practice, Safety and Patient Care

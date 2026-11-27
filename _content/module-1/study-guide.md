@@ -2,7 +2,7 @@
 title: Study Guide
 module_id: module-1
 view: study-guide
-redirect_from: ["/content/module-1/overview/outline/", "/content/module-1/key-terms/", "/content/module-1/key-terms-mindmap/"]
+redirect_from: ["/content/module-1/overview/outline/"]
 ---
 
 # Human Anatomy, Physiology, and Pathophysiology

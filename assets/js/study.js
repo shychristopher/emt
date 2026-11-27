@@ -161,15 +161,25 @@
 
   const search = document.getElementById('termSearchInput');
   if (search) {
-    const entries = [...prose.querySelectorAll(':scope > ul > li, :scope > ol > li, tbody tr')];
+    const sections = [...prose.querySelectorAll('.glossary-group')];
+    const containers = sections.length ? sections : [prose];
+    const groups = containers.map((container) => ({
+      container,
+      entries: [...container.querySelectorAll(':scope > ul > li, :scope > ol > li, tbody tr')]
+        .map((entry) => [entry, entry.textContent.toLowerCase()])
+    }));
     const result = document.getElementById('termSearchCount');
-    const indexedEntries = entries.map((entry) => [entry, entry.textContent.toLowerCase()]);
     const filter = () => {
       const query = search.value.trim().toLowerCase();
       let count = 0;
-      for (const [entry, text] of indexedEntries) {
-        entry.hidden = !text.includes(query);
-        if (!entry.hidden) count++;
+      for (const { container, entries } of groups) {
+        let matches = 0;
+        for (const [entry, text] of entries) {
+          entry.hidden = !text.includes(query);
+          if (!entry.hidden) matches++;
+        }
+        if (container !== prose) container.hidden = matches === 0;
+        count += matches;
       }
       result.textContent = count + (count === 1 ? ' term' : ' terms');
     };
