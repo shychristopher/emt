@@ -23,6 +23,7 @@
   {% if page.view == 'mindmap' %}<script defer src="{{ '/assets/js/mindmap.js' | relative_url }}"></script>{% endif %}
   {% if page.content contains '```mermaid' or page.content contains 'language-mermaid' %}<script type="module" src="{{ '/assets/js/concept-maps.js' | relative_url }}"></script>{% endif %}
   {% if page.view == 'flashcards' %}<script defer src="{{ '/assets/js/flashcards.js' | relative_url }}"></script>{% endif %}
+  {% if page.view and page.view != 'flashcards' %}<script defer src="{{ '/assets/js/read-aloud.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>{% endif %}
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>

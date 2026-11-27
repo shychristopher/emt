@@ -1,4 +1,8 @@
 {% capture dock_items %}
+  {% unless page.view == 'flashcards' %}
+    <button type="button" id="listenButton" class="study-direct" aria-expanded="false" aria-controls="listenPlayer" hidden>Listen</button>
+    {% include read-aloud.html %}
+  {% endunless %}
   {% assign reading_groups = 'Read,Maps' | split: ',' %}
   {% for group_label in reading_groups %}
     {% assign group = group_label | downcase %}

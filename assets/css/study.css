@@ -331,3 +331,23 @@ body.map-fullscreen { overflow: hidden; }
 
 .quizlet-sets { margin: 0 0 1rem; }
 .quizlet-sets h3 { font-size: 1rem; }
+
+#listenButton { border: 0; background: transparent; }
+#listenButton:hover, #listenButton[aria-expanded="true"] { color: var(--link); background: var(--accent-soft); }
+.listen-player {
+  position: absolute; left: 50%; bottom: calc(100% + .5rem); transform: translateX(-50%);
+  width: min(30rem, calc(100vw - 2rem)); max-height: 65dvh; overflow: auto;
+  padding: .85rem; border: 1px solid var(--line); border-radius: .85rem;
+  color: var(--ink); background: var(--surface); box-shadow: 0 8px 30px #0f172a2e;
+}
+.listen-heading, .listen-controls { display: flex; align-items: center; flex-wrap: wrap; gap: .45rem .65rem; }
+.listen-heading { justify-content: space-between; margin-bottom: .55rem; }
+.listen-heading h2 { margin: 0; font-size: 1.05rem; }
+.listen-controls label { display: flex; align-items: center; min-width: 0; gap: .35rem; font-size: .85rem; }
+#listenVoiceLabel { flex: 1 1 11rem; }
+#listenVoice { flex: 1; }
+.listen-hint, .listen-status { margin: .55rem 0 0; color: var(--muted); font-size: .8rem; }
+.listen-status:empty { display: none; }
+#readingText.is-listening { cursor: pointer; }
+::highlight(emt-reading-sentence) { color: #392a12; background-color: #ffe9ad; }
+::highlight(emt-reading-word) { color: #321c06; background-color: #ffc15b; }

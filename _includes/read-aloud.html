@@ -1,0 +1,21 @@
+<section class="listen-player" id="listenPlayer" aria-labelledby="listenTitle" hidden>
+  <div class="listen-heading">
+    <h2 id="listenTitle">Read aloud</h2>
+    <button type="button" class="button listen-close" id="listenClose" aria-label="Close read-aloud player">Close</button>
+  </div>
+  <div class="listen-controls">
+    <button type="button" class="button button-primary" id="listenPlay">Play</button>
+    <button type="button" class="button" id="listenStop" disabled>Stop</button>
+    <label>Speed
+      <select id="listenRate" class="field">
+        <option value="0.8">0.8×</option>
+        <option value="1" selected>1×</option>
+        <option value="1.25">1.25×</option>
+        <option value="1.5">1.5×</option>
+      </select>
+    </label>
+    <label id="listenVoiceLabel" hidden>Voice <select id="listenVoice" class="field"></select></label>
+  </div>
+  <p class="listen-hint">While listening, tap a word to start there.</p>
+  <p class="listen-status" id="listenStatus" role="status"></p>
+</section>
